@@ -1,0 +1,106 @@
+---
+id: 282149585055
+handle: new-lab-archive-selection
+title: New Lab Archive Selection
+updated_at: 2024-01-04T12:16:29-05:00
+body_html: ""
+published_at: 2022-01-30T13:27:56-05:00
+sort_order: manual
+template_suffix: ""
+published_scope: web
+admin_graphql_api_id: gid://shopify/Collection/282149585055
+product_ids:
+  - 326845803
+  - 333577891
+  - 326838319
+  - 326839467
+  - 326843143
+  - 333576047
+  - 333580151
+  - 326841951
+  - 326844395
+  - 333575791
+  - 333578351
+  - 326841975
+  - 326846531
+  - 467290387
+  - 326848919
+  - 333575911
+  - 333575939
+  - 333575967
+  - 333576095
+  - 333576179
+  - 333576367
+  - 333576507
+  - 467284043
+  - 326842747
+  - 333576795
+  - 333576847
+  - 333577087
+  - 333577323
+  - 333577587
+  - 333577995
+  - 333578179
+  - 333578267
+  - 333578607
+  - 326849955
+  - 333579559
+  - 333581851
+  - 333582415
+  - 467284479
+  - 333577355
+  - 326847207
+  - 326848979
+  - 333579019
+  - 333582735
+  - 2956554115
+  - 6730131275935
+product_handles:
+  - acorn-toy
+  - bamboo-steamer-basket
+  - carpenters-knife
+  - carpet-beater
+  - citra-sipper
+  - colombian-whisk
+  - drain-screen
+  - finnish-dart-set
+  - finnish-hanger
+  - futon-beater
+  - greek-handbroom
+  - japanese-hand-dustpan
+  - japanese-street-broom
+  - large-glass-or-vase-brush
+  - medical-gauze
+  - metal-bread-toaster
+  - metal-hot-water-bottle
+  - metal-propane-nozzle
+  - mexican-style-whisk
+  - milk-watcher
+  - monkey-toy
+  - net-bag
+  - nylon-bag
+  - orange-garden-shovel
+  - original-ice-cream-scoop
+  - paper-hat
+  - pie-cutter
+  - pine-spindle
+  - plastic-net-bag
+  - plastic-pocket-flask
+  - rawhide-mallet
+  - red-metal-garden-tool-set
+  - rocko-flake-sled
+  - round-paintbrush
+  - ruler-stick
+  - sauna-bucket
+  - shaker-broom
+  - stapler
+  - straw-broom
+  - street-broom
+  - swedish-style-whisk
+  - water-ladle
+  - wire-toothbrush-holder
+  - wood-spindle
+  - yellow-bristle-broom
+
+---
+

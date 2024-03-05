@@ -1,0 +1,380 @@
+---
+import { getCollection } from "astro:content";
+
+import { Image } from "astro:assets";
+import { marked } from "marked";
+
+const title = "KIOSK: The Book";
+
+let products = (await getCollection("products"))
+  .filter((p) => p.data.status == "active")
+  .map((p) => {
+    p.rendered = marked.parse(p.body.replace(/ø/i, " &Oslash;"));
+    return p;
+  })
+  .sort((a, b) => a.data.title.localeCompare(b.data.title))
+  .slice(200, 300);
+
+// let essays = (await getCollection("essays"))
+//   .filter(p=> p.data.status = 'published')
+//   .map((p) => {
+//     p.rendered = marked.parse(p.body.replace(/ø/i, "&oslash;"));
+//     return p;
+//   })
+
+const collections = [
+  "the-later-years",
+  "year-of-the-circle-holiday-2020",
+  "holiday-2019",
+  "italy-2",
+  "italy-1",
+  "romania",
+  "recall",
+  "greece",
+  "holiday-2013",
+  "lend-a-hand",
+  "the-netherlands",
+  "obama-2012",
+  "colombia",
+  "india-2",
+  "america-4",
+  "india",
+  "japan-two",
+  "america-3",
+  "iceland",
+  "groundhog-day",
+  "portugal",
+  "mini-provence",
+  "america-2",
+  "9things",
+  "america-1",
+  "hong-kong",
+  "8things",
+  "finland",
+  "germany",
+  "mexico",
+  "sweden",
+  "japan",
+].reverse();
+
+const types = [
+  "America #1",
+  "Mexico",
+  "Sweden",
+  "Greece",
+  "Portugal",
+  "Mini-Exhibitions",
+  "Japan",
+  "Hong Kong",
+  "Finland",
+  "Germany",
+  "The later years",
+  "Lend a Hand",
+  "Japan Two",
+  "India #2",
+  "Colombia",
+  "Italy 2",
+  "The Netherlands",
+  "Iceland",
+  "America #4",
+  "America #3",
+  "Holiday 2013",
+  "Recall",
+  "Mini Provence",
+  "Kiosk",
+  "India",
+  "America #2",
+  "Italy",
+  "Romania",
+  "Holiday 2012",
+  "Kiosk Holiday 2011",
+  "None",
+  "8things",
+  "Groundhog Day",
+  "9things",
+  "KioskMoney",
+  "Obama 2012",
+  "SANY",
+  "Valentines",
+  "Holiday 2011",
+];
+const groups = Object.groupBy(products, ({ data }) => data.product_type);
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>{title}</title>
+    <script src="https://unpkg.com/pagedjs/dist/paged.polyfill.js"></script>
+    <style is:inline>
+      :root {
+        --caps-letter-spacing: 0;
+        --color: rgb(0, 0, 0);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      @page {
+        size: Letter;
+        margin-top: 0.25in;
+        margin-bottom: 0.25in;
+        margin-left: 0.25in;
+        margin-right: 0.25in;
+
+        border: 2pt double black;
+        padding: 2rem;
+
+        @bottom-center {
+          content: "~ " counter(page) " ~";
+          font-size: 9pt;
+          font-style: italic;
+        }
+      }
+      @page empty {
+        border: none;
+      }
+
+      @page newchapter {
+        size: Letter;
+        @bottom-center {
+          content: " ";
+        }
+      }
+
+      html {
+        hyphens: auto;
+        font-size: 8pt;
+        color: var(--color);
+        font-family: "Courier New", Courier, monospace;
+        height: 100%;
+      }
+
+      body {
+        height: 100%;
+        counter-reset: chapter;
+      }
+
+      section {
+        column-count: 3;
+        column-gap: 2em;
+        page-break-after: always;
+      }
+
+      article {
+        margin: 1rem 0.5rem;
+        /* display: block; */
+        /* break-inside: avoid-page; */
+        /* break-inside: avoid-column; */
+        orphans: 3;
+        widows: 4;
+        /* width: 100%; */
+        /* clear: both; */
+      }
+      article h3 {
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+        font-family: Helvetica, Arial, sans-serif;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 0.1ch;
+      }
+      article .img-bg {
+        width: 55%;
+        outline-style: solid;
+        outline-width: 1pt;
+        margin: 0 1rem 0rem 0;
+        float: left;
+      }
+      article img {
+        width: 100%;
+        /* page-break-inside: avoid;
+        break-inside: avoid; */
+        opacity: 1;
+        display: block;
+        max-width: 100%;
+      }
+
+      .meta {
+        font-size: 80%;
+        margin-bottom: 1rem;
+        break-inside: avoid;
+      }
+      .meta > * {
+        padding-bottom: 0.3em;
+      }
+
+      .materials {
+        font-style: italic;
+      }
+
+      .provenance {
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+
+      .description {
+        /* clear:both; */
+        /* padding-top: 1em; */
+      }
+      .description > p {
+        /* clear: both; */
+        margin-bottom: 1rem;
+      }
+
+      -x-article::after {
+        content: "~~~ ~~~ ~~~" !important;
+        margin: 0 auto;
+        text-align: center;
+        display: block;
+        margin-bottom: 2rem;
+      }
+
+      a {
+        color: black;
+        text-decoration: underline;
+      }
+
+      a.xref {
+        display: block;
+        text-decoration: none;
+        width: 100%;
+        border-bottom: 0.8pt dotted black;
+      }
+
+      a.xref:after {
+        content: "pg " target-counter(attr(href, url), page) "";
+        float: right;
+      }
+
+      .newchapter {
+        column-span: all;
+        height: 100%;
+        width: 100%;
+        display: block;
+      }
+
+      .newchapter h2 {
+        height: 100%;
+        margin: 50% auto;
+        text-align: center;
+        font-size: 3em;
+        line-height: 1.2;
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+
+      .newchapter::before {
+        counter-increment: chapter; /* Increment the value of section counter by 1 */
+        /* content: "Chapter " counter(chapter, upper-roman) ": ";  */
+        display: block;
+        text-align: center;
+      }
+
+      header {
+        column-span: all;
+        text-align: center;
+        font-size: 2rem;
+        text-transform: uppercase;
+        letter-spacing: 0.3ch;
+        font-family: Helvetica, sans-serif;
+      }
+
+      .group:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      @media print {
+        .newchapter {
+          page: newchapter;
+        }
+
+        hr {
+          display: none;
+        }
+        astro-dev-toolbar {
+          display: none;
+        }
+      }
+    </style></head>
+
+  <body class="font-serif text-gray-900 bg-gray-100">
+    <main>
+      <section>
+        <div class="newchapter">
+          <h2 class="font-sans text-4xl">{title}</h2>
+        </div>
+      </section>
+      {
+        Object.entries(groups).map((title) => (
+          <>
+            <section>
+              <div class="newchapter">
+                <h2 class="font-sans text-3xl">
+                  {title[0].toLocaleUpperCase()}
+                </h2>
+              </div>
+            </section>
+            <section>
+              {groups[title[0]].map((product) => (
+                <>
+                  <article class="thing group">
+                    <a name={product.data.handle} />
+                    <div class="img-bg">
+                      {product.data.images[0] && (
+                        <Image
+                          width={1000}
+                          height={1000}
+                          src={product.data.images[0].src}
+                          alt={product.data.title}
+                        />
+                      )}
+                    </div>
+                    <h3 class="font-sans">{product.data.title}</h3>
+                    <div class="meta">
+                      {product.data.dimensions && (
+                        <div class="dimensions empty:hidden">
+                          {product.data.dimensions.replace(/ø/ig, " ø")}  
+                        </div>
+                      )}
+                      {product.data.dimensions && (
+                        <div class="materials empty:hidden">
+                          {product.data.materials}
+                        </div>
+                      )}
+                      {product.data.dimensions && (
+                        <div class="provenance font-bold empty:hidden">
+                          {product.data.provenance}
+                        </div>
+                      )}
+                    </div>
+                    <div class="description" set:html={product.rendered} />
+                  </article>
+                  <hr class="print:hidden" />
+                </>
+              ))}
+            </section>
+          </>
+        ))
+      }
+
+      <section>
+        <div class="newchapter">
+          <h2>The Index</h2>
+        </div>
+      </section>
+      <section class="index">
+        {
+          products.map((p) => (
+            <a class="xref" href={`#${p.data.handle}`}>
+              {p.data.title}
+            </a>
+          ))
+        }
+      </section>
+    </main>
+  </body>
+</html>

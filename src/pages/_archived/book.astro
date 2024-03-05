@@ -1,0 +1,58 @@
+---
+import { getCollection } from "astro:content";
+
+import { Image } from "astro:assets";
+import { marked } from "marked";
+
+const title = "KIOSK: The Book";
+
+let products = (await getCollection("products"))
+  .filter((p) => p.data.status == "active")
+  .map((p) => {
+    p.data.rendered = marked.parse(p.body);
+    return p;
+  })
+  .sort((a, b) => a.data.title.localeCompare(b.data.title))
+  .slice(200, 300);
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+  </head>
+  <body class="font-serif">
+    <main>
+      <section>
+        {
+          products.map((product) => (
+            <>
+              <article>
+                <h2>{product.data.title}</h2>
+                <div class="desc" set:html={product.data.rendered} />
+              </article>
+            </>
+          ))
+        }
+      </section>
+    </main>
+    <style is:inline>
+      section {
+        column-count: 2;
+      }
+      h2 {
+        font-size: 2rem;
+        font-weight: bold;
+      }
+      @media print {
+        @page {
+          size: Letter;
+        }
+        article .desc {
+            break-inside: avoid-page;
+          }
+      }
+    </style>
+
+  </body>
+</html>

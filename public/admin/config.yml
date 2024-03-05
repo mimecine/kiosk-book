@@ -1,0 +1,22 @@
+backend:
+  name: github
+  repo: mimecine/kbook-astro
+  branch: master # Branch to update (optional; defaults to master)
+
+media_folder: "public/img"
+public_folder: "img"
+
+
+collections:
+  - name: products
+    identifier_field: handle
+    label: Products
+    label_singular: Product
+    folder: src/content/products
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Image", name: "image.src", widget: "image"}
+    
+

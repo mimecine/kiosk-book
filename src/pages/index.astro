@@ -1,0 +1,548 @@
+---
+import { getCollection } from "astro:content";
+import { Image } from "astro:assets";
+import { marked } from "marked";
+import D from "../assets/archive.kioskkiosk.json";
+
+import "../styles/book-base.css";
+
+const title = "KIOSK: The Book";
+const exhibit_sample = 10;
+const product_sample = 10;
+
+let pIndex = 1;
+let products = (await getCollection("products"))
+  .filter((p) => p.data.status == "active" && p.data.images?.length)
+  .map((p) => {
+    p.rendered = marked.parse(p.body);
+    p.rendered = wrapLinks(p.rendered);
+    return p;
+  })
+  .sort((a, b) => a.data.title.localeCompare(b.data.title));
+
+  let pages = (await getCollection("pages")).filter((p) => p.data.title.startsWith("BOOK:"))
+  .map((p) => {
+    [p.data.prefix, p.data.before_exhibit, p.data.clean_title] = p.data.title
+      .split(":")
+      .map((t) => t.trim());
+      p.rendered = marked.parse(p.body);
+      p.rendered = wrapLinks(p.rendered);
+      return p;
+});
+
+const groups = Object.groupBy(products, ({ data }) => data.product_type);
+
+const products_by_material = {};
+const products_by_dimension = {};
+products.forEach((p) => {
+  p.data.materials_array?.forEach((m) => {
+    if (!products_by_material[m]) products_by_material[m] = [];
+    products_by_material[m].push(p);
+  });
+  p.data.dimensions_array?.forEach((m) => {
+    if (!products_by_dimension[m]) products_by_dimension[m] = [];
+    products_by_dimension[m].push(p);
+  });
+});
+
+const exhibits = [
+  "The later years",
+  "Italy 2",
+  "Italy 1",
+  "Romania",
+  "Recall",
+  "Greece",
+  "Holiday 2013",
+  "Lend a Hand",
+  "The Netherlands",
+  "Obama 2012",
+  "Colombia",
+  "India #2",
+  "America #4",
+  "India",
+  "Japan #2",
+  "America #3",
+  "Iceland",
+  "Groundhog Day",
+  "Portugal",
+  "Provence",
+  "America #2",
+  "9 for 2009",
+  "America #1",
+  "Hong Kong",
+  "8 Things",
+  "Finland",
+  "Germany",
+  "Mexico",
+  "Sweden",
+  "Japan",
+]
+  .reverse()
+  .slice(0, exhibit_sample || 1000);
+
+  let renderedIndex = 1;
+  exhibits.map(exhibit => {
+    groups[exhibit].slice(0, product_sample || 1000).forEach((p, i) => {
+      p._rendered = true;
+      p._index = renderedIndex++;
+    })
+  })
+
+let currentEssay = null;
+
+function wrapLinks(inputString) {
+    var R1 =
+    /(\s|>)(https?:\/\/(?:www\.)?(?:[-\w@:%.\+~#=]{1,256}\.)+[a-zA-Z0-9()]{1,6}\b(?:[-\w()@:%\+.~#?&//=]*))([\s.,!?]?)/gim;
+    var R2 = /(\shref="[^"]+"\s?)/gmi
+    var R3 = />https?:\/\/(?:www\.)?([\w\.]+)[^<]*(?:<)/gmi
+
+    return inputString
+      .replaceAll(R1, '$1<a href="$2">$2</a>$3') // Wrap links
+      .replaceAll(R2, '$1 class="footnote"') // Add footnote class
+      .replaceAll(R3, ">$1<") // hide ugly urls
+}
+
+var initial = null;
+function newInitial(word) {
+  if (word[0]?.match(/[a-zA-Z]/) && word[0] != initial) {
+    console.log("new initial ", word[0]);
+    initial = word[0];
+    return initial;
+  }
+  return false;
+}
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Alisa Grifo & Marco ter Haar Romeny"/>
+    <title>{title}</title>    
+</head>
+  <body>
+    <main>
+      <div class="plainflow">
+      
+        <div  class="cover cleanpage nopagenumber text-[36pt] font-sans font-bold h-screen border-t-4 border-b-4 border-current m-0 pt-10">
+          <!-- 
+          ******************************************************************
+          ******************************************************************
+          ******************************************************************
+          COVER
+          ******************************************************************
+          ******************************************************************
+          ******************************************************************
+          -->
+          <h1 class="">KIOSK 
+            <div style="font-family: Courier, 'Courier New', monospace;"
+            class="font-mono text-5xl text-red py-40 text-center">Things from places</div>
+          </h1>
+        </div>
+
+        <div class="toc cleanpage nopagenumber" style="font-size:1.5rem; break-before: recto;">
+          <!-- 
+          ******************************************************************
+          ******************************************************************
+          ******************************************************************
+          TABLE OF CONTENTS
+          ******************************************************************
+          ******************************************************************
+          ******************************************************************
+          -->
+
+          <h2 class="title font-bold text-sans">The Contents</h2>
+          {exhibits.map((exhibit) => (
+            <>
+            {(() => {currentEssay = pages.find((p) => p.data.before_exhibit == exhibit)})()}
+            {currentEssay && (
+              <>
+              <a class="xref" style="font-style: italic" href={`#essay-${currentEssay.data.clean_title}`}>{currentEssay.data.clean_title}</a>
+              </>
+            )}
+            <a class="xref" href={`#${exhibit}`}>{exhibit}</a>
+            </>
+          ))}
+          <br>
+          <a class="xref" href="#index-bypicture" style="font-weight: bold">The Figures</a>
+          <br>
+          <a class="xref" href="#index-alphabetical" style="">The Index: Alphabetically</a>
+          <a class="xref" href="#index-byexhibit" style="">The Index: Exhibitionally</a>
+          <a class="xref" href="#index-bymaterial" style="">The Index: Materially</a>
+          <a class="xref" href="#index-bydimension" style="">The Index: Dimensionally</a>
+        </div>
+        <div class="start products" style="columns: 15rem 4; column-gap: 3rem; column-fill:auto;"> 
+
+        {
+          exhibits.map((exhibit) => (
+            <div class="exhibit column-fill-auto" style="column-fill:auto;">
+              {(() => {currentEssay = pages.find((p) => p.data.before_exhibit == exhibit)})()}
+              {currentEssay && (
+                <div class="essay">
+                  <!-- 
+                  ******************************************************************
+                  ******************************************************************
+                  ******************************************************************
+                  ESSAY 
+                  ******************************************************************
+                  ******************************************************************
+                  ******************************************************************
+                  -->
+                  <h2 class="title font-bold text-sans" id={`essay-${currentEssay.data.clean_title}`} set:html={currentEssay.data.clean_title}/>
+                  <div class="prose" set:html={wrapLinks(currentEssay.data.body_html)}/>
+                </div>
+              )}
+              <div
+                class="exhibit relative"
+                style="font-size:large; column-span:all; font-family: Helvetica, 'Helvetica Neue', sans-serif; font-weight: bold;"
+              >
+                <!-- 
+                ******************************************************************
+                ******************************************************************
+                ******************************************************************
+                ARTICLES GROUPED BY EXHIBIT 
+                ******************************************************************
+                ******************************************************************
+                ******************************************************************
+                -->
+                <div class="header font-sans border-b-4 border-b-red-600 mb-12 pb-8 min-h-[25rem] " style="border-color: red;">
+                <h2 class="title relative">
+                  {exhibit}
+                  <a
+                    class="absolute top-[-2rem]"
+                    id={exhibit}
+                    name={exhibit}
+                  />
+                </h2>
+                <div
+                  class="subtitle text-2xl"
+                  set:html={
+                    D.SmartCollections.find((p) => p.title == exhibit)
+                      ?.body_html || ""
+                  }
+                />
+                </div>
+              </div>
+
+              {groups[exhibit]
+                ?.slice(0, product_sample || 1000)
+                .map((product) => (
+                  <>
+                    <div class="product relative overflow-auto mb-8 border-b-2 border-current border-solid box-decoration-slice pb-6">
+                      <a
+                        id={product.data.handle}
+                        class="absolute top-[-2rem]"
+                        data-rendered={(product.x_rendered = true)}
+                        data-index={(product.x_index = pIndex++)}
+                      />
+                      
+                      {product.data.images[0] && (
+                        <div class="float-right xw-1/4 mb-2 ml-4 w-20 text-right">
+                          <a href={`#figure-${product.data.handle}`}>
+                            <Image
+                              id={`small-img-${product.data.handle}`}
+                              data-width={1000}
+                              data-height={1000}
+                              src={product.data.images[0]?.src} // set to thumb and remove filter if colored page
+                              alt={product.data.title}
+                              class="w-full border border-current -x-filter grayscale contrast-100"
+                            />
+                          </a>
+                        </div>
+                      )}
+                    
+                      <h3 class="p_title font-sans font-bold uppercase break-after-avoid">
+                        {product.data.title}
+                      </h3>
+                      <div class="p_dimensions" class="break-after-avoid break-inside-avoid">
+                        {product.data.dimensions}
+                      </div>          
+                      <div class="p_materials" class="italic break-after-avoid break-inside-avoid">
+                        {product.data.materials}
+                      </div>
+                      <div class="p_provenance uppercase break-after-avoid break-inside-avoid break-before-avoid mb-3">
+                        {product.data.provenance}
+                      </div>
+                      <div set:html={wrapLinks(product.rendered)} style="orphans:4; widows:4;" class="p_description break-after-avoid break-before-avoid"/>                      
+                      <div style="color: red;" class="text-right font-bold pr-4 text-red-600">
+                          ~&nbsp;
+                        <a class="img-xref italic text-[0.7rem]" href={`#figure-${product.data.handle}`}>
+                          Figure {product._index}, Pg.
+                        </a>
+                      </div>
+                    </div>
+                  </>
+              ))}
+            </div>
+          ))
+        }     
+        </div>
+
+        {(() => {currentEssay = pages.find((p) => p.data.before_exhibit == "The Figures")})()}
+        {currentEssay && (
+          <div class="essay">
+            <!-- 
+            ******************************************************************
+            ******************************************************************
+            ******************************************************************
+            ESSAY 
+            ******************************************************************
+            ******************************************************************
+            ******************************************************************
+            -->
+            <h2 class="title font-bold text-sans" id={`essay-${currentEssay.data.clean_title}`} set:html={currentEssay.data.clean_title}/>
+            <div class="prose" set:html={wrapLinks(currentEssay.data.body_html)}/>
+          </div>
+        )}
+      <div
+      class="index figurepage index-bypicture columns-all">
+    <!-- 
+        ******************************************************************
+        ******************************************************************
+        ******************************************************************
+        INDEX: BY PICTURE 
+        ******************************************************************
+        ******************************************************************
+        ******************************************************************
+      -->
+      
+      <div class="header font-sans border-b-4 border-b-red-600 mb-12 pb-8 min-h-[25rem]" style="border-color: red;">
+        <h2 class="title relative font-bold">
+          The Figures
+          <a
+            class="absolute top-[-2rem]"
+            id="index-bypicture"
+          />
+        </h2>
+        <div class="subtitle text-2xl"></div>
+      </div>
+
+      <div class="flex flex-wrap w-full h-full justify-between items-center m-auto -x-columns-1">
+      {
+        products
+          .filter((p) => p._rendered)
+          .sort((a, b) => a._index - b._index)
+          .map((p) => (
+            <>
+              <div class="h-1/2 w-auto" style="position: relative; max-width: 3in; height:48%; margin: auto auto; break-inside: avoid; padding-top: 5pvh;">
+                <div style="display:none; -prince-float: outsidenote; text-align: center; font-size: 1.5rem; font-style: italic; color:red;">{p._index}</div>
+                <Image
+                  id={`figure-${p.data.handle}`}
+                  data-width={1000}
+                  data-height={1000}
+                  src={p.data.images[0]?.src}
+                  alt={p.data.title}
+                  style="border:1px solid; margin-bottom: 0.5rem;"
+                />
+                <a
+                  class="xref"
+                  style="border-bottom:none; float: right; color:#ff0000; "
+                  href={`#${p.data.handle}`}
+                >
+                  <span style="font-style:italic;">Fig. {p._index}, {p.data.title}</span>
+
+                  {p.data.title.length > 32 && console.log(p.data.title.length + ':' + p.data.title)}
+                </a>
+              </div>
+            </>
+          ))
+      }
+      <i style="position: relative; width:100%; max-width: 3in; margin: auto auto; break-inside: avoid; padding-top: 2rem; border: 1px solid; visibility: hidden;"></i>
+    </div>
+  </div>
+
+
+
+      <div class="index index-alphabetical columns-2">
+      <!-- 
+        ******************************************************************
+        ******************************************************************
+        ******************************************************************
+        INDEX: ALPHABETICAL 
+        ******************************************************************
+        ******************************************************************
+        ******************************************************************
+      -->
+
+      <div class="header font-sans border-b-4 border-b-red-600 mb-12 pb-8 min-h-[25rem] columns-all" style="border-color: red;">
+        <h2 class="title relative font-bold">
+          The Index: Alphabetically
+          <a
+            class="absolute top-[-2rem]"
+            id="index-alphabetical"
+          />
+        </h2>
+        <div class="subtitle text-2xl"></div>
+      </div>
+
+        {
+          products
+            .filter((p) => p._rendered)
+            .map((p) => (
+              <>
+                {newInitial(p.data.title) && (
+                  <a
+                    class="font-bold mt-4"
+                    style="color:red; border-bottom: 1px dotted; width: 100%; display: block;"
+                  >
+                    {p.data.title[0].toUpperCase()}
+                  </a>
+                )}
+
+                <a class="xref" style="font-size: 5.5pt;" href={`#${p.data.handle}`}>
+                  {p.data.title}
+                </a>
+              </>
+            ))
+        }
+      </div>
+
+      <div class="index index-byexhibit columns-2">
+      <!-- 
+        ******************************************************************
+        ******************************************************************
+        ******************************************************************
+        INDEX: BY EXHIBIT 
+        ******************************************************************
+        ******************************************************************
+        ******************************************************************
+      -->
+
+      <div class="header font-sans border-b-4 border-b-red-600 mb-12 pb-8 min-h-[25rem] columns-all" style="border-color: red;">
+        <h2 class="title relative font-bold">
+          The Index: Exhibitionally
+          <a
+            class="absolute top-[-2rem]"
+            id="index-byexhibit"
+          />
+        </h2>
+        <div class="subtitle text-2xl"></div>
+      </div>
+        {
+          exhibits.map((exhibit) => (
+            <>
+              <a
+                class="xref column font-bold mt-4"
+                href={`#${exhibit}`}
+                style="column-span: all; color: red"
+              >
+                {exhibit}
+              </a>
+              {groups[exhibit]
+                ?.filter((p) => p._rendered)
+                .map((p) => (
+                  <a class="xref" style="font-size: 5.5pt;" href={`#${p.data.handle}`}>
+                    {p.data.title}
+                  </a>
+                ))}
+            </>
+          ))
+        }
+      </div>
+
+      <div
+        class="index index-bymaterial columns-2"
+        style="orphans: 3; widows: 4;"
+      >
+      <!-- 
+        ******************************************************************
+        ******************************************************************
+        ******************************************************************
+        INDEX: BY MATERIAL 
+        ******************************************************************
+        ******************************************************************
+        ******************************************************************
+      -->
+      <div class="header font-sans border-b-4 border-b-red-600 mb-12 pb-8 min-h-[25rem] columns-all" style="border-color: red;">
+        <h2 class="title relative font-bold">
+          The Index: <br/> Materially
+          <a
+            class="absolute top-[-2rem]"
+            id="index-bymaterial"
+          />
+        </h2>
+        <div class="subtitle text-2xl"></div>
+      </div>
+        {
+          Object.keys(products_by_material)
+            .sort((a, b) => a.localeCompare(b))
+            .filter((key) => products_by_material[key].find((p) => p._rendered))
+            .map((key) => (
+              <>
+                <div style="orphans:3; widows:3; font-size: 5.5pt;">
+                  <a
+                    class="font-bold mt-4"
+                    xhref={`#${key}`}
+                    style="color:red; border-bottom: 1px dotted; width: 100%; display: block;"
+                  >
+                    {key}
+                  </a>
+                  {products_by_material[key]
+                    ?.filter((p) => p._rendered)
+                    .map((p) => (
+                      <a class="xref" href={`#${p.data.handle}`}>
+                        {p.data.title}
+                      </a>
+                    ))}
+                </div>
+              </>
+            ))
+        }
+      </div>
+
+      <div
+        class="index index-bydimension h-full columns-2"
+        style="orphans: 3; widows: 4;"
+      >
+      <!-- 
+        ******************************************************************
+        ******************************************************************
+        ******************************************************************
+        INDEX: BY DIMENSION 
+        ******************************************************************
+        ******************************************************************
+        ******************************************************************
+      -->
+
+      <div class="header font-sans border-b-4 border-b-red-600 mb-12 pb-8 min-h-[25rem] columns-all" style="border-color: red;">
+        <h2 class="title relative font-bold">
+          The Index: Dimensionally
+          <a
+            class="absolute top-[-2rem]"
+            id="index-bydimension"
+          />
+        </h2>
+        <div class="subtitle text-2xl"></div>
+      </div>
+        {
+          Object.keys(products_by_dimension)
+            .sort((a, b) => a.localeCompare(b))
+            .filter((key) => products_by_dimension[key].find((p) => p._rendered))
+            .map((key) => (
+              <>
+                <div style="orphans:3; widows:3; font-size: 5.5pt;">
+                  <a
+                    class="font-bold mt-4"
+                    xhref={`#${key}`}
+                    style="color:red; border-bottom: 1px dotted; width: 100%; display: block;"
+                  >
+                    {key}
+                  </a>
+                  {products_by_dimension[key]
+                    ?.filter((p) => p._rendered)
+                    .map((p) => (
+                      <a class="xref" href={`#${p.data.handle}`}>
+                        {p.data.title}
+                      </a>
+                    ))}
+                </div>
+              </>
+            ))
+        }
+      </div>
+
+
+       </div> 
+    </main>
+  </body>
+</html>

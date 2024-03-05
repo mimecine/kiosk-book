@@ -1,0 +1,23 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "bun",
+			"script": "osascript -e 'tell application \"Preview\" to if it is running then quit' && prince --raster-dpi=300 --tagged-pdf http://localhost:9000/ -o dist/book.pdf && open dist/book.pdf",
+			"problemMatcher": [],
+			"label": "bun: prince",
+			"detail": "bun run osascript -e 'tell application \"Preview\" to if it is running then quit' && prince --raster-dpi=300 --tagged-pdf http://localhost:9000/ -o dist/book.pdf && open dist/book.pdf - package.json"
+		},
+		{
+			"type": "npm",
+			"script": "prince",
+			"problemMatcher": [],
+			"label": "npm: prince",
+			"detail": "osascript -e 'tell application \"Preview\" to if it is running then quit' && prince --raster-dpi=300 --tagged-pdf http://localhost:9000/ -o dist/book.pdf && open dist/book.pdf",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
+	]
+}

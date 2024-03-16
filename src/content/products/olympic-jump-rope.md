@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333576731
 images:
   - id: 776914463
-    alt: ""
+    alt: Olympic Jump Rope
     position: 1
     product_id: 333576731
     created_at: 2014-08-04T23:59:50-04:00

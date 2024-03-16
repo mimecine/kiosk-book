@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326842995
 images:
   - id: 763748191
-    alt: ""
+    alt: Coffee Pot
     position: 1
     product_id: 326842995
     created_at: 2014-07-22T19:59:26-04:00

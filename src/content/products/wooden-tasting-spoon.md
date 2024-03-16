@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333582587
 images:
   - id: 776926223
-    alt: ""
+    alt: Wooden Tasting Spoon
     position: 1
     product_id: 333582587
     created_at: 2014-08-05T00:18:06-04:00

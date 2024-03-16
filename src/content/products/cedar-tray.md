@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326842219
 images:
   - id: 763747231
-    alt: ""
+    alt: Cedar Tray
     position: 1
     product_id: 326842219
     created_at: 2014-07-22T19:58:03-04:00

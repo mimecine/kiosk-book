@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326838375
 images:
   - id: 763742615
-    alt: ""
+    alt: Adufe Drum
     position: 1
     product_id: 326838375
     created_at: 2014-07-22T19:51:42-04:00

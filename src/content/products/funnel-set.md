@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326846511
 images:
   - id: 763752983
-    alt: ""
+    alt: Funnel Set
     position: 1
     product_id: 326846511
     created_at: 2014-07-22T20:04:56-04:00

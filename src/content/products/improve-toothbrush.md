@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326848687
 images:
   - id: 763755727
-    alt: ""
+    alt: Improve Toothbrush
     position: 1
     product_id: 326848687
     created_at: 2014-07-22T20:08:52-04:00

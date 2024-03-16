@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/467284523
 images:
   - id: 1245422251
-    alt: ""
+    alt: Children's Horse Whip
     position: 1
     product_id: 467284523
     created_at: 2015-03-23T13:44:30-04:00

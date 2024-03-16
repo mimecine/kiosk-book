@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333576463
 images:
   - id: 776913639
-    alt: ""
+    alt: Nougat Noir
     position: 1
     product_id: 333576463
     created_at: 2014-08-04T23:58:46-04:00

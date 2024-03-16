@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333575855
 images:
   - id: 776911703
-    alt: ""
+    alt: Mentolin
     position: 1
     product_id: 333575855
     created_at: 2014-08-04T23:56:26-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326846175
 images:
   - id: 763752535
-    alt: ""
+    alt: Flying Turtle
     position: 1
     product_id: 326846175
     created_at: 2014-07-22T20:04:23-04:00

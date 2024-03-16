@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333582335
 images:
   - id: 776925775
-    alt: ""
+    alt: Wine Jug
     position: 1
     product_id: 333582335
     created_at: 2014-08-05T00:17:18-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333580435
 images:
   - id: 776923167
-    alt: ""
+    alt: Three Carved Strombus Shell Rings
     position: 1
     product_id: 333580435
     created_at: 2014-08-05T00:12:33-04:00

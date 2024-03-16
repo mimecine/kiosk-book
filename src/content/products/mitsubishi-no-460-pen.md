@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333576151
 images:
   - id: 776912655
-    alt: ""
+    alt: Mitsubishi No. 460 Pen
     position: 1
     product_id: 333576151
     created_at: 2014-08-04T23:57:35-04:00

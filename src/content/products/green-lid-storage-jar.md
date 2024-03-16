@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326847455
 images:
   - id: 763754059
-    alt: ""
+    alt: Green Lid Storage Jar
     position: 1
     product_id: 326847455
     created_at: 2014-07-22T20:06:41-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326848183
 images:
   - id: 763755055
-    alt: ""
+    alt: Hema Gift Card
     position: 1
     product_id: 326848183
     created_at: 2014-07-22T20:07:59-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326843255
 images:
   - id: 763748451
-    alt: ""
+    alt: Columbia School Chairs
     position: 1
     product_id: 326843255
     created_at: 2014-07-22T19:59:51-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333580303
 images:
   - id: 776923019
-    alt: ""
+    alt: Tears of Love
     position: 1
     product_id: 333580303
     created_at: 2014-08-05T00:12:14-04:00

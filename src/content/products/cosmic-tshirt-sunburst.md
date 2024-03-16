@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326843475
 images:
   - id: 763748683
-    alt: ""
+    alt: Cosmic Tshirt Sunburst
     position: 1
     product_id: 326843475
     created_at: 2014-07-22T20:00:14-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/6775588126879
 images:
   - id: 28952098701471
-    alt: ""
+    alt: Marseille Suit
     position: 1
     product_id: 6775588126879
     created_at: 2021-05-12T07:26:08-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326844751
 images:
   - id: 763750335
-    alt: ""
+    alt: Egg Pricker
     position: 1
     product_id: 326844751
     created_at: 2014-07-22T20:02:12-04:00

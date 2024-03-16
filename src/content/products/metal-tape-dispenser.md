@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333575991
 images:
   - id: 28952557191327
-    alt: ""
+    alt: Metal Tape Dispenser
     position: 1
     product_id: 333575991
     created_at: 2021-05-12T08:12:44-04:00

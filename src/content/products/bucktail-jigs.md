@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326841511
 images:
   - id: 763746383
-    alt: ""
+    alt: Bucktail Jigs
     position: 1
     product_id: 326841511
     created_at: 2014-07-22T19:56:42-04:00

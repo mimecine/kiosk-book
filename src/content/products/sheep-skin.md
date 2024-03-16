@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333579075
 images:
   - id: 776920671
-    alt: ""
+    alt: Sheep Skin
     position: 1
     product_id: 333579075
     created_at: 2014-08-05T00:08:17-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326848951
 images:
   - id: 763756059
-    alt: ""
+    alt: Japanese Schoolbook
     position: 1
     product_id: 326848951
     created_at: 2014-07-22T20:09:19-04:00

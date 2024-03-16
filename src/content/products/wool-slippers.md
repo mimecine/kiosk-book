@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/467284439
 images:
   - id: 1245422147
-    alt: ""
+    alt: Wool Slippers
     position: 1
     product_id: 467284439
     created_at: 2015-03-23T13:44:20-04:00

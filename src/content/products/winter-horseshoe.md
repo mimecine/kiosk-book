@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/467284507
 images:
   - id: 1245422207
-    alt: ""
+    alt: Winter Horseshoe
     position: 1
     product_id: 467284507
     created_at: 2015-03-23T13:44:28-04:00

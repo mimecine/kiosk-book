@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/6775657136287
 images:
   - id: 28952545689759
-    alt: ""
+    alt: Fuji Sencha Compliments of Postcard Teas, London
     position: 1
     product_id: 6775657136287
     created_at: 2021-05-12T08:11:26-04:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/IMG_20201124_161938.jpg?v=1620821486
     thumb: ./fuji-sencha-tea-by-postcard-teas-london/fuji-sencha-tea-by-postcard-teas-london__0-thumb.jpg
   - id: 28952545722527
-    alt: ""
+    alt: Fuji Sencha Compliments of Postcard Teas, London
     position: 2
     product_id: 6775657136287
     created_at: 2021-05-12T08:11:26-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326847307
 images:
   - id: 763753899
-    alt: ""
+    alt: Greek Paperclips
     position: 1
     product_id: 326847307
     created_at: 2014-07-22T20:06:25-04:00

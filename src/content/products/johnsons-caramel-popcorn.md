@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326849107
 images:
   - id: 763756307
-    alt: ""
+    alt: Johnson's Caramel Popcorn
     position: 1
     product_id: 326849107
     created_at: 2014-07-22T20:09:35-04:00

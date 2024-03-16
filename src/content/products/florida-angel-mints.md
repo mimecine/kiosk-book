@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326846051
 images:
   - id: 763752415
-    alt: ""
+    alt: Florida Angel Mints
     position: 1
     product_id: 326846051
     created_at: 2014-07-22T20:04:11-04:00

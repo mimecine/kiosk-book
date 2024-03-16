@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326841839
 images:
   - id: 763746807
-    alt: ""
+    alt: Can and Bottle Opener Gangy
     position: 1
     product_id: 326841839
     created_at: 2014-07-22T19:57:17-04:00

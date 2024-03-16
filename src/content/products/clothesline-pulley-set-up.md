@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326842899
 images:
   - id: 763748095
-    alt: ""
+    alt: Clothesline Pulley Set-Up
     position: 1
     product_id: 326842899
     created_at: 2014-07-22T19:59:16-04:00

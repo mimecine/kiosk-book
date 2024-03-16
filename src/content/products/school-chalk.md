@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333578679
 images:
   - id: 776919871
-    alt: ""
+    alt: School Chalk
     position: 1
     product_id: 333578679
     created_at: 2014-08-05T00:07:09-04:00

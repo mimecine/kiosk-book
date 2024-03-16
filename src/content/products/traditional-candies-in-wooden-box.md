@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333581215
 images:
   - id: 776924307
-    alt: ""
+    alt: Traditional Candies in Wooden Box
     position: 1
     product_id: 333581215
     created_at: 2014-08-05T00:14:28-04:00

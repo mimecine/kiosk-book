@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/9122804301983
 images:
   - id: 36973360611487
-    alt: ""
+    alt: Key Baggie
     position: 1
     product_id: 9122804301983
     created_at: 2023-12-27T10:12:14-05:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/PXL_20211110_105447384.jpg?v=1703689934
     thumb: ./key-pouch/key-pouch__0-thumb.jpg
   - id: 36973360644255
-    alt: ""
+    alt: Key Baggie
     position: 2
     product_id: 9122804301983
     created_at: 2023-12-27T10:12:14-05:00
@@ -38,7 +38,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/PXL_20211110_105404308.jpg?v=1703689934
     thumb: ./key-pouch/key-pouch__1-thumb.jpg
   - id: 36973360677023
-    alt: ""
+    alt: Key Baggie
     position: 3
     product_id: 9122804301983
     created_at: 2023-12-27T10:12:14-05:00

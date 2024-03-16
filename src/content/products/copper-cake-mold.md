@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/467284783
 images:
   - id: 1245422611
-    alt: ""
+    alt: Copper Cake Mold
     position: 1
     product_id: 467284783
     created_at: 2015-03-23T13:44:57-04:00

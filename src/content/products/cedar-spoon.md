@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326842187
 images:
   - id: 763747179
-    alt: ""
+    alt: Cedar Spoon
     position: 1
     product_id: 326842187
     created_at: 2014-07-22T19:57:59-04:00

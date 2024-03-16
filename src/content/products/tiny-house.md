@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333580711
 images:
   - id: 776923559
-    alt: ""
+    alt: Tiny House
     position: 1
     product_id: 333580711
     created_at: 2014-08-05T00:13:16-04:00

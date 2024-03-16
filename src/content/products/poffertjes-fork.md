@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333577647
 images:
   - id: 776917151
-    alt: ""
+    alt: Poffertjes Fork
     position: 1
     product_id: 333577647
     created_at: 2014-08-05T00:03:25-04:00

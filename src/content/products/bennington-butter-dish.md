@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326839695
 images:
   - id: 763744283
-    alt: ""
+    alt: Bennington Butter Dish
     position: 1
     product_id: 326839695
     created_at: 2014-07-22T19:53:46-04:00

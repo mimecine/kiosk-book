@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333582763
 images:
   - id: 776926659
-    alt: ""
+    alt: Yo-Yo Balloons
     position: 1
     product_id: 333582763
     created_at: 2014-08-05T00:18:49-04:00

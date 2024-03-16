@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333578587
 images:
   - id: 776919635
-    alt: ""
+    alt: Sanskrit Bag
     position: 1
     product_id: 333578587
     created_at: 2014-08-05T00:06:52-04:00

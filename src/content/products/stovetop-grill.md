@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/467284907
 images:
   - id: 1245422799
-    alt: ""
+    alt: Stovetop Grill
     position: 1
     product_id: 467284907
     created_at: 2015-03-23T13:45:13-04:00

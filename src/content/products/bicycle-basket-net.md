@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326839807
 images:
   - id: 763744407
-    alt: ""
+    alt: Bicycle Basket Net
     position: 1
     product_id: 326839807
     created_at: 2014-07-22T19:54:01-04:00

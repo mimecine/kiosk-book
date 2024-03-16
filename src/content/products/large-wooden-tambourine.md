@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326850075
 images:
   - id: 763757631
-    alt: ""
+    alt: Large Wooden Tambourine
     position: 1
     product_id: 326850075
     created_at: 2014-07-22T20:11:23-04:00

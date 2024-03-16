@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333579055
 images:
   - id: 776920615
-    alt: ""
+    alt: Sharpening Stone
     position: 1
     product_id: 333579055
     created_at: 2014-08-05T00:08:13-04:00

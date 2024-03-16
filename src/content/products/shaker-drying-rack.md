@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333579035
 images:
   - id: 776920591
-    alt: ""
+    alt: Shaker Drying Rack
     position: 1
     product_id: 333579035
     created_at: 2014-08-05T00:08:08-04:00

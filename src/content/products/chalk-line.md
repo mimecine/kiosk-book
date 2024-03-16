@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326842275
 images:
   - id: 763747287
-    alt: ""
+    alt: Chalk Line
     position: 1
     product_id: 326842275
     created_at: 2014-07-22T19:58:08-04:00

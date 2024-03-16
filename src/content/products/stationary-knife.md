@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333579567
 images:
   - id: 776921623
-    alt: ""
+    alt: Stationary Knife
     position: 1
     product_id: 333579567
     created_at: 2014-08-05T00:09:56-04:00

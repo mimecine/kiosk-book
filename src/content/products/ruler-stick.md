@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333578351
 images:
   - id: 776919019
-    alt: ""
+    alt: Ruler Stick
     position: 1
     product_id: 333578351
     created_at: 2014-08-05T00:06:08-04:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/ruler-2.jpeg?v=1407211568
     thumb: ./ruler-stick/ruler-stick__0-thumb.jpg
   - id: 776919043
-    alt: ""
+    alt: Ruler Stick
     position: 2
     product_id: 333578351
     created_at: 2014-08-05T00:06:10-04:00

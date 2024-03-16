@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326839627
 images:
   - id: 763744199
-    alt: ""
+    alt: Bavarian Gamsbart Stag Pin
     position: 1
     product_id: 326839627
     created_at: 2014-07-22T19:53:36-04:00

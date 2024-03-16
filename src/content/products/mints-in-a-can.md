@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333576131
 images:
   - id: 776912547
-    alt: ""
+    alt: Mints in a Can
     position: 1
     product_id: 333576131
     created_at: 2014-08-04T23:57:31-04:00

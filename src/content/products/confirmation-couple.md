@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326843343
 images:
   - id: 763748523
-    alt: ""
+    alt: Confirmation Couple
     position: 1
     product_id: 326843343
     created_at: 2014-07-22T19:59:58-04:00

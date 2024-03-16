@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326841003
 images:
   - id: 763745827
-    alt: ""
+    alt: Bostonian Pipe
     position: 1
     product_id: 326841003
     created_at: 2014-07-22T19:55:50-04:00

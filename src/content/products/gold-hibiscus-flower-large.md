@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326846967
 images:
   - id: 763753483
-    alt: ""
+    alt: Gold Hibiscus Flower Large
     position: 1
     product_id: 326846967
     created_at: 2014-07-22T20:05:41-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326841419
 images:
   - id: 763746263
-    alt: ""
+    alt: Brown Sugar Bars
     position: 1
     product_id: 326841419
     created_at: 2014-07-22T19:56:31-04:00

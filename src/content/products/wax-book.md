@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333581903
 images:
   - id: 776925239
-    alt: ""
+    alt: Wax Book
     position: 1
     product_id: 333581903
     created_at: 2014-08-05T00:16:15-04:00

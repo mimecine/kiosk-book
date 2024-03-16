@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/6730127311007
 images:
   - id: 28768086294687
-    alt: ""
+    alt: Bottle Carrier
     position: 1
     product_id: 6730127311007
     created_at: 2021-04-28T10:28:45-04:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/bottlecarrier12.7.jpg?v=1619620125
     thumb: ./bottle-carrier/bottle-carrier__0-thumb.jpg
   - id: 28768086327455
-    alt: ""
+    alt: Bottle Carrier
     position: 2
     product_id: 6730127311007
     created_at: 2021-04-28T10:28:45-04:00
@@ -38,7 +38,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/IMG_20181121_152600.jpg?v=1619620125
     thumb: ./bottle-carrier/bottle-carrier__1-thumb.jpg
   - id: 28768086360223
-    alt: ""
+    alt: Bottle Carrier
     position: 3
     product_id: 6730127311007
     created_at: 2021-04-28T10:28:45-04:00
@@ -51,7 +51,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/IMG_20181121_152533.jpg?v=1619620125
     thumb: ./bottle-carrier/bottle-carrier__2-thumb.jpg
   - id: 28768086392991
-    alt: ""
+    alt: Bottle Carrier
     position: 4
     product_id: 6730127311007
     created_at: 2021-04-28T10:28:45-04:00

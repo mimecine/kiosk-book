@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326841679
 images:
   - id: 763746571
-    alt: ""
+    alt: Cafe Souto & Cafe Oquendo
     position: 1
     product_id: 326841679
     created_at: 2014-07-22T19:56:59-04:00

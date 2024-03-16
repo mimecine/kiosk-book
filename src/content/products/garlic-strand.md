@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/467284059
 images:
   - id: 1245421719
-    alt: ""
+    alt: Garlic Strand
     position: 1
     product_id: 467284059
     created_at: 2015-03-23T13:43:25-04:00

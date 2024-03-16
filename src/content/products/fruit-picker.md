@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326846411
 images:
   - id: 763752859
-    alt: ""
+    alt: Fruit Picker
     position: 1
     product_id: 326846411
     created_at: 2014-07-22T20:04:48-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333580639
 images:
   - id: 776923447
-    alt: ""
+    alt: Tin Shaker
     position: 1
     product_id: 333580639
     created_at: 2014-08-05T00:13:04-04:00

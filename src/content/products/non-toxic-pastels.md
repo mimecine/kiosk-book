@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333576451
 images:
   - id: 776913575
-    alt: ""
+    alt: Non-Toxic Pastels
     position: 1
     product_id: 333576451
     created_at: 2014-08-04T23:58:42-04:00

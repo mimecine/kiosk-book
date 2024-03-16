@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333576367
 images:
   - id: 776913295
-    alt: ""
+    alt: Net Bag
     position: 1
     product_id: 333576367
     created_at: 2014-08-04T23:58:25-04:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/P1040337.jpeg?v=1407211105
     thumb: ./net-bag/net-bag__0-thumb.jpg
   - id: 776913315
-    alt: ""
+    alt: Net Bag
     position: 2
     product_id: 333576367
     created_at: 2014-08-04T23:58:26-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326849567
 images:
   - id: 763756955
-    alt: ""
+    alt: Kitchen Knife
     position: 1
     product_id: 326849567
     created_at: 2014-07-22T20:10:28-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326842023
 images:
   - id: 763747015
-    alt: ""
+    alt: Cast Iron Leaf Pendant Necklace
     position: 1
     product_id: 326842023
     created_at: 2014-07-22T19:57:39-04:00

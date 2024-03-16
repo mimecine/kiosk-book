@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333576239
 images:
   - id: 776912887
-    alt: ""
+    alt: Mulled Wine Tea Bags
     position: 1
     product_id: 333576239
     created_at: 2014-08-04T23:57:56-04:00

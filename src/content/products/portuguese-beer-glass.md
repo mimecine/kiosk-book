@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333577711
 images:
   - id: 28952127504543
-    alt: ""
+    alt: Portuguese Beer Glass
     position: 1
     product_id: 333577711
     created_at: 2021-05-12T07:27:56-04:00

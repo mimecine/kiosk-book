@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326843659
 images:
   - id: 763748903
-    alt: ""
+    alt: Crayons
     position: 1
     product_id: 326843659
     created_at: 2014-07-22T20:00:31-04:00

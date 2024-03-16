@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326840715
 images:
   - id: 763745459
-    alt: ""
+    alt: Blue and White Plate
     position: 1
     product_id: 326840715
     created_at: 2014-07-22T19:55:22-04:00

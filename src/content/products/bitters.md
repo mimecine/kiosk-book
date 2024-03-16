@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326840467
 images:
   - id: 763745195
-    alt: ""
+    alt: Bitters
     position: 1
     product_id: 326840467
     created_at: 2014-07-22T19:55:02-04:00

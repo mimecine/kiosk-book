@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/6775587897503
 images:
   - id: 28952097063071
-    alt: ""
+    alt: Marzipan Modulor
     position: 1
     product_id: 6775587897503
     created_at: 2021-05-12T07:26:04-04:00

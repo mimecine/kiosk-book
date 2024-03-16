@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333576555
 images:
   - id: 776913879
-    alt: ""
+    alt: Obama Glider
     position: 1
     product_id: 333576555
     created_at: 2014-08-04T23:59:06-04:00

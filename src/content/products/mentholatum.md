@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333575847
 images:
   - id: 776911663
-    alt: ""
+    alt: Mentholatum
     position: 1
     product_id: 333575847
     created_at: 2014-08-04T23:56:23-04:00

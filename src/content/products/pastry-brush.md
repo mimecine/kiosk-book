@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333577167
 images:
   - id: 776915767
-    alt: ""
+    alt: Pastry Brush
     position: 1
     product_id: 333577167
     created_at: 2014-08-05T00:01:40-04:00

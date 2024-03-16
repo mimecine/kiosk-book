@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326847943
 images:
   - id: 763754771
-    alt: ""
+    alt: Handpainted Bowl
     position: 1
     product_id: 326847943
     created_at: 2014-07-22T20:07:32-04:00

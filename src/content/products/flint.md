@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/467290027
 images:
   - id: 1245430303
-    alt: ""
+    alt: Flint
     position: 1
     product_id: 467290027
     created_at: 2015-03-23T13:55:39-04:00

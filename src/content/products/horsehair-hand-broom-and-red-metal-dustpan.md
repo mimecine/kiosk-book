@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326848355
 images:
   - id: 763755295
-    alt: ""
+    alt: Horsehair Hand Broom and Red Metal Dustpan
     position: 1
     product_id: 326848355
     created_at: 2014-07-22T20:08:20-04:00

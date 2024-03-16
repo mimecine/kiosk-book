@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326839199
 images:
   - id: 763743683
-    alt: ""
+    alt: Arrowcopter
     position: 1
     product_id: 326839199
     created_at: 2014-07-22T19:52:54-04:00

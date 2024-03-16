@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/467284215
 images:
   - id: 1245421891
-    alt: ""
+    alt: Rustic Knife
     position: 1
     product_id: 467284215
     created_at: 2015-03-23T13:43:49-04:00

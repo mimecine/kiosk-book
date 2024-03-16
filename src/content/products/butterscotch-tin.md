@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326841639
 images:
   - id: 763746519
-    alt: ""
+    alt: Butterscotch Tin
     position: 1
     product_id: 326841639
     created_at: 2014-07-22T19:56:55-04:00

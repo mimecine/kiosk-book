@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333576399
 images:
   - id: 776913395
-    alt: ""
+    alt: New Bedford Black & Red Waxed Thread
     position: 1
     product_id: 333576399
     created_at: 2014-08-04T23:58:31-04:00

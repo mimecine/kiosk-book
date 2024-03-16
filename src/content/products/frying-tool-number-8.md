@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326846483
 images:
   - id: 763752963
-    alt: ""
+    alt: Frying Tool Number 8
     position: 1
     product_id: 326846483
     created_at: 2014-07-22T20:04:54-04:00

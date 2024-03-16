@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333577847
 images:
   - id: 776917739
-    alt: ""
+    alt: Ramune Fructose Candy
     position: 1
     product_id: 333577847
     created_at: 2014-08-05T00:04:18-04:00

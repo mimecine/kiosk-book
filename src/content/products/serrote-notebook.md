@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333578759
 images:
   - id: 776920067
-    alt: ""
+    alt: Serrote Notebook
     position: 1
     product_id: 333578759
     created_at: 2014-08-05T00:07:23-04:00

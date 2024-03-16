@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/9122803581087
 images:
   - id: 36973347963039
-    alt: ""
+    alt: Bread and Puppet Calendar 2023
     position: 1
     product_id: 9122803581087
     created_at: 2023-12-27T10:07:09-05:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/PXL_20221114_172155668.jpg?v=1703689629
     thumb: ./bread-and-puppet-calendar-2023/bread-and-puppet-calendar-2023__0-thumb.jpg
   - id: 36973347995807
-    alt: ""
+    alt: Bread and Puppet Calendar 2023
     position: 2
     product_id: 9122803581087
     created_at: 2023-12-27T10:07:09-05:00
@@ -38,7 +38,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/PXL_20221114_173407442.jpg?v=1703689629
     thumb: ./bread-and-puppet-calendar-2023/bread-and-puppet-calendar-2023__1-thumb.jpg
   - id: 36973348028575
-    alt: ""
+    alt: Bread and Puppet Calendar 2023
     position: 3
     product_id: 9122803581087
     created_at: 2023-12-27T10:07:09-05:00
@@ -51,7 +51,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/PXL_20221114_173528251.jpg?v=1703689629
     thumb: ./bread-and-puppet-calendar-2023/bread-and-puppet-calendar-2023__2-thumb.jpg
   - id: 36973348061343
-    alt: ""
+    alt: Bread and Puppet Calendar 2023
     position: 4
     product_id: 9122803581087
     created_at: 2023-12-27T10:07:09-05:00
@@ -64,7 +64,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/PXL_20221114_174204045.jpg?v=1703689629
     thumb: ./bread-and-puppet-calendar-2023/bread-and-puppet-calendar-2023__3-thumb.jpg
   - id: 36973348094111
-    alt: ""
+    alt: Bread and Puppet Calendar 2023
     position: 5
     product_id: 9122803581087
     created_at: 2023-12-27T10:07:09-05:00

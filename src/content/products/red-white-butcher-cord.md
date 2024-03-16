@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333577907
 images:
   - id: 776917899
-    alt: ""
+    alt: Red & White Butcher Cord
     position: 1
     product_id: 333577907
     created_at: 2014-08-05T00:04:33-04:00

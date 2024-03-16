@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333580075
 images:
   - id: 776922731
-    alt: ""
+    alt: Sun & Sand Chair
     position: 1
     product_id: 333580075
     created_at: 2014-08-05T00:11:43-04:00

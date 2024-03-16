@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333582595
 images:
   - id: 776926231
-    alt: ""
+    alt: Wooden Toothpicks
     position: 1
     product_id: 333582595
     created_at: 2014-08-05T00:18:08-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333582859
 images:
   - id: 776926919
-    alt: ""
+    alt: Zote Soap
     position: 1
     product_id: 333582859
     created_at: 2014-08-05T00:19:13-04:00

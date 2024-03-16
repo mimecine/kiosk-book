@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326847595
 images:
   - id: 763754319
-    alt: ""
+    alt: Guava Cream
     position: 1
     product_id: 326847595
     created_at: 2014-07-22T20:06:53-04:00

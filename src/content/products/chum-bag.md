@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326842679
 images:
   - id: 763747787
-    alt: ""
+    alt: Chum Bag
     position: 1
     product_id: 326842679
     created_at: 2014-07-22T19:58:51-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326838935
 images:
   - id: 763743399
-    alt: ""
+    alt: Aluminum Sandwich Press
     position: 1
     product_id: 326838935
     created_at: 2014-07-22T19:52:32-04:00

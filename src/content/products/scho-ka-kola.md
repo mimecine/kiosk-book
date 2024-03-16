@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333578663
 images:
   - id: 776919847
-    alt: ""
+    alt: Scho-ka-kola
     position: 1
     product_id: 333578663
     created_at: 2014-08-05T00:07:07-04:00

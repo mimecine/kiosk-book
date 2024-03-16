@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326843915
 images:
   - id: 763749223
-    alt: ""
+    alt: "Dietz Kerosene Hurricane Lantern #8"
     position: 1
     product_id: 326843915
     created_at: 2014-07-22T20:01:03-04:00

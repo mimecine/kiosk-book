@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326845179
 images:
   - id: 763751199
-    alt: ""
+    alt: Euthymol
     position: 1
     product_id: 326845179
     created_at: 2014-07-22T20:02:52-04:00

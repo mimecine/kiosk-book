@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/467284707
 images:
   - id: 1245422491
-    alt: ""
+    alt: Kid's Wool Socks
     position: 1
     product_id: 467284707
     created_at: 2015-03-23T13:44:48-04:00

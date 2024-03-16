@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333575691
 images:
   - id: 776911263
-    alt: ""
+    alt: Mariposa Soap
     position: 1
     product_id: 333575691
     created_at: 2014-08-04T23:55:53-04:00

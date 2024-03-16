@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333576211
 images:
   - id: 776912839
-    alt: ""
+    alt: Mr. Pea Sheller
     position: 1
     product_id: 333576211
     created_at: 2014-08-04T23:57:50-04:00

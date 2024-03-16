@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/6775656349855
 images:
   - id: 28952542478495
-    alt: ""
+    alt: Bread and Puppet Calendar 2021
     position: 1
     product_id: 6775656349855
     created_at: 2021-05-12T08:11:09-04:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/Calendar-2021.jpg?v=1620821469
     thumb: ./bread-and-puppet-calendar-2021/bread-and-puppet-calendar-2021__0-thumb.jpg
   - id: 28952542511263
-    alt: ""
+    alt: Bread and Puppet Calendar 2021
     position: 2
     product_id: 6775656349855
     created_at: 2021-05-12T08:11:09-04:00
@@ -38,7 +38,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/Calendar-2021-1-may.jpg?v=1620821469
     thumb: ./bread-and-puppet-calendar-2021/bread-and-puppet-calendar-2021__1-thumb.jpg
   - id: 28952542544031
-    alt: ""
+    alt: Bread and Puppet Calendar 2021
     position: 3
     product_id: 6775656349855
     created_at: 2021-05-12T08:11:10-04:00
@@ -51,7 +51,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/Calendar-2021-2-flower.jpg?v=1620821470
     thumb: ./bread-and-puppet-calendar-2021/bread-and-puppet-calendar-2021__2-thumb.jpg
   - id: 28952542576799
-    alt: ""
+    alt: Bread and Puppet Calendar 2021
     position: 4
     product_id: 6775656349855
     created_at: 2021-05-12T08:11:10-04:00
@@ -64,7 +64,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/Calendar-2021-3-owl.jpg?v=1620821470
     thumb: ./bread-and-puppet-calendar-2021/bread-and-puppet-calendar-2021__3-thumb.jpg
   - id: 28952542609567
-    alt: ""
+    alt: Bread and Puppet Calendar 2021
     position: 5
     product_id: 6775656349855
     created_at: 2021-05-12T08:11:10-04:00
@@ -77,7 +77,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/Calendar-2021-4-horse.jpg?v=1620821470
     thumb: ./bread-and-puppet-calendar-2021/bread-and-puppet-calendar-2021__4-thumb.jpg
   - id: 28952542642335
-    alt: ""
+    alt: Bread and Puppet Calendar 2021
     position: 6
     product_id: 6775656349855
     created_at: 2021-05-12T08:11:10-04:00

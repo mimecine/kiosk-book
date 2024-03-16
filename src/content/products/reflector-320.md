@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333578111
 images:
   - id: 776918403
-    alt: ""
+    alt: "Reflector #320"
     position: 1
     product_id: 333578111
     created_at: 2014-08-05T00:05:15-04:00

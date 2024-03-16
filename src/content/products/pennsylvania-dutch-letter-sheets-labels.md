@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333577239
 images:
   - id: 776915895
-    alt: ""
+    alt: Pennsylvania Dutch Letter Sheets & Labels
     position: 1
     product_id: 333577239
     created_at: 2014-08-05T00:01:52-04:00

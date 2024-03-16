@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326843067
 images:
   - id: 763748263
-    alt: ""
+    alt: Cognac Bread
     position: 1
     product_id: 326843067
     created_at: 2014-07-22T19:59:32-04:00

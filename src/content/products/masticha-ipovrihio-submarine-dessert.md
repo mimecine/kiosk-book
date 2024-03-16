@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333575751
 images:
   - id: 776911351
-    alt: ""
+    alt: Masticha Ipovrihio
     position: 1
     product_id: 333575751
     created_at: 2014-08-04T23:56:03-04:00

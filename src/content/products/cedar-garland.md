@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326842147
 images:
   - id: 763747143
-    alt: ""
+    alt: Cedar Garland
     position: 1
     product_id: 326842147
     created_at: 2014-07-22T19:57:55-04:00

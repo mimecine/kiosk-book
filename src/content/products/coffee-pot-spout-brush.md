@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326843035
 images:
   - id: 763748219
-    alt: ""
+    alt: Coffee Pot Spout Brush
     position: 1
     product_id: 326843035
     created_at: 2014-07-22T19:59:28-04:00

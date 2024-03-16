@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326846347
 images:
   - id: 763752755
-    alt: ""
+    alt: Four Step Measuring Cup
     position: 1
     product_id: 326846347
     created_at: 2014-07-22T20:04:41-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326844415
 images:
   - id: 763749907
-    alt: ""
+    alt: Draumur
     position: 1
     product_id: 326844415
     created_at: 2014-07-22T20:01:45-04:00

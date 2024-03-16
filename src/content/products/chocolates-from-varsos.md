@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326842639
 images:
   - id: 763747731
-    alt: ""
+    alt: Chocolates from Varsos
     position: 1
     product_id: 326842639
     created_at: 2014-07-22T19:58:46-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326849295
 images:
   - id: 763756587
-    alt: ""
+    alt: Kenyon's Clam Cake and Fritter Mix
     position: 1
     product_id: 326849295
     created_at: 2014-07-22T20:09:57-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333577435
 images:
   - id: 776916539
-    alt: ""
+    alt: Pipp Mint Milk Chocolate
     position: 1
     product_id: 333577435
     created_at: 2014-08-05T00:02:39-04:00

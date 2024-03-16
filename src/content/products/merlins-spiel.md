@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333575879
 images:
   - id: 776911759
-    alt: ""
+    alt: Merlin's Spiel
     position: 1
     product_id: 333575879
     created_at: 2014-08-04T23:56:30-04:00

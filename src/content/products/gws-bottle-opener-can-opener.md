@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326847643
 images:
   - id: 763754375
-    alt: ""
+    alt: GWS Bottle Opener & Can Opener
     position: 1
     product_id: 326847643
     created_at: 2014-07-22T20:06:58-04:00

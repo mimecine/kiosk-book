@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326839791
 images:
   - id: 763744391
-    alt: ""
+    alt: Bhargava's Dictionary
     position: 1
     product_id: 326839791
     created_at: 2014-07-22T19:53:59-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326841975
 images:
   - id: 763746967
-    alt: ""
+    alt: Carpet Beater
     position: 1
     product_id: 326841975
     created_at: 2014-07-22T19:57:34-04:00

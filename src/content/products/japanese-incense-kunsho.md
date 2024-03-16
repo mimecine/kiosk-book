@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/9122804269215
 images:
   - id: 36973360316575
-    alt: ""
+    alt: Japanese Incense Kunsho
     position: 1
     product_id: 9122804269215
     created_at: 2023-12-27T10:12:05-05:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/incense_1.jpg?v=1703689925
     thumb: ./japanese-incense-kunsho/japanese-incense-kunsho__0-thumb.jpg
   - id: 36973360349343
-    alt: ""
+    alt: Japanese Incense Kunsho
     position: 2
     product_id: 9122804269215
     created_at: 2023-12-27T10:12:05-05:00

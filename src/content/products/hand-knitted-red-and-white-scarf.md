@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326847819
 images:
   - id: 763754551
-    alt: ""
+    alt: Hand Knitted Red and White Scarf
     position: 1
     product_id: 326847819
     created_at: 2014-07-22T20:07:17-04:00

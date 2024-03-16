@@ -4,6 +4,7 @@ import fs from "node:fs";
 import yaml from "yaml";
 import TurndownService from "turndown";
 import Sharp from "sharp";
+import { info } from "node:console";
 //import fg from "fast-glob";
 
 const T = new TurndownService();
@@ -12,8 +13,7 @@ const D = JSON.parse(
   fs.readFileSync("./src/assets/archive.kioskkiosk.json").toString()
 );
 
-fs.mkdirSync('./src/content/pages/',{recursive:true});
-
+fs.mkdirSync("./src/content/pages/", { recursive: true });
 
 D.Products.filter((_p) => _p.status == "active").forEach((_p) => {
   var html = _p.body_html;
@@ -39,10 +39,17 @@ D.Products.filter((_p) => _p.status == "active").forEach((_p) => {
   });
   dim = dim.join(", ");
 
-  _p.dimensions = dim.trim().replace(/(\s|^)0\./,'.');
-  _p.dimensions_array = dim.replace(/[a-z\s]+:/gmi,'').split(/(?<![a-z])x(?![a-z])|\*|&|,|\bby\b/).map(p => p.trim()).filter(p => p != '');
+  _p.dimensions = dim.trim().replace(/(\s|^)0\./, ".");
+  _p.dimensions_array = dim
+    .replace(/[a-z\s]+:/gim, "")
+    .split(/(?<![a-z])x(?![a-z])|\*|&|,|\bby\b/)
+    .map((p) => p.trim())
+    .filter((p) => p != "");
   _p.materials = mat.trim();
-  _p.materials_array = mat.split(/,|\.|&|\sand\s/).map(p => p.trim()).filter(p => p != '');
+  _p.materials_array = mat
+    .split(/,|\.|&|\sand\s/)
+    .map((p) => p.trim())
+    .filter((p) => p != "");
   _p.provenance = prov.trim();
   _p.product_type = (_p.product_type || "Misc").trim();
 
@@ -52,20 +59,25 @@ D.Products.filter((_p) => _p.status == "active").forEach((_p) => {
       delete _p[attr];
     });
 
-  _p.images.forEach((_i, i) => {
-    _i.alt = _i.alt || "";
-    _i.oldSrc = _i.src;
+  for (const [i, _i] of _p.images.entries()) {
+    //await (async (i, _i) => {
+      _p.images[i].alt = _i.alt || _p.title;
+      _p.images[i].oldSrc = _i.src;
+      _p.images[i].thumb = `./${_p.handle}/${_p.handle}__${i}-thumb.jpg`;
+      _p.images[i].src = `./${_p.handle}/${_p.handle}__${i}.jpg`;
 
-    new Sharp(`./src/content/products/${_p.handle}/${_p.handle}__${i}.jpg`)
-        .resize(250, 250)
-        .tint({ r: 255, g: 0, b: 0 })
-        .toFile(`./src/content/products/${_p.handle}/${_p.handle}__${i}.jpg`.replace(/\.([a-z]{3,4}$)/,'-thumb.$1'), function(err) {
-          console.log(err)
-    }); 
-
-    _i.thumb = `./${_p.handle}/${_p.handle}__${i}.jpg`.replace(/\.([a-z]{3,4}$)/,'-thumb.$1');
-    _i.src = `./${_p.handle}/${_p.handle}__${i}.jpg`;
-  });
+      try {
+        new Sharp(
+          `./src/content/products/${_p.handle}/${_p.handle}__${i}.jpg`
+        ).jpeg().resize(250, 250).tint({ r: 255, g: 0, b: 0 }).toFile(
+          `./src/content/products/${_p.handle}/${_p.handle}__${i}-thumb.jpg`, (e,info) => { if (e) throw e; }
+        );
+      } catch (e) {
+        console.log("Sharp: ",e);
+      }
+      
+    //})(i, _i);
+  }
 
   var fm = yaml.stringify(_p);
 
@@ -77,9 +89,12 @@ D.Products.filter((_p) => _p.status == "active").forEach((_p) => {
   } catch (e) {
     console.log(e);
   }
-  if(_p.status = 'active' && _p.dimensions.length < 1 ) console.log(['DIM',_p.title, _p.product_type].join(': '))
-  if(_p.status = 'active' && _p.materials.length < 1) console.log(['MAT',_p.title, _p.product_type].join(': '))
-  if(_p.status = 'active' && _p.provenance.length < 1) console.log(['PRO',_p.title, _p.product_type].join(': '))
+  if ((_p.status = "active" && _p.dimensions.length < 1))
+    console.log(["DIM", _p.title, _p.product_type].join(": "));
+  if ((_p.status = "active" && _p.materials.length < 1))
+    console.log(["MAT", _p.title, _p.product_type].join(": "));
+  if ((_p.status = "active" && _p.provenance.length < 1))
+    console.log(["PRO", _p.title, _p.product_type].join(": "));
 });
 
 D.CustomCollections.forEach((c) => {

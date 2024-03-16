@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333580031
 images:
   - id: 776922679
-    alt: ""
+    alt: Straw Doormat
     position: 1
     product_id: 333580031
     created_at: 2014-08-05T00:11:35-04:00

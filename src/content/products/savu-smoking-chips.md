@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333578635
 images:
   - id: 776919743
-    alt: ""
+    alt: Savu Smoking Chips
     position: 1
     product_id: 333578635
     created_at: 2014-08-05T00:07:02-04:00

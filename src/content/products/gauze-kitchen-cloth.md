@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326846635
 images:
   - id: 28952095850655
-    alt: ""
+    alt: Gauze Kitchen Cloth
     position: 1
     product_id: 326846635
     created_at: 2021-05-12T07:25:56-04:00

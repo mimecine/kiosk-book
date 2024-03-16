@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326842135
 images:
   - id: 763747119
-    alt: ""
+    alt: Cedar Cutting Board
     position: 1
     product_id: 326842135
     created_at: 2014-07-22T19:57:52-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333578435
 images:
   - id: 776919299
-    alt: ""
+    alt: Salt Flowers
     position: 1
     product_id: 333578435
     created_at: 2014-08-05T00:06:25-04:00

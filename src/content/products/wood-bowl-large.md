@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333582467
 images:
   - id: 28952550801567
-    alt: ""
+    alt: Wood Bowl
     position: 1
     product_id: 333582467
     created_at: 2021-05-12T08:11:58-04:00

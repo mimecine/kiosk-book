@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326842411
 images:
   - id: 763747475
-    alt: ""
+    alt: Cherry Lollies
     position: 1
     product_id: 326842411
     created_at: 2014-07-22T19:58:23-04:00

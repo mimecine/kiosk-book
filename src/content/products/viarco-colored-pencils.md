@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333581691
 images:
   - id: 776925019
-    alt: ""
+    alt: Viarco Colored Pencils
     position: 1
     product_id: 333581691
     created_at: 2014-08-05T00:15:42-04:00

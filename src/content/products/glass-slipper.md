@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326846831
 images:
   - id: 763753331
-    alt: ""
+    alt: Glass Slipper
     position: 1
     product_id: 326846831
     created_at: 2014-07-22T20:05:26-04:00

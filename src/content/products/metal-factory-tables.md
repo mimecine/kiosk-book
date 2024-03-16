@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/6429770118
 images:
   - id: 12285307846
-    alt: ""
+    alt: Metal Factory Tables
     position: 1
     product_id: 6429770118
     created_at: 2016-05-24T19:59:39-04:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/metal6.jpg?v=1464201899
     thumb: ./metal-factory-tables/metal-factory-tables__0-thumb.jpg
   - id: 12285340806
-    alt: ""
+    alt: Metal Factory Tables
     position: 2
     product_id: 6429770118
     created_at: 2016-05-24T20:01:10-04:00
@@ -38,7 +38,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/metal7_1.jpg?v=1464201899
     thumb: ./metal-factory-tables/metal-factory-tables__1-thumb.jpg
   - id: 12285305030
-    alt: ""
+    alt: Metal Factory Tables
     position: 3
     product_id: 6429770118
     created_at: 2016-05-24T19:59:30-04:00

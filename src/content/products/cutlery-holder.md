@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/9122802237599
 images:
   - id: 36973262831775
-    alt: ""
+    alt: Cutlery Holder
     position: 1
     product_id: 9122802237599
     created_at: 2023-12-27T09:53:21-05:00
@@ -26,7 +26,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/PXL_20230612_191519958.jpg?v=1703688801
     thumb: ./cutlery-holder/cutlery-holder__0-thumb.jpg
   - id: 36973262864543
-    alt: ""
+    alt: Cutlery Holder
     position: 2
     product_id: 9122802237599
     created_at: 2023-12-27T09:53:21-05:00
@@ -40,7 +40,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/PXL_20230321_185607498.jpg?v=1703688801
     thumb: ./cutlery-holder/cutlery-holder__1-thumb.jpg
   - id: 36973262897311
-    alt: ""
+    alt: Cutlery Holder
     position: 3
     product_id: 9122802237599
     created_at: 2023-12-27T09:53:21-05:00
@@ -53,7 +53,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/PXL_20230612_191558050.jpg?v=1703688801
     thumb: ./cutlery-holder/cutlery-holder__2-thumb.jpg
   - id: 36973262930079
-    alt: ""
+    alt: Cutlery Holder
     position: 4
     product_id: 9122802237599
     created_at: 2023-12-27T09:53:21-05:00

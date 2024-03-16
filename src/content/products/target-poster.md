@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333580243
 images:
   - id: 776922943
-    alt: ""
+    alt: Target Poster
     position: 1
     product_id: 333580243
     created_at: 2014-08-05T00:12:05-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326847143
 images:
   - id: 763753703
-    alt: ""
+    alt: Greek Beeswax Candles
     position: 1
     product_id: 326847143
     created_at: 2014-07-22T20:06:05-04:00

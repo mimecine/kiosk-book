@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326840227
 images:
   - id: 763744895
-    alt: ""
+    alt: Bird Nesting Fibers
     position: 1
     product_id: 326840227
     created_at: 2014-07-22T19:54:41-04:00

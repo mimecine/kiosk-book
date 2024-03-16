@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333582711
 images:
   - id: 776926547
-    alt: ""
+    alt: Wurst Marzipan
     position: 1
     product_id: 333582711
     created_at: 2014-08-05T00:18:39-04:00

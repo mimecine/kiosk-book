@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333579191
 images:
   - id: 776920827
-    alt: ""
+    alt: Sisu Candy
     position: 1
     product_id: 333579191
     created_at: 2014-08-05T00:08:35-04:00

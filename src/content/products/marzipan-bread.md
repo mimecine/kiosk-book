@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333575727
 images:
   - id: 776911295
-    alt: ""
+    alt: Marzipan Bread
     position: 1
     product_id: 333575727
     created_at: 2014-08-04T23:55:58-04:00

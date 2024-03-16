@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333577563
 images:
   - id: 776916915
-    alt: ""
+    alt: Plastic Office Butler
     position: 1
     product_id: 333577563
     created_at: 2014-08-05T00:03:07-04:00

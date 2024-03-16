@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/467284211
 images:
   - id: 1245421879
-    alt: ""
+    alt: Silver Earrings
     position: 1
     product_id: 467284211
     created_at: 2015-03-23T13:43:46-04:00

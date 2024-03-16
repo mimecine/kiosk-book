@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326838435
 images:
   - id: 763742687
-    alt: ""
+    alt: African Star Board Game
     position: 1
     product_id: 326838435
     created_at: 2014-07-22T19:51:48-04:00

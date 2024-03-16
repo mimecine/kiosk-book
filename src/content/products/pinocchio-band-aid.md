@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333577391
 images:
   - id: 776916443
-    alt: ""
+    alt: Pinocchio Band-aid
     position: 1
     product_id: 333577391
     created_at: 2014-08-05T00:02:30-04:00

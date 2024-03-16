@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333578247
 images:
   - id: 776918691
-    alt: ""
+    alt: Round Broom
     position: 1
     product_id: 333578247
     created_at: 2014-08-05T00:05:40-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326839399
 images:
   - id: 763743931
-    alt: ""
+    alt: Bag of 3 Bamboo Toys
     position: 1
     product_id: 326839399
     created_at: 2014-07-22T19:53:13-04:00

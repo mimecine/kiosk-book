@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333580315
 images:
   - id: 776923055
-    alt: ""
+    alt: Telephone Message Pad
     position: 1
     product_id: 333580315
     created_at: 2014-08-05T00:12:16-04:00

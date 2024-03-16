@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333577223
 images:
   - id: 776915859
-    alt: ""
+    alt: Pekka-Peli Card Game
     position: 1
     product_id: 333577223
     created_at: 2014-08-05T00:01:48-04:00

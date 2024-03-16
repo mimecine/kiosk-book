@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326843875
 images:
   - id: 28952108007583
-    alt: ""
+    alt: Delta Vase
     position: 1
     product_id: 326843875
     created_at: 2021-05-12T07:26:38-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333579467
 images:
   - id: 776921407
-    alt: ""
+    alt: Snowflake Large
     position: 1
     product_id: 333579467
     created_at: 2014-08-05T00:09:34-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326844087
 images:
   - id: 763749423
-    alt: ""
+    alt: Diving Submarine
     position: 1
     product_id: 326844087
     created_at: 2014-07-22T20:01:18-04:00

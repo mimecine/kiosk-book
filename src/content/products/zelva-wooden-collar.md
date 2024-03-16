@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333582839
 images:
   - id: 776926871
-    alt: ""
+    alt: Zevla / Wooden Collar
     position: 1
     product_id: 333582839
     created_at: 2014-08-05T00:19:08-04:00

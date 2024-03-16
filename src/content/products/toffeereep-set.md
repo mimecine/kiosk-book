@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333581067
 images:
   - id: 776924071
-    alt: ""
+    alt: Toffeereep Set
     position: 1
     product_id: 333581067
     created_at: 2014-08-05T00:14:08-04:00

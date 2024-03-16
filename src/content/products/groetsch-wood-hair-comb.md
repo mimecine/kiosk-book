@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326847531
 images:
   - id: 763754135
-    alt: ""
+    alt: Groetsch Wood Hair Comb
     position: 1
     product_id: 326847531
     created_at: 2014-07-22T20:06:47-04:00

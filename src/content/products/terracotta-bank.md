@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333580351
 images:
   - id: 776923083
-    alt: ""
+    alt: Terracotta Bank
     position: 1
     product_id: 333580351
     created_at: 2014-08-05T00:12:20-04:00

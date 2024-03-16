@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333577535
 images:
   - id: 776916843
-    alt: ""
+    alt: Plastic Bird Whistle Set
     position: 1
     product_id: 333577535
     created_at: 2014-08-05T00:03:03-04:00

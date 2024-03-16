@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333580731
 images:
   - id: 776923563
-    alt: ""
+    alt: Tiny Lock
     position: 1
     product_id: 333580731
     created_at: 2014-08-05T00:13:18-04:00

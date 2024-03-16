@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333581343
 images:
   - id: 776924479
-    alt: ""
+    alt: Tremont Nail Sample Set
     position: 1
     product_id: 333581343
     created_at: 2014-08-05T00:14:49-04:00

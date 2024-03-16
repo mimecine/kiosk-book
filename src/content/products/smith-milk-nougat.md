@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333579375
 images:
   - id: 776921223
-    alt: ""
+    alt: Smith Milk Nougat
     position: 1
     product_id: 333579375
     created_at: 2014-08-05T00:09:14-04:00

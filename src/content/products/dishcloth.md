@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326843955
 images:
   - id: 763749263
-    alt: ""
+    alt: Dishcloth
     position: 1
     product_id: 326843955
     created_at: 2014-07-22T20:01:07-04:00

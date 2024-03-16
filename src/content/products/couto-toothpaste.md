@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326843579
 images:
   - id: 763748815
-    alt: ""
+    alt: Couto Toothpaste
     position: 1
     product_id: 326843579
     created_at: 2014-07-22T20:00:24-04:00

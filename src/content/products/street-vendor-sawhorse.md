@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333580047
 images:
   - id: 776922707
-    alt: ""
+    alt: Street Vendor Sawhorse
     position: 1
     product_id: 333580047
     created_at: 2014-08-05T00:11:40-04:00

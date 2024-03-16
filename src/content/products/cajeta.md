@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326841699
 images:
   - id: 763746587
-    alt: ""
+    alt: Cajeta
     position: 1
     product_id: 326841699
     created_at: 2014-07-22T19:57:01-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333576479
 images:
   - id: 776913683
-    alt: ""
+    alt: Nun Calms
     position: 1
     product_id: 333576479
     created_at: 2014-08-04T23:58:50-04:00

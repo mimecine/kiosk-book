@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326846903
 images:
   - id: 763753423
-    alt: ""
+    alt: Glitter Girl Whistle
     position: 1
     product_id: 326846903
     created_at: 2014-07-22T20:05:35-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/6775657234591
 images:
   - id: 28952546607263
-    alt: ""
+    alt: Incense / Mosquito Coil Holder
     position: 1
     product_id: 6775657234591
     created_at: 2021-05-12T08:11:28-04:00

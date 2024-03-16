@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326846275
 images:
   - id: 763752687
-    alt: ""
+    alt: Food Coloring Set
     position: 1
     product_id: 326846275
     created_at: 2014-07-22T20:04:33-04:00

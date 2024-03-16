@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333578467
 images:
   - id: 776919359
-    alt: ""
+    alt: Salvor Scarf- Printed
     position: 1
     product_id: 333578467
     created_at: 2014-08-05T00:06:30-04:00

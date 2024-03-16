@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333581235
 images:
   - id: 776924319
-    alt: ""
+    alt: Traditional Market Tote
     position: 1
     product_id: 333581235
     created_at: 2014-08-05T00:14:30-04:00

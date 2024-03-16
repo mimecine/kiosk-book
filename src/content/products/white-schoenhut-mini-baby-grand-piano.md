@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333582143
 images:
   - id: 776925559
-    alt: ""
+    alt: White Schoenhut Mini Baby Grand Piano
     position: 1
     product_id: 333582143
     created_at: 2014-08-05T00:16:50-04:00

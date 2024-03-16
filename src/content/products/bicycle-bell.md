@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326839827
 images:
   - id: 763744419
-    alt: ""
+    alt: Bicycle Bell
     position: 1
     product_id: 326839827
     created_at: 2014-07-22T19:54:03-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326849531
 images:
   - id: 763756903
-    alt: ""
+    alt: Kirschwasser
     position: 1
     product_id: 326849531
     created_at: 2014-07-22T20:10:22-04:00

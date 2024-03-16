@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333575643
 images:
   - id: 776911147
-    alt: ""
+    alt: Madeira Cake
     position: 1
     product_id: 333575643
     created_at: 2014-08-04T23:55:37-04:00

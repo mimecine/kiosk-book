@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326845699
 images:
   - id: 763751927
-    alt: ""
+    alt: Finder Books
     position: 1
     product_id: 326845699
     created_at: 2014-07-22T20:03:38-04:00

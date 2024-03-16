@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326842563
 images:
   - id: 763747627
-    alt: ""
+    alt: Chimney Sweep
     position: 1
     product_id: 326842563
     created_at: 2014-07-22T19:58:37-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333581195
 images:
   - id: 776924279
-    alt: ""
+    alt: Traditional Brass Buttons
     position: 1
     product_id: 333581195
     created_at: 2014-08-05T00:14:26-04:00

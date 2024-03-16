@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326847799
 images:
   - id: 763754527
-    alt: ""
+    alt: Hand Door Knocker
     position: 1
     product_id: 326847799
     created_at: 2014-07-22T20:07:15-04:00

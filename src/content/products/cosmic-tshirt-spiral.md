@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326843455
 images:
   - id: 763748659
-    alt: ""
+    alt: Cosmic Tshirt Spiral
     position: 1
     product_id: 326843455
     created_at: 2014-07-22T20:00:12-04:00

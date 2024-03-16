@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/9122801909919
 images:
   - id: 36973254639775
-    alt: ""
+    alt: Swedish Toilet Paper Holder
     position: 1
     product_id: 9122801909919
     created_at: 2023-12-27T09:52:13-05:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/PXL_20230322_154506455.MP.jpg?v=1703688733
     thumb: ./toilet-paper-holder/toilet-paper-holder__0-thumb.jpg
   - id: 36973254672543
-    alt: ""
+    alt: Swedish Toilet Paper Holder
     position: 2
     product_id: 9122801909919
     created_at: 2023-12-27T09:52:13-05:00

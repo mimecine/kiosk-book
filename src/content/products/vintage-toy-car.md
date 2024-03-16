@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333581739
 images:
   - id: 776925067
-    alt: ""
+    alt: Vintage Toy Car
     position: 1
     product_id: 333581739
     created_at: 2014-08-05T00:15:51-04:00

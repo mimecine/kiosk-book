@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326846367
 images:
   - id: 28952109252767
-    alt: ""
+    alt: French Broom
     position: 1
     product_id: 326846367
     created_at: 2021-05-12T07:26:43-04:00

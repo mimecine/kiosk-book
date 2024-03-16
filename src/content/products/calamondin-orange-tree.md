@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326841739
 images:
   - id: 763746623
-    alt: ""
+    alt: Calamondin Orange Tree
     position: 1
     product_id: 326841739
     created_at: 2014-07-22T19:57:05-04:00

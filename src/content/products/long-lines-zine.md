@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/2956712963
 images:
   - id: 6074302723
-    alt: ""
+    alt: Long Lines Zine
     position: 1
     product_id: 2956712963
     created_at: 2015-10-06T10:00:05-04:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/lorenzo1-X2.jpg?v=1444140005
     thumb: ./long-lines-zine/long-lines-zine__0-thumb.jpg
   - id: 6074303619
-    alt: ""
+    alt: Long Lines Zine
     position: 2
     product_id: 2956712963
     created_at: 2015-10-06T10:00:06-04:00
@@ -38,7 +38,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/lorenzo2-X2.jpg?v=1444140006
     thumb: ./long-lines-zine/long-lines-zine__1-thumb.jpg
   - id: 6074304131
-    alt: ""
+    alt: Long Lines Zine
     position: 3
     product_id: 2956712963
     created_at: 2015-10-06T10:00:07-04:00

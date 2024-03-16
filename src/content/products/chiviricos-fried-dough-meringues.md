@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326842607
 images:
   - id: 763747679
-    alt: ""
+    alt: Chiviricos Fried Dough & Meringues
     position: 1
     product_id: 326842607
     created_at: 2014-07-22T19:58:41-04:00

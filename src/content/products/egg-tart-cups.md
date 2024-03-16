@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326844767
 images:
   - id: 763750471
-    alt: ""
+    alt: Egg Tart Cups
     position: 1
     product_id: 326844767
     created_at: 2014-07-22T20:02:14-04:00

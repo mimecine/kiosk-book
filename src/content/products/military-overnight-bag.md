@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333576087
 images:
   - id: 776912367
-    alt: ""
+    alt: Military Overnight Bag
     position: 1
     product_id: 333576087
     created_at: 2014-08-04T23:57:17-04:00

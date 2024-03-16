@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333575923
 images:
   - id: 776911875
-    alt: ""
+    alt: Metal Bucket
     position: 1
     product_id: 333575923
     created_at: 2014-08-04T23:56:39-04:00

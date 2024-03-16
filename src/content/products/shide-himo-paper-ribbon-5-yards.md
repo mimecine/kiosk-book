@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333579091
 images:
   - id: 776920675
-    alt: ""
+    alt: "Shide Himo: paper ribbon / 5 Yards"
     position: 1
     product_id: 333579091
     created_at: 2014-08-05T00:08:19-04:00

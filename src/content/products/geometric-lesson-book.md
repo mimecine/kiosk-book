@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326846679
 images:
   - id: 763753175
-    alt: ""
+    alt: Geometric Lesson Book
     position: 1
     product_id: 326846679
     created_at: 2014-07-22T20:05:11-04:00

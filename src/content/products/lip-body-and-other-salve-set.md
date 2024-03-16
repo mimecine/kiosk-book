@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333575475
 images:
   - id: 776910667
-    alt: ""
+    alt: Lip, Body and Other Salve Set
     position: 1
     product_id: 333575475
     created_at: 2014-08-04T23:54:54-04:00

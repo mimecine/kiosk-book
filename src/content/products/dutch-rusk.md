@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326844591
 images:
   - id: 763750135
-    alt: ""
+    alt: Dutch Sprinkles
     position: 1
     product_id: 326844591
     created_at: 2014-07-22T20:02:00-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326840439
 images:
   - id: 763745159
-    alt: ""
+    alt: Birkin Basket
     position: 1
     product_id: 326840439
     created_at: 2014-07-22T19:54:59-04:00

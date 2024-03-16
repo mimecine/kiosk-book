@@ -2,7 +2,7 @@
 id: 25555787
 handle: sweden
 title: Sweden
-updated_at: 2024-01-15T09:05:23-05:00
+updated_at: 2024-03-13T14:33:21-04:00
 body_html: >
   <p>Marco's homeland, we know it well. It was cold and we were in Dalarna.
   There was a contemporary Swedish craft show in the store and a giant burlap

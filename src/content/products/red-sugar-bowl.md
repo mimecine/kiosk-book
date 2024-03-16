@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333578075
 images:
   - id: 776918315
-    alt: ""
+    alt: Red Sugar Bowl
     position: 1
     product_id: 333578075
     created_at: 2014-08-05T00:05:05-04:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/red-sugar-bowl.jpeg?v=1407211505
     thumb: ./red-sugar-bowl/red-sugar-bowl__0-thumb.jpg
   - id: 776918347
-    alt: ""
+    alt: Red Sugar Bowl
     position: 2
     product_id: 333578075
     created_at: 2014-08-05T00:05:07-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326841175
 images:
   - id: 763746027
-    alt: ""
+    alt: Bread  and Puppet Calendar 2013
     position: 1
     product_id: 326841175
     created_at: 2014-07-22T19:56:08-04:00

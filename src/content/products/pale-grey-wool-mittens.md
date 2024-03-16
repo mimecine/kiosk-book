@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333577047
 images:
   - id: 776915399
-    alt: ""
+    alt: Pale Grey Wool Mittens
     position: 1
     product_id: 333577047
     created_at: 2014-08-05T00:01:11-04:00

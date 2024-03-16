@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333577991
 images:
   - id: 776918127
-    alt: ""
+    alt: Red Lid Aluminum Container
     position: 1
     product_id: 333577991
     created_at: 2014-08-05T00:04:50-04:00

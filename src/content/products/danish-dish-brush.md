@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326843751
 images:
   - id: 28952556437663
-    alt: ""
+    alt: Danish Dish Brush
     position: 1
     product_id: 326843751
     created_at: 2021-05-12T08:12:39-04:00
@@ -26,7 +26,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/IMG_4144_2af6272b-2289-47c0-95c6-69c0b4bea10f.jpg?v=1620821559
     thumb: ./danish-dish-brush/danish-dish-brush__0-thumb.jpg
   - id: 28952556470431
-    alt: ""
+    alt: Danish Dish Brush
     position: 2
     product_id: 326843751
     created_at: 2021-05-12T08:12:39-04:00

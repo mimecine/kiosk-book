@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326838295
 images:
   - id: 763742535
-    alt: ""
+    alt: Abloy Padlock
     position: 1
     product_id: 326838295
     created_at: 2014-07-22T19:51:34-04:00

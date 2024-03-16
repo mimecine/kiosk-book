@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326844707
 images:
   - id: 763750295
-    alt: ""
+    alt: Echinacea
     position: 1
     product_id: 326844707
     created_at: 2014-07-22T20:02:08-04:00

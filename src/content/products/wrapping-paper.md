@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333582707
 images:
   - id: 776926515
-    alt: ""
+    alt: Wrapping Paper
     position: 1
     product_id: 333582707
     created_at: 2014-08-05T00:18:36-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333575447
 images:
   - id: 776910603
-    alt: ""
+    alt: Lingonsylt
     position: 1
     product_id: 333575447
     created_at: 2014-08-04T23:54:50-04:00

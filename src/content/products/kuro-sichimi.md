@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326849779
 images:
   - id: 763757223
-    alt: ""
+    alt: Kuro Sichimi
     position: 1
     product_id: 326849779
     created_at: 2014-07-22T20:10:51-04:00

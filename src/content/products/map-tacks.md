@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333575675
 images:
   - id: 776911211
-    alt: ""
+    alt: Map Tacks
     position: 1
     product_id: 333575675
     created_at: 2014-08-04T23:55:47-04:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/map-tacks.jpeg?v=1407210947
     thumb: ./map-tacks/map-tacks__0-thumb.jpg
   - id: 776911219
-    alt: ""
+    alt: Map Tacks
     position: 2
     product_id: 333575675
     created_at: 2014-08-04T23:55:48-04:00

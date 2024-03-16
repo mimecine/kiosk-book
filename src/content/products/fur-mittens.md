@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/467284135
 images:
   - id: 1245421803
-    alt: ""
+    alt: Fur Mittens
     position: 1
     product_id: 467284135
     created_at: 2015-03-23T13:43:35-04:00

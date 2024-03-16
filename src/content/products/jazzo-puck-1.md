@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/9122803875999
 images:
   - id: 36973352550559
-    alt: ""
+    alt: Jazzo Puck
     position: 1
     product_id: 9122803875999
     created_at: 2023-12-27T10:09:13-05:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/PXL_20221209_201356281.jpg?v=1703689753
     thumb: ./jazzo-puck-1/jazzo-puck-1__0-thumb.jpg
   - id: 36973352583327
-    alt: ""
+    alt: Jazzo Puck
     position: 2
     product_id: 9122803875999
     created_at: 2023-12-27T10:09:13-05:00
@@ -38,7 +38,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/PXL_20221209_201404315.jpg?v=1703689753
     thumb: ./jazzo-puck-1/jazzo-puck-1__1-thumb.jpg
   - id: 36973352616095
-    alt: ""
+    alt: Jazzo Puck
     position: 3
     product_id: 9122803875999
     created_at: 2023-12-27T10:09:13-05:00
@@ -51,7 +51,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/PXL_20221209_201416508.jpg?v=1703689753
     thumb: ./jazzo-puck-1/jazzo-puck-1__2-thumb.jpg
   - id: 36973352648863
-    alt: ""
+    alt: Jazzo Puck
     position: 4
     product_id: 9122803875999
     created_at: 2023-12-27T10:09:13-05:00

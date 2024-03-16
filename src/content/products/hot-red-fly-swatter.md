@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/6775588618399
 images:
   - id: 28952102863007
-    alt: ""
+    alt: Hot Red Fly Swatter
     position: 1
     product_id: 6775588618399
     created_at: 2021-05-12T07:26:22-04:00

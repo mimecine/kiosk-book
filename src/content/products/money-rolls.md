@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333576167
 images:
   - id: 776912707
-    alt: ""
+    alt: Money Rolls
     position: 1
     product_id: 333576167
     created_at: 2014-08-04T23:57:38-04:00

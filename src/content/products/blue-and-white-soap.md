@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326840735
 images:
   - id: 763745499
-    alt: ""
+    alt: Blue and White Soap
     position: 1
     product_id: 326840735
     created_at: 2014-07-22T19:55:24-04:00

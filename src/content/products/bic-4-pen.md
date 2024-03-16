@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/9122802434207
 images:
   - id: 36973268402335
-    alt: ""
+    alt: BIC 4 Pen
     position: 1
     product_id: 9122802434207
     created_at: 2023-12-27T09:54:00-05:00

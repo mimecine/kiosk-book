@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326843719
 images:
   - id: 763749003
-    alt: ""
+    alt: Curd Stirrer
     position: 1
     product_id: 326843719
     created_at: 2014-07-22T20:00:41-04:00

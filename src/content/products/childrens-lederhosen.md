@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326842455
 images:
   - id: 763747523
-    alt: ""
+    alt: Children's Lederhosen
     position: 1
     product_id: 326842455
     created_at: 2014-07-22T19:58:27-04:00

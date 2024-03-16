@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/467290431
 images:
   - id: 1245430779
-    alt: ""
+    alt: Bubble Factory
     position: 1
     product_id: 467290431
     created_at: 2015-03-23T13:56:02-04:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/Kiosk_2014_09_336.jpeg?v=1427133362
     thumb: ./bubble-factory/bubble-factory__0-thumb.jpg
   - id: 1245430787
-    alt: ""
+    alt: Bubble Factory
     position: 2
     product_id: 467290431
     created_at: 2015-03-23T13:56:02-04:00
@@ -38,7 +38,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/Kiosk_2014_09_310.jpeg?v=1427133362
     thumb: ./bubble-factory/bubble-factory__1-thumb.jpg
   - id: 1245430791
-    alt: ""
+    alt: Bubble Factory
     position: 3
     product_id: 467290431
     created_at: 2015-03-23T13:56:02-04:00

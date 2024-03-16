@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333579559
 images:
   - id: 776921599
-    alt: ""
+    alt: Stapler
     position: 1
     product_id: 333579559
     created_at: 2014-08-05T00:09:54-04:00

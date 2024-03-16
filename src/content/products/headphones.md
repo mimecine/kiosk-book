@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326848095
 images:
   - id: 28952554176671
-    alt: ""
+    alt: Headphones
     position: 1
     product_id: 326848095
     created_at: 2021-05-12T08:12:22-04:00

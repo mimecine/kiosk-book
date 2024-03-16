@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326841059
 images:
   - id: 763745879
-    alt: ""
+    alt: Boy Candy Sticks
     position: 1
     product_id: 326841059
     created_at: 2014-07-22T19:55:57-04:00

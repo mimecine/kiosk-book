@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333577787
 images:
   - id: 776917595
-    alt: ""
+    alt: Produce Sampling Knife
     position: 1
     product_id: 333577787
     created_at: 2014-08-05T00:04:02-04:00

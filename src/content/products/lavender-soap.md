@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326850151
 images:
   - id: 28952111415455
-    alt: ""
+    alt: Lavender Soap
     position: 1
     product_id: 326850151
     created_at: 2021-05-12T07:26:51-04:00

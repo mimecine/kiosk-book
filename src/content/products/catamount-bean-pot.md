@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326842099
 images:
   - id: 763747091
-    alt: ""
+    alt: Catamount Bean Pot
     position: 1
     product_id: 326842099
     created_at: 2014-07-22T19:57:48-04:00

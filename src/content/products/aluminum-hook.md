@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326838847
 images:
   - id: 28952103616671
-    alt: ""
+    alt: Aluminum Hook
     position: 1
     product_id: 326838847
     created_at: 2021-05-12T07:26:24-04:00

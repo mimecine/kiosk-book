@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333575835
 images:
   - id: 776911627
-    alt: ""
+    alt: Mental Aerobics
     position: 1
     product_id: 333575835
     created_at: 2014-08-04T23:56:22-04:00

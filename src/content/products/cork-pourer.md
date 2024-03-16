@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/6775588290719
 images:
   - id: 28952553652383
-    alt: ""
+    alt: Cork Pourer
     position: 1
     product_id: 6775588290719
     created_at: 2021-05-12T08:12:21-04:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/IMG_20191122_192508_e23000ff-58c0-4a4e-a9fa-6734cdc2f6a5.jpg?v=1620821541
     thumb: ./cork-pourer/cork-pourer__0-thumb.jpg
   - id: 28952553685151
-    alt: ""
+    alt: Cork Pourer
     position: 2
     product_id: 6775588290719
     created_at: 2021-05-12T08:12:21-04:00
@@ -38,7 +38,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/corkpourer4_8b5b6a7c-1756-487b-877d-57acf13389ac.jpg?v=1620821541
     thumb: ./cork-pourer/cork-pourer__1-thumb.jpg
   - id: 28952553717919
-    alt: ""
+    alt: Cork Pourer
     position: 3
     product_id: 6775588290719
     created_at: 2021-05-12T08:12:21-04:00

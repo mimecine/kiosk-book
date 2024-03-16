@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333582463
 images:
   - id: 776925955
-    alt: ""
+    alt: Wood Ball Toy
     position: 1
     product_id: 333582463
     created_at: 2014-08-05T00:17:36-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326845527
 images:
   - id: 763751699
-    alt: ""
+    alt: Fawn Sled
     position: 1
     product_id: 326845527
     created_at: 2014-07-22T20:03:24-04:00

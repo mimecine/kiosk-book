@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326847907
 images:
   - id: 763754739
-    alt: ""
+    alt: Handmade Noren Curtain
     position: 1
     product_id: 326847907
     created_at: 2014-07-22T20:07:28-04:00

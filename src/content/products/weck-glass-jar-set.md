@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333581955
 images:
   - id: 776925307
-    alt: ""
+    alt: Weck Glass Jar Set
     position: 1
     product_id: 333581955
     created_at: 2014-08-05T00:16:23-04:00

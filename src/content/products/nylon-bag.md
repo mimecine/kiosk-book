@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333576507
 images:
   - id: 776913747
-    alt: ""
+    alt: Nylon Bag
     position: 1
     product_id: 333576507
     created_at: 2014-08-04T23:58:56-04:00

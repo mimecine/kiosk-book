@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326838339
 images:
   - id: 763742599
-    alt: ""
+    alt: Acropolis Museum Postcards
     position: 1
     product_id: 326838339
     created_at: 2014-07-22T19:51:40-04:00

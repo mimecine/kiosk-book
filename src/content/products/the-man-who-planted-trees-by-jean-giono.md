@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/6775656480927
 images:
   - id: 28952542904479
-    alt: ""
+    alt: The Man Who Planted Trees by Jean Giono
     position: 1
     product_id: 6775656480927
     created_at: 2021-05-12T08:11:12-04:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/WhatsAppImage2020-12-08at9.55.27PM.jpg?v=1620821472
     thumb: ./the-man-who-planted-trees-by-jean-giono/the-man-who-planted-trees-by-jean-giono__0-thumb.jpg
   - id: 28952542937247
-    alt: ""
+    alt: The Man Who Planted Trees by Jean Giono
     position: 2
     product_id: 6775656480927
     created_at: 2021-05-12T08:11:12-04:00

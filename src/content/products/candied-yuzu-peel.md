@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326841875
 images:
   - id: 763746859
-    alt: ""
+    alt: Candied Yuzu Peel
     position: 1
     product_id: 326841875
     created_at: 2014-07-22T19:57:23-04:00

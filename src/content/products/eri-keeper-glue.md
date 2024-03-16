@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326845135
 images:
   - id: 763751123
-    alt: ""
+    alt: Eri Keeper Glue
     position: 1
     product_id: 326845135
     created_at: 2014-07-22T20:02:48-04:00

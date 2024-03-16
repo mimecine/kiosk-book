@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333581711
 images:
   - id: 776925059
-    alt: ""
+    alt: Vintage Baby Vest
     position: 1
     product_id: 333581711
     created_at: 2014-08-05T00:15:46-04:00

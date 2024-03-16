@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326849611
 images:
   - id: 763756999
-    alt: ""
+    alt: Kitchen Spoons
     position: 1
     product_id: 326849611
     created_at: 2014-07-22T20:10:33-04:00

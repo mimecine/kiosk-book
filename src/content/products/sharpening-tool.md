@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333579063
 images:
   - id: 776920627
-    alt: ""
+    alt: Sharpening Tool
     position: 1
     product_id: 333579063
     created_at: 2014-08-05T00:08:15-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/467284163
 images:
   - id: 1245421831
-    alt: ""
+    alt: Eggplant Knife
     position: 1
     product_id: 467284163
     created_at: 2015-03-23T13:43:38-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326849971
 images:
   - id: 763757499
-    alt: ""
+    alt: Large Handpainted Green Cup
     position: 1
     product_id: 326849971
     created_at: 2014-07-22T20:11:12-04:00

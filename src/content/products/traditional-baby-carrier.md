@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333581183
 images:
   - id: 776924227
-    alt: ""
+    alt: Traditional Baby Carrier
     position: 1
     product_id: 333581183
     created_at: 2014-08-05T00:14:24-04:00

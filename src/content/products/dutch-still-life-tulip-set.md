@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326844627
 images:
   - id: 763750171
-    alt: ""
+    alt: Dutch Still Life Tulip Set
     position: 1
     product_id: 326844627
     created_at: 2014-07-22T20:02:02-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326839467
 images:
   - id: 28952104730783
-    alt: ""
+    alt: Bamboo Steamer Basket
     position: 1
     product_id: 326839467
     created_at: 2021-05-12T07:26:27-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333576095
 images:
   - id: 776912411
-    alt: ""
+    alt: Milk Watcher
     position: 1
     product_id: 333576095
     created_at: 2014-08-04T23:57:19-04:00

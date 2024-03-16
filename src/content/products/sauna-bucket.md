@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333578607
 images:
   - id: 776919683
-    alt: ""
+    alt: Sauna Bucket
     position: 1
     product_id: 333578607
     created_at: 2014-08-05T00:06:58-04:00

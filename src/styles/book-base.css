@@ -3,11 +3,17 @@
 @tailwind utilities;
 
 @layer utilities {
-  .text-red, .border-red {
+  .text-red {
     color: red;
   }
-  .text-red, .border-red {
-    color: red;
+  .border-red {
+    border-color: red;
+  }
+  .text-black {
+    color: black;
+  }
+  .border-black {
+    border-color: black;
   }
   .columns-all {
     column-span: all;
@@ -26,7 +32,13 @@
   }
 }
 
-
+:root {
+  --color: #ff0000;
+  --accent: #ff0000;
+  --size: 7.75in 8.5in;
+  --size: 6.5in 9in;
+  --size: 8in 8.625in
+}
 
 * {
   box-sizing: border-box;
@@ -34,9 +46,9 @@
 
 html {
   hyphens: auto;
-  font-size: 6pt;
-  -x-color: #ff0000; /* set image to thumb and remove filter! */
-  -x-background-color: #ffcdcd;
+  orphans: 3;
+  widows: 4;
+  font-size: 9pt;
   font-family: Courier, "Courier New", monospace;
   height: 100%;
 }
@@ -116,10 +128,7 @@ a.footnote::after {
 }
 
 @page {
-  -x-size: 12cm 21.5cm; /* Alisa */
-  size: A4;
-  -x-size: 8.5in 8.5in;
-  -x-size: 165.1mm 254mm; /* Royal Octavo */
+  size: var(--size);
   margin-top: 0.25in;
   margin-bottom: 0.25in;
   margin-left: 0.25in;
@@ -137,11 +146,6 @@ a.footnote::after {
   }
 }
 
-@page :after {
-  content: "";
-  border: 1px 1px 0 0 dashed black;
-  margin: 5px;
-}
 
 @page :right {
   margin-left: 0.4in;
@@ -149,7 +153,6 @@ a.footnote::after {
     content: "" counter(page) "";
     font-size: 100%;
     font-family: Helvetica;
-    -x-font-weight: bold;
   }
   @top-right {
     content: "" string(head-title, first-except) "";
@@ -167,7 +170,6 @@ a.footnote::after {
     content: "" counter(page) "";
     font-size: 100%;
     font-family: Helvetica;
-    -x-font-weight: bold;
   }
   @top-left {
     content: "" string(head-title, first-except) "";
@@ -236,14 +238,8 @@ a.footnote::after {
 }
 @page figurepage {
   @leftnote {
-    -x-width: 4rem;
-    text-align: center;
-    -x-border: 1px solid green;
   }
   @rightnote {
-    -x-width: 4rem;
-    text-align: center;
-    -x-border: 1px solid green;
   }
 }
 
@@ -261,8 +257,8 @@ a.footnote::after {
 .essay {
   page: essay;
   column-span: all;
-  max-width: 5in;
-  margin: 0 auto 2rem auto;
+  -x-max-width: 5in;
+  -x-margin: 0 auto 2rem auto;
 }
 .essay img {
   max-width: 100%;
@@ -275,10 +271,6 @@ h2.title {
   font-size: xx-large;
   column-span: all;
   font-family: Helvetica, "Helvetica Neue", sans-serif;
-  -x-font-weight: bold;
-  -x-display: block;
-  -x-height: 2.5in;
-  -x-border-bottom: 3pt solid red;
   break-before: recto;
   margin: 10mm 0;
   string-set: exhibit content();
@@ -326,7 +318,7 @@ a.xref {
 }
 @media print {
   a.xref:after {
-    content: "Pg.\200A"target-counter(attr(href url), page);
+    content: "pg.\200A"target-counter(attr(href url), page);
     float: right;
   }
   a.img-xref:after {
@@ -342,9 +334,8 @@ a.xref {
 @media screen {
   main {
     margin: 0.25in;
-    width: 12cm;
+    width: 8.25in;
     border: 2pt double black;
-    -x-font-size: 16p;
     padding: 2rem;
     position: relative;
   }

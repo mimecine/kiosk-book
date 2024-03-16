@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326845495
 images:
   - id: 763751651
-    alt: ""
+    alt: Famos Vegetable Peeler
     position: 1
     product_id: 326845495
     created_at: 2014-07-22T20:03:21-04:00

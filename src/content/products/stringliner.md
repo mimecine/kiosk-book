@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333580059
 images:
   - id: 776922711
-    alt: ""
+    alt: Stringliner
     position: 1
     product_id: 333580059
     created_at: 2014-08-05T00:11:41-04:00

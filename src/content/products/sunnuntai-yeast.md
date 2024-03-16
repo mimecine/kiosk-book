@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333580091
 images:
   - id: 776922759
-    alt: ""
+    alt: Sunnuntai Yeast
     position: 1
     product_id: 333580091
     created_at: 2014-08-05T00:11:45-04:00

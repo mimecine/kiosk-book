@@ -2,7 +2,7 @@
 id: 25555651
 handle: america-1
 title: "America #1"
-updated_at: 2023-08-02T14:36:04-04:00
+updated_at: 2024-03-13T14:34:01-04:00
 body_html: >
   <p>Mostly Massachusetts: Edith Wharton, Norman Rockwell, the Berkshires, the
   Cape, Boston, the North Shore. Eating traditional American food and still not

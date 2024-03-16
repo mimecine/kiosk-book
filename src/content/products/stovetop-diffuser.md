@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333580015
 images:
   - id: 6295046787
-    alt: ""
+    alt: Stovetop Diffuser
     position: 1
     product_id: 333580015
     created_at: 2015-10-12T12:29:35-04:00

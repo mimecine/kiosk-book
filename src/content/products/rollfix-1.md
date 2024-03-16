@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/6775587373215
 images:
   - id: 28952552734879
-    alt: ""
+    alt: Rollfix
     position: 1
     product_id: 6775587373215
     created_at: 2021-05-12T08:12:13-04:00

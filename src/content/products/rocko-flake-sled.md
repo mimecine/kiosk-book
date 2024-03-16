@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333578179
 images:
   - id: 776918555
-    alt: ""
+    alt: Rocko Flake Sled
     position: 1
     product_id: 333578179
     created_at: 2014-08-05T00:05:29-04:00

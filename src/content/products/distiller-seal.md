@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/467284947
 images:
   - id: 1245422851
-    alt: ""
+    alt: Distiller Seal
     position: 1
     product_id: 467284947
     created_at: 2015-03-23T13:45:19-04:00

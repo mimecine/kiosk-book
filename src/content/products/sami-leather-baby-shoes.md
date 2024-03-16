@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333578527
 images:
   - id: 776919499
-    alt: ""
+    alt: Sami Leather Baby Shoes
     position: 1
     product_id: 333578527
     created_at: 2014-08-05T00:06:40-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326838319
 images:
   - id: 763742555
-    alt: ""
+    alt: Acorn Toy
     position: 1
     product_id: 326838319
     created_at: 2014-07-22T19:51:36-04:00

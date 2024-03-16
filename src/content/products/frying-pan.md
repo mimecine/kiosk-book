@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326846455
 images:
   - id: 763752931
-    alt: ""
+    alt: Frying Pan
     position: 1
     product_id: 326846455
     created_at: 2014-07-22T20:04:52-04:00

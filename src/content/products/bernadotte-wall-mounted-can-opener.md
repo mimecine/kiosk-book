@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326839763
 images:
   - id: 763744355
-    alt: ""
+    alt: Bernadotte Wall-Mounted Can Opener
     position: 1
     product_id: 326839763
     created_at: 2014-07-22T19:53:55-04:00

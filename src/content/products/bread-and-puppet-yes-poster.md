@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326841335
 images:
   - id: 763746191
-    alt: ""
+    alt: Bread and Puppet Yes Poster
     position: 1
     product_id: 326841335
     created_at: 2014-07-22T19:56:24-04:00

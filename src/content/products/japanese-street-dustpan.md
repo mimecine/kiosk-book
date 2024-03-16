@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326848999
 images:
   - id: 763756123
-    alt: ""
+    alt: Japanese Street Dustpan
     position: 1
     product_id: 326848999
     created_at: 2014-07-22T20:09:23-04:00

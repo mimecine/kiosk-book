@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326843403
 images:
   - id: 763748591
-    alt: ""
+    alt: Copper Grater
     position: 1
     product_id: 326843403
     created_at: 2014-07-22T20:00:04-04:00

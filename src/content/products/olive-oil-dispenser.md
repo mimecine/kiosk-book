@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333576715
 images:
   - id: 776914407
-    alt: ""
+    alt: Olive Oil Dispenser
     position: 1
     product_id: 333576715
     created_at: 2014-08-04T23:59:42-04:00

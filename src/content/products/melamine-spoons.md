@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/9122802172063
 images:
   - id: 36973261783199
-    alt: ""
+    alt: Melamine Spoons
     position: 1
     product_id: 9122802172063
     created_at: 2023-12-27T09:53:11-05:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/PXL_20230321_184323057.jpg?v=1703688791
     thumb: ./melamine-spoons/melamine-spoons__0-thumb.jpg
   - id: 36973261815967
-    alt: ""
+    alt: Melamine Spoons
     position: 2
     product_id: 9122802172063
     created_at: 2023-12-27T09:53:11-05:00
@@ -39,7 +39,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/PXL_20230321_184407043.jpg?v=1703688791
     thumb: ./melamine-spoons/melamine-spoons__1-thumb.jpg
   - id: 36973261848735
-    alt: ""
+    alt: Melamine Spoons
     position: 3
     product_id: 9122802172063
     created_at: 2023-12-27T09:53:11-05:00
@@ -53,7 +53,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/PXL_20230321_184346936.jpg?v=1703688791
     thumb: ./melamine-spoons/melamine-spoons__2-thumb.jpg
   - id: 36973261881503
-    alt: ""
+    alt: Melamine Spoons
     position: 4
     product_id: 9122802172063
     created_at: 2023-12-27T09:53:11-05:00

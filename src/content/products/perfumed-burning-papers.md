@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/6730126196895
 images:
   - id: 28768082821279
-    alt: ""
+    alt: Perfumed Burning Papers
     position: 1
     product_id: 6730126196895
     created_at: 2021-04-28T10:28:29-04:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/Perfumed_Burning_Papers1.jpg?v=1619620109
     thumb: ./perfumed-burning-papers/perfumed-burning-papers__0-thumb.jpg
   - id: 28768082854047
-    alt: ""
+    alt: Perfumed Burning Papers
     position: 2
     product_id: 6730126196895
     created_at: 2021-04-28T10:28:29-04:00

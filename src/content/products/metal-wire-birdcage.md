@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333576035
 images:
   - id: 776912187
-    alt: ""
+    alt: Metal Wire Birdcage
     position: 1
     product_id: 333576035
     created_at: 2014-08-04T23:57:02-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326842243
 images:
   - id: 763747243
-    alt: ""
+    alt: Ceramic Rooster Whistle Set
     position: 1
     product_id: 326842243
     created_at: 2014-07-22T19:58:04-04:00

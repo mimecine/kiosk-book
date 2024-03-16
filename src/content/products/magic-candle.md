@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333575651
 images:
   - id: 776911155
-    alt: ""
+    alt: Magic Birthday Candle
     position: 1
     product_id: 333575651
     created_at: 2014-08-04T23:55:40-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333580151
 images:
   - id: 776922815
-    alt: ""
+    alt: Swedish Style Whisk
     position: 1
     product_id: 333580151
     created_at: 2014-08-05T00:11:53-04:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/wisk.jpeg?v=1407211913
     thumb: ./swedish-style-whisk/swedish-style-whisk__0-thumb.jpg
   - id: 776922831
-    alt: ""
+    alt: Swedish Style Whisk
     position: 2
     product_id: 333580151
     created_at: 2014-08-05T00:11:54-04:00

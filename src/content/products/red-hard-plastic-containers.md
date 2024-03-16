@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333577959
 images:
   - id: 776918087
-    alt: ""
+    alt: Red Hard Plastic Containers
     position: 1
     product_id: 333577959
     created_at: 2014-08-05T00:04:44-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333578735
 images:
   - id: 776920003
-    alt: ""
+    alt: Seprafix
     position: 1
     product_id: 333578735
     created_at: 2014-08-05T00:07:19-04:00

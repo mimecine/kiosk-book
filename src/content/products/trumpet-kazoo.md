@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333581351
 images:
   - id: 776924511
-    alt: ""
+    alt: Trumpet Kazoo
     position: 1
     product_id: 333581351
     created_at: 2014-08-05T00:14:50-04:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/IMG_2970.jpeg?v=1407212090
     thumb: ./trumpet-kazoo/trumpet-kazoo__0-thumb.jpg
   - id: 776924519
-    alt: ""
+    alt: Trumpet Kazoo
     position: 2
     product_id: 333581351
     created_at: 2014-08-05T00:14:52-04:00

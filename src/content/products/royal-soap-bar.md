@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326849379
 images:
   - id: 763756727
-    alt: ""
+    alt: King Soap Bar
     position: 1
     product_id: 326849379
     created_at: 2014-07-22T20:10:05-04:00

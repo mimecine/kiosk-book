@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326845299
 images:
   - id: 763751343
-    alt: ""
+    alt: Examination Book
     position: 1
     product_id: 326845299
     created_at: 2014-07-22T20:03:03-04:00

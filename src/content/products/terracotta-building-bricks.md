@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333580367
 images:
   - id: 776923091
-    alt: ""
+    alt: Terracotta Building Bricks
     position: 1
     product_id: 333580367
     created_at: 2014-08-05T00:12:22-04:00

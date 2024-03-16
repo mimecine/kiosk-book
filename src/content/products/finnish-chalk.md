@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326845787
 images:
   - id: 763752027
-    alt: ""
+    alt: Finnish Chalk
     position: 1
     product_id: 326845787
     created_at: 2014-07-22T20:03:46-04:00

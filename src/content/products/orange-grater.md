@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333576803
 images:
   - id: 776914615
-    alt: ""
+    alt: Orange Grater
     position: 1
     product_id: 333576803
     created_at: 2014-08-05T00:00:11-04:00

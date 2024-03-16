@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333581463
 images:
   - id: 776924671
-    alt: ""
+    alt: Two Super Sketch Drawing Books
     position: 1
     product_id: 333581463
     created_at: 2014-08-05T00:15:08-04:00

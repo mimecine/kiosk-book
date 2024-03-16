@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333577339
 images:
   - id: 776916279
-    alt: ""
+    alt: Pihlaja Candies
     position: 1
     product_id: 333577339
     created_at: 2014-08-05T00:02:19-04:00

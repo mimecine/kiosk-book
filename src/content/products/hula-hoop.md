@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326848483
 images:
   - id: 763755443
-    alt: ""
+    alt: Hula Hoop
     position: 1
     product_id: 326848483
     created_at: 2014-07-22T20:08:31-04:00

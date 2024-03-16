@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333582163
 images:
   - id: 776925587
-    alt: ""
+    alt: White, Extra-Fine Cornmeal
     position: 1
     product_id: 333582163
     created_at: 2014-08-05T00:16:53-04:00

@@ -2,7 +2,7 @@
 id: 25555735
 handle: japan
 title: Japan
-updated_at: 2023-08-02T14:36:05-04:00
+updated_at: 2024-03-13T14:38:53-04:00
 body_html: >
   <p>Our first collection made in 2005, we had no money, we pulled everything we
   had together, we sold personal possessions. It was amazing.&nbsp;</p>

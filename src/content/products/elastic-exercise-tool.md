@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326844827
 images:
   - id: 763750623
-    alt: ""
+    alt: Elastic Exercise Tool
     position: 1
     product_id: 326844827
     created_at: 2014-07-22T20:02:20-04:00

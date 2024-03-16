@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326848759
 images:
   - id: 763755807
-    alt: ""
+    alt: Indian Bracelet Set
     position: 1
     product_id: 326848759
     created_at: 2014-07-22T20:09:00-04:00

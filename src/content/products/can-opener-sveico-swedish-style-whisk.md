@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326841847
 images:
   - id: 763746827
-    alt: ""
+    alt: Can Opener Sveico & Swedish Style Whisk
     position: 1
     product_id: 326841847
     created_at: 2014-07-22T19:57:19-04:00

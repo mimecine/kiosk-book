@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/2956563395
 images:
   - id: 28952553128095
-    alt: ""
+    alt: Surprise Ball
     position: 1
     product_id: 2956563395
     created_at: 2021-05-12T08:12:18-04:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/0D9FBF1D-94EF-4525-BA88-6977BAD3124D_39c92b65-3331-4898-88c4-14b53edc9f82.jpg?v=1620821538
     thumb: ./surprise-ball/surprise-ball__0-thumb.jpg
   - id: 28952553160863
-    alt: ""
+    alt: Surprise Ball
     position: 2
     product_id: 2956563395
     created_at: 2021-05-12T08:12:18-04:00
@@ -38,7 +38,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/A1249F46-89E7-4AC3-9C57-5250FCB4913F_b35cc299-cbc3-4701-988a-ad778af62ddf.jpg?v=1620821538
     thumb: ./surprise-ball/surprise-ball__1-thumb.jpg
   - id: 28952553193631
-    alt: ""
+    alt: Surprise Ball
     position: 3
     product_id: 2956563395
     created_at: 2021-05-12T08:12:18-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326843979
 images:
   - id: 763749283
-    alt: ""
+    alt: Disk Game
     position: 1
     product_id: 326843979
     created_at: 2014-07-22T20:01:09-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333579599
 images:
   - id: 776921695
-    alt: ""
+    alt: Stick-Um Candle Adhesive
     position: 1
     product_id: 333579599
     created_at: 2014-08-05T00:10:03-04:00

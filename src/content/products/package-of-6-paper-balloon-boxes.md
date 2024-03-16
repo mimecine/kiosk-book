@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333577011
 images:
   - id: 776915319
-    alt: ""
+    alt: Package of 6 Paper Balloon Boxes
     position: 1
     product_id: 333577011
     created_at: 2014-08-05T00:01:04-04:00

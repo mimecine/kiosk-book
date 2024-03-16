@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/9122801942687
 images:
   - id: 36973256835231
-    alt: ""
+    alt: Ballograf Deskset
     position: 1
     product_id: 9122801942687
     created_at: 2023-12-27T09:52:31-05:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/PXL_20230322_131829347.jpg?v=1703688751
     thumb: ./ballograf-pen-and-holder/ballograf-pen-and-holder__0-thumb.jpg
   - id: 36973256867999
-    alt: ""
+    alt: Ballograf Deskset
     position: 2
     product_id: 9122801942687
     created_at: 2023-12-27T09:52:31-05:00
@@ -39,7 +39,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/PXL_20230322_131950160.jpg?v=1703688751
     thumb: ./ballograf-pen-and-holder/ballograf-pen-and-holder__1-thumb.jpg
   - id: 36973256900767
-    alt: ""
+    alt: Ballograf Deskset
     position: 3
     product_id: 9122801942687
     created_at: 2023-12-27T09:52:31-05:00
@@ -52,7 +52,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/PXL_20230322_131959443.jpg?v=1703688751
     thumb: ./ballograf-pen-and-holder/ballograf-pen-and-holder__2-thumb.jpg
   - id: 36973256933535
-    alt: ""
+    alt: Ballograf Deskset
     position: 4
     product_id: 9122801942687
     created_at: 2023-12-27T09:52:31-05:00
@@ -66,7 +66,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/PXL_20230322_131730058.jpg?v=1703688751
     thumb: ./ballograf-pen-and-holder/ballograf-pen-and-holder__3-thumb.jpg
   - id: 36973256966303
-    alt: ""
+    alt: Ballograf Deskset
     position: 5
     product_id: 9122801942687
     created_at: 2023-12-27T09:52:31-05:00
@@ -80,7 +80,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/PXL_20230322_131921771.jpg?v=1703688751
     thumb: ./ballograf-pen-and-holder/ballograf-pen-and-holder__4-thumb.jpg
   - id: 36973256999071
-    alt: ""
+    alt: Ballograf Deskset
     position: 6
     product_id: 9122801942687
     created_at: 2023-12-27T09:52:31-05:00

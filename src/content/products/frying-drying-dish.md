@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326846431
 images:
   - id: 763752899
-    alt: ""
+    alt: Frying Drying Dish
     position: 1
     product_id: 326846431
     created_at: 2014-07-22T20:04:50-04:00

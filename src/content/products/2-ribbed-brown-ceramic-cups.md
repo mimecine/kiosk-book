@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326838123
 images:
   - id: 763742339
-    alt: ""
+    alt: 2 Ribbed Brown Ceramic Cups
     position: 1
     product_id: 326838123
     created_at: 2014-07-22T19:51:15-04:00

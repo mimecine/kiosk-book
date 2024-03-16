@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/6730129899679
 images:
   - id: 28952114233503
-    alt: ""
+    alt: Flattenable Hook
     position: 1
     product_id: 6730129899679
     created_at: 2021-05-12T07:27:02-04:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/IMG_20190604_194032_1559caab-0cbd-4506-8a3f-39acabc7b52c.jpg?v=1620818822
     thumb: ./red-hook/red-hook__0-thumb.jpg
   - id: 28952114266271
-    alt: ""
+    alt: Flattenable Hook
     position: 2
     product_id: 6730129899679
     created_at: 2021-05-12T07:27:02-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333582811
 images:
   - id: 776926815
-    alt: ""
+    alt: Yves Lambeau Bowl
     position: 1
     product_id: 333582811
     created_at: 2014-08-05T00:19:01-04:00

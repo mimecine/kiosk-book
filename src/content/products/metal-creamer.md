@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333575931
 images:
   - id: 776911923
-    alt: ""
+    alt: Metal Creamer
     position: 1
     product_id: 333575931
     created_at: 2014-08-04T23:56:43-04:00

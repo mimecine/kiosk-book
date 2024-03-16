@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333579383
 images:
   - id: 776921235
-    alt: ""
+    alt: Smoca Tooth Powder
     position: 1
     product_id: 333579383
     created_at: 2014-08-05T00:09:16-04:00

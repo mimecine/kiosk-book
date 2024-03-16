@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326839019
 images:
   - id: 763743475
-    alt: ""
+    alt: American Lottery Ticket
     position: 1
     product_id: 326839019
     created_at: 2014-07-22T19:52:40-04:00

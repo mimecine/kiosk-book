@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/467284767
 images:
   - id: 1245422591
-    alt: ""
+    alt: Straw Mat
     position: 1
     product_id: 467284767
     created_at: 2015-03-23T13:44:55-04:00

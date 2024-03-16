@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/6730129277087
 images:
   - id: 28768093503647
-    alt: ""
+    alt: Cedrata Tassoni
     position: 1
     product_id: 6730129277087
     created_at: 2021-04-28T10:29:19-04:00

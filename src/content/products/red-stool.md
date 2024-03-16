@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/9122804662431
 images:
   - id: 36973362643103
-    alt: ""
+    alt: Red Stools
     position: 1
     product_id: 9122804662431
     created_at: 2023-12-27T10:13:26-05:00

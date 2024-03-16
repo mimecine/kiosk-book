@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326843815
 images:
   - id: 763749115
-    alt: ""
+    alt: Deerskin Mittens
     position: 1
     product_id: 326843815
     created_at: 2014-07-22T20:00:51-04:00

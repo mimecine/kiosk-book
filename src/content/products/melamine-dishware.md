@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/9122802335903
 images:
   - id: 36973266075807
-    alt: ""
+    alt: Melamine Dishware
     position: 1
     product_id: 9122802335903
     created_at: 2023-12-27T09:53:42-05:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/PXL_20230322_142043935.jpg?v=1703688822
     thumb: ./melamine-dishware/melamine-dishware__0-thumb.jpg
   - id: 36973266108575
-    alt: ""
+    alt: Melamine Dishware
     position: 2
     product_id: 9122802335903
     created_at: 2023-12-27T09:53:42-05:00
@@ -38,7 +38,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/PXL_20230321_183842895.jpg?v=1703688822
     thumb: ./melamine-dishware/melamine-dishware__1-thumb.jpg
   - id: 36973266141343
-    alt: ""
+    alt: Melamine Dishware
     position: 3
     product_id: 9122802335903
     created_at: 2023-12-27T09:53:42-05:00
@@ -51,7 +51,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/PXL_20230321_183846336.jpg?v=1703688822
     thumb: ./melamine-dishware/melamine-dishware__2-thumb.jpg
   - id: 36973266174111
-    alt: ""
+    alt: Melamine Dishware
     position: 4
     product_id: 9122802335903
     created_at: 2023-12-27T09:53:42-05:00
@@ -64,7 +64,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/PXL_20230321_183959358.jpg?v=1703688822
     thumb: ./melamine-dishware/melamine-dishware__3-thumb.jpg
   - id: 36973266206879
-    alt: ""
+    alt: Melamine Dishware
     position: 5
     product_id: 9122802335903
     created_at: 2023-12-27T09:53:42-05:00

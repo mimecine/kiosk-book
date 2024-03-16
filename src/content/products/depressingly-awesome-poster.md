@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326843895
 images:
   - id: 763749199
-    alt: ""
+    alt: Depressingly Awesome Poster
     position: 1
     product_id: 326843895
     created_at: 2014-07-22T20:01:00-04:00

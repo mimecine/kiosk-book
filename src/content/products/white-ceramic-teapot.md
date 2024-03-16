@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333582035
 images:
   - id: 776925407
-    alt: ""
+    alt: White Ceramic Teapot
     position: 1
     product_id: 333582035
     created_at: 2014-08-05T00:16:33-04:00

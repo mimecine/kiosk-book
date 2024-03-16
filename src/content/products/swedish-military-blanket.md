@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333580135
 images:
   - id: 776922799
-    alt: ""
+    alt: Swedish Military Blanket
     position: 1
     product_id: 333580135
     created_at: 2014-08-05T00:11:51-04:00

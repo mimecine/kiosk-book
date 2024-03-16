@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/467283983
 images:
   - id: 1245421615
-    alt: ""
+    alt: Romanian Baby Tub
     position: 1
     product_id: 467283983
     created_at: 2015-03-23T13:43:16-04:00

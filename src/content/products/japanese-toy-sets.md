@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/6775656579231
 images:
   - id: 28952543494303
-    alt: ""
+    alt: Japanese Toy Sets
     position: 1
     product_id: 6775656579231
     created_at: 2021-05-12T08:11:14-04:00
@@ -26,7 +26,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/JapaneseToys-Frog-Heli-Yoyo_b09fc6b9-442c-422a-9c4b-9c3fa39c17f3.jpg?v=1620821474
     thumb: ./japanese-toy-sets/japanese-toy-sets__0-thumb.jpg
   - id: 28952543527071
-    alt: ""
+    alt: Japanese Toy Sets
     position: 2
     product_id: 6775656579231
     created_at: 2021-05-12T08:11:14-04:00

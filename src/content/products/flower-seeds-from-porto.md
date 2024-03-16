@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326846095
 images:
   - id: 763752451
-    alt: ""
+    alt: Flower Seeds from Porto
     position: 1
     product_id: 326846095
     created_at: 2014-07-22T20:04:16-04:00

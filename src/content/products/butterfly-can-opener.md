@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326841607
 images:
   - id: 763746475
-    alt: ""
+    alt: Butterfly Can Opener
     position: 1
     product_id: 326841607
     created_at: 2014-07-22T19:56:50-04:00

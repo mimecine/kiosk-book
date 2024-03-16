@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326849243
 images:
   - id: 763756527
-    alt: ""
+    alt: Kaweco Rollerball Pen
     position: 1
     product_id: 326849243
     created_at: 2014-07-22T20:09:52-04:00

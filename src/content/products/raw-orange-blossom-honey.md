@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333577883
 images:
   - id: 776917843
-    alt: ""
+    alt: Raw Orange Blossom Honey
     position: 1
     product_id: 333577883
     created_at: 2014-08-05T00:04:28-04:00

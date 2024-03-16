@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/467284979
 images:
   - id: 1245422891
-    alt: ""
+    alt: Hungarian Bowls
     position: 1
     product_id: 467284979
     created_at: 2015-03-23T13:45:23-04:00

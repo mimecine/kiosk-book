@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326839223
 images:
   - id: 763743711
-    alt: ""
+    alt: Ash Half-Bushel Basket
     position: 1
     product_id: 326839223
     created_at: 2014-07-22T19:52:56-04:00

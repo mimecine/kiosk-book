@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326844731
 images:
   - id: 763750315
-    alt: ""
+    alt: Egg Noodles
     position: 1
     product_id: 326844731
     created_at: 2014-07-22T20:02:10-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/9122804433055
 images:
   - id: 36973361135775
-    alt: ""
+    alt: Foot Roller
     position: 1
     product_id: 9122804433055
     created_at: 2023-12-27T10:12:31-05:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/footroller_1.jpg?v=1703689951
     thumb: ./foot-roller/foot-roller__0-thumb.jpg
   - id: 36973361168543
-    alt: ""
+    alt: Foot Roller
     position: 2
     product_id: 9122804433055
     created_at: 2023-12-27T10:12:31-05:00
@@ -38,7 +38,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/foorroller.jpg?v=1703689951
     thumb: ./foot-roller/foot-roller__1-thumb.jpg
   - id: 36973361201311
-    alt: ""
+    alt: Foot Roller
     position: 3
     product_id: 9122804433055
     created_at: 2023-12-27T10:12:31-05:00

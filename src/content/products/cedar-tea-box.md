@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326842207
 images:
   - id: 28952107188383
-    alt: ""
+    alt: Cedar Tea Box
     position: 1
     product_id: 326842207
     created_at: 2021-05-12T07:26:36-04:00

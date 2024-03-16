@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326842375
 images:
   - id: 763747435
-    alt: ""
+    alt: Cheese Markers
     position: 1
     product_id: 326842375
     created_at: 2014-07-22T19:58:19-04:00

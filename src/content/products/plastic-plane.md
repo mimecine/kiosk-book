@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333577579
 images:
   - id: 776916939
-    alt: ""
+    alt: Plastic Plane
     position: 1
     product_id: 333577579
     created_at: 2014-08-05T00:03:10-04:00

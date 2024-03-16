@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326838167
 images:
   - id: 763742383
-    alt: ""
+    alt: 3 Metal Puzzles
     position: 1
     product_id: 326838167
     created_at: 2014-07-22T19:51:19-04:00

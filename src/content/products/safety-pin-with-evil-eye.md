@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333578359
 images:
   - id: 28952554242207
-    alt: ""
+    alt: Safety Pin with Evil Eye
     position: 1
     product_id: 333578359
     created_at: 2021-05-12T08:12:23-04:00

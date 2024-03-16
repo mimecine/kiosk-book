@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333581091
 images:
   - id: 776924107
-    alt: ""
+    alt: Tofu Stick
     position: 1
     product_id: 333581091
     created_at: 2014-08-05T00:14:11-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333580423
 images:
   - id: 776923163
-    alt: ""
+    alt: The Polkagris
     position: 1
     product_id: 333580423
     created_at: 2014-08-05T00:12:31-04:00

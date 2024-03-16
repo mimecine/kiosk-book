@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326841123
 images:
   - id: 763745947
-    alt: ""
+    alt: Brass Chiirirenge with Bamboo Handle
     position: 1
     product_id: 326841123
     created_at: 2014-07-22T19:56:02-04:00

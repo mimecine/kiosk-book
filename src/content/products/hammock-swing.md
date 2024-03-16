@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326847743
 images:
   - id: 28952551981215
-    alt: ""
+    alt: Hammock Swing
     position: 1
     product_id: 326847743
     created_at: 2021-05-12T08:12:07-04:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/Hammock_Swing.jpg?v=1620821527
     thumb: ./hammock-swing/hammock-swing__0-thumb.jpg
   - id: 28952552013983
-    alt: ""
+    alt: Hammock Swing
     position: 2
     product_id: 326847743
     created_at: 2021-05-12T08:12:07-04:00

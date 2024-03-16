@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333578447
 images:
   - id: 776919339
-    alt: ""
+    alt: Salvor Scarf for Kiosk Paper
     position: 1
     product_id: 333578447
     created_at: 2014-08-05T00:06:29-04:00

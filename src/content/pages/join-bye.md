@@ -7,12 +7,12 @@ body_html: "<meta charset=\"utf-8\">\r
 
   <p><b>ADIOS</b></p>\r
 
-  <p>Alright then. I guess we were not such a good fit. It's ok. We
-  understand, we get as many million emails as you and they all add up. Or you
-  just didn't like ours - too bad!  </p>\r
+  <p>Alright then. I guess we were not such a good fit. It's ok. We understand,
+  we get as many million emails as you and they all add up. Or you just didn't
+  like ours - too bad!  </p>\r
 
-  <p>Unless... you ended up here because you made a mistake? We like you! So
-  why don't you sign up again! Stick your email in the field at the bottom and
+  <p>Unless... you ended up here because you made a mistake? We like you! So why
+  don't you sign up again! Stick your email in the field at the bottom and
   you'll be back in a snap! See you soon, love!</p>"
 author: Marco Romeny
 created_at: 2016-04-27T12:56:01-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333577287
 images:
   - id: 776916079
-    alt: ""
+    alt: Pewter Queen Anne Spoon
     position: 1
     product_id: 333577287
     created_at: 2014-08-05T00:02:05-04:00

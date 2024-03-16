@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333579651
 images:
   - id: 776921803
-    alt: ""
+    alt: Stone-stein's
     position: 1
     product_id: 333579651
     created_at: 2014-08-05T00:10:15-04:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/sscover.jpeg?v=1407211815
     thumb: ./stonesteins/stonesteins__0-thumb.jpg
   - id: 776921807
-    alt: ""
+    alt: Stone-stein's
     position: 2
     product_id: 333579651
     created_at: 2014-08-05T00:10:16-04:00
@@ -38,7 +38,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/ss2.jpeg?v=1407211816
     thumb: ./stonesteins/stonesteins__1-thumb.jpg
   - id: 776921811
-    alt: ""
+    alt: Stone-stein's
     position: 3
     product_id: 333579651
     created_at: 2014-08-05T00:10:17-04:00
@@ -51,7 +51,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/ss3.jpeg?v=1407211817
     thumb: ./stonesteins/stonesteins__2-thumb.jpg
   - id: 776921827
-    alt: ""
+    alt: Stone-stein's
     position: 4
     product_id: 333579651
     created_at: 2014-08-05T00:10:18-04:00
@@ -64,7 +64,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/ss1.jpeg?v=1407211818
     thumb: ./stonesteins/stonesteins__3-thumb.jpg
   - id: 776921831
-    alt: ""
+    alt: Stone-stein's
     position: 5
     product_id: 333579651
     created_at: 2014-08-05T00:10:19-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333578311
 images:
   - id: 776918939
-    alt: ""
+    alt: Round Snorkel Mask
     position: 1
     product_id: 333578311
     created_at: 2014-08-05T00:05:59-04:00

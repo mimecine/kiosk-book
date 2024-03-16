@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333582111
 images:
   - id: 776925507
-    alt: ""
+    alt: White Mesh Bag
     position: 1
     product_id: 333582111
     created_at: 2014-08-05T00:16:46-04:00

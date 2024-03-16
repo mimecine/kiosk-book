@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333577387
 images:
   - id: 776916423
-    alt: ""
+    alt: Pink Flamingos
     position: 1
     product_id: 333577387
     created_at: 2014-08-05T00:02:29-04:00

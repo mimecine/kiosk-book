@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333580283
 images:
   - id: 776923011
-    alt: ""
+    alt: Tea Sock
     position: 1
     product_id: 333580283
     created_at: 2014-08-05T00:12:10-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326844679
 images:
   - id: 763750259
-    alt: ""
+    alt: Ebony Tobacco by L.J. Peretti
     position: 1
     product_id: 326844679
     created_at: 2014-07-22T20:02:06-04:00

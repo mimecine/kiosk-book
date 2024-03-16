@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333576271
 images:
   - id: 776912999
-    alt: ""
+    alt: Muxama de Atum
     position: 1
     product_id: 333576271
     created_at: 2014-08-04T23:58:05-04:00

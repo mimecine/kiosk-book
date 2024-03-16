@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333582447
 images:
   - id: 776925939
-    alt: ""
+    alt: Wok Brush
     position: 1
     product_id: 333582447
     created_at: 2014-08-05T00:17:34-04:00

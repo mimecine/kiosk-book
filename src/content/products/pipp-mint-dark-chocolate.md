@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333577419
 images:
   - id: 776916515
-    alt: ""
+    alt: Pipp Mint Dark Chocolate
     position: 1
     product_id: 333577419
     created_at: 2014-08-05T00:02:37-04:00

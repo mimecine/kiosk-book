@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326848455
 images:
   - id: 763755415
-    alt: ""
+    alt: Hraun Bits
     position: 1
     product_id: 326848455
     created_at: 2014-07-22T20:08:29-04:00

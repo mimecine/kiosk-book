@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333577143
 images:
   - id: 776915643
-    alt: ""
+    alt: Paper Pusher Calendar 2014
     position: 1
     product_id: 333577143
     created_at: 2014-08-05T00:01:31-04:00

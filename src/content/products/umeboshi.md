@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/9122803515551
 images:
   - id: 36973347143839
-    alt: ""
+    alt: Umeboshi
     position: 1
     product_id: 9122803515551
     created_at: 2023-12-27T10:06:49-05:00

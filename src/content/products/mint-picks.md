@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333576115
 images:
   - id: 776912515
-    alt: ""
+    alt: Mint Picks
     position: 1
     product_id: 333576115
     created_at: 2014-08-04T23:57:28-04:00

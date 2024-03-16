@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/6730121543839
 images:
   - id: 28952117903519
-    alt: ""
+    alt: Nero d' Inferno
     position: 1
     product_id: 6730121543839
     created_at: 2021-05-12T07:27:17-04:00

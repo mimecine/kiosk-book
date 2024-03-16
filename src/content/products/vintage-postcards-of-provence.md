@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333581731
 images:
   - id: 776925063
-    alt: ""
+    alt: Vintage Postcards of Provence
     position: 1
     product_id: 333581731
     created_at: 2014-08-05T00:15:48-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333576595
 images:
   - id: 776914015
-    alt: ""
+    alt: Obama Paddle Ball
     position: 1
     product_id: 333576595
     created_at: 2014-08-04T23:59:14-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333576207
 images:
   - id: 776912811
-    alt: ""
+    alt: Mr. Hop
     position: 1
     product_id: 333576207
     created_at: 2014-08-04T23:57:48-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326842975
 images:
   - id: 763748163
-    alt: ""
+    alt: Coffee / Teapot
     position: 1
     product_id: 326842975
     created_at: 2014-07-22T19:59:23-04:00

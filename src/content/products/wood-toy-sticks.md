@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333582539
 images:
   - id: 776926111
-    alt: ""
+    alt: Wood Toy Sticks
     position: 1
     product_id: 333582539
     created_at: 2014-08-05T00:17:55-04:00

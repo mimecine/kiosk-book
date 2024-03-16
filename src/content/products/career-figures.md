@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326841939
 images:
   - id: 763746919
-    alt: ""
+    alt: Career Figures
     position: 1
     product_id: 326841939
     created_at: 2014-07-22T19:57:30-04:00

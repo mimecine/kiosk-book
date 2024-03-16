@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/6775657463967
 images:
   - id: 28952547655839
-    alt: ""
+    alt: "French Coat Checks: 4 color set"
     position: 1
     product_id: 6775657463967
     created_at: 2021-05-12T08:11:35-04:00

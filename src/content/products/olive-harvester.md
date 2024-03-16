@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333576703
 images:
   - id: 776914375
-    alt: ""
+    alt: Olive Harvester
     position: 1
     product_id: 333576703
     created_at: 2014-08-04T23:59:39-04:00

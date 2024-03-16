@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/2956593091
 images:
   - id: 6074337731
-    alt: ""
+    alt: 2 Inch Gold Letters/Numbers
     position: 1
     product_id: 2956593091
     created_at: 2015-10-06T10:01:22-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326840335
 images:
   - id: 763745039
-    alt: ""
+    alt: Bird Waterer
     position: 1
     product_id: 326840335
     created_at: 2014-07-22T19:54:50-04:00

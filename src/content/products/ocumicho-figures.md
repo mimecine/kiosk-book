@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333576647
 images:
   - id: 776914155
-    alt: ""
+    alt: Ocumicho Figures
     position: 1
     product_id: 333576647
     created_at: 2014-08-04T23:59:24-04:00

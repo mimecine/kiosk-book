@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326846619
 images:
   - id: 763753111
-    alt: ""
+    alt: Garlic Press
     position: 1
     product_id: 326846619
     created_at: 2014-07-22T20:05:05-04:00

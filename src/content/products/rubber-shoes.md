@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/467284459
 images:
   - id: 1245422167
-    alt: ""
+    alt: Rubber Shoes
     position: 1
     product_id: 467284459
     created_at: 2015-03-23T13:44:23-04:00

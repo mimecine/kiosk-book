@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333581927
 images:
   - id: 776925255
-    alt: ""
+    alt: Wax Hand
     position: 1
     product_id: 333581927
     created_at: 2014-08-05T00:16:19-04:00

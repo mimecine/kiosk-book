@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333576631
 images:
   - id: 776914131
-    alt: ""
+    alt: Obsessive Timekeepers Calendar 2014
     position: 1
     product_id: 333576631
     created_at: 2014-08-04T23:59:22-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326840863
 images:
   - id: 28952095228063
-    alt: ""
+    alt: Bookends
     position: 1
     product_id: 326840863
     created_at: 2021-05-12T07:25:54-04:00

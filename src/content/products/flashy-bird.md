@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326846007
 images:
   - id: 763752311
-    alt: ""
+    alt: Flashy Bird
     position: 1
     product_id: 326846007
     created_at: 2014-07-22T20:04:07-04:00

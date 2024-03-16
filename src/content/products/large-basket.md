@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326849907
 images:
   - id: 763757347
-    alt: ""
+    alt: Large Basket
     position: 1
     product_id: 326849907
     created_at: 2014-07-22T20:11:04-04:00

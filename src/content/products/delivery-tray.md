@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326843839
 images:
   - id: 763749167
-    alt: ""
+    alt: Delivery Tray
     position: 1
     product_id: 326843839
     created_at: 2014-07-22T20:00:55-04:00

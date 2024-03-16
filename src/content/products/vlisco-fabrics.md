@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333581787
 images:
   - id: 776925115
-    alt: ""
+    alt: Vlisco Fabrics
     position: 1
     product_id: 333581787
     created_at: 2014-08-05T00:15:59-04:00

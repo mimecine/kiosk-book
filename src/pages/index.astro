@@ -7,8 +7,9 @@ import D from "../assets/archive.kioskkiosk.json";
 import "../styles/book-base.css";
 
 const title = "KIOSK: The Book";
-const exhibit_sample = 10;
-const product_sample = 10;
+const full_book = true; 
+const exhibit_sample = full_book?1000:11;
+const product_sample = full_book?1000:11;
 
 let pIndex = 1;
 let products = (await getCollection("products"))
@@ -92,7 +93,7 @@ let currentEssay = null;
 
 function wrapLinks(inputString) {
     var R1 =
-    /(\s|>)(https?:\/\/(?:www\.)?(?:[-\w@:%.\+~#=]{1,256}\.)+[a-zA-Z0-9()]{1,6}\b(?:[-\w()@:%\+.~#?&//=]*))([\s.,!?]?)/gim;
+    /(\s|>)https?:\/\/((?:www\.)?(?:[-\w@:%.\+~#=]{1,256}\.)+[a-zA-Z0-9()]{1,6}\b(?:[-\w()@:%\+.~#?&//=]*))([\s.,!?]?)/gim;
     var R2 = /(\shref="[^"]+"\s?)/gmi
     var R3 = />https?:\/\/(?:www\.)?([\w\.]+)[^<]*(?:<)/gmi
 
@@ -119,7 +120,7 @@ function newInitial(word) {
     <meta charset="utf-8" />
     <meta name="author" content="Alisa Grifo & Marco ter Haar Romeny"/>
     <title>{title}</title>    
-</head>
+  </head>
   <body>
     <main>
       <div class="plainflow">
@@ -135,12 +136,11 @@ function newInitial(word) {
           ******************************************************************
           -->
           <h1 class="">KIOSK 
-            <div style="font-family: Courier, 'Courier New', monospace;"
-            class="font-mono text-5xl text-red py-40 text-center">Things from places</div>
+            <!-- <div class="font-mono text-5xl text-red py-20 text-center">Things from places</div> -->
           </h1>
         </div>
 
-        <div class="toc cleanpage nopagenumber" style="font-size:1.5rem; break-before: recto;">
+        <div class="toc cleanpage nopagenumber text-lg" style="break-before: recto;">
           <!-- 
           ******************************************************************
           ******************************************************************
@@ -151,31 +151,43 @@ function newInitial(word) {
           ******************************************************************
           -->
 
-          <h2 class="title font-bold text-sans">The Contents</h2>
+          <div class="header font-sans border-b-4 border-red mb-12 pb-8 min-h-[18.85rem]">
+            <h2 class="title relative font-bold">
+              Contents
+              <a
+                class="absolute top-[-2rem]"
+                id="index-bypicture"
+              />
+            </h2>
+            <div class="subtitle text-2xl font-bold">This text will describe the content of the book; how we drew up the TOC. The variety of things that go into KIOSK and how the content of the project itself keeps changing.
+            </div>
+          </div>
+          <div class="columns-2 column-fill-auto" style="column-gap: 4rem;;">
           {exhibits.map((exhibit) => (
             <>
             {(() => {currentEssay = pages.find((p) => p.data.before_exhibit == exhibit)})()}
             {currentEssay && (
               <>
-              <a class="xref" style="font-style: italic" href={`#essay-${currentEssay.data.clean_title}`}>{currentEssay.data.clean_title}</a>
+              <a class="xref italic my-2" href={`#essay-${currentEssay.data.clean_title}`}>{currentEssay.data.clean_title}</a>
               </>
             )}
-            <a class="xref" href={`#${exhibit}`}>{exhibit}</a>
+            <a class="xref my-2" href={`#${exhibit}`}>{exhibit}</a>
             </>
           ))}
           <br>
-          <a class="xref" href="#index-bypicture" style="font-weight: bold">The Figures</a>
-          <br>
-          <a class="xref" href="#index-alphabetical" style="">The Index: Alphabetically</a>
-          <a class="xref" href="#index-byexhibit" style="">The Index: Exhibitionally</a>
-          <a class="xref" href="#index-bymaterial" style="">The Index: Materially</a>
-          <a class="xref" href="#index-bydimension" style="">The Index: Dimensionally</a>
+          <a class="xref font-bold my-2" href="#index-bypicture">The Index: By Pictures</a>
+    
+          <a class="xref my-2" href="#index-alphabetical">The Index: Alphabetically</a>
+          <a class="xref my-2" href="#index-byexhibit">The Index: By Exhibitions</a>
+          <a class="xref my-2" href="#index-bymaterial">The Index: By Materials</a>
+          <a class="xref my-2" href="#index-bydimension">The Index: By Dimensions</a>
         </div>
-        <div class="start products" style="columns: 15rem 4; column-gap: 3rem; column-fill:auto;"> 
+        </div>
+        <div class="start products text-justify columns-2 column-fill-auto" style="column-gap: 2.5rem;"> 
 
         {
           exhibits.map((exhibit) => (
-            <div class="exhibit column-fill-auto" style="column-fill:auto;">
+            <div class="exhibit column-fill-auto">
               {(() => {currentEssay = pages.find((p) => p.data.before_exhibit == exhibit)})()}
               {currentEssay && (
                 <div class="essay">
@@ -188,14 +200,16 @@ function newInitial(word) {
                   ******************************************************************
                   ******************************************************************
                   -->
-                  <h2 class="title font-bold text-sans" id={`essay-${currentEssay.data.clean_title}`} set:html={currentEssay.data.clean_title}/>
-                  <div class="prose" set:html={wrapLinks(currentEssay.data.body_html)}/>
+
+                  <div class="header font-sans border-b-4 border-red mb-12 xpb-8 min-h-[22rem] columns-all">
+                    <h2 class="title font-bold text-sans" id={`essay-${currentEssay.data.clean_title}`} set:html={currentEssay.data.clean_title}/>
+                    <div class="subtitle text-2xl"/>
+                  </div>
+              
+                  <div class="prose max-w-[5in] py-16 mx-auto" set:html={wrapLinks(currentEssay.data.body_html)}/>
                 </div>
               )}
-              <div
-                class="exhibit relative"
-                style="font-size:large; column-span:all; font-family: Helvetica, 'Helvetica Neue', sans-serif; font-weight: bold;"
-              >
+              <div class="exhibit relative text-xl font-sans font-bold columns-all">
                 <!-- 
                 ******************************************************************
                 ******************************************************************
@@ -205,7 +219,7 @@ function newInitial(word) {
                 ******************************************************************
                 ******************************************************************
                 -->
-                <div class="header font-sans border-b-4 border-b-red-600 mb-12 pb-8 min-h-[25rem] " style="border-color: red;">
+                <div class="header font-sans border-b-4 border-red mb-12 xpb-8 min-h-[22rem] columns-all">
                 <h2 class="title relative">
                   {exhibit}
                   <a
@@ -228,7 +242,7 @@ function newInitial(word) {
                 ?.slice(0, product_sample || 1000)
                 .map((product) => (
                   <>
-                    <div class="product relative overflow-auto mb-8 border-b-2 border-current border-solid box-decoration-slice pb-6">
+                    <div class="product relative overflow-auto mb-16 border-b-2 last:border-b-0 border-current border-solid box-decoration-slice p-2 pb-6">
                       <a
                         id={product.data.handle}
                         class="absolute top-[-2rem]"
@@ -243,9 +257,9 @@ function newInitial(word) {
                               id={`small-img-${product.data.handle}`}
                               data-width={1000}
                               data-height={1000}
-                              src={product.data.images[0]?.src} // set to thumb and remove filter if colored page
+                              src={product.data.images[0]?.thumb} // set to thumb and remove filter if colored page
                               alt={product.data.title}
-                              class="w-full border border-current -x-filter grayscale contrast-100"
+                              class="w-full border border-current -x-grayscale -x-contrast-100"
                             />
                           </a>
                         </div>
@@ -260,14 +274,14 @@ function newInitial(word) {
                       <div class="p_materials" class="italic break-after-avoid break-inside-avoid">
                         {product.data.materials}
                       </div>
-                      <div class="p_provenance uppercase break-after-avoid break-inside-avoid break-before-avoid mb-3">
+                      <div class="p_provenance uppercase break-after-avoid break-inside-avoid break-before-avoid pb-3">
                         {product.data.provenance}
                       </div>
-                      <div set:html={wrapLinks(product.rendered)} style="orphans:4; widows:4;" class="p_description break-after-avoid break-before-avoid"/>                      
-                      <div style="color: red;" class="text-right font-bold pr-4 text-red-600">
-                          ~&nbsp;
-                        <a class="img-xref italic text-[0.7rem]" href={`#figure-${product.data.handle}`}>
-                          Figure {product._index}, Pg.
+                      <div set:html={wrapLinks(product.rendered)} class="p_description break-after-avoid break-before-avoid"/>                      
+                      <div class=" text-red text-right font-bold xpr-4 text-red-600">
+                          <!-- ~&nbsp; -->
+                        <a class="img-xref italic text-sm" href={`#figure-${product.data.handle}`}>
+                          fig. {product._index}, pg.
                         </a>
                       </div>
                     </div>
@@ -294,9 +308,8 @@ function newInitial(word) {
             <div class="prose" set:html={wrapLinks(currentEssay.data.body_html)}/>
           </div>
         )}
-      <div
-      class="index figurepage index-bypicture columns-all">
-    <!-- 
+      <div class="index figurepage index-bypicture columns-all h-screen">
+      <!-- 
         ******************************************************************
         ******************************************************************
         ******************************************************************
@@ -306,9 +319,9 @@ function newInitial(word) {
         ******************************************************************
       -->
       
-      <div class="header font-sans border-b-4 border-b-red-600 mb-12 pb-8 min-h-[25rem]" style="border-color: red;">
+      <div class="header font-sans border-b-4 border-red mb-12 pb-8 min-h-[18.85rem]">
         <h2 class="title relative font-bold">
-          The Figures
+          The Index: <br/>By Pictures
           <a
             class="absolute top-[-2rem]"
             id="index-bypicture"
@@ -317,37 +330,39 @@ function newInitial(word) {
         <div class="subtitle text-2xl"></div>
       </div>
 
-      <div class="flex flex-wrap w-full h-full justify-between items-center m-auto -x-columns-1">
+      <div class="flex flex-wrap w-full h-full justify-around items-center m-auto">
       {
         products
           .filter((p) => p._rendered)
           .sort((a, b) => a._index - b._index)
           .map((p) => (
             <>
-              <div class="h-1/2 w-auto" style="position: relative; max-width: 3in; height:48%; margin: auto auto; break-inside: avoid; padding-top: 5pvh;">
-                <div style="display:none; -prince-float: outsidenote; text-align: center; font-size: 1.5rem; font-style: italic; color:red;">{p._index}</div>
-                <Image
-                  id={`figure-${p.data.handle}`}
-                  data-width={1000}
-                  data-height={1000}
-                  src={p.data.images[0]?.src}
-                  alt={p.data.title}
-                  style="border:1px solid; margin-bottom: 0.5rem;"
-                />
-                <a
-                  class="xref"
-                  style="border-bottom:none; float: right; color:#ff0000; "
-                  href={`#${p.data.handle}`}
-                >
-                  <span style="font-style:italic;">Fig. {p._index}, {p.data.title}</span>
-
-                  {p.data.title.length > 32 && console.log(p.data.title.length + ':' + p.data.title)}
-                </a>
+              <div class="min-h-1/2 w-auto relative max-w-[3in] break-inside-avoid py-2">
+                <!-- <div style="-prince-float: outsidenote;" class="text-red text-2xl italic w-16 ">
+                  {p._index}
+                </> -->
+                <div class="">
+                  <Image
+                    id={`figure-${p.data.handle}`}
+                    src={p.data.images[0]?.src}
+                    alt={p.data.title}
+                    class="border border-current"
+                  />
+                  <div class="min-h-12">
+                  <div class="text-black not-italic hyphens-none">{p.data.title}</div>
+                    <div class="">
+                      <a class="xref !border-b-0 text-red italic" href={`#${p.data.handle}`}>
+                        Figure {p._index}
+                        {p.data.title.length > 32 && console.log(p.data.title.length + ':' + p.data.title)}
+                      </a>
+                    </div>
+                  </div>
+                </div>
               </div>
             </>
           ))
       }
-      <i style="position: relative; width:100%; max-width: 3in; margin: auto auto; break-inside: avoid; padding-top: 2rem; border: 1px solid; visibility: hidden;"></i>
+      <!-- <i class="invisible relative w-full max-w-3in mx-auto break-inside-avoid pt-8 border border-current"> </i> -->
     </div>
   </div>
 
@@ -364,9 +379,9 @@ function newInitial(word) {
         ******************************************************************
       -->
 
-      <div class="header font-sans border-b-4 border-b-red-600 mb-12 pb-8 min-h-[25rem] columns-all" style="border-color: red;">
+      <div class="header font-sans border-b-4 border-red mb-12 xpb-8 min-h-[22rem] columns-all">
         <h2 class="title relative font-bold">
-          The Index: Alphabetically
+          The Index: <br/>Alphabetical
           <a
             class="absolute top-[-2rem]"
             id="index-alphabetical"
@@ -382,14 +397,13 @@ function newInitial(word) {
               <>
                 {newInitial(p.data.title) && (
                   <a
-                    class="font-bold mt-4"
-                    style="color:red; border-bottom: 1px dotted; width: 100%; display: block;"
+                    class="font-bold text-red mt-4 textred border-b-1 border-black w-full block"
                   >
                     {p.data.title[0].toUpperCase()}
                   </a>
                 )}
 
-                <a class="xref" style="font-size: 5.5pt;" href={`#${p.data.handle}`}>
+                <a class="xref text-xs" href={`#${p.data.handle}`}>
                   {p.data.title}
                 </a>
               </>
@@ -408,9 +422,9 @@ function newInitial(word) {
         ******************************************************************
       -->
 
-      <div class="header font-sans border-b-4 border-b-red-600 mb-12 pb-8 min-h-[25rem] columns-all" style="border-color: red;">
+      <div class="header font-sans border-b-4 border-red mb-12 xpb-8 min-h-[22rem] columns-all">
         <h2 class="title relative font-bold">
-          The Index: Exhibitionally
+          The Index: <br/>By Exhibition
           <a
             class="absolute top-[-2rem]"
             id="index-byexhibit"
@@ -422,16 +436,15 @@ function newInitial(word) {
           exhibits.map((exhibit) => (
             <>
               <a
-                class="xref column font-bold mt-4"
+                class="xref column font-bold mt-4 text-red"
                 href={`#${exhibit}`}
-                style="column-span: all; color: red"
               >
                 {exhibit}
               </a>
               {groups[exhibit]
                 ?.filter((p) => p._rendered)
                 .map((p) => (
-                  <a class="xref" style="font-size: 5.5pt;" href={`#${p.data.handle}`}>
+                  <a class="xref text-xs" href={`#${p.data.handle}`}>
                     {p.data.title}
                   </a>
                 ))}
@@ -440,47 +453,43 @@ function newInitial(word) {
         }
       </div>
 
-      <div
-        class="index index-bymaterial columns-2"
-        style="orphans: 3; widows: 4;"
-      >
-      <!-- 
-        ******************************************************************
-        ******************************************************************
-        ******************************************************************
-        INDEX: BY MATERIAL 
-        ******************************************************************
-        ******************************************************************
-        ******************************************************************
-      -->
-      <div class="header font-sans border-b-4 border-b-red-600 mb-12 pb-8 min-h-[25rem] columns-all" style="border-color: red;">
+      <div class="index index-bymaterial columns-2">
+        <!-- 
+          ******************************************************************
+          ******************************************************************
+          ******************************************************************
+          INDEX: BY MATERIAL 
+          ******************************************************************
+          ******************************************************************
+          ******************************************************************
+        -->
+        <div class="header font-sans border-b-4 border-red mb-12 xpb-8 min-h-[22rem] columns-all">
         <h2 class="title relative font-bold">
-          The Index: <br/> Materially
+          The Index: <br/>By Material
           <a
             class="absolute top-[-2rem]"
             id="index-bymaterial"
           />
         </h2>
         <div class="subtitle text-2xl"></div>
-      </div>
+        </div>
         {
           Object.keys(products_by_material)
             .sort((a, b) => a.localeCompare(b))
             .filter((key) => products_by_material[key].find((p) => p._rendered))
             .map((key) => (
               <>
-                <div style="orphans:3; widows:3; font-size: 5.5pt;">
+                <div>
                   <a
-                    class="font-bold mt-4"
+                    class="font-bold mt-4 text-red border-b-1 border-black border-dotted block"
                     xhref={`#${key}`}
-                    style="color:red; border-bottom: 1px dotted; width: 100%; display: block;"
                   >
                     {key}
                   </a>
                   {products_by_material[key]
                     ?.filter((p) => p._rendered)
                     .map((p) => (
-                      <a class="xref" href={`#${p.data.handle}`}>
+                      <a class="xref text-sm" href={`#${p.data.handle}`}>
                         {p.data.title}
                       </a>
                     ))}
@@ -490,48 +499,40 @@ function newInitial(word) {
         }
       </div>
 
-      <div
-        class="index index-bydimension h-full columns-2"
-        style="orphans: 3; widows: 4;"
-      >
-      <!-- 
-        ******************************************************************
-        ******************************************************************
-        ******************************************************************
-        INDEX: BY DIMENSION 
-        ******************************************************************
-        ******************************************************************
-        ******************************************************************
-      -->
-
-      <div class="header font-sans border-b-4 border-b-red-600 mb-12 pb-8 min-h-[25rem] columns-all" style="border-color: red;">
-        <h2 class="title relative font-bold">
-          The Index: Dimensionally
-          <a
-            class="absolute top-[-2rem]"
-            id="index-bydimension"
-          />
-        </h2>
-        <div class="subtitle text-2xl"></div>
-      </div>
+      <div class="index index-bydimension h-full columns-2">
+        <!-- 
+          ******************************************************************
+          ******************************************************************
+          ******************************************************************
+          INDEX: BY DIMENSION 
+          ******************************************************************
+          ******************************************************************
+          ******************************************************************
+        -->
+        <div class="header font-sans border-b-4 border-red mb-12 xpb-8 min-h-[22rem] columns-all">
+          <h2 class="title relative font-bold">
+            The Index: <br/>By Dimension
+            <a
+              class="absolute top-[-2rem]"
+              id="index-bydimension"
+            />
+          </h2>
+          <div class="subtitle text-2xl"></div>
+        </div>
         {
           Object.keys(products_by_dimension)
             .sort((a, b) => a.localeCompare(b))
             .filter((key) => products_by_dimension[key].find((p) => p._rendered))
             .map((key) => (
               <>
-                <div style="orphans:3; widows:3; font-size: 5.5pt;">
-                  <a
-                    class="font-bold mt-4"
-                    xhref={`#${key}`}
-                    style="color:red; border-bottom: 1px dotted; width: 100%; display: block;"
-                  >
+                <div>
+                  <a class="font-bold mt-4 text-red border-b-1 border-black border-dotted block" xhref={`#${key}`} >
                     {key}
                   </a>
                   {products_by_dimension[key]
                     ?.filter((p) => p._rendered)
                     .map((p) => (
-                      <a class="xref" href={`#${p.data.handle}`}>
+                      <a class="xref text-sm" href={`#${p.data.handle}`}>
                         {p.data.title}
                       </a>
                     ))}
@@ -540,9 +541,8 @@ function newInitial(word) {
             ))
         }
       </div>
+      </div>
 
-
-       </div> 
     </main>
   </body>
 </html>

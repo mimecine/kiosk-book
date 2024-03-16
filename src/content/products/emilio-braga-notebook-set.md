@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326844983
 images:
   - id: 763750799
-    alt: ""
+    alt: Emilio Braga Notebook Set
     position: 1
     product_id: 326844983
     created_at: 2014-07-22T20:02:35-04:00

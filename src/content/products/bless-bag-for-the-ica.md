@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/6775587078303
 images:
   - id: 28952091394207
-    alt: ""
+    alt: Bless Bag for the ICA
     position: 1
     product_id: 6775587078303
     created_at: 2021-05-12T07:25:39-04:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/IMG_20200107_150045.jpg?v=1620818739
     thumb: ./bless-bag-for-the-ica/bless-bag-for-the-ica__0-thumb.jpg
   - id: 28952091426975
-    alt: ""
+    alt: Bless Bag for the ICA
     position: 2
     product_id: 6775587078303
     created_at: 2021-05-12T07:25:39-04:00
@@ -38,7 +38,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/IMG_20200107_150123.jpg?v=1620818739
     thumb: ./bless-bag-for-the-ica/bless-bag-for-the-ica__1-thumb.jpg
   - id: 28952091459743
-    alt: ""
+    alt: Bless Bag for the ICA
     position: 3
     product_id: 6775587078303
     created_at: 2021-05-12T07:25:39-04:00
@@ -51,7 +51,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/IMG_20200107_150253.jpg?v=1620818739
     thumb: ./bless-bag-for-the-ica/bless-bag-for-the-ica__2-thumb.jpg
   - id: 28952091492511
-    alt: ""
+    alt: Bless Bag for the ICA
     position: 4
     product_id: 6775587078303
     created_at: 2021-05-12T07:25:39-04:00

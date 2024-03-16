@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326838463
 images:
   - id: 763742723
-    alt: ""
+    alt: After Modern History Books
     position: 1
     product_id: 326838463
     created_at: 2014-07-22T19:51:51-04:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/IMG_7702.jpeg?v=1406073111
     thumb: ./after-modern-history-books/after-modern-history-books__0-thumb.jpg
   - id: 763742751
-    alt: ""
+    alt: After Modern History Books
     position: 2
     product_id: 326838463
     created_at: 2014-07-22T19:51:53-04:00

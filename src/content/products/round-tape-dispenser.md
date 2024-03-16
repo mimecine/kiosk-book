@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333578331
 images:
   - id: 776918959
-    alt: ""
+    alt: Round Tape Dispenser
     position: 1
     product_id: 333578331
     created_at: 2014-08-05T00:06:01-04:00

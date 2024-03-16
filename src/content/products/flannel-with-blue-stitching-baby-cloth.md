@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326845959
 images:
   - id: 763752231
-    alt: ""
+    alt: Flannel with Blue Stitching Baby Cloth
     position: 1
     product_id: 326845959
     created_at: 2014-07-22T20:04:02-04:00

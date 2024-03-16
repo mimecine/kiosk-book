@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333576359
 images:
   - id: 776913235
-    alt: ""
+    alt: "Nerikoh: Blended Incense Balls Set"
     position: 1
     product_id: 333576359
     created_at: 2014-08-04T23:58:23-04:00

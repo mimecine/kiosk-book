@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333577455
 images:
   - id: 776916607
-    alt: ""
+    alt: Pitting Spoon Number Two
     position: 1
     product_id: 333577455
     created_at: 2014-08-05T00:02:46-04:00

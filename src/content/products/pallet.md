@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333577051
 images:
   - id: 776915431
-    alt: ""
+    alt: Pallet
     position: 1
     product_id: 333577051
     created_at: 2014-08-05T00:01:14-04:00

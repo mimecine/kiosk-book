@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326845803
 images:
   - id: 28952108564639
-    alt: ""
+    alt: Finnish Dart Set
     position: 1
     product_id: 326845803
     created_at: 2021-05-12T07:26:40-04:00

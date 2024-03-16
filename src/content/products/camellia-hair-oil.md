@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326841803
 images:
   - id: 763746763
-    alt: ""
+    alt: Camellia Hair Oil
     position: 1
     product_id: 326841803
     created_at: 2014-07-22T19:57:13-04:00

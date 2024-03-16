@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326842427
 images:
   - id: 763747503
-    alt: ""
+    alt: Chestnut Paste
     position: 1
     product_id: 326842427
     created_at: 2014-07-22T19:58:25-04:00

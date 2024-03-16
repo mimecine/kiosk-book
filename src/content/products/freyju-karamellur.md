@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326846383
 images:
   - id: 763752823
-    alt: ""
+    alt: Freyju Karamellur
     position: 1
     product_id: 326846383
     created_at: 2014-07-22T20:04:45-04:00

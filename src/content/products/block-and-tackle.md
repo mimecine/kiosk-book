@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326840583
 images:
   - id: 763745311
-    alt: ""
+    alt: Block and Tackle
     position: 1
     product_id: 326840583
     created_at: 2014-07-22T19:55:12-04:00

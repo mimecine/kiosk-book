@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326847107
 images:
   - id: 763753659
-    alt: ""
+    alt: Greek Animal Bells
     position: 1
     product_id: 326847107
     created_at: 2014-07-22T20:06:01-04:00

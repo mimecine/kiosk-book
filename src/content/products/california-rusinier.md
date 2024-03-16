@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326841779
 images:
   - id: 763746723
-    alt: ""
+    alt: California Rusinier
     position: 1
     product_id: 326841779
     created_at: 2014-07-22T19:57:09-04:00

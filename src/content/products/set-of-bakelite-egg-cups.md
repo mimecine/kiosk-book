@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333578879
 images:
   - id: 776920263
-    alt: ""
+    alt: Set of Bakelite Egg Cups
     position: 1
     product_id: 333578879
     created_at: 2014-08-05T00:07:41-04:00

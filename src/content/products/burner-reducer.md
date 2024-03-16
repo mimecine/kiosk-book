@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/467283955
 images:
   - id: 1245421571
-    alt: ""
+    alt: Burner Reducer
     position: 1
     product_id: 467283955
     created_at: 2015-03-23T13:43:13-04:00

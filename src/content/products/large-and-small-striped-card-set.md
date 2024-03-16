@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326849887
 images:
   - id: 763757327
-    alt: ""
+    alt: Large and Small Striped Card Set
     position: 1
     product_id: 326849887
     created_at: 2014-07-22T20:11:02-04:00

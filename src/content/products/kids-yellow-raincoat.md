@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326849363
 images:
   - id: 763756703
-    alt: ""
+    alt: Kids Yellow Raincoat
     position: 1
     product_id: 326849363
     created_at: 2014-07-22T20:10:03-04:00

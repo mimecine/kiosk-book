@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326847231
 images:
   - id: 763753819
-    alt: ""
+    alt: Greek Nightlight
     position: 1
     product_id: 326847231
     created_at: 2014-07-22T20:06:17-04:00

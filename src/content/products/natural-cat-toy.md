@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333576291
 images:
   - id: 28952127930527
-    alt: ""
+    alt: Natural Cat Toy
     position: 1
     product_id: 333576291
     created_at: 2021-05-12T07:27:58-04:00

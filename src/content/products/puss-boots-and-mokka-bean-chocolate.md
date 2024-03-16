@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333577819
 images:
   - id: 776917627
-    alt: ""
+    alt: Puss & Boots and Mokka Bean Chocolate
     position: 1
     product_id: 333577819
     created_at: 2014-08-05T00:04:09-04:00

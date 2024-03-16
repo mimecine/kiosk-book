@@ -195,9 +195,9 @@ body_html: "<p><b>PRESS</b></p>\r
   likes us<br> <a href=\"http://imomus.livejournal.com/455437.html\"><span><span
   class=\"red\">IMOMUS</span></span></a></p>\r
 
-  <p>When people come in and asks to take some photos, I don’t expect the
-  photos to be that great or any blogpost to be so good. Well, I better raise
-  those expectations!<br> <a
+  <p>When people come in and asks to take some photos, I don’t expect the photos
+  to be that great or any blogpost to be so good. Well, I better raise those
+  expectations!<br> <a
   href=\"http://cherrypatter.com/2009/06/kiosk-a-world-of-local-goods/\"><span>\
   <span class=\"blue\">CHERRY</span> <span><span
   class=\"blue\">PATTER</span></span></span></a></p>\r
@@ -209,8 +209,8 @@ body_html: "<p><b>PRESS</b></p>\r
   b_211026.html\"><span><span class=\"red\">HUFFINGTON</span> <span><span
   class=\"red\">POST</span></span></span></a></p>\r
 
-  <p>Ok, this is a biggie, please ignore the really bad portrait and take in
-  the objects and places.<br> <a
+  <p>Ok, this is a biggie, please ignore the really bad portrait and take in the
+  objects and places.<br> <a
   href=\"http://www.nytimes.com/2008/11/09/style/tmagazine/09instore.html\"><sp\
   an class=\"blue\">T <span><span class=\"blue\">MAGAZINE</span> / <span><span
   class=\"blue\">NYT</span></span></span></span></a></p>\r
@@ -240,8 +240,8 @@ body_html: "<p><b>PRESS</b></p>\r
   class=\"blue\">THE</span> <span><span
   class=\"blue\">MOMENT</span></span></span></span></a></p>\r
 
-  <p>This is very nice visually and a good, concise text, I like it! Thanks
-  very much!<br> <a
+  <p>This is very nice visually and a good, concise text, I like it! Thanks very
+  much!<br> <a
   href=\"http://www.iconeye.com/index.php?view=article&amp;catid=348%3Agallery&\
   amp;layout=gallery&amp;id=3311%3Akiosk&amp;option=com_content\"><span><span
   class=\"red\">ICON</span></span></a></p>\r
@@ -327,8 +327,8 @@ body_html: "<p><b>PRESS</b></p>\r
   an><span class=\"blue\">THE</span> <span><span
   class=\"blue\">EYE</span></span></span></a></p>\r
 
-  <p>We did a good little exhibition in Stockholm at the design group
-  Uglycute, check out their work, www.uglycute.com<br> <a
+  <p>We did a good little exhibition in Stockholm at the design group Uglycute,
+  check out their work, www.uglycute.com<br> <a
   href=\"http://cdn.shopify.com/s/files/1/0080/8552/files/pa-stan.jpg?2123\"><s\
   pan><span class=\"red\">PA</span> <span><span
   class=\"red\">STAN</span></span></span></a></p>\r
@@ -351,14 +351,14 @@ body_html: "<p><b>PRESS</b></p>\r
   span class=\"blue\">REFERENCE</span> <span><span
   class=\"blue\">LIBRARY</span></span></span></a></p>\r
 
-  <p>It is always nice when someone writes something that makes us proud! A
-  very nice comment, many thanks!<br> <a
+  <p>It is always nice when someone writes something that makes us proud! A very
+  nice comment, many thanks!<br> <a
   href=\"http://www.apartmenttherapy.com/ny/soho/kiosk-undesign-shop-040202\"><\
   span><span class=\"red\">APARTMENT</span> <span><span
   class=\"red\">THERAPY</span></span></span></a></p>\r
 
-  <p>A little something in T, thanks to Jennifer Heslin over at the New
-  Museum, please click on number 4.<br> <a
+  <p>A little something in T, thanks to Jennifer Heslin over at the New Museum,
+  please click on number 4.<br> <a
   href=\"http://query.nytimes.com/gst/fullpage.html?res=9C07E6D91139F931A35751C\
   1A9619C8B63\"><span class=\"blue\">T</span></a></p>\r
 
@@ -397,13 +397,13 @@ body_html: "<p><b>PRESS</b></p>\r
   class=\"blue\">YORK</span> <span><span
   class=\"blue\">TIMES</span></span></span></span></a></p>\r
 
-  <p>Wow, putting us side by side with the <span>MOMA</span>, super nice
-  layout too<br> <a
+  <p>Wow, putting us side by side with the <span>MOMA</span>, super nice layout
+  too<br> <a
   href=\"http://cdn.shopify.com/s/files/1/0080/8552/files/w-metropls.jpg?2123\"\
   ><span><span class=\"red\">METROPOLIS</span></span></a></p>\r
 
-  <p>What is it with these everyday objects…an article
-  about <span>KIOSK</span>, Conran and <span>MOMA</span>.<br> <a
+  <p>What is it with these everyday objects…an article about <span>KIOSK</span>,
+  Conran and <span>MOMA</span>.<br> <a
   href=\"http://cdn.shopify.com/s/files/1/0080/8552/files/w-id1.jpg?2123\"><span
   class=\"blue\">I.D.1</span></a> <a
   href=\"http://cdn.shopify.com/s/files/1/0080/8552/files/w-id2.jpg?2123\"><span

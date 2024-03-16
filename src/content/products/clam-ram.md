@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326842791
 images:
   - id: 763747951
-    alt: ""
+    alt: Clam Ram
     position: 1
     product_id: 326842791
     created_at: 2014-07-22T19:59:03-04:00

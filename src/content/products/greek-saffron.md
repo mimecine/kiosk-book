@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333576831
 images:
   - id: 776914683
-    alt: ""
+    alt: Organic Greek Saffron
     position: 1
     product_id: 333576831
     created_at: 2014-08-05T00:00:19-04:00

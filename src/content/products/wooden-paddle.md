@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/467290007
 images:
   - id: 1245430287
-    alt: ""
+    alt: Wooden Paddle
     position: 1
     product_id: 467290007
     created_at: 2015-03-23T13:55:38-04:00

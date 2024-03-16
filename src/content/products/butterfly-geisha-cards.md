@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326841627
 images:
   - id: 763746495
-    alt: ""
+    alt: Butterfly Geisha Cards
     position: 1
     product_id: 326841627
     created_at: 2014-07-22T19:56:52-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326839159
 images:
   - id: 763743639
-    alt: ""
+    alt: Apple Chutney
     position: 1
     product_id: 326839159
     created_at: 2014-07-22T19:52:50-04:00

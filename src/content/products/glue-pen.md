@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326846923
 images:
   - id: 763753443
-    alt: ""
+    alt: Glue Pen
     position: 1
     product_id: 326846923
     created_at: 2014-07-22T20:05:37-04:00

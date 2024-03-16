@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326841159
 images:
   - id: 763746003
-    alt: ""
+    alt: Bravo Candies in Traditional Paper Candy Bag
     position: 1
     product_id: 326841159
     created_at: 2014-07-22T19:56:06-04:00

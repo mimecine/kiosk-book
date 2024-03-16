@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326848707
 images:
   - id: 763755759
-    alt: ""
+    alt: In the Midst of Nature
     position: 1
     product_id: 326848707
     created_at: 2014-07-22T20:08:55-04:00

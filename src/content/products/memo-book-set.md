@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333575815
 images:
   - id: 776911567
-    alt: ""
+    alt: Memo Book Set
     position: 1
     product_id: 333575815
     created_at: 2014-08-04T23:56:17-04:00

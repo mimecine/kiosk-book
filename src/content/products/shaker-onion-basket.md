@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333579043
 images:
   - id: 776920611
-    alt: ""
+    alt: Shaker Onion Basket
     position: 1
     product_id: 333579043
     created_at: 2014-08-05T00:08:10-04:00

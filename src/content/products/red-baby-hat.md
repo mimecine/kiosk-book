@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333577915
 images:
   - id: 776917927
-    alt: ""
+    alt: Red Baby Hat
     position: 1
     product_id: 333577915
     created_at: 2014-08-05T00:04:35-04:00

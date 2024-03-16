@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333576583
 images:
   - id: 776913923
-    alt: ""
+    alt: Obama Mug
     position: 1
     product_id: 333576583
     created_at: 2014-08-04T23:59:11-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333577199
 images:
   - id: 776915779
-    alt: ""
+    alt: Pax Pastiles
     position: 1
     product_id: 333577199
     created_at: 2014-08-05T00:01:42-04:00

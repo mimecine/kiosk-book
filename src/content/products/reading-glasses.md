@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/9122802401439
 images:
   - id: 36973267812511
-    alt: ""
+    alt: Reading Glasses
     position: 1
     product_id: 9122802401439
     created_at: 2023-12-27T09:53:56-05:00
@@ -26,7 +26,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/PXL_20231031_135348010.jpg?v=1703688836
     thumb: ./reading-glasses/reading-glasses__0-thumb.jpg
   - id: 36973267845279
-    alt: ""
+    alt: Reading Glasses
     position: 2
     product_id: 9122802401439
     created_at: 2023-12-27T09:53:56-05:00
@@ -40,7 +40,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/PXL_20231031_135734998.jpg?v=1703688836
     thumb: ./reading-glasses/reading-glasses__1-thumb.jpg
   - id: 36973267878047
-    alt: ""
+    alt: Reading Glasses
     position: 3
     product_id: 9122802401439
     created_at: 2023-12-27T09:53:56-05:00
@@ -54,7 +54,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/PXL_20231031_135746828.jpg?v=1703688836
     thumb: ./reading-glasses/reading-glasses__2-thumb.jpg
   - id: 36973267910815
-    alt: ""
+    alt: Reading Glasses
     position: 4
     product_id: 9122802401439
     created_at: 2023-12-27T09:53:56-05:00

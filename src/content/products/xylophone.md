@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333582723
 images:
   - id: 776926567
-    alt: ""
+    alt: Xylophone
     position: 1
     product_id: 333582723
     created_at: 2014-08-05T00:18:41-04:00

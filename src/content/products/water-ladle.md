@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333581851
 images:
   - id: 776925183
-    alt: ""
+    alt: Water Ladle
     position: 1
     product_id: 333581851
     created_at: 2014-08-05T00:16:08-04:00

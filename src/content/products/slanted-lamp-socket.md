@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/467283855
 images:
   - id: 1245421455
-    alt: ""
+    alt: Slanted Lamp Socket
     position: 1
     product_id: 467283855
     created_at: 2015-03-23T13:43:02-04:00

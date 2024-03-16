@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333577247
 images:
   - id: 776915939
-    alt: ""
+    alt: Pentel B-100
     position: 1
     product_id: 333577247
     created_at: 2014-08-05T00:01:53-04:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/PENTEL_B_100.jpeg?v=1407211313
     thumb: ./pentel-b-100/pentel-b-100__0-thumb.jpg
   - id: 776915963
-    alt: ""
+    alt: Pentel B-100
     position: 2
     product_id: 333577247
     created_at: 2014-08-05T00:01:55-04:00

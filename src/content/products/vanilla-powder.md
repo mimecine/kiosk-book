@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333581627
 images:
   - id: 776924931
-    alt: ""
+    alt: Vanilla Powder
     position: 1
     product_id: 333581627
     created_at: 2014-08-05T00:15:34-04:00

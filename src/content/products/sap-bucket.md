@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333578595
 images:
   - id: 776919663
-    alt: ""
+    alt: Sap Bucket
     position: 1
     product_id: 333578595
     created_at: 2014-08-05T00:06:55-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333579455
 images:
   - id: 776921375
-    alt: ""
+    alt: Snowflake Dish
     position: 1
     product_id: 333579455
     created_at: 2014-08-05T00:09:30-04:00

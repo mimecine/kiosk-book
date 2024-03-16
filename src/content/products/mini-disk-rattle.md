@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333576111
 images:
   - id: 776912427
-    alt: ""
+    alt: Mini-Disk Rattle
     position: 1
     product_id: 333576111
     created_at: 2014-08-04T23:57:21-04:00

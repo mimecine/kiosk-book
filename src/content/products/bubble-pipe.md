@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326841475
 images:
   - id: 28952129536159
-    alt: ""
+    alt: Bubble Pipe
     position: 1
     product_id: 326841475
     created_at: 2021-05-12T07:28:06-04:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/bubblepipeb.jpg?v=1620818886
     thumb: ./bubble-pipe/bubble-pipe__0-thumb.jpg
   - id: 28952129601695
-    alt: ""
+    alt: Bubble Pipe
     position: 2
     product_id: 326841475
     created_at: 2021-05-12T07:28:06-04:00

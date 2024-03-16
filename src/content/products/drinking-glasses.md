@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326848871
 images:
   - id: 763755955
-    alt: ""
+    alt: Japanese Drinking Glasses
     position: 1
     product_id: 326848871
     created_at: 2014-07-22T20:09:11-04:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/Drinking_Glasses_Small.jpeg?v=1406074151
     thumb: ./drinking-glasses/drinking-glasses__0-thumb.jpg
   - id: 763755975
-    alt: ""
+    alt: Japanese Drinking Glasses
     position: 2
     product_id: 326848871
     created_at: 2014-07-22T20:09:13-04:00

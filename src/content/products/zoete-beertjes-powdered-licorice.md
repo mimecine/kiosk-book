@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333582851
 images:
   - id: 776926899
-    alt: ""
+    alt: Zoete Beertjes Powdered Licorice
     position: 1
     product_id: 333582851
     created_at: 2014-08-05T00:19:11-04:00

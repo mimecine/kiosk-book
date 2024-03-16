@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326843163
 images:
   - id: 763748351
-    alt: ""
+    alt: Colored Chalk
     position: 1
     product_id: 326843163
     created_at: 2014-07-22T19:59:42-04:00

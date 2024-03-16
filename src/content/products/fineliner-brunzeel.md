@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326845727
 images:
   - id: 763751951
-    alt: ""
+    alt: Fineliner Brunzeel
     position: 1
     product_id: 326845727
     created_at: 2014-07-22T20:03:41-04:00

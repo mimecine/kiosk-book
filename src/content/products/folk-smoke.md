@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326846255
 images:
   - id: 763752659
-    alt: ""
+    alt: Folk Smoke
     position: 1
     product_id: 326846255
     created_at: 2014-07-22T20:04:31-04:00

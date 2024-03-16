@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/6730125082783
 images:
   - id: 28768077480095
-    alt: ""
+    alt: Sulfur Stick
     position: 1
     product_id: 6730125082783
     created_at: 2021-04-28T10:28:15-04:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/SulfurStick2.jpg?v=1619620095
     thumb: ./sulfur-stick/sulfur-stick__0-thumb.jpg
   - id: 28768077512863
-    alt: ""
+    alt: Sulfur Stick
     position: 2
     product_id: 6730125082783
     created_at: 2021-04-28T10:28:15-04:00
@@ -38,7 +38,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/SulfurStick1.jpg?v=1619620095
     thumb: ./sulfur-stick/sulfur-stick__1-thumb.jpg
   - id: 28768077578399
-    alt: ""
+    alt: Sulfur Stick
     position: 3
     product_id: 6730125082783
     created_at: 2021-04-28T10:28:15-04:00

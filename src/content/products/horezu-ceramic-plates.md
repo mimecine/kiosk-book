@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/467284823
 images:
   - id: 1245422679
-    alt: ""
+    alt: Horezu Ceramic Plates
     position: 1
     product_id: 467284823
     created_at: 2015-03-23T13:45:02-04:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/horezu_plates.jpeg?v=1427132702
     thumb: ./horezu-ceramic-plates/horezu-ceramic-plates__0-thumb.jpg
   - id: 1245422683
-    alt: ""
+    alt: Horezu Ceramic Plates
     position: 2
     product_id: 467284823
     created_at: 2015-03-23T13:45:02-04:00

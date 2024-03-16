@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333577231
 images:
   - id: 776915871
-    alt: ""
+    alt: Penguin Twist Tie
     position: 1
     product_id: 333577231
     created_at: 2014-08-05T00:01:50-04:00

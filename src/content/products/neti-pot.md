@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333576379
 images:
   - id: 776913347
-    alt: ""
+    alt: Neti Pot
     position: 1
     product_id: 333576379
     created_at: 2014-08-04T23:58:29-04:00

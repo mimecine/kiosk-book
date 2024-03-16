@@ -6,9 +6,11 @@ handle: contact
 body_html: >-
   <p><b>CONTACT US! </b></p>
 
-  <p>KIOSK<br /> 41 UNION SQUARE WEST<br /> ROOM 925<br /> NEW YORK, NY 10003</p>
+  <p>KIOSK<br /> 41 UNION SQUARE WEST<br /> ROOM 925<br /> NEW YORK, NY
+  10003</p>
 
-  <p>PHONE: +1 212 226 8601 <br /> EMAIL: <a href="mailto:info@kioskkiosk.com">INFO@KIOSKKIOSK.COM</a></p>
+  <p>PHONE: +1 212 226 8601 <br /> EMAIL: <a
+  href="mailto:info@kioskkiosk.com">INFO@KIOSKKIOSK.COM</a></p>
 
   <p> </p>
 author: KIOSK KIOSK

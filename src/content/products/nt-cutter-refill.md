@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333576475
 images:
   - id: 776913659
-    alt: ""
+    alt: NT Cutter & Refill
     position: 1
     product_id: 333576475
     created_at: 2014-08-04T23:58:48-04:00

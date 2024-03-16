@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333575459
 images:
   - id: 776910639
-    alt: ""
+    alt: Lintula Beeswax Candles
     position: 1
     product_id: 333575459
     created_at: 2014-08-04T23:54:52-04:00

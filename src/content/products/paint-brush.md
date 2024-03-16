@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333577019
 images:
   - id: 776915335
-    alt: ""
+    alt: Paint Brush
     position: 1
     product_id: 333577019
     created_at: 2014-08-05T00:01:07-04:00

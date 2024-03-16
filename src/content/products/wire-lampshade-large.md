@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333582391
 images:
   - id: 776925839
-    alt: ""
+    alt: Wire Lampshade and Clip Large
     position: 1
     product_id: 333582391
     created_at: 2014-08-05T00:17:25-04:00

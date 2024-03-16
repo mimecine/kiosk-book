@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326846655
 images:
   - id: 763753159
-    alt: ""
+    alt: Gelatina
     position: 1
     product_id: 326846655
     created_at: 2014-07-22T20:05:09-04:00

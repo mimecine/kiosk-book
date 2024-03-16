@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/9122803810463
 images:
   - id: 36973351436447
-    alt: ""
+    alt: Jazzo TVision
     position: 1
     product_id: 9122803810463
     created_at: 2023-12-27T10:08:52-05:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/PXL_20221209_212702010.jpg?v=1703689732
     thumb: ./jazzo-tv-v1-0-0-rc1/jazzo-tv-v1-0-0-rc1__0-thumb.jpg
   - id: 36973351469215
-    alt: ""
+    alt: Jazzo TVision
     position: 2
     product_id: 9122803810463
     created_at: 2023-12-27T10:08:52-05:00
@@ -38,7 +38,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/PXL_20221209_202603210.jpg?v=1703689732
     thumb: ./jazzo-tv-v1-0-0-rc1/jazzo-tv-v1-0-0-rc1__1-thumb.jpg
   - id: 36973351501983
-    alt: ""
+    alt: Jazzo TVision
     position: 3
     product_id: 9122803810463
     created_at: 2023-12-27T10:08:52-05:00
@@ -51,7 +51,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/PXL_20221209_202708368.jpg?v=1703689732
     thumb: ./jazzo-tv-v1-0-0-rc1/jazzo-tv-v1-0-0-rc1__2-thumb.jpg
   - id: 36973351534751
-    alt: ""
+    alt: Jazzo TVision
     position: 4
     product_id: 9122803810463
     created_at: 2023-12-27T10:08:52-05:00
@@ -64,7 +64,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/PXL_20221209_213920060.MP.jpg?v=1703689732
     thumb: ./jazzo-tv-v1-0-0-rc1/jazzo-tv-v1-0-0-rc1__3-thumb.jpg
   - id: 36973351567519
-    alt: ""
+    alt: Jazzo TVision
     position: 5
     product_id: 9122803810463
     created_at: 2023-12-27T10:08:53-05:00
@@ -77,7 +77,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/PXL_20221209_213447573.jpg?v=1703689732
     thumb: ./jazzo-tv-v1-0-0-rc1/jazzo-tv-v1-0-0-rc1__4-thumb.jpg
   - id: 36973351600287
-    alt: ""
+    alt: Jazzo TVision
     position: 6
     product_id: 9122803810463
     created_at: 2023-12-27T10:08:53-05:00
@@ -90,7 +90,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/PXL_20221209_205016893.jpg?v=1703689732
     thumb: ./jazzo-tv-v1-0-0-rc1/jazzo-tv-v1-0-0-rc1__5-thumb.jpg
   - id: 36973351633055
-    alt: ""
+    alt: Jazzo TVision
     position: 7
     product_id: 9122803810463
     created_at: 2023-12-27T10:08:53-05:00
@@ -103,7 +103,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/PXL_20221126_213812252_2.jpg?v=1703689732
     thumb: ./jazzo-tv-v1-0-0-rc1/jazzo-tv-v1-0-0-rc1__6-thumb.jpg
   - id: 36973351665823
-    alt: ""
+    alt: Jazzo TVision
     position: 8
     product_id: 9122803810463
     created_at: 2023-12-27T10:08:53-05:00

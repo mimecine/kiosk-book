@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326849415
 images:
   - id: 28952124194975
-    alt: ""
+    alt: Kiosk Book on Germany
     position: 1
     product_id: 326849415
     created_at: 2021-05-12T07:27:40-04:00

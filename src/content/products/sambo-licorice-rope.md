@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333578519
 images:
   - id: 776919467
-    alt: ""
+    alt: Sambo Licorice Rope
     position: 1
     product_id: 333578519
     created_at: 2014-08-05T00:06:38-04:00

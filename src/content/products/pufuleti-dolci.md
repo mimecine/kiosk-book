@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/467284223
 images:
   - id: 1245421907
-    alt: ""
+    alt: Pufuleti Dolci
     position: 1
     product_id: 467284223
     created_at: 2015-03-23T13:43:52-04:00

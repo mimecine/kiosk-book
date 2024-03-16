@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333579127
 images:
   - id: 776920755
-    alt: ""
+    alt: Shriver's Salt Water Taffy
     position: 1
     product_id: 333579127
     created_at: 2014-08-05T00:08:28-04:00

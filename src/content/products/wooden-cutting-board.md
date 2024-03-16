@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333582547
 images:
   - id: 776926159
-    alt: ""
+    alt: Wooden Cutting Board
     position: 1
     product_id: 333582547
     created_at: 2014-08-05T00:17:56-04:00

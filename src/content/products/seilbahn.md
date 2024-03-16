@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333578727
 images:
   - id: 776919987
-    alt: ""
+    alt: Seilbahn
     position: 1
     product_id: 333578727
     created_at: 2014-08-05T00:07:18-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333581579
 images:
   - id: 776924855
-    alt: ""
+    alt: Valencia Oranges
     position: 1
     product_id: 333581579
     created_at: 2014-08-05T00:15:25-04:00

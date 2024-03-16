@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/467284343
 images:
   - id: 1245422047
-    alt: ""
+    alt: Romanian Rope
     position: 1
     product_id: 467284343
     created_at: 2015-03-23T13:44:09-04:00

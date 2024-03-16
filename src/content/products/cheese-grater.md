@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326842355
 images:
   - id: 763747415
-    alt: ""
+    alt: Cheese Grater
     position: 1
     product_id: 326842355
     created_at: 2014-07-22T19:58:17-04:00

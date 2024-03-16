@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/9122803941535
 images:
   - id: 36973353336991
-    alt: ""
+    alt: Jazzo Six
     position: 1
     product_id: 9122803941535
     created_at: 2023-12-27T10:09:24-05:00

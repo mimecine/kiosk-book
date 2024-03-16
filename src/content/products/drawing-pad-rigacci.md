@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/6730124460191
 images:
   - id: 28952119443615
-    alt: ""
+    alt: Rigacci Drawing Pad
     position: 1
     product_id: 6730124460191
     created_at: 2021-05-12T07:27:24-04:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/IMG_20181118_142455_cd84fd92-752f-4bee-97ce-ef47a575f3cf.jpg?v=1620818844
     thumb: ./drawing-pad-rigacci/drawing-pad-rigacci__0-thumb.jpg
   - id: 28952119476383
-    alt: ""
+    alt: Rigacci Drawing Pad
     position: 2
     product_id: 6730124460191
     created_at: 2021-05-12T07:27:24-04:00
@@ -38,7 +38,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/RigacciDrawingPad3_a2ed330b-bfee-4754-8071-68e30230a3f0.jpg?v=1620818844
     thumb: ./drawing-pad-rigacci/drawing-pad-rigacci__1-thumb.jpg
   - id: 28952119509151
-    alt: ""
+    alt: Rigacci Drawing Pad
     position: 3
     product_id: 6730124460191
     created_at: 2021-05-12T07:27:24-04:00

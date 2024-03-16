@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326843559
 images:
   - id: 763748791
-    alt: ""
+    alt: Cotton Shopping Bag
     position: 1
     product_id: 326843559
     created_at: 2014-07-22T20:00:22-04:00

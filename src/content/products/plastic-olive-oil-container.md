@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/467290139
 images:
   - id: 1245430443
-    alt: ""
+    alt: Plastic Olive Oil Container
     position: 1
     product_id: 467290139
     created_at: 2015-03-23T13:55:45-04:00

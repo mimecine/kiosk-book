@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/467290467
 images:
   - id: 1245430831
-    alt: ""
+    alt: Doggie Bags
     position: 1
     product_id: 467290467
     created_at: 2015-03-23T13:56:05-04:00

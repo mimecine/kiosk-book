@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333578999
 images:
   - id: 776920507
-    alt: ""
+    alt: Seven Tone Pentatonic Glockenspiel
     position: 1
     product_id: 333578999
     created_at: 2014-08-05T00:08:02-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333575423
 images:
   - id: 776910519
-    alt: ""
+    alt: "Ligas de Hule: Rubberbands"
     position: 1
     product_id: 333575423
     created_at: 2014-08-04T23:54:42-04:00

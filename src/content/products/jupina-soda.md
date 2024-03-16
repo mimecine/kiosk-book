@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326849167
 images:
   - id: 763756395
-    alt: ""
+    alt: Jupina Soda
     position: 1
     product_id: 326849167
     created_at: 2014-07-22T20:09:43-04:00

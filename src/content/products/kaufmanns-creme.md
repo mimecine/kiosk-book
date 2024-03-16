@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326849211
 images:
   - id: 763756475
-    alt: ""
+    alt: Kaufmann's Creme
     position: 1
     product_id: 326849211
     created_at: 2014-07-22T20:09:48-04:00

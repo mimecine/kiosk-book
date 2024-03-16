@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333582799
 images:
   - id: 776926783
-    alt: ""
+    alt: Yuki's Book
     position: 1
     product_id: 333582799
     created_at: 2014-08-05T00:18:58-04:00

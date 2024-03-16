@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333582699
 images:
   - id: 28952126062751
-    alt: ""
+    alt: Woven Trivet
     position: 1
     product_id: 333582699
     created_at: 2021-05-12T07:27:49-04:00

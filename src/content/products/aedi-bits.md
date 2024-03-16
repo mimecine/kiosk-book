@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326838407
 images:
   - id: 763742663
-    alt: ""
+    alt: Ædi Bits
     position: 1
     product_id: 326838407
     created_at: 2014-07-22T19:51:46-04:00

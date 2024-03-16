@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326849151
 images:
   - id: 763756351
-    alt: ""
+    alt: Juniper Utensil Set
     position: 1
     product_id: 326849151
     created_at: 2014-07-22T20:09:40-04:00

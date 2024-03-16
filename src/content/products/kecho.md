@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/9122803777695
 images:
   - id: 36973350453407
-    alt: ""
+    alt: Jazzo Sphere
     position: 1
     product_id: 9122803777695
     created_at: 2023-12-27T10:08:30-05:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/PXL_20221209_202314411.jpg?v=1703689710
     thumb: ./kecho/kecho__0-thumb.jpg
   - id: 36973350486175
-    alt: ""
+    alt: Jazzo Sphere
     position: 2
     product_id: 9122803777695
     created_at: 2023-12-27T10:08:30-05:00
@@ -38,7 +38,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/PXL_20221209_202320615.jpg?v=1703689710
     thumb: ./kecho/kecho__1-thumb.jpg
   - id: 36973350518943
-    alt: ""
+    alt: Jazzo Sphere
     position: 3
     product_id: 9122803777695
     created_at: 2023-12-27T10:08:30-05:00
@@ -51,7 +51,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/PXL_20221123_141227557.jpg?v=1703689710
     thumb: ./kecho/kecho__2-thumb.jpg
   - id: 36973350551711
-    alt: ""
+    alt: Jazzo Sphere
     position: 4
     product_id: 9122803777695
     created_at: 2023-12-27T10:08:30-05:00

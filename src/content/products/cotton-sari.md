@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326843543
 images:
   - id: 763748771
-    alt: ""
+    alt: Cotton Sari
     position: 1
     product_id: 326843543
     created_at: 2014-07-22T20:00:20-04:00

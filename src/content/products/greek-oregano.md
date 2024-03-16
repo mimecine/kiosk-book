@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326847271
 images:
   - id: 763753855
-    alt: ""
+    alt: Greek Oregano
     position: 1
     product_id: 326847271
     created_at: 2014-07-22T20:06:21-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326848335
 images:
   - id: 763755267
-    alt: ""
+    alt: Horn Haircombs
     position: 1
     product_id: 326848335
     created_at: 2014-07-22T20:08:18-04:00

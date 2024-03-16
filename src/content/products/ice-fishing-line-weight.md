@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326848571
 images:
   - id: 763755579
-    alt: ""
+    alt: Ice Fishing Line Weight
     position: 1
     product_id: 326848571
     created_at: 2014-07-22T20:08:41-04:00

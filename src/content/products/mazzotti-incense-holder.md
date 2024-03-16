@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/6730129571999
 images:
   - id: 28952113741983
-    alt: ""
+    alt: Mazzotti Incense Holder
     position: 1
     product_id: 6730129571999
     created_at: 2021-05-12T07:27:00-04:00

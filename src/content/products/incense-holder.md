@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326848735
 images:
   - id: 763755787
-    alt: ""
+    alt: Incense Holder
     position: 1
     product_id: 326848735
     created_at: 2014-07-22T20:08:58-04:00

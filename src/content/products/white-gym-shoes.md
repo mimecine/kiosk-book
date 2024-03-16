@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333582083
 images:
   - id: 776925487
-    alt: ""
+    alt: White Gym Shoes
     position: 1
     product_id: 333582083
     created_at: 2014-08-05T00:16:41-04:00

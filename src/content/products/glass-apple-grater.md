@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/467284963
 images:
   - id: 1245422867
-    alt: ""
+    alt: Glass Grater
     position: 1
     product_id: 467284963
     created_at: 2015-03-23T13:45:20-04:00

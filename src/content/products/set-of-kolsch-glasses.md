@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333578951
 images:
   - id: 776920395
-    alt: ""
+    alt: Set of Kolsch Glasses
     position: 1
     product_id: 333578951
     created_at: 2014-08-05T00:07:52-04:00

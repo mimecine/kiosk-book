@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326844239
 images:
   - id: 763749587
-    alt: ""
+    alt: Donkey Playing Cards
     position: 1
     product_id: 326844239
     created_at: 2014-07-22T20:01:30-04:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/donkey-playingcards-3.jpeg?v=1406073690
     thumb: ./donkey-playing-cards/donkey-playing-cards__0-thumb.jpg
   - id: 763749687
-    alt: ""
+    alt: Donkey Playing Cards
     position: 2
     product_id: 326844239
     created_at: 2014-07-22T20:01:31-04:00

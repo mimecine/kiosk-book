@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326849939
 images:
   - id: 763757439
-    alt: ""
+    alt: Large Bottle Brush
     position: 1
     product_id: 326849939
     created_at: 2014-07-22T20:11:08-04:00

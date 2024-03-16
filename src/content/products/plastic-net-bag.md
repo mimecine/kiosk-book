@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/467284043
 images:
   - id: 1245421699
-    alt: ""
+    alt: Plastic Net Bag
     position: 1
     product_id: 467284043
     created_at: 2015-03-23T13:43:23-04:00

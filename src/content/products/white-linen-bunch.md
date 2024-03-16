@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333582103
 images:
   - id: 776925499
-    alt: ""
+    alt: White Linen Bunch
     position: 1
     product_id: 333582103
     created_at: 2014-08-05T00:16:43-04:00

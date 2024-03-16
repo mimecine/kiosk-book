@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/6775587176607
 images:
   - id: 28952092049567
-    alt: ""
+    alt: Marco's Nescafé Special
     position: 1
     product_id: 6775587176607
     created_at: 2021-05-12T07:25:41-04:00

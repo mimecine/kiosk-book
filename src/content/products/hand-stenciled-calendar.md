@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326847835
 images:
   - id: 763754571
-    alt: ""
+    alt: Hand Stenciled Calendar
     position: 1
     product_id: 326847835
     created_at: 2014-07-22T20:07:19-04:00

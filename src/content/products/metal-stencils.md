@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333575979
 images:
   - id: 776912035
-    alt: ""
+    alt: Metal Stencils
     position: 1
     product_id: 333575979
     created_at: 2014-08-04T23:56:53-04:00

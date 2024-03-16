@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326845203
 images:
   - id: 763751267
-    alt: ""
+    alt: Ex Votos
     position: 1
     product_id: 326845203
     created_at: 2014-07-22T20:02:57-04:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/2013_11_09_Kiosk_1594.jpeg?v=1406073777
     thumb: ./ex-votos/ex-votos__0-thumb.jpg
   - id: 763751287
-    alt: ""
+    alt: Ex Votos
     position: 2
     product_id: 326845203
     created_at: 2014-07-22T20:02:58-04:00
@@ -38,7 +38,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/exvotos2-X3.jpeg?v=1406073778
     thumb: ./ex-votos/ex-votos__1-thumb.jpg
   - id: 763751315
-    alt: ""
+    alt: Ex Votos
     position: 3
     product_id: 326845203
     created_at: 2014-07-22T20:03:01-04:00

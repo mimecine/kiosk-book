@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333576043
 images:
   - id: 776912231
-    alt: ""
+    alt: Mexican Chocolate
     position: 1
     product_id: 333576043
     created_at: 2014-08-04T23:57:06-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333581875
 images:
   - id: 776925211
-    alt: ""
+    alt: Watering Can
     position: 1
     product_id: 333581875
     created_at: 2014-08-05T00:16:12-04:00

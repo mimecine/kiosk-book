@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333581815
 images:
   - id: 776925155
-    alt: ""
+    alt: Wash Basin
     position: 1
     product_id: 333581815
     created_at: 2014-08-05T00:16:02-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/9122802466975
 images:
   - id: 36973268631711
-    alt: ""
+    alt: All around knife
     position: 1
     product_id: 9122802466975
     created_at: 2023-12-27T09:54:03-05:00

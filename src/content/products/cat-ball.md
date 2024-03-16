@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326842083
 images:
   - id: 763747075
-    alt: ""
+    alt: Cat Ball
     position: 1
     product_id: 326842083
     created_at: 2014-07-22T19:57:46-04:00

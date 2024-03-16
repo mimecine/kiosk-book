@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333576687
 images:
   - id: 776914283
-    alt: ""
+    alt: Oldenburg Pretzel
     position: 1
     product_id: 333576687
     created_at: 2014-08-04T23:59:33-04:00

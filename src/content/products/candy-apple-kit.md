@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326841899
 images:
   - id: 763746879
-    alt: ""
+    alt: Candy Apple Kit
     position: 1
     product_id: 326841899
     created_at: 2014-07-22T19:57:25-04:00

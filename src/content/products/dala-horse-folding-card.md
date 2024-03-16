@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326843739
 images:
   - id: 763749011
-    alt: ""
+    alt: Dala Horse Folding Card
     position: 1
     product_id: 326843739
     created_at: 2014-07-22T20:00:43-04:00

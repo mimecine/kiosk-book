@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326849023
 images:
   - id: 763756147
-    alt: ""
+    alt: Jasmine Oil
     position: 1
     product_id: 326849023
     created_at: 2014-07-22T20:09:26-04:00

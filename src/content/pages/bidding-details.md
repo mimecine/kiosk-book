@@ -10,7 +10,6 @@ updated_at: 2016-07-08T06:35:01-04:00
 published_at: 2016-07-08T06:35:01-04:00
 template_suffix: auction_cust_bids
 admin_graphql_api_id: gid://shopify/OnlineStorePage/209194886
-metafields: []
 
 ---
 

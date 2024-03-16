@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333577871
 images:
   - id: 776917827
-    alt: ""
+    alt: Ravi's Coffee Powder
     position: 1
     product_id: 333577871
     created_at: 2014-08-05T00:04:25-04:00

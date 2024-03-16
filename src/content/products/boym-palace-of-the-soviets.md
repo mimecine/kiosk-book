@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326841083
 images:
   - id: 763745899
-    alt: ""
+    alt: Boym "Palace of the Soviets"
     position: 1
     product_id: 326841083
     created_at: 2014-07-22T19:55:58-04:00

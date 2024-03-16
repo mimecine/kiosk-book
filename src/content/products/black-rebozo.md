@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/2956542979
 images:
   - id: 6074263491
-    alt: ""
+    alt: Black Rebozo
     position: 1
     product_id: 2956542979
     created_at: 2015-10-06T09:58:45-04:00

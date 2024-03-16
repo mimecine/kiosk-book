@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333577515
 images:
   - id: 776916811
-    alt: ""
+    alt: Plaster Scraper
     position: 1
     product_id: 333577515
     created_at: 2014-08-05T00:02:59-04:00

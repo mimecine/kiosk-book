@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333576719
 images:
   - id: 776914419
-    alt: ""
+    alt: Olive OIl Soap
     position: 1
     product_id: 333576719
     created_at: 2014-08-04T23:59:46-04:00

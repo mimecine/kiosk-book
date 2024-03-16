@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326845623
 images:
   - id: 763751811
-    alt: ""
+    alt: Fennia Marking Pen
     position: 1
     product_id: 326845623
     created_at: 2014-07-22T20:03:31-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333578511
 images:
   - id: 776919443
-    alt: ""
+    alt: Sambo Licorice Cream Spiral
     position: 1
     product_id: 333578511
     created_at: 2014-08-05T00:06:36-04:00

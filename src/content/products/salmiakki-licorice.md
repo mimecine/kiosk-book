@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333578423
 images:
   - id: 776919271
-    alt: ""
+    alt: Salmiakki Licorice
     position: 1
     product_id: 333578423
     created_at: 2014-08-05T00:06:24-04:00

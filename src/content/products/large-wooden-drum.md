@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326850047
 images:
   - id: 763757591
-    alt: ""
+    alt: Large Wooden Drum
     position: 1
     product_id: 326850047
     created_at: 2014-07-22T20:11:20-04:00

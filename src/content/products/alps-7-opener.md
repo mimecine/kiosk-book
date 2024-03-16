@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326838775
 images:
   - id: 763743211
-    alt: ""
+    alt: Alps 7 Opener
     position: 1
     product_id: 326838775
     created_at: 2014-07-22T19:52:18-04:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/1168732818_alps-7-opener.jpeg?v=1406073138
     thumb: ./alps-7-opener/alps-7-opener__0-thumb.jpg
   - id: 763743243
-    alt: ""
+    alt: Alps 7 Opener
     position: 2
     product_id: 326838775
     created_at: 2014-07-22T19:52:20-04:00

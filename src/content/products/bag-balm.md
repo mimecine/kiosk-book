@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326839375
 images:
   - id: 763743903
-    alt: ""
+    alt: Bag Balm
     position: 1
     product_id: 326839375
     created_at: 2014-07-22T19:53:11-04:00

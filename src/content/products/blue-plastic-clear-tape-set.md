@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326840763
 images:
   - id: 763745555
-    alt: ""
+    alt: Blue Plastic Clear Tape Set
     position: 1
     product_id: 326840763
     created_at: 2014-07-22T19:55:28-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326845003
 images:
   - id: 763750823
-    alt: ""
+    alt: Enamel Bowl
     position: 1
     product_id: 326845003
     created_at: 2014-07-22T20:02:37-04:00

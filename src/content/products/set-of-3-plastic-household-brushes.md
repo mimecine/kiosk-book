@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333578847
 images:
   - id: 776920211
-    alt: ""
+    alt: Set of 3 Plastic Household Brushes
     position: 1
     product_id: 333578847
     created_at: 2014-08-05T00:07:36-04:00

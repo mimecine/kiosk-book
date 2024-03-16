@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333576819
 images:
   - id: 776914639
-    alt: ""
+    alt: Orange Polka Dot Flagging Tape
     position: 1
     product_id: 333576819
     created_at: 2014-08-05T00:00:15-04:00

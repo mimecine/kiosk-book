@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333577271
 images:
   - id: 776916011
-    alt: ""
+    alt: Peppermint Candy
     position: 1
     product_id: 333577271
     created_at: 2014-08-05T00:01:59-04:00

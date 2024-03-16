@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333582563
 images:
   - id: 776926167
-    alt: ""
+    alt: Wooden Doormat
     position: 1
     product_id: 333582563
     created_at: 2014-08-05T00:17:58-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333579207
 images:
   - id: 776920863
-    alt: ""
+    alt: Skane Apple Cider
     position: 1
     product_id: 333579207
     created_at: 2014-08-05T00:08:37-04:00

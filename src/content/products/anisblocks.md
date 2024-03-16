@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326839059
 images:
   - id: 763743523
-    alt: ""
+    alt: Anisblocks
     position: 1
     product_id: 326839059
     created_at: 2014-07-22T19:52:44-04:00

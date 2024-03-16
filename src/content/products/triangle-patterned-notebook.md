@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/6730123411615
 images:
   - id: 28768071942303
-    alt: ""
+    alt: Triangle Patterned Notebook
     position: 1
     product_id: 6730123411615
     created_at: 2021-04-28T10:27:53-04:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/Trianglenotebook1.jpg?v=1619620073
     thumb: ./triangle-patterned-notebook/triangle-patterned-notebook__0-thumb.jpg
   - id: 28768071975071
-    alt: ""
+    alt: Triangle Patterned Notebook
     position: 2
     product_id: 6730123411615
     created_at: 2021-04-28T10:27:53-04:00

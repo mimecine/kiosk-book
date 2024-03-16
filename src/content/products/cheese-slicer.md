@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326842391
 images:
   - id: 763747459
-    alt: ""
+    alt: Cheese Slicer
     position: 1
     product_id: 326842391
     created_at: 2014-07-22T19:58:21-04:00

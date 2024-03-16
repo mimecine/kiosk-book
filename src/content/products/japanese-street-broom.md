@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326848979
 images:
   - id: 763756095
-    alt: ""
+    alt: Japanese Street Broom
     position: 1
     product_id: 326848979
     created_at: 2014-07-22T20:09:21-04:00

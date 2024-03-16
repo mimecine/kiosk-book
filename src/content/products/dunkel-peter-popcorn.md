@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326844543
 images:
   - id: 763750075
-    alt: ""
+    alt: Dunkel Peter Popcorn
     position: 1
     product_id: 326844543
     created_at: 2014-07-22T20:01:56-04:00

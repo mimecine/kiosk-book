@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326841991
 images:
   - id: 763746983
-    alt: ""
+    alt: Carrying Strap
     position: 1
     product_id: 326841991
     created_at: 2014-07-22T19:57:36-04:00

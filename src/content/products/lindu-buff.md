@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333575439
 images:
   - id: 776910595
-    alt: ""
+    alt: Lindu Buff
     position: 1
     product_id: 333575439
     created_at: 2014-08-04T23:54:48-04:00

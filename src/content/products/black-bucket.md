@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326840499
 images:
   - id: 763745215
-    alt: ""
+    alt: Black Bucket
     position: 1
     product_id: 326840499
     created_at: 2014-07-22T19:55:05-04:00

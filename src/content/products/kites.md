@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326849647
 images:
   - id: 763757083
-    alt: ""
+    alt: Kites
     position: 1
     product_id: 326849647
     created_at: 2014-07-22T20:10:37-04:00

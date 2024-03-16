@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326849139
 images:
   - id: 763756335
-    alt: ""
+    alt: Jorgensen Wood Clamp
     position: 1
     product_id: 326849139
     created_at: 2014-07-22T20:09:39-04:00

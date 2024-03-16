@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333582015
 images:
   - id: 776925383
-    alt: ""
+    alt: White Candle with Pinches
     position: 1
     product_id: 333582015
     created_at: 2014-08-05T00:16:31-04:00

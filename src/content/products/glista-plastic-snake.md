@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326846875
 images:
   - id: 763753395
-    alt: ""
+    alt: Glitsa / Plastic Snake
     position: 1
     product_id: 326846875
     created_at: 2014-07-22T20:05:33-04:00

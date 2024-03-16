@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333580443
 images:
   - id: 776923183
-    alt: ""
+    alt: Three Homo Drawing Books
     position: 1
     product_id: 333580443
     created_at: 2014-08-05T00:12:35-04:00

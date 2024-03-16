@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333577859
 images:
   - id: 776917799
-    alt: ""
+    alt: Ratchet Kit
     position: 1
     product_id: 333577859
     created_at: 2014-08-05T00:04:23-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333577811
 images:
   - id: 776917619
-    alt: ""
+    alt: Pure Sandalwood Oil
     position: 1
     product_id: 333577811
     created_at: 2014-08-05T00:04:06-04:00

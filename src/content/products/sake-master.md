@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333578387
 images:
   - id: 776919179
-    alt: ""
+    alt: Sake Master
     position: 1
     product_id: 333578387
     created_at: 2014-08-05T00:06:17-04:00

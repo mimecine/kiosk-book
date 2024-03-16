@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333581243
 images:
   - id: 776924347
-    alt: ""
+    alt: Trahana
     position: 1
     product_id: 333581243
     created_at: 2014-08-05T00:14:34-04:00

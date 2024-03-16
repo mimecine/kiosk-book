@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326843275
 images:
   - id: 763748471
-    alt: ""
+    alt: Colombian Candles
     position: 1
     product_id: 326843275
     created_at: 2014-07-22T19:59:53-04:00

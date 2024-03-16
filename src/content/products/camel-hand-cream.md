@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326841795
 images:
   - id: 763746747
-    alt: ""
+    alt: Camel Hand Cream
     position: 1
     product_id: 326841795
     created_at: 2014-07-22T19:57:11-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/467284383
 images:
   - id: 1245422091
-    alt: ""
+    alt: Nailbrush
     position: 1
     product_id: 467284383
     created_at: 2015-03-23T13:44:15-04:00

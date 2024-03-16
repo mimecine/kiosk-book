@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/9122803908767
 images:
   - id: 36973353173151
-    alt: ""
+    alt: Jazzo Java
     position: 1
     product_id: 9122803908767
     created_at: 2023-12-27T10:09:21-05:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/PXL_20221209_134546187.jpg?v=1703689760
     thumb: ./jazzo-java/jazzo-java__0-thumb.jpg
   - id: 36973353205919
-    alt: ""
+    alt: Jazzo Java
     position: 2
     product_id: 9122803908767
     created_at: 2023-12-27T10:09:21-05:00
@@ -38,7 +38,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/coffeegedit.jpg?v=1703689761
     thumb: ./jazzo-java/jazzo-java__1-thumb.jpg
   - id: 36973353238687
-    alt: ""
+    alt: Jazzo Java
     position: 3
     product_id: 9122803908767
     created_at: 2023-12-27T10:09:21-05:00

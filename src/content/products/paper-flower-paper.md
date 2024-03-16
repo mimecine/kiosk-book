@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333577079
 images:
   - id: 776915495
-    alt: ""
+    alt: Paper Flower Paper
     position: 1
     product_id: 333577079
     created_at: 2014-08-05T00:01:20-04:00

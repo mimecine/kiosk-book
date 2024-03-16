@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333577159
 images:
   - id: 776915671
-    alt: ""
+    alt: Papier Mache Shakers
     position: 1
     product_id: 333577159
     created_at: 2014-08-05T00:01:35-04:00

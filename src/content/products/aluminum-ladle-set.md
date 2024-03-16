@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326838875
 images:
   - id: 763743319
-    alt: ""
+    alt: Aluminum Ladle Set
     position: 1
     product_id: 326838875
     created_at: 2014-07-22T19:52:26-04:00

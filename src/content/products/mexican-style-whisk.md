@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333576047
 images:
   - id: 776912247
-    alt: ""
+    alt: Mexican Style Whisk
     position: 1
     product_id: 333576047
     created_at: 2014-08-04T23:57:07-04:00

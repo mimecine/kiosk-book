@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333578191
 images:
   - id: 776918595
-    alt: ""
+    alt: Rodin 3-D Card
     position: 1
     product_id: 333578191
     created_at: 2014-08-05T00:05:30-04:00

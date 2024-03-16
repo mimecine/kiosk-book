@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333576251
 images:
   - id: 776912971
-    alt: ""
+    alt: Mushroom Knife
     position: 1
     product_id: 333576251
     created_at: 2014-08-04T23:58:00-04:00

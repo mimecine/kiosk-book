@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/9122804334751
 images:
   - id: 36973360775327
-    alt: ""
+    alt: Super Natural Black Tea Compliments of Postcard Teas, London
     position: 1
     product_id: 9122804334751
     created_at: 2023-12-27T10:12:18-05:00

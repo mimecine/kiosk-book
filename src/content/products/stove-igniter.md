@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/6730122756255
 images:
   - id: 28952118198431
-    alt: ""
+    alt: Stove Igniter
     position: 1
     product_id: 6730122756255
     created_at: 2021-05-12T07:27:18-04:00

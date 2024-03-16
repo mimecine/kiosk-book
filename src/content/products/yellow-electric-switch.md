@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/6730130751647
 images:
   - id: 28768097796255
-    alt: ""
+    alt: Yellow Electric Switch
     position: 1
     product_id: 6730130751647
     created_at: 2021-04-28T10:29:36-04:00

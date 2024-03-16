@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326848251
 images:
   - id: 763755135
-    alt: ""
+    alt: Hermetus Bottle Opener
     position: 1
     product_id: 326848251
     created_at: 2014-07-22T20:08:06-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326849683
 images:
   - id: 28952110989471
-    alt: ""
+    alt: Knackebrod
     position: 1
     product_id: 326849683
     created_at: 2021-05-12T07:26:50-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/6730126721183
 images:
   - id: 28768084492447
-    alt: ""
+    alt: Grattugia Palate Cheese Grater
     position: 1
     product_id: 6730126721183
     created_at: 2021-04-28T10:28:37-04:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/Grattugia_Palate_Cheese_Grater1.jpg?v=1619620117
     thumb: ./palate-cheese-grater/palate-cheese-grater__0-thumb.jpg
   - id: 28768084525215
-    alt: ""
+    alt: Grattugia Palate Cheese Grater
     position: 2
     product_id: 6730126721183
     created_at: 2021-04-28T10:28:37-04:00

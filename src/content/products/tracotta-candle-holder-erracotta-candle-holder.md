@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333580375
 images:
   - id: 776923103
-    alt: ""
+    alt: Terracotta Candle Holder
     position: 1
     product_id: 333580375
     created_at: 2014-08-05T00:12:24-04:00

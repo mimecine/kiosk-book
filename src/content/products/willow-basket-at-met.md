@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/467284571
 images:
   - id: 1245422323
-    alt: ""
+    alt: Willow Basket
     position: 1
     product_id: 467284571
     created_at: 2015-03-23T13:44:36-04:00

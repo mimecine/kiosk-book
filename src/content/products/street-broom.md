@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/2956554115
 images:
   - id: 6074317059
-    alt: ""
+    alt: Street Broom
     position: 1
     product_id: 2956554115
     created_at: 2015-10-06T10:00:35-04:00

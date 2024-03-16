@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326838747
 images:
   - id: 763743175
-    alt: ""
+    alt: Almond Cakes
     position: 1
     product_id: 326838747
     created_at: 2014-07-22T19:52:16-04:00

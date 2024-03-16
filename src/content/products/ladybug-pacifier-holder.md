@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326849843
 images:
   - id: 763757287
-    alt: ""
+    alt: Ladybug Pacifier Holder
     position: 1
     product_id: 326849843
     created_at: 2014-07-22T20:10:57-04:00

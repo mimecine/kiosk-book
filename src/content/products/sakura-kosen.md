@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333578407
 images:
   - id: 776919259
-    alt: ""
+    alt: Sakura Kosen
     position: 1
     product_id: 333578407
     created_at: 2014-08-05T00:06:22-04:00

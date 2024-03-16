@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/9122803613855
 images:
   - id: 36973348225183
-    alt: ""
+    alt: Cold Brew Matcha
     position: 1
     product_id: 9122803613855
     created_at: 2023-12-27T10:07:13-05:00

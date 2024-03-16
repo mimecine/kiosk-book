@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333577587
 images:
   - id: 776916963
-    alt: ""
+    alt: Plastic Pocket Flask
     position: 1
     product_id: 333577587
     created_at: 2014-08-05T00:03:12-04:00

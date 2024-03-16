@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326845319
 images:
   - id: 763751367
-    alt: ""
+    alt: Exercise Book Set
     position: 1
     product_id: 326845319
     created_at: 2014-07-22T20:03:05-04:00

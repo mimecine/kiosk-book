@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326849799
 images:
   - id: 763757247
-    alt: ""
+    alt: Kwik Organizing Book / Project Journal
     position: 1
     product_id: 326849799
     created_at: 2014-07-22T20:10:53-04:00

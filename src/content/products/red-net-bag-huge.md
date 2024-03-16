@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333578019
 images:
   - id: 776918195
-    alt: ""
+    alt: Red Net Bag Huge
     position: 1
     product_id: 333578019
     created_at: 2014-08-05T00:04:57-04:00

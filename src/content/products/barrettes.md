@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/9122804564127
 images:
   - id: 36973361889439
-    alt: ""
+    alt: French Barrettes
     position: 1
     product_id: 9122804564127
     created_at: 2023-12-27T10:12:56-05:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/PXL_20211118_112806039.jpg?v=1703689976
     thumb: ./barrettes/barrettes__0-thumb.jpg
   - id: 36973361922207
-    alt: ""
+    alt: French Barrettes
     position: 2
     product_id: 9122804564127
     created_at: 2023-12-27T10:12:56-05:00
@@ -38,7 +38,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/PXL_20211118_113345076.jpg?v=1703689976
     thumb: ./barrettes/barrettes__1-thumb.jpg
   - id: 36973361954975
-    alt: ""
+    alt: French Barrettes
     position: 3
     product_id: 9122804564127
     created_at: 2023-12-27T10:12:56-05:00

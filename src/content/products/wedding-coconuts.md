@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/467290115
 images:
   - id: 1245430419
-    alt: ""
+    alt: Wedding Coconuts
     position: 1
     product_id: 467290115
     created_at: 2015-03-23T13:55:43-04:00

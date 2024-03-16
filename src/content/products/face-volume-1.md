@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/2956720131
 images:
   - id: 6074276995
-    alt: ""
+    alt: :) Face Volume 1
     position: 1
     product_id: 2956720131
     created_at: 2015-10-06T09:59:13-04:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/IMG_4098-X2.jpg?v=1444139973
     thumb: ./face-volume-1/face-volume-1__0-thumb.jpg
   - id: 6074278723
-    alt: ""
+    alt: :) Face Volume 1
     position: 2
     product_id: 2956720131
     created_at: 2015-10-06T09:59:15-04:00
@@ -38,7 +38,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/IMG_4104-X2.jpg?v=1444139973
     thumb: ./face-volume-1/face-volume-1__1-thumb.jpg
   - id: 6074278211
-    alt: ""
+    alt: :) Face Volume 1
     position: 3
     product_id: 2956720131
     created_at: 2015-10-06T09:59:14-04:00
@@ -51,7 +51,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/IMG_4102-X2.jpg?v=1444139973
     thumb: ./face-volume-1/face-volume-1__2-thumb.jpg
   - id: 6074279619
-    alt: ""
+    alt: :) Face Volume 1
     position: 4
     product_id: 2956720131
     created_at: 2015-10-06T09:59:17-04:00
@@ -64,7 +64,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/IMG_4107-X2.jpg?v=1444139973
     thumb: ./face-volume-1/face-volume-1__3-thumb.jpg
   - id: 6074276355
-    alt: ""
+    alt: :) Face Volume 1
     position: 5
     product_id: 2956720131
     created_at: 2015-10-06T09:59:11-04:00

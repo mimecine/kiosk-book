@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326840163
 images:
   - id: 763744811
-    alt: ""
+    alt: Bilar
     position: 1
     product_id: 326840163
     created_at: 2014-07-22T19:54:35-04:00

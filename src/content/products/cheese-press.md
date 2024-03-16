@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/467284011
 images:
   - id: 1245421651
-    alt: ""
+    alt: Cheese Press
     position: 1
     product_id: 467284011
     created_at: 2015-03-23T13:43:20-04:00

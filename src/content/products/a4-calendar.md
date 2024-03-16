@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326838259
 images:
   - id: 763742507
-    alt: ""
+    alt: A4 Calendar
     position: 1
     product_id: 326838259
     created_at: 2014-07-22T19:51:31-04:00

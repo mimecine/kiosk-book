@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333580555
 images:
   - id: 776923327
-    alt: ""
+    alt: Tin Iron
     position: 1
     product_id: 333580555
     created_at: 2014-08-05T00:12:53-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333576247
 images:
   - id: 776912951
-    alt: ""
+    alt: Murdick's Fudge
     position: 1
     product_id: 333576247
     created_at: 2014-08-04T23:57:58-04:00

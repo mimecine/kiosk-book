@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326846843
 images:
   - id: 763753363
-    alt: ""
+    alt: Glass Snuff Bottle
     position: 1
     product_id: 326846843
     created_at: 2014-07-22T20:05:29-04:00

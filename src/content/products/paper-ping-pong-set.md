@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333577111
 images:
   - id: 776915579
-    alt: ""
+    alt: Paper Ping Pong Set
     position: 1
     product_id: 333577111
     created_at: 2014-08-05T00:01:26-04:00

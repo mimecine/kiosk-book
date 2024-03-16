@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/6730130587807
 images:
   - id: 28952116723871
-    alt: ""
+    alt: Plastic Manhattan Tote
     position: 1
     product_id: 6730130587807
     created_at: 2021-05-12T07:27:11-04:00
@@ -26,7 +26,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/IMG_20190529_182237_295ee784-4d3a-4e7a-a378-37326d1cd3ad.jpg?v=1620818831
     thumb: ./plastic-tote/plastic-tote__0-thumb.jpg
   - id: 28952116756639
-    alt: ""
+    alt: Plastic Manhattan Tote
     position: 2
     product_id: 6730130587807
     created_at: 2021-05-12T07:27:11-04:00

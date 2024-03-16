@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326847975
 images:
   - id: 763754811
-    alt: ""
+    alt: Handy Handle
     position: 1
     product_id: 326847975
     created_at: 2014-07-22T20:07:36-04:00

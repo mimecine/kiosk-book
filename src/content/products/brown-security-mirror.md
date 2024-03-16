@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326841383
 images:
   - id: 763746243
-    alt: ""
+    alt: Brown Security Mirror
     position: 1
     product_id: 326841383
     created_at: 2014-07-22T19:56:29-04:00

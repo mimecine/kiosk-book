@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/467290231
 images:
   - id: 1245430551
-    alt: ""
+    alt: Melamine Stuff
     position: 1
     product_id: 467290231
     created_at: 2015-03-23T13:55:50-04:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/Kiosk_2014_09_1019_sm.jpeg?v=1427133350
     thumb: ./melamine-plates/melamine-plates__0-thumb.jpg
   - id: 1245430555
-    alt: ""
+    alt: Melamine Stuff
     position: 2
     product_id: 467290231
     created_at: 2015-03-23T13:55:50-04:00
@@ -39,7 +39,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/Kiosk_2014_09_621.jpeg?v=1427133350
     thumb: ./melamine-plates/melamine-plates__1-thumb.jpg
   - id: 1245430559
-    alt: ""
+    alt: Melamine Stuff
     position: 3
     product_id: 467290231
     created_at: 2015-03-23T13:55:50-04:00
@@ -52,7 +52,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/Kiosk_2014_09_935_sm.jpeg?v=1427133350
     thumb: ./melamine-plates/melamine-plates__2-thumb.jpg
   - id: 1245430563
-    alt: ""
+    alt: Melamine Stuff
     position: 4
     product_id: 467290231
     created_at: 2015-03-23T13:55:50-04:00

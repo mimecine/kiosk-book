@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333579991
 images:
   - id: 776922623
-    alt: ""
+    alt: Stove with 3 Burners
     position: 1
     product_id: 333579991
     created_at: 2014-08-05T00:11:28-04:00

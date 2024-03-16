@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326846239
 images:
   - id: 763752631
-    alt: ""
+    alt: Folding Cot
     position: 1
     product_id: 326846239
     created_at: 2014-07-22T20:04:29-04:00

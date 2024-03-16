@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326848647
 images:
   - id: 28952094802079
-    alt: ""
+    alt: Ideal Notebook
     position: 1
     product_id: 326848647
     created_at: 2021-05-12T07:25:51-04:00

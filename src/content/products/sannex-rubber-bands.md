@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333578575
 images:
   - id: 776919587
-    alt: ""
+    alt: Sannex Rubber Bands
     position: 1
     product_id: 333578575
     created_at: 2014-08-05T00:06:49-04:00

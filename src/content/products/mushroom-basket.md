@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/467284587
 images:
   - id: 1245422339
-    alt: ""
+    alt: Mushroom Basket
     position: 1
     product_id: 467284587
     created_at: 2015-03-23T13:44:38-04:00

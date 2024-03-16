@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333580175
 images:
   - id: 776922859
-    alt: ""
+    alt: Sweet Pick with Red Dot
     position: 1
     product_id: 333580175
     created_at: 2014-08-05T00:11:55-04:00

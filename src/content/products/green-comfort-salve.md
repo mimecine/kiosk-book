@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326847407
 images:
   - id: 763754011
-    alt: ""
+    alt: Green Comfort Salve
     position: 1
     product_id: 326847407
     created_at: 2014-07-22T20:06:36-04:00

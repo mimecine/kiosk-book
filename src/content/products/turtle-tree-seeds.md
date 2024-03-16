@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333581383
 images:
   - id: 776924555
-    alt: ""
+    alt: Turtle Tree Seeds
     position: 1
     product_id: 333581383
     created_at: 2014-08-05T00:14:56-04:00

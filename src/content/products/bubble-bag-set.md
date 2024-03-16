@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326841463
 images:
   - id: 763746307
-    alt: ""
+    alt: Bubble Bag Set
     position: 1
     product_id: 326841463
     created_at: 2014-07-22T19:56:35-04:00

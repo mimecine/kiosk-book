@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333580335
 images:
   - id: 776923071
-    alt: ""
+    alt: Temple Street Calculator
     position: 1
     product_id: 333580335
     created_at: 2014-08-05T00:12:18-04:00

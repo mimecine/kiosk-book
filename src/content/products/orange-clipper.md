@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333576787
 images:
   - id: 776914567
-    alt: ""
+    alt: Orange Clipper
     position: 1
     product_id: 333576787
     created_at: 2014-08-05T00:00:06-04:00

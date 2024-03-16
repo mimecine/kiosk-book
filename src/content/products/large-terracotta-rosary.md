@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326850031
 images:
   - id: 763757567
-    alt: ""
+    alt: Large Terracotta Rosary
     position: 1
     product_id: 326850031
     created_at: 2014-07-22T20:11:18-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333580203
 images:
   - id: 776922883
-    alt: ""
+    alt: Switzer Weekend Bag for Marco
     position: 1
     product_id: 333580203
     created_at: 2014-08-05T00:11:59-04:00

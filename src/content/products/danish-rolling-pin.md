@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/467290367
 images:
   - id: 1245430715
-    alt: ""
+    alt: Danish Rolling Pin
     position: 1
     product_id: 467290367
     created_at: 2015-03-23T13:55:59-04:00

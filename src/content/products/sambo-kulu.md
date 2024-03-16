@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333578475
 images:
   - id: 776919407
-    alt: ""
+    alt: Sambo Kulu
     position: 1
     product_id: 333578475
     created_at: 2014-08-05T00:06:32-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326843187
 images:
   - id: 763748391
-    alt: ""
+    alt: Colored Pencils
     position: 1
     product_id: 326843187
     created_at: 2014-07-22T19:59:45-04:00

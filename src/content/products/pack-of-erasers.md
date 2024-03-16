@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333576991
 images:
   - id: 776915239
-    alt: ""
+    alt: Pack of Erasers
     position: 1
     product_id: 333576991
     created_at: 2014-08-05T00:01:00-04:00

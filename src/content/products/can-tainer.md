@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326841859
 images:
   - id: 763746839
-    alt: ""
+    alt: Can-Tainer
     position: 1
     product_id: 326841859
     created_at: 2014-07-22T19:57:21-04:00

@@ -2,7 +2,7 @@
 id: 25555747
 handle: mexico
 title: Mexico
-updated_at: 2023-08-02T14:36:05-04:00
+updated_at: 2024-03-13T14:37:31-04:00
 body_html: >
   <p>Two trips, hosted by DFC, stayed in Mexico City, visited the states of
   Michoacán<span><em></em></span>, Puebla and Chiapas, a crazy drive with a

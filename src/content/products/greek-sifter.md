@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326847375
 images:
   - id: 763753991
-    alt: ""
+    alt: Greek Sifter
     position: 1
     product_id: 326847375
     created_at: 2014-07-22T20:06:33-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326848663
 images:
   - id: 763755703
-    alt: ""
+    alt: Ijsbonbons
     position: 1
     product_id: 326848663
     created_at: 2014-07-22T20:08:50-04:00

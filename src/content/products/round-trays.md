@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/6775657398431
 images:
   - id: 28952547426463
-    alt: ""
+    alt: Round Japanese Strainers
     position: 1
     product_id: 6775657398431
     created_at: 2021-05-12T08:11:32-04:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/japanesestrainers3.jpg?v=1620821492
     thumb: ./round-trays/round-trays__0-thumb.jpg
   - id: 28952547459231
-    alt: ""
+    alt: Round Japanese Strainers
     position: 2
     product_id: 6775657398431
     created_at: 2021-05-12T08:11:32-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333578163
 images:
   - id: 776918527
-    alt: ""
+    alt: Ritblock
     position: 1
     product_id: 333578163
     created_at: 2014-08-05T00:05:25-04:00

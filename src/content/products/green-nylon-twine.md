@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326847491
 images:
   - id: 763754091
-    alt: ""
+    alt: Green Nylon Twine
     position: 1
     product_id: 326847491
     created_at: 2014-07-22T20:06:43-04:00

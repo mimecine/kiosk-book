@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333577523
 images:
   - id: 776916835
-    alt: ""
+    alt: Plastic Baby Rattle
     position: 1
     product_id: 333577523
     created_at: 2014-08-05T00:03:01-04:00

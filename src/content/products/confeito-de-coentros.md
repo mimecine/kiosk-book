@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326843319
 images:
   - id: 763748503
-    alt: ""
+    alt: Confeito de Coentros
     position: 1
     product_id: 326843319
     created_at: 2014-07-22T19:59:56-04:00

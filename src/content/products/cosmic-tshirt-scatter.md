@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326843435
 images:
   - id: 763748635
-    alt: ""
+    alt: Cosmic Tshirt Scatter
     position: 1
     product_id: 326843435
     created_at: 2014-07-22T20:00:09-04:00

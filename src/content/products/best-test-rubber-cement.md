@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326839775
 images:
   - id: 763744371
-    alt: ""
+    alt: Best-Test Paper Cement
     position: 1
     product_id: 326839775
     created_at: 2014-07-22T19:53:57-04:00

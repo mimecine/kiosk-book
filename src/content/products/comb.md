@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326843295
 images:
   - id: 763748491
-    alt: ""
+    alt: Comb
     position: 1
     product_id: 326843295
     created_at: 2014-07-22T19:59:54-04:00

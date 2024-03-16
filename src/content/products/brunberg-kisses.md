@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326841435
 images:
   - id: 763746275
-    alt: ""
+    alt: Brunberg Kisses
     position: 1
     product_id: 326841435
     created_at: 2014-07-22T19:56:33-04:00

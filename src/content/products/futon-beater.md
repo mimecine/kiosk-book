@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326846531
 images:
   - id: 763753007
-    alt: ""
+    alt: Futon Beater
     position: 1
     product_id: 326846531
     created_at: 2014-07-22T20:04:57-04:00

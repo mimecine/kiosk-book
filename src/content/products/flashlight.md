@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326845975
 images:
   - id: 763752275
-    alt: ""
+    alt: Flashlight
     position: 1
     product_id: 326845975
     created_at: 2014-07-22T20:04:05-04:00

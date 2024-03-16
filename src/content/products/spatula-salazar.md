@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333579527
 images:
   - id: 776921535
-    alt: ""
+    alt: Spatula Salazar
     position: 1
     product_id: 333579527
     created_at: 2014-08-05T00:09:47-04:00

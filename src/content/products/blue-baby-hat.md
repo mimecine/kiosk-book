@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326840747
 images:
   - id: 763745535
-    alt: ""
+    alt: Blue Baby Hat
     position: 1
     product_id: 326840747
     created_at: 2014-07-22T19:55:26-04:00

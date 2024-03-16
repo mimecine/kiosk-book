@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326848591
 images:
   - id: 763755611
-    alt: ""
+    alt: Ice Scraper
     position: 1
     product_id: 326848591
     created_at: 2014-07-22T20:08:44-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/6775657824415
 images:
   - id: 28952549359775
-    alt: ""
+    alt: Vegetable Press
     position: 1
     product_id: 6775657824415
     created_at: 2021-05-12T08:11:48-04:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/vegpress2.jpg?v=1620821508
     thumb: ./vegetable-press/vegetable-press__0-thumb.jpg
   - id: 28952549392543
-    alt: ""
+    alt: Vegetable Press
     position: 2
     product_id: 6775657824415
     created_at: 2021-05-12T08:11:48-04:00

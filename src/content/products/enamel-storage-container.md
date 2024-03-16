@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326845067
 images:
   - id: 763750923
-    alt: ""
+    alt: Enamel Storage Containers
     position: 1
     product_id: 326845067
     created_at: 2014-07-22T20:02:43-04:00

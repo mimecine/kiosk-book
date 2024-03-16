@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333577003
 images:
   - id: 776915275
-    alt: ""
+    alt: Pack of German Balloons
     position: 1
     product_id: 333577003
     created_at: 2014-08-05T00:01:02-04:00

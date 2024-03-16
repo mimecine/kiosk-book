@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/6775587537055
 images:
   - id: 28952094245023
-    alt: ""
+    alt: NT Professional A "A-1P"
     position: 1
     product_id: 6775587537055
     created_at: 2021-05-12T07:25:49-04:00

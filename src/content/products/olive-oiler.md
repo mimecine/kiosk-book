@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/6730124230815
 images:
   - id: 28768074465439
-    alt: ""
+    alt: Oliera Tosca
     position: 1
     product_id: 6730124230815
     created_at: 2021-04-28T10:28:02-04:00

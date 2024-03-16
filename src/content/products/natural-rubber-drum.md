@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333576327
 images:
   - id: 776913139
-    alt: ""
+    alt: Natural Rubber Drum
     position: 1
     product_id: 333576327
     created_at: 2014-08-04T23:58:16-04:00

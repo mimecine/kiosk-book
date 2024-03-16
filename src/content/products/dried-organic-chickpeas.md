@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326844459
 images:
   - id: 763749983
-    alt: ""
+    alt: Dried Organic Chickpeas
     position: 1
     product_id: 326844459
     created_at: 2014-07-22T20:01:50-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333579019
 images:
   - id: 776920571
-    alt: ""
+    alt: Shaker Broom
     position: 1
     product_id: 333579019
     created_at: 2014-08-05T00:08:06-04:00

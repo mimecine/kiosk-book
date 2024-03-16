@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326845651
 images:
   - id: 763751851
-    alt: ""
+    alt: Fiberglass Folding Ruler
     position: 1
     product_id: 326845651
     created_at: 2014-07-22T20:03:33-04:00

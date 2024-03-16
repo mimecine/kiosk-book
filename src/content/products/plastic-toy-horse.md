@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333577603
 images:
   - id: 776917011
-    alt: ""
+    alt: Plastic Toy Horse
     position: 1
     product_id: 333577603
     created_at: 2014-08-05T00:03:16-04:00

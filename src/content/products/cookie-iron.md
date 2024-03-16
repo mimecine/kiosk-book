@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/467284607
 images:
   - id: 1245422367
-    alt: ""
+    alt: Cookie Iron
     position: 1
     product_id: 467284607
     created_at: 2015-03-23T13:44:40-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333581767
 images:
   - id: 776925103
-    alt: ""
+    alt: Vinyl Squeak Toy 2
     position: 1
     product_id: 333581767
     created_at: 2014-08-05T00:15:55-04:00

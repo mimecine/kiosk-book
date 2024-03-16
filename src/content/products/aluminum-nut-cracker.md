@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333576491
 images:
   - id: 776913695
-    alt: ""
+    alt: Nut Cracker
     position: 1
     product_id: 333576491
     created_at: 2014-08-04T23:58:52-04:00

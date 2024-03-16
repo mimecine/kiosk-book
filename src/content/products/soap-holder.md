@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/6775656743071
 images:
   - id: 28952544313503
-    alt: ""
+    alt: Soap Holder
     position: 1
     product_id: 6775656743071
     created_at: 2021-05-12T08:11:18-04:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/soap1.jpg?v=1620821478
     thumb: ./soap-holder/soap-holder__0-thumb.jpg
   - id: 28952544346271
-    alt: ""
+    alt: Soap Holder
     position: 2
     product_id: 6775656743071
     created_at: 2021-05-12T08:11:18-04:00

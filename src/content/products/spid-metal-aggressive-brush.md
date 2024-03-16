@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/6730122625183
 images:
   - id: 28768068436127
-    alt: ""
+    alt: SPID Metal Aggressive Brush
     position: 1
     product_id: 6730122625183
     created_at: 2021-04-28T10:27:45-04:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/IMG_20181118_143834.jpg?v=1619620065
     thumb: ./spid-metal-aggressive-brush/spid-metal-aggressive-brush__0-thumb.jpg
   - id: 28768068468895
-    alt: ""
+    alt: SPID Metal Aggressive Brush
     position: 2
     product_id: 6730122625183
     created_at: 2021-04-28T10:27:45-04:00

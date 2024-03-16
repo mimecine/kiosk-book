@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333582575
 images:
   - id: 776926191
-    alt: ""
+    alt: Wooden Pram Balls
     position: 1
     product_id: 333582575
     created_at: 2014-08-05T00:18:02-04:00

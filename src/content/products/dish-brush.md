@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326843939
 images:
   - id: 763749243
-    alt: ""
+    alt: Dish Brush
     position: 1
     product_id: 326843939
     created_at: 2014-07-22T20:01:05-04:00

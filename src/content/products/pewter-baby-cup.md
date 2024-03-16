@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333577275
 images:
   - id: 776916031
-    alt: ""
+    alt: Pewter Baby Cup
     position: 1
     product_id: 333577275
     created_at: 2014-08-05T00:02:01-04:00

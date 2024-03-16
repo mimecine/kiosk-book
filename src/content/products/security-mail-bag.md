@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333578719
 images:
   - id: 776919963
-    alt: ""
+    alt: Security Mail Bag
     position: 1
     product_id: 333578719
     created_at: 2014-08-05T00:07:16-04:00

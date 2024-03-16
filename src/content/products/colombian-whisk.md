@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326843143
 images:
   - id: 763748339
-    alt: ""
+    alt: Colombian Whisk
     position: 1
     product_id: 326843143
     created_at: 2014-07-22T19:59:40-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/6943761498271
 images:
   - id: 29937149411487
-    alt: ""
+    alt: Pincinox
     position: 1
     product_id: 6943761498271
     created_at: 2021-07-15T09:07:25-04:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/pincinox_2.jpg?v=1626354445
     thumb: ./pincinox/pincinox__0-thumb.jpg
   - id: 29937149444255
-    alt: ""
+    alt: Pincinox
     position: 2
     product_id: 6943761498271
     created_at: 2021-07-15T09:07:25-04:00
@@ -38,7 +38,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/IMG_20190612_204447.jpg?v=1626354445
     thumb: ./pincinox/pincinox__1-thumb.jpg
   - id: 29937149477023
-    alt: ""
+    alt: Pincinox
     position: 3
     product_id: 6943761498271
     created_at: 2021-07-15T09:07:25-04:00

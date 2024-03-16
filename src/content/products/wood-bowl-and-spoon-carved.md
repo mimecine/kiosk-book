@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/467283835
 images:
   - id: 1245421419
-    alt: ""
+    alt: Wood Bowl and Spoon Carved
     position: 1
     product_id: 467283835
     created_at: 2015-03-23T13:42:59-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/9122804007071
 images:
   - id: 36973354221727
-    alt: ""
+    alt: French Banana Clip
     position: 1
     product_id: 9122804007071
     created_at: 2023-12-27T10:09:49-05:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/PXL_20221103_202840738.jpg?v=1703689789
     thumb: ./spring-clip-tortoise/spring-clip-tortoise__0-thumb.jpg
   - id: 36973354254495
-    alt: ""
+    alt: French Banana Clip
     position: 2
     product_id: 9122804007071
     created_at: 2023-12-27T10:09:49-05:00

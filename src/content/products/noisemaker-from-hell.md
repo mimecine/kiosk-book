@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333576443
 images:
   - id: 776913555
-    alt: ""
+    alt: Noisemaker from Hell
     position: 1
     product_id: 333576443
     created_at: 2014-08-04T23:58:40-04:00

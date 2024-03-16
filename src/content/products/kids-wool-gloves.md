@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/467284743
 images:
   - id: 1245422555
-    alt: ""
+    alt: Kid's Wool Gloves
     position: 1
     product_id: 467284743
     created_at: 2015-03-23T13:44:53-04:00

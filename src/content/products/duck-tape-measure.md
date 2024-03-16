@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326844491
 images:
   - id: 763750027
-    alt: ""
+    alt: Duck Tape Measure
     position: 1
     product_id: 326844491
     created_at: 2014-07-22T20:01:52-04:00

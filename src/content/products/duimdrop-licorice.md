@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326844519
 images:
   - id: 28952094900383
-    alt: ""
+    alt: Duimdrop Licorice
     position: 1
     product_id: 326844519
     created_at: 2021-05-12T07:25:52-04:00

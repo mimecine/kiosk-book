@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326840827
 images:
   - id: 763745643
-    alt: ""
+    alt: Blue Watering Can
     position: 1
     product_id: 326840827
     created_at: 2014-07-22T19:55:35-04:00

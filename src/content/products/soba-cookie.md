@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333579507
 images:
   - id: 776921511
-    alt: ""
+    alt: Soba Cookie
     position: 1
     product_id: 333579507
     created_at: 2014-08-05T00:09:43-04:00

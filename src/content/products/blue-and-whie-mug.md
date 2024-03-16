@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326840687
 images:
   - id: 763745431
-    alt: ""
+    alt: Blue and White Mug
     position: 1
     product_id: 326840687
     created_at: 2014-07-22T19:55:20-04:00

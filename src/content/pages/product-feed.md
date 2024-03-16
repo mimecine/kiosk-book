@@ -10,7 +10,6 @@ updated_at: 2021-11-15T16:36:08-05:00
 published_at: 2021-11-15T16:36:08-05:00
 template_suffix: google-product-feed
 admin_graphql_api_id: gid://shopify/OnlineStorePage/86658252959
-metafields: []
 
 ---
 

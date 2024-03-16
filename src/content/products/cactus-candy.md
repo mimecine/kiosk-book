@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326841659
 images:
   - id: 763746547
-    alt: ""
+    alt: Cactus Candy
     position: 1
     product_id: 326841659
     created_at: 2014-07-22T19:56:57-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/6730124820639
 images:
   - id: 28952555782303
-    alt: ""
+    alt: Tiny Gem Calendar
     position: 1
     product_id: 6730124820639
     created_at: 2021-05-12T08:12:33-04:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/IMG_20201113_150527.jpg?v=1620821553
     thumb: ./tiny-gem-calendar/tiny-gem-calendar__0-thumb.jpg
   - id: 28952555815071
-    alt: ""
+    alt: Tiny Gem Calendar
     position: 2
     product_id: 6730124820639
     created_at: 2021-05-12T08:12:33-04:00
@@ -38,7 +38,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/Tiny_Gem_Calendar3.jpg?v=1620821553
     thumb: ./tiny-gem-calendar/tiny-gem-calendar__1-thumb.jpg
   - id: 28952555880607
-    alt: ""
+    alt: Tiny Gem Calendar
     position: 3
     product_id: 6730124820639
     created_at: 2021-05-12T08:12:33-04:00

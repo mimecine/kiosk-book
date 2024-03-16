@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326848231
 images:
   - id: 763755103
-    alt: ""
+    alt: Hemp Seed Nut Butter
     position: 1
     product_id: 326848231
     created_at: 2014-07-22T20:08:04-04:00

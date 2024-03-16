@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326844119
 images:
   - id: 763749455
-    alt: ""
+    alt: Djupur
     position: 1
     product_id: 326844119
     created_at: 2014-07-22T20:01:20-04:00

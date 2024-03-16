@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326846803
 images:
   - id: 763753311
-    alt: ""
+    alt: Glass Rose
     position: 1
     product_id: 326846803
     created_at: 2014-07-22T20:05:24-04:00

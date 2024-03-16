@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326840187
 images:
   - id: 763744831
-    alt: ""
+    alt: Bingo Licorice Caramel
     position: 1
     product_id: 326840187
     created_at: 2014-07-22T19:54:37-04:00

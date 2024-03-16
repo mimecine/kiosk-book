@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333578115
 images:
   - id: 776918439
-    alt: ""
+    alt: Reflector Aztec
     position: 1
     product_id: 333578115
     created_at: 2014-08-05T00:05:17-04:00

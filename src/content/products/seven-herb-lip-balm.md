@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333578987
 images:
   - id: 776920475
-    alt: ""
+    alt: Seven Herb Lip Balm
     position: 1
     product_id: 333578987
     created_at: 2014-08-05T00:07:58-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333579223
 images:
   - id: 776920911
-    alt: ""
+    alt: Skull Rosary
     position: 1
     product_id: 333579223
     created_at: 2014-08-05T00:08:42-04:00

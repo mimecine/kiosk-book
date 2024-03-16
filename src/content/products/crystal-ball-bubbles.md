@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/6730125377695
 images:
   - id: 28768078299295
-    alt: ""
+    alt: Crystal Ball Bubbles
     position: 1
     product_id: 6730125377695
     created_at: 2021-04-28T10:28:19-04:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/IMG_20181118_143904.jpg?v=1619620099
     thumb: ./crystal-ball-bubbles/crystal-ball-bubbles__0-thumb.jpg
   - id: 28768078397599
-    alt: ""
+    alt: Crystal Ball Bubbles
     position: 2
     product_id: 6730125377695
     created_at: 2021-04-28T10:28:19-04:00

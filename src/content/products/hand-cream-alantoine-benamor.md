@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326847787
 images:
   - id: 763754519
-    alt: ""
+    alt: Hand Cream Alantoine
     position: 1
     product_id: 326847787
     created_at: 2014-07-22T20:07:13-04:00

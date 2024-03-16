@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333576663
 images:
   - id: 776914219
-    alt: ""
+    alt: Oinometra Cups
     position: 1
     product_id: 333576663
     created_at: 2014-08-04T23:59:29-04:00

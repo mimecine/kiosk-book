@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326839451
 images:
   - id: 763743971
-    alt: ""
+    alt: Bakelite Pencil Sharpener
     position: 1
     product_id: 326839451
     created_at: 2014-07-22T19:53:17-04:00

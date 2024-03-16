@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333582415
 images:
   - id: 776925867
-    alt: ""
+    alt: Wire Toothbrush Holder
     position: 1
     product_id: 333582415
     created_at: 2014-08-05T00:17:29-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326843379
 images:
   - id: 763748563
-    alt: ""
+    alt: "Coop's Jig: White Small"
     position: 1
     product_id: 326843379
     created_at: 2014-07-22T20:00:02-04:00

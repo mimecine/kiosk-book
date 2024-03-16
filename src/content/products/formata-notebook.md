@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326846295
 images:
   - id: 763752707
-    alt: ""
+    alt: Formata Notebook
     position: 1
     product_id: 326846295
     created_at: 2014-07-22T20:04:35-04:00

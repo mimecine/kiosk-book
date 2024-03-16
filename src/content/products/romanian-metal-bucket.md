@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/467291167
 images:
   - id: 1245431671
-    alt: ""
+    alt: Romanian Metal Bucket
     position: 1
     product_id: 467291167
     created_at: 2015-03-23T13:56:50-04:00

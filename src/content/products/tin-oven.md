@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333580607
 images:
   - id: 776923395
-    alt: ""
+    alt: Tin Oven
     position: 1
     product_id: 333580607
     created_at: 2014-08-05T00:12:59-04:00

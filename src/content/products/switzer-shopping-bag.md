@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333580191
 images:
   - id: 776922875
-    alt: ""
+    alt: Switzer Shopping Bag
     position: 1
     product_id: 333580191
     created_at: 2014-08-05T00:11:58-04:00

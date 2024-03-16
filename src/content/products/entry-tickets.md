@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326845115
 images:
   - id: 763751099
-    alt: ""
+    alt: Entry Ticket
     position: 1
     product_id: 326845115
     created_at: 2014-07-22T20:02:47-04:00

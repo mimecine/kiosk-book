@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/481441347
 images:
   - id: 1296186051
-    alt: ""
+    alt: Nut Butter Mixer
     position: 1
     product_id: 481441347
     created_at: 2015-04-28T22:38:21-04:00

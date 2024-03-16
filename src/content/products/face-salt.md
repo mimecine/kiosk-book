@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326845475
 images:
   - id: 763751623
-    alt: ""
+    alt: Face Salt
     position: 1
     product_id: 326845475
     created_at: 2014-07-22T20:03:18-04:00

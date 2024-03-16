@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333577891
 images:
   - id: 776917871
-    alt: ""
+    alt: Rawhide Mallet
     position: 1
     product_id: 333577891
     created_at: 2014-08-05T00:04:30-04:00

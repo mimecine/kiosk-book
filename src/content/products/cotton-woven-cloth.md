@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/9122802368671
 images:
   - id: 36973266469023
-    alt: ""
+    alt: Cotton Woven Cloth
     position: 1
     product_id: 9122802368671
     created_at: 2023-12-27T09:53:47-05:00

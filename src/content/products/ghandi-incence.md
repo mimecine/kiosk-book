@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326846547
 images:
   - id: 763753031
-    alt: ""
+    alt: Gandhi Incense
     position: 1
     product_id: 326846547
     created_at: 2014-07-22T20:05:00-04:00

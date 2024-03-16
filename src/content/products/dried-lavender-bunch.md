@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326844439
 images:
   - id: 763749947
-    alt: ""
+    alt: Dried Lavender Bunch
     position: 1
     product_id: 326844439
     created_at: 2014-07-22T20:01:48-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/6730122264735
 images:
   - id: 28768067190943
-    alt: ""
+    alt: Blow Pipe
     position: 1
     product_id: 6730122264735
     created_at: 2021-04-28T10:27:41-04:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/IMG_20181118_144057.jpg?v=1619620061
     thumb: ./blow-pipe/blow-pipe__0-thumb.jpg
   - id: 28768067223711
-    alt: ""
+    alt: Blow Pipe
     position: 2
     product_id: 6730122264735
     created_at: 2021-04-28T10:27:41-04:00

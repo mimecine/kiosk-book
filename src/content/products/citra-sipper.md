@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326842747
 images:
   - id: 763747903
-    alt: ""
+    alt: Citra Sipper
     position: 1
     product_id: 326842747
     created_at: 2014-07-22T19:58:59-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333575611
 images:
   - id: 776911083
-    alt: ""
+    alt: Lovely Floor Cloth
     position: 1
     product_id: 333575611
     created_at: 2014-08-04T23:55:27-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333575951
 images:
   - id: 776911959
-    alt: ""
+    alt: Metal Propane Cooking Stove
     position: 1
     product_id: 333575951
     created_at: 2014-08-04T23:56:46-04:00

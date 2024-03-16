@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326845087
 images:
   - id: 763750947
-    alt: ""
+    alt: Encerite wax
     position: 1
     product_id: 326845087
     created_at: 2014-07-22T20:02:45-04:00

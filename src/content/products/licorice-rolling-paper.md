@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333575403
 images:
   - id: 776910455
-    alt: ""
+    alt: Licorice Rolling Paper
     position: 1
     product_id: 333575403
     created_at: 2014-08-04T23:54:38-04:00

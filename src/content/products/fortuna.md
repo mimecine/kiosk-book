@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326846311
 images:
   - id: 763752727
-    alt: ""
+    alt: Fortuna
     position: 1
     product_id: 326846311
     created_at: 2014-07-22T20:04:37-04:00

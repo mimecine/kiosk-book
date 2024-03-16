@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326844839
 images:
   - id: 763750655
-    alt: ""
+    alt: Elderberry Syrup
     position: 1
     product_id: 326844839
     created_at: 2014-07-22T20:02:22-04:00

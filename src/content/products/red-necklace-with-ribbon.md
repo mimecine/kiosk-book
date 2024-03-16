@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333578003
 images:
   - id: 776918187
-    alt: ""
+    alt: Red Necklace with Ribbon
     position: 1
     product_id: 333578003
     created_at: 2014-08-05T00:04:54-04:00

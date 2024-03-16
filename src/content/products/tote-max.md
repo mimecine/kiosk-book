@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333581159
 images:
   - id: 776924207
-    alt: ""
+    alt: Tote Max
     position: 1
     product_id: 333581159
     created_at: 2014-08-05T00:14:22-04:00

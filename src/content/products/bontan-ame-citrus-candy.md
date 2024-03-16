@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326840847
 images:
   - id: 763745675
-    alt: ""
+    alt: Bontan Ame Citrus Candy
     position: 1
     product_id: 326840847
     created_at: 2014-07-22T19:55:38-04:00

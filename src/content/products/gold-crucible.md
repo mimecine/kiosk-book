@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326846943
 images:
   - id: 763753463
-    alt: ""
+    alt: Gold Crucible
     position: 1
     product_id: 326846943
     created_at: 2014-07-22T20:05:39-04:00

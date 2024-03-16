@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333580483
 images:
   - id: 776923235
-    alt: ""
+    alt: Thristur
     position: 1
     product_id: 333580483
     created_at: 2014-08-05T00:12:42-04:00

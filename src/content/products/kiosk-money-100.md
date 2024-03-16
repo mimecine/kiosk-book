@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326849475
 images:
   - id: 763756839
-    alt: ""
+    alt: KIOSK MONEY $100
     position: 1
     product_id: 326849475
     created_at: 2014-07-22T20:10:16-04:00

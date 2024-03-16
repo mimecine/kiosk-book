@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/6775588520095
 images:
   - id: 28952102207647
-    alt: ""
+    alt: Be Here Now
     position: 1
     product_id: 6775588520095
     created_at: 2021-05-12T07:26:20-04:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/IMG_20191122_191015.jpg?v=1620818780
     thumb: ./be-here-now/be-here-now__0-thumb.jpg
   - id: 28952102240415
-    alt: ""
+    alt: Be Here Now
     position: 2
     product_id: 6775588520095
     created_at: 2021-05-12T07:26:20-04:00
@@ -38,7 +38,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/IMG_20191122_191127.jpg?v=1620818780
     thumb: ./be-here-now/be-here-now__1-thumb.jpg
   - id: 28952102273183
-    alt: ""
+    alt: Be Here Now
     position: 3
     product_id: 6775588520095
     created_at: 2021-05-12T07:26:20-04:00
@@ -51,7 +51,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/IMG_20191122_191049.jpg?v=1620818780
     thumb: ./be-here-now/be-here-now__2-thumb.jpg
   - id: 28952102305951
-    alt: ""
+    alt: Be Here Now
     position: 4
     product_id: 6775588520095
     created_at: 2021-05-12T07:26:20-04:00

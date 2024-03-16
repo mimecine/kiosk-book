@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333577655
 images:
   - id: 776917199
-    alt: ""
+    alt: Poffertjes Pan
     position: 1
     product_id: 333577655
     created_at: 2014-08-05T00:03:30-04:00

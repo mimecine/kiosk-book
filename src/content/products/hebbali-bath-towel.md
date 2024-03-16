@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326848135
 images:
   - id: 763754991
-    alt: ""
+    alt: Hebbali Bath Towel
     position: 1
     product_id: 326848135
     created_at: 2014-07-22T20:07:52-04:00

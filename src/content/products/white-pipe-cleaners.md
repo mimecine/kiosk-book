@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333582127
 images:
   - id: 776925527
-    alt: ""
+    alt: White Pipe Cleaners
     position: 1
     product_id: 333582127
     created_at: 2014-08-05T00:16:47-04:00

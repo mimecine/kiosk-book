@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326845027
 images:
   - id: 763750843
-    alt: ""
+    alt: Enamel Breadbasket
     position: 1
     product_id: 326845027
     created_at: 2014-07-22T20:02:39-04:00

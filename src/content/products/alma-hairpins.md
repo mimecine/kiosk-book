@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326838735
 images:
   - id: 763743139
-    alt: ""
+    alt: Alma Hairpins
     position: 1
     product_id: 326838735
     created_at: 2014-07-22T19:52:14-04:00

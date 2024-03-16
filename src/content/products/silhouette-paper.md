@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333579175
 images:
   - id: 776920819
-    alt: ""
+    alt: Silhouette Paper
     position: 1
     product_id: 333579175
     created_at: 2014-08-05T00:08:33-04:00

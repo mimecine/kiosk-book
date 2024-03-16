@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326841039
 images:
   - id: 763745859
-    alt: ""
+    alt: Boy "Smiling" Head
     position: 1
     product_id: 326841039
     created_at: 2014-07-22T19:55:54-04:00

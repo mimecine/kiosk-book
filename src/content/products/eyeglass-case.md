@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326845375
 images:
   - id: 763751495
-    alt: ""
+    alt: Eyeglass Case
     position: 1
     product_id: 326845375
     created_at: 2014-07-22T20:03:10-04:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/eyeglass_brown.jpeg?v=1406073790
     thumb: ./eyeglass-case/eyeglass-case__0-thumb.jpg
   - id: 763751555
-    alt: ""
+    alt: Eyeglass Case
     position: 2
     product_id: 326845375
     created_at: 2014-07-22T20:03:12-04:00

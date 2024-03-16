@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333580223
 images:
   - id: 776922931
-    alt: ""
+    alt: Tar Candy
     position: 1
     product_id: 333580223
     created_at: 2014-08-05T00:12:01-04:00

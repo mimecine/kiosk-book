@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333582883
 images:
   - id: 776926971
-    alt: ""
+    alt: Zwiebeck Cracker
     position: 1
     product_id: 333582883
     created_at: 2014-08-05T00:19:17-04:00

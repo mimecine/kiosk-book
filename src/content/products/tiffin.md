@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333580511
 images:
   - id: 776923295
-    alt: ""
+    alt: Tiffin
     position: 1
     product_id: 333580511
     created_at: 2014-08-05T00:12:46-04:00

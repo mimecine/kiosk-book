@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333579235
 images:
   - id: 776920915
-    alt: ""
+    alt: Slim Pot
     position: 1
     product_id: 333579235
     created_at: 2014-08-05T00:08:44-04:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/IMG_2962.jpeg?v=1407211724
     thumb: ./slim-pot-1/slim-pot-1__0-thumb.jpg
   - id: 776920923
-    alt: ""
+    alt: Slim Pot
     position: 2
     product_id: 333579235
     created_at: 2014-08-05T00:08:45-04:00

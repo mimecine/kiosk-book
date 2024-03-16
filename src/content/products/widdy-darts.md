@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333582219
 images:
   - id: 776925655
-    alt: ""
+    alt: Widdy Darts
     position: 1
     product_id: 333582219
     created_at: 2014-08-05T00:17:00-04:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/darts.jpeg?v=1407212220
     thumb: ./widdy-darts/widdy-darts__0-thumb.jpg
   - id: 776925659
-    alt: ""
+    alt: Widdy Darts
     position: 2
     product_id: 333582219
     created_at: 2014-08-05T00:17:01-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333577311
 images:
   - id: 776916183
-    alt: ""
+    alt: Pica-Pau Wood Glue
     position: 1
     product_id: 333577311
     created_at: 2014-08-05T00:02:11-04:00

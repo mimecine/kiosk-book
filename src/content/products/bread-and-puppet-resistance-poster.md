@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326841303
 images:
   - id: 763746159
-    alt: ""
+    alt: Bread and Puppet Resistance Poster
     position: 1
     product_id: 326841303
     created_at: 2014-07-22T19:56:21-04:00

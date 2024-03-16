@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/6730131275935
 images:
   - id: 28952117444767
-    alt: ""
+    alt: Straw Broom
     position: 1
     product_id: 6730131275935
     created_at: 2021-05-12T07:27:15-04:00

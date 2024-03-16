@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333579347
 images:
   - id: 776921167
-    alt: ""
+    alt: Small Wooden Drum
     position: 1
     product_id: 333579347
     created_at: 2014-08-05T00:09:09-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326840787
 images:
   - id: 763745595
-    alt: ""
+    alt: Blue Storage Box
     position: 1
     product_id: 326840787
     created_at: 2014-07-22T19:55:32-04:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/Blue_Storage_Box_Large.jpeg?v=1406073332
     thumb: ./blue-storage-box/blue-storage-box__0-thumb.jpg
   - id: 763745611
-    alt: ""
+    alt: Blue Storage Box
     position: 2
     product_id: 326840787
     created_at: 2014-07-22T19:55:33-04:00

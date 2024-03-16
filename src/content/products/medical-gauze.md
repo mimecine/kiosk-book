@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333575791
 images:
   - id: 776911503
-    alt: ""
+    alt: Medical Gauze
     position: 1
     product_id: 333575791
     created_at: 2014-08-04T23:56:13-04:00

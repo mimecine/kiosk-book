@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326839315
 images:
   - id: 763743843
-    alt: ""
+    alt: Baby Slippers
     position: 1
     product_id: 326839315
     created_at: 2014-07-22T19:53:06-04:00

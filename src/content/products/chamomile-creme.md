@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326842291
 images:
   - id: 763747307
-    alt: ""
+    alt: Chamomile Creme
     position: 1
     product_id: 326842291
     created_at: 2014-07-22T19:58:10-04:00

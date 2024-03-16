@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333576699
 images:
   - id: 776914315
-    alt: ""
+    alt: Olive Cutter
     position: 1
     product_id: 333576699
     created_at: 2014-08-04T23:59:36-04:00

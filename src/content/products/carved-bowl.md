@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326842003
 images:
   - id: 763746999
-    alt: ""
+    alt: Carved Bowl
     position: 1
     product_id: 326842003
     created_at: 2014-07-22T19:57:37-04:00

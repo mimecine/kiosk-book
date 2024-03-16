@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333579159
 images:
   - id: 776920791
-    alt: ""
+    alt: Sickle
     position: 1
     product_id: 333579159
     created_at: 2014-08-05T00:08:32-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326840551
 images:
   - id: 763745271
-    alt: ""
+    alt: Black Notebook Set
     position: 1
     product_id: 326840551
     created_at: 2014-07-22T19:55:09-04:00

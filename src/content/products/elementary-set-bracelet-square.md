@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326844915
 images:
   - id: 763750731
-    alt: ""
+    alt: Elementary Set Bracelet Square
     position: 1
     product_id: 326844915
     created_at: 2014-07-22T20:02:29-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333581827
 images:
   - id: 776925159
-    alt: ""
+    alt: Washi Paper
     position: 1
     product_id: 333581827
     created_at: 2014-08-05T00:16:04-04:00

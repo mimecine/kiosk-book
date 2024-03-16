@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/467284479
 images:
   - id: 1245422187
-    alt: ""
+    alt: Wood Spindle
     position: 1
     product_id: 467284479
     created_at: 2015-03-23T13:44:26-04:00

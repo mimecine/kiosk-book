@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326846119
 images:
   - id: 763752479
-    alt: ""
+    alt: Fly Swatter
     position: 1
     product_id: 326846119
     created_at: 2014-07-22T20:04:18-04:00

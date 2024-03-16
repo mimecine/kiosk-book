@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326847439
 images:
   - id: 763754039
-    alt: ""
+    alt: Green Copal Burner
     position: 1
     product_id: 326847439
     created_at: 2014-07-22T20:06:38-04:00

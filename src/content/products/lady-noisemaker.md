@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326849819
 images:
   - id: 763757267
-    alt: ""
+    alt: Lady Noisemaker
     position: 1
     product_id: 326849819
     created_at: 2014-07-22T20:10:55-04:00

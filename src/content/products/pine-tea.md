@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333577371
 images:
   - id: 776916367
-    alt: ""
+    alt: Pine Tea
     position: 1
     product_id: 333577371
     created_at: 2014-08-05T00:02:25-04:00

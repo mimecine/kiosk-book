@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/6429114374
 images:
   - id: 12314897926
-    alt: ""
+    alt: Max Shelf
     position: 1
     product_id: 6429114374
     created_at: 2016-05-25T16:07:32-04:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/DIM_Shelf_kiosk_14-1100x735.jpg?v=1464207722
     thumb: ./max-shelf/max-shelf__0-thumb.jpg
   - id: 12314898694
-    alt: ""
+    alt: Max Shelf
     position: 2
     product_id: 6429114374
     created_at: 2016-05-25T16:07:33-04:00
@@ -38,7 +38,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/DIM_Shelf_kiosk_18-1100x735.jpg?v=1464207722
     thumb: ./max-shelf/max-shelf__1-thumb.jpg
   - id: 12283326022
-    alt: ""
+    alt: Max Shelf
     position: 3
     product_id: 6429114374
     created_at: 2016-05-24T18:18:25-04:00
@@ -51,7 +51,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/Max-Lamb-Kiosk-DIM-shelves-1A.jpg?v=1464207722
     thumb: ./max-shelf/max-shelf__2-thumb.jpg
   - id: 12284719046
-    alt: ""
+    alt: Max Shelf
     position: 4
     product_id: 6429114374
     created_at: 2016-05-24T19:26:43-04:00
@@ -64,7 +64,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/IMG_7923.jpg?v=1464207722
     thumb: ./max-shelf/max-shelf__3-thumb.jpg
   - id: 12284717958
-    alt: ""
+    alt: Max Shelf
     position: 5
     product_id: 6429114374
     created_at: 2016-05-24T19:26:39-04:00
@@ -77,7 +77,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/IMG_7838.jpg?v=1464207722
     thumb: ./max-shelf/max-shelf__4-thumb.jpg
   - id: 12284724294
-    alt: ""
+    alt: Max Shelf
     position: 6
     product_id: 6429114374
     created_at: 2016-05-24T19:26:58-04:00
@@ -90,7 +90,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/wood1.jpg?v=1464207722
     thumb: ./max-shelf/max-shelf__5-thumb.jpg
   - id: 12284728070
-    alt: ""
+    alt: Max Shelf
     position: 7
     product_id: 6429114374
     created_at: 2016-05-24T19:27:07-04:00
@@ -103,7 +103,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/wood3.jpg?v=1464207722
     thumb: ./max-shelf/max-shelf__6-thumb.jpg
   - id: 12314899142
-    alt: ""
+    alt: Max Shelf
     position: 8
     product_id: 6429114374
     created_at: 2016-05-25T16:07:34-04:00

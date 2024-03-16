@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333579627
 images:
   - id: 776921755
-    alt: ""
+    alt: Stocking Socks
     position: 1
     product_id: 333579627
     created_at: 2014-08-05T00:10:12-04:00

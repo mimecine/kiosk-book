@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333576015
 images:
   - id: 776912139
-    alt: ""
+    alt: Metal Wire Basket
     position: 1
     product_id: 333576015
     created_at: 2014-08-04T23:57:00-04:00

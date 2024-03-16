@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333578859
 images:
   - id: 776920231
-    alt: ""
+    alt: Set of 4 Animalitos from Chiapas
     position: 1
     product_id: 333578859
     created_at: 2014-08-05T00:07:38-04:00

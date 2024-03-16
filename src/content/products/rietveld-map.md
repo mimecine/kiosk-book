@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333578151
 images:
   - id: 776918499
-    alt: ""
+    alt: Rietveld Map
     position: 1
     product_id: 333578151
     created_at: 2014-08-05T00:05:22-04:00

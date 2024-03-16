@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/467284203
 images:
   - id: 1245421871
-    alt: ""
+    alt: Roma Rings
     position: 1
     product_id: 467284203
     created_at: 2015-03-23T13:43:43-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333582663
 images:
   - id: 776926403
-    alt: ""
+    alt: Wool Sponge
     position: 1
     product_id: 333582663
     created_at: 2014-08-05T00:18:25-04:00

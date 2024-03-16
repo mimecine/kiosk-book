@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326838951
 images:
   - id: 763743423
-    alt: ""
+    alt: Aluminum Skimmer
     position: 1
     product_id: 326838951
     created_at: 2014-07-22T19:52:34-04:00

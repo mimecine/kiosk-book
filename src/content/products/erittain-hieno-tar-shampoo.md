@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326845159
 images:
   - id: 763751143
-    alt: ""
+    alt: Erittain Hieno Tar Shampoo
     position: 1
     product_id: 326845159
     created_at: 2014-07-22T20:02:50-04:00

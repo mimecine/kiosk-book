@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326842855
 images:
   - id: 763748043
-    alt: ""
+    alt: Clear Doorstop Set
     position: 1
     product_id: 326842855
     created_at: 2014-07-22T19:59:11-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333575399
 images:
   - id: 776910439
-    alt: ""
+    alt: Licor Maracuja
     position: 1
     product_id: 333575399
     created_at: 2014-08-04T23:54:36-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333578767
 images:
   - id: 776920083
-    alt: ""
+    alt: Sesame Seed Grinder
     position: 1
     product_id: 333578767
     created_at: 2014-08-05T00:07:25-04:00

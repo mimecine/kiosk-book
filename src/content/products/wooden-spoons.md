@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/467284863
 images:
   - id: 1245422723
-    alt: ""
+    alt: Wooden Spoons
     position: 1
     product_id: 467284863
     created_at: 2015-03-23T13:45:08-04:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/wooden_spoons.jpeg?v=1427132708
     thumb: ./wooden-spoons/wooden-spoons__0-thumb.jpg
   - id: 1245422727
-    alt: ""
+    alt: Wooden Spoons
     position: 2
     product_id: 467284863
     created_at: 2015-03-23T13:45:08-04:00

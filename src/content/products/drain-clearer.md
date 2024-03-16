@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326844371
 images:
   - id: 763749851
-    alt: ""
+    alt: Drain Clearer
     position: 1
     product_id: 326844371
     created_at: 2014-07-22T20:01:41-04:00

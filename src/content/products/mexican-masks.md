@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/467289979
 images:
   - id: 1245430251
-    alt: ""
+    alt: Mexican Masks
     position: 1
     product_id: 467289979
     created_at: 2015-03-23T13:55:36-04:00

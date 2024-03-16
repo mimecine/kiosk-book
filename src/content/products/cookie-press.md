@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/467284183
 images:
   - id: 1245421847
-    alt: ""
+    alt: Kind-of Cookie Press
     position: 1
     product_id: 467284183
     created_at: 2015-03-23T13:43:41-04:00

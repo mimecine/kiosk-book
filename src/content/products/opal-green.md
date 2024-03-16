@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333576759
 images:
   - id: 776914491
-    alt: ""
+    alt: Opal Green
     position: 1
     product_id: 333576759
     created_at: 2014-08-04T23:59:55-04:00

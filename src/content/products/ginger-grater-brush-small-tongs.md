@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326846755
 images:
   - id: 763753251
-    alt: ""
+    alt: Ginger Grater Brush & Small Tongs
     position: 1
     product_id: 326846755
     created_at: 2014-07-22T20:05:18-04:00

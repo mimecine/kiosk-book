@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333580679
 images:
   - id: 776923503
-    alt: ""
+    alt: "Tinned Tuna: Risonho & Tenorio"
     position: 1
     product_id: 333580679
     created_at: 2014-08-05T00:13:11-04:00

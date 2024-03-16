@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326839275
 images:
   - id: 763743767
-    alt: ""
+    alt: Audubon Bird Call
     position: 1
     product_id: 326839275
     created_at: 2014-07-22T19:53:02-04:00

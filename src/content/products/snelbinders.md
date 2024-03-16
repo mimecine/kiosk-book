@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333579439
 images:
   - id: 776921327
-    alt: ""
+    alt: Snelbinders
     position: 1
     product_id: 333579439
     created_at: 2014-08-05T00:09:25-04:00

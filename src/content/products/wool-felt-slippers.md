@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333582639
 images:
   - id: 776926343
-    alt: ""
+    alt: Wool Felt Slippers
     position: 1
     product_id: 333582639
     created_at: 2014-08-05T00:18:18-04:00

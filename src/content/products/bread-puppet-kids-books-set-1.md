@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326841203
 images:
   - id: 763746055
-    alt: ""
+    alt: Bread & Puppet Kids' Books Set 1
     position: 1
     product_id: 326841203
     created_at: 2014-07-22T19:56:10-04:00

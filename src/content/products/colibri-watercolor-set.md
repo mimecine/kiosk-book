@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/467283931
 images:
   - id: 1245421551
-    alt: ""
+    alt: Colibri Watercolor Set
     position: 1
     product_id: 467283931
     created_at: 2015-03-23T13:43:10-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333577315
 images:
   - id: 776916215
-    alt: ""
+    alt: Picture Candy Katanuki
     position: 1
     product_id: 333577315
     created_at: 2014-08-05T00:02:13-04:00

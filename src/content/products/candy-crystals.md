@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326841911
 images:
   - id: 763746895
-    alt: ""
+    alt: Candy Crystals
     position: 1
     product_id: 326841911
     created_at: 2014-07-22T19:57:28-04:00

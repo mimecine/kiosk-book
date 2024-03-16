@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326838543
 images:
   - id: 763742835
-    alt: ""
+    alt: Airmail Envelopes
     position: 1
     product_id: 326838543
     created_at: 2014-07-22T19:51:58-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333576571
 images:
   - id: 776913895
-    alt: ""
+    alt: Obama Key Tag
     position: 1
     product_id: 333576571
     created_at: 2014-08-04T23:59:08-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333580383
 images:
   - id: 776923115
-    alt: ""
+    alt: Texan Nut Sheller
     position: 1
     product_id: 333580383
     created_at: 2014-08-05T00:12:25-04:00

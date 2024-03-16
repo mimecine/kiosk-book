@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326849735
 images:
   - id: 763757175
-    alt: ""
+    alt: Koti Mustard
     position: 1
     product_id: 326849735
     created_at: 2014-07-22T20:10:46-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326848427
 images:
   - id: 763755379
-    alt: ""
+    alt: House Paintbrush
     position: 1
     product_id: 326848427
     created_at: 2014-07-22T20:08:27-04:00

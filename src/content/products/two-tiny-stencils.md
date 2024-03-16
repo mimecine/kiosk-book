@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333581479
 images:
   - id: 776924695
-    alt: ""
+    alt: Two Tiny Stencils
     position: 1
     product_id: 333581479
     created_at: 2014-08-05T00:15:10-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326844007
 images:
   - id: 763749331
-    alt: ""
+    alt: Disposable Salt and Pepper Shakers
     position: 1
     product_id: 326844007
     created_at: 2014-07-22T20:01:11-04:00

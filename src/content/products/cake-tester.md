@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326841715
 images:
   - id: 763746607
-    alt: ""
+    alt: Cake Tester
     position: 1
     product_id: 326841715
     created_at: 2014-07-22T19:57:03-04:00

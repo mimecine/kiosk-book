@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333582615
 images:
   - id: 776926291
-    alt: ""
+    alt: Wool Ball
     position: 1
     product_id: 333582615
     created_at: 2014-08-05T00:18:12-04:00

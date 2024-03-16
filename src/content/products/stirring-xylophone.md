@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333579619
 images:
   - id: 28952550834335
-    alt: ""
+    alt: Stirring Xylophone
     position: 1
     product_id: 333579619
     created_at: 2021-05-12T08:11:59-04:00

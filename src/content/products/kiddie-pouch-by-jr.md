@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326849339
 images:
   - id: 763756691
-    alt: ""
+    alt: Kiddie Pouch by JR
     position: 1
     product_id: 326849339
     created_at: 2014-07-22T20:10:02-04:00

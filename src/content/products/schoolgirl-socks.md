@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333578683
 images:
   - id: 776919883
-    alt: ""
+    alt: Schoolgirl Socks
     position: 1
     product_id: 333578683
     created_at: 2014-08-05T00:07:11-04:00

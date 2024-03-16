@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/467290387
 images:
   - id: 1245430735
-    alt: ""
+    alt: Finnish Hanger
     position: 1
     product_id: 467290387
     created_at: 2015-03-23T13:56:00-04:00

@@ -2,7 +2,7 @@
 id: 27094495
 handle: everything
 title: Everything!
-updated_at: 2024-01-17T16:56:11-05:00
+updated_at: 2024-03-13T14:42:02-04:00
 body_html: <meta charset="utf-8"><span>The whole kit and caboodle. I always
   wanted to write that... Everything we have ever had here at Kiosk, for real,
   no joke, this is the sum of it all. What are we doing and what have we done?

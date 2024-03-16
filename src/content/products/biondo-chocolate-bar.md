@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/6730123706527
 images:
   - id: 28952555389087
-    alt: ""
+    alt: Viganotti Biondo Chocolate Bar
     position: 1
     product_id: 6730123706527
     created_at: 2021-05-12T08:12:28-04:00

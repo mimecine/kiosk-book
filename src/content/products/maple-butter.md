@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333575687
 images:
   - id: 776911231
-    alt: ""
+    alt: Maple Butter
     position: 1
     product_id: 333575687
     created_at: 2014-08-04T23:55:51-04:00

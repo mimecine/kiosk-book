@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326842839
 images:
   - id: 763748019
-    alt: ""
+    alt: Clay Pipe
     position: 1
     product_id: 326842839
     created_at: 2014-07-22T19:59:08-04:00

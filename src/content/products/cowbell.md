@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/467284295
 images:
   - id: 1245421995
-    alt: ""
+    alt: Cowbell
     position: 1
     product_id: 467284295
     created_at: 2015-03-23T13:44:03-04:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/cowbell_2.jpeg?v=1427132643
     thumb: ./cowbell/cowbell__0-thumb.jpg
   - id: 1245421999
-    alt: ""
+    alt: Cowbell
     position: 2
     product_id: 467284295
     created_at: 2015-03-23T13:44:03-04:00

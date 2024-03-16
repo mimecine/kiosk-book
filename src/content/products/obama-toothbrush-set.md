@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333576623
 images:
   - id: 776914095
-    alt: ""
+    alt: Obama Toothbrush Set
     position: 1
     product_id: 333576623
     created_at: 2014-08-04T23:59:19-04:00

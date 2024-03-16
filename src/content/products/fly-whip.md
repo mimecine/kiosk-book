@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326846139
 images:
   - id: 763752511
-    alt: ""
+    alt: Fly Whip
     position: 1
     product_id: 326846139
     created_at: 2014-07-22T20:04:21-04:00

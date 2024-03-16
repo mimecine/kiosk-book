@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333578139
 images:
   - id: 776918479
-    alt: ""
+    alt: Rich, Brilliant, Willing - Candle Party
     position: 1
     product_id: 333578139
     created_at: 2014-08-05T00:05:20-04:00

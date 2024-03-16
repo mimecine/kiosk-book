@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/467284275
 images:
   - id: 1245421979
-    alt: ""
+    alt: Cheese Cutter
     position: 1
     product_id: 467284275
     created_at: 2015-03-23T13:43:58-04:00

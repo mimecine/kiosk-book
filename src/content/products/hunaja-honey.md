@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326848527
 images:
   - id: 763755507
-    alt: ""
+    alt: Hunaja Honey
     position: 1
     product_id: 326848527
     created_at: 2014-07-22T20:08:36-04:00

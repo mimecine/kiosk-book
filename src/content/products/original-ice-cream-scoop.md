@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333576847
 images:
   - id: 28952550998175
-    alt: ""
+    alt: Original Ice Cream Scoop
     position: 1
     product_id: 333576847
     created_at: 2021-05-12T08:12:01-04:00

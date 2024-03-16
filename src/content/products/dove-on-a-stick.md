@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326844327
 images:
   - id: 763749787
-    alt: ""
+    alt: Dove on a Stick
     position: 1
     product_id: 326844327
     created_at: 2014-07-22T20:01:38-04:00

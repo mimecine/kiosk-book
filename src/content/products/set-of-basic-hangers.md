@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333578895
 images:
   - id: 776920295
-    alt: ""
+    alt: Set of Basic Hangers
     position: 1
     product_id: 333578895
     created_at: 2014-08-05T00:07:43-04:00

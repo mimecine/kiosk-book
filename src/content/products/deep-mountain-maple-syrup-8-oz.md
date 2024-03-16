@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326843763
 images:
   - id: 763749043
-    alt: ""
+    alt: Deep Mountain Maple Syrup Amber
     position: 1
     product_id: 326843763
     created_at: 2014-07-22T20:00:47-04:00

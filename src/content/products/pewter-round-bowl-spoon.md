@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333577291
 images:
   - id: 776916123
-    alt: ""
+    alt: Pewter Round Bowl Spoon
     position: 1
     product_id: 333577291
     created_at: 2014-08-05T00:02:07-04:00

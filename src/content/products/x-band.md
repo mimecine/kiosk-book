@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/467290331
 images:
   - id: 1245430671
-    alt: ""
+    alt: X Band
     position: 1
     product_id: 467290331
     created_at: 2015-03-23T13:55:56-04:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/Kiosk_2014_09_686.jpeg?v=1427133356
     thumb: ./x-band/x-band__0-thumb.jpg
   - id: 1245430675
-    alt: ""
+    alt: X Band
     position: 2
     product_id: 467290331
     created_at: 2015-03-23T13:55:56-04:00
@@ -38,7 +38,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/Kiosk_2014_09_729.jpeg?v=1427133356
     thumb: ./x-band/x-band__1-thumb.jpg
   - id: 1245430679
-    alt: ""
+    alt: X Band
     position: 3
     product_id: 467290331
     created_at: 2015-03-23T13:55:56-04:00

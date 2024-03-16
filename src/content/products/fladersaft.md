@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326845907
 images:
   - id: 763752171
-    alt: ""
+    alt: Fladersaft
     position: 1
     product_id: 326845907
     created_at: 2014-07-22T20:03:57-04:00

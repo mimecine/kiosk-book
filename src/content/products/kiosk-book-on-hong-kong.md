@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326849431
 images:
   - id: 28952123408543
-    alt: ""
+    alt: Kiosk Book on Hong Kong
     position: 1
     product_id: 326849431
     created_at: 2021-05-12T07:27:38-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326844891
 images:
   - id: 763750715
-    alt: ""
+    alt: Elementary Set Bracelet Cubes
     position: 1
     product_id: 326844891
     created_at: 2014-07-22T20:02:27-04:00

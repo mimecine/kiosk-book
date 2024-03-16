@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333575779
 images:
   - id: 776911467
-    alt: ""
+    alt: Maven Compost Bin
     position: 1
     product_id: 333575779
     created_at: 2014-08-04T23:56:11-04:00

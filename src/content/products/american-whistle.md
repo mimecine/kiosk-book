@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326839039
 images:
   - id: 28952104501407
-    alt: ""
+    alt: American Whistle
     position: 1
     product_id: 326839039
     created_at: 2021-05-12T07:26:26-04:00

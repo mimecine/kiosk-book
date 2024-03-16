@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333576871
 images:
   - id: 776914767
-    alt: ""
+    alt: Oro Metal Polish
     position: 1
     product_id: 333576871
     created_at: 2014-08-05T00:00:26-04:00

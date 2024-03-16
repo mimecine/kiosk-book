@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326846075
 images:
   - id: 763752435
-    alt: ""
+    alt: Florida Bits
     position: 1
     product_id: 326846075
     created_at: 2014-07-22T20:04:13-04:00

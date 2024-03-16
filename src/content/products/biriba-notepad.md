@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326840399
 images:
   - id: 763745135
-    alt: ""
+    alt: Biriba Notepad
     position: 1
     product_id: 326840399
     created_at: 2014-07-22T19:54:56-04:00

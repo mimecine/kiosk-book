@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326849223
 images:
   - id: 763756495
-    alt: ""
+    alt: Kaweco Fountain Pen
     position: 1
     product_id: 326849223
     created_at: 2014-07-22T20:09:50-04:00

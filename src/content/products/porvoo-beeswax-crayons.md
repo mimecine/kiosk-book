@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333577723
 images:
   - id: 776917411
-    alt: ""
+    alt: Porvoo Beeswax Crayons
     position: 1
     product_id: 333577723
     created_at: 2014-08-05T00:03:49-04:00

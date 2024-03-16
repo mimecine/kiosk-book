@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326842111
 images:
   - id: 763747103
-    alt: ""
+    alt: Catamount Mug
     position: 1
     product_id: 326842111
     created_at: 2014-07-22T19:57:51-04:00

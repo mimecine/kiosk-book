@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326849187
 images:
   - id: 763756423
-    alt: ""
+    alt: Kaol Mints
     position: 1
     product_id: 326849187
     created_at: 2014-07-22T20:09:45-04:00

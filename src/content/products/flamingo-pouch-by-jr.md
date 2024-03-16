@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326845931
 images:
   - id: 763752199
-    alt: ""
+    alt: Flamingo Pouch by JR
     position: 1
     product_id: 326845931
     created_at: 2014-07-22T20:04:00-04:00

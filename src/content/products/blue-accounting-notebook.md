@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326840651
 images:
   - id: 763745363
-    alt: ""
+    alt: Blue Accounting Notebook
     position: 1
     product_id: 326840651
     created_at: 2014-07-22T19:55:16-04:00

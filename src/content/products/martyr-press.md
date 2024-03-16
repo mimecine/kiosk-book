@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/467284407
 images:
   - id: 1245422123
-    alt: ""
+    alt: Martyr Press
     position: 1
     product_id: 467284407
     created_at: 2015-03-23T13:44:17-04:00

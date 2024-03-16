@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333576431
 images:
   - id: 776913507
-    alt: ""
+    alt: Noisemaker / Fukimodoshi
     position: 1
     product_id: 333576431
     created_at: 2014-08-04T23:58:38-04:00

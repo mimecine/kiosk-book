@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333576003
 images:
   - id: 776912095
-    alt: ""
+    alt: Metal Water Kettle
     position: 1
     product_id: 333576003
     created_at: 2014-08-04T23:56:57-04:00

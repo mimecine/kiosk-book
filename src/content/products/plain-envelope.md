@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333577459
 images:
   - id: 776916619
-    alt: ""
+    alt: Plain Envelope
     position: 1
     product_id: 333577459
     created_at: 2014-08-05T00:02:48-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333582263
 images:
   - id: 776925699
-    alt: ""
+    alt: Wiffle Scaler
     position: 1
     product_id: 333582263
     created_at: 2014-08-05T00:17:06-04:00

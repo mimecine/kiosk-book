@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333577207
 images:
   - id: 776915799
-    alt: ""
+    alt: Pear Brandy
     position: 1
     product_id: 333577207
     created_at: 2014-08-05T00:01:44-04:00

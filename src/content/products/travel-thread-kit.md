@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333581331
 images:
   - id: 776924467
-    alt: ""
+    alt: Travel Thread Kit
     position: 1
     product_id: 333581331
     created_at: 2014-08-05T00:14:46-04:00

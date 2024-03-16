@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326847627
 images:
   - id: 763754347
-    alt: ""
+    alt: Guava Paste Treats
     position: 1
     product_id: 326847627
     created_at: 2014-07-22T20:06:56-04:00

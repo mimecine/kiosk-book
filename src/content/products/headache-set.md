@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326848079
 images:
   - id: 763754927
-    alt: ""
+    alt: Headache Set
     position: 1
     product_id: 326848079
     created_at: 2014-07-22T20:07:46-04:00

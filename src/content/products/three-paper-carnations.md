@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333580459
 images:
   - id: 776923199
-    alt: ""
+    alt: Three Paper Carnations
     position: 1
     product_id: 333580459
     created_at: 2014-08-05T00:12:37-04:00

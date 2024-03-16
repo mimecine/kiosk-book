@@ -59,23 +59,35 @@ try {
   console.log("Metafield E", e);
 }
 
-Products.filter((p) => Products.status == "active").forEach((p) => {
+Products.filter((p) => p.status == "active").forEach((p) => {
   p.images?.forEach(async (image, i) => {
     const local_file = `./src/content/products/${p.handle}/${p.handle}__${i}.jpg`;
-    if (!(await exists(local_file))) {
-      try {
-        const blob = await (await fetch(image.src)).blob();
 
+    if (!(await exists(local_file))) {
+
+      try {
         await mkdir(`./src/content/products/${p.handle}`, { recursive: true });
-        await writeFile(
-          `./src/content/products/${p.handle}/${p.handle}__${i}.jpg`,
-          blob.stream()
-        );
-        console.log(`Got ${local_file}`);
-        delay(500);
+        await downloadImage(image.src, local_file);
       } catch (e) {
-        console.log(p.handle, image.src);
+        console.log(local_file, e);
       }
+      
+      // try {
+
+      //   const blob = await (await fetch(image.src)).blob();
+
+      //   await mkdir(`./src/content/products/${p.handle}`, { recursive: true });
+      //   await writeFile(
+      //     `./src/content/products/${p.handle}/${p.handle}__${i}.jpg`,
+      //     blob.stream()
+      //   );
+      //   console.log(`Got ${local_file}`);
+      //   delay(500);
+      // } catch (e) {
+      //   console.log(p.handle, image.src);
+      // }
+    } else {
+      console.log(`Already have ${local_file}`);
     }
   });
 });
@@ -101,4 +113,17 @@ async function exists(f) {
   } catch (e) {
     return false;
   }
+}
+
+async function downloadImage(imageUrl, imagePath) {
+
+  const response = await fetch(imageUrl);
+
+  if (!response.ok) {
+    throw new Error(`Failed to fetch image: ${response.statusText}`);
+  }
+
+  const buffer = await response.arrayBuffer();
+  await fs.writeFile(imagePath, buffer);
+  return `Image downloaded to ${imagePath}`;
 }

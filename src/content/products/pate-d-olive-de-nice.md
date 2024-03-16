@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/9122804367519
 images:
   - id: 36973360906399
-    alt: ""
+    alt: Pate d'Olive de Nice
     position: 1
     product_id: 9122804367519
     created_at: 2023-12-27T10:12:22-05:00

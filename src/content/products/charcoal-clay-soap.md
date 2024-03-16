@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326842307
 images:
   - id: 763747335
-    alt: ""
+    alt: Charcoal & Clay Soap
     position: 1
     product_id: 326842307
     created_at: 2014-07-22T19:58:12-04:00

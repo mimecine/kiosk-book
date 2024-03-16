@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326848807
 images:
   - id: 763755895
-    alt: ""
+    alt: Insulated Hot / Cold Bag
     position: 1
     product_id: 326848807
     created_at: 2014-07-22T20:09:04-04:00

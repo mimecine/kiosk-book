@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333578395
 images:
   - id: 776919223
-    alt: ""
+    alt: Sake Thermometer and Warming Cup
     position: 1
     product_id: 333578395
     created_at: 2014-08-05T00:06:20-04:00

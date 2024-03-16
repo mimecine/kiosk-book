@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326849267
 images:
   - id: 763756551
-    alt: ""
+    alt: Ken's Postcard Set
     position: 1
     product_id: 326849267
     created_at: 2014-07-22T20:09:55-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/6730130882719
 images:
   - id: 28768098189471
-    alt: ""
+    alt: Two Level Draining Rack
     position: 1
     product_id: 6730130882719
     created_at: 2021-04-28T10:29:37-04:00

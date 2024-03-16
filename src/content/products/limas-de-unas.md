@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333575431
 images:
   - id: 776910539
-    alt: ""
+    alt: Limas De Unas
     position: 1
     product_id: 333575431
     created_at: 2014-08-04T23:54:43-04:00

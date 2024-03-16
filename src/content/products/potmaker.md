@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333577747
 images:
   - id: 776917483
-    alt: ""
+    alt: Potmaker
     position: 1
     product_id: 333577747
     created_at: 2014-08-05T00:03:52-04:00

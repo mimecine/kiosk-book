@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333582875
 images:
   - id: 776926947
-    alt: ""
+    alt: Zuidwester Rain Cap
     position: 1
     product_id: 333582875
     created_at: 2014-08-05T00:19:15-04:00

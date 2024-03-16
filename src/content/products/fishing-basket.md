@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326845883
 images:
   - id: 763752151
-    alt: ""
+    alt: Fishing Basket
     position: 1
     product_id: 326845883
     created_at: 2014-07-22T20:03:55-04:00

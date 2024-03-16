@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326842735
 images:
   - id: 763747883
-    alt: ""
+    alt: Citra Fruit Spoon
     position: 1
     product_id: 326842735
     created_at: 2014-07-22T19:58:56-04:00

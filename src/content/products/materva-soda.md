@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333575775
 images:
   - id: 776911419
-    alt: ""
+    alt: Materva Soda
     position: 1
     product_id: 333575775
     created_at: 2014-08-04T23:56:08-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333578911
 images:
   - id: 776920319
-    alt: ""
+    alt: Set of Face Creams
     position: 1
     product_id: 333578911
     created_at: 2014-08-05T00:07:45-04:00

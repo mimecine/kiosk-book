@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326839583
 images:
   - id: 763744123
-    alt: ""
+    alt: Bavarian Gamsbart Medium Pin
     position: 1
     product_id: 326839583
     created_at: 2014-07-22T19:53:32-04:00

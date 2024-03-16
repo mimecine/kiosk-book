@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333581527
 images:
   - id: 776924767
-    alt: ""
+    alt: "Uglycute: Stool"
     position: 1
     product_id: 333581527
     created_at: 2014-08-05T00:15:18-04:00

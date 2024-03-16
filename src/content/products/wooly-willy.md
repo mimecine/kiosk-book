@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333582675
 images:
   - id: 776926411
-    alt: ""
+    alt: Wooly Willy
     position: 1
     product_id: 333582675
     created_at: 2014-08-05T00:18:27-04:00

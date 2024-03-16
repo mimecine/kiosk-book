@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326844303
 images:
   - id: 763749743
-    alt: ""
+    alt: Door Wedge
     position: 1
     product_id: 326844303
     created_at: 2014-07-22T20:01:35-04:00

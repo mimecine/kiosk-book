@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333577691
 images:
   - id: 776917339
-    alt: ""
+    alt: Popcorn Lid
     position: 1
     product_id: 333577691
     created_at: 2014-08-05T00:03:40-04:00

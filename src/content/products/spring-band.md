@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/6730130030751
 images:
   - id: 28952114823327
-    alt: ""
+    alt: Spring Band
     position: 1
     product_id: 6730130030751
     created_at: 2021-05-12T07:27:04-04:00

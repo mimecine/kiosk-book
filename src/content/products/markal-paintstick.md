@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333575719
 images:
   - id: 776911291
-    alt: ""
+    alt: Markal Paintstick
     position: 1
     product_id: 333575719
     created_at: 2014-08-04T23:55:56-04:00

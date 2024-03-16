@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326840523
 images:
   - id: 763745243
-    alt: ""
+    alt: Black Cross Skateboard
     position: 1
     product_id: 326840523
     created_at: 2014-07-22T19:55:07-04:00

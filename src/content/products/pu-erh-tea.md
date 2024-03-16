@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333577803
 images:
   - id: 776917615
-    alt: ""
+    alt: Pu-Erh Tea
     position: 1
     product_id: 333577803
     created_at: 2014-08-05T00:04:04-04:00

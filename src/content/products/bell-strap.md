@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326839671
 images:
   - id: 763744255
-    alt: ""
+    alt: Bell Strap
     position: 1
     product_id: 326839671
     created_at: 2014-07-22T19:53:44-04:00

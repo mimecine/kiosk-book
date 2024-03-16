@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326841239
 images:
   - id: 28952106762399
-    alt: ""
+    alt: Bread and Puppet Calendar 2020
     position: 1
     product_id: 326841239
     created_at: 2021-05-12T07:26:34-04:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/IMG_20191122_192115_1_1d1255de-7f4b-4cab-8400-2b940764003c.jpg?v=1620818794
     thumb: ./bread-and-puppet-calendar-2012/bread-and-puppet-calendar-2012__0-thumb.jpg
   - id: 28952106795167
-    alt: ""
+    alt: Bread and Puppet Calendar 2020
     position: 2
     product_id: 326841239
     created_at: 2021-05-12T07:26:34-04:00
@@ -38,7 +38,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/IMG_20191122_192052.jpg?v=1620818794
     thumb: ./bread-and-puppet-calendar-2012/bread-and-puppet-calendar-2012__1-thumb.jpg
   - id: 28952106827935
-    alt: ""
+    alt: Bread and Puppet Calendar 2020
     position: 3
     product_id: 326841239
     created_at: 2021-05-12T07:26:34-04:00

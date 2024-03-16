@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333582775
 images:
   - id: 776926695
-    alt: ""
+    alt: Yokoo Postcard
     position: 1
     product_id: 333582775
     created_at: 2014-08-05T00:18:52-04:00

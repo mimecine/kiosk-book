@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326841819
 images:
   - id: 763746779
-    alt: ""
+    alt: Camera Lighter
     position: 1
     product_id: 326841819
     created_at: 2014-07-22T19:57:15-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333576215
 images:
   - id: 776912855
-    alt: ""
+    alt: Mr. Skinner
     position: 1
     product_id: 333576215
     created_at: 2014-08-04T23:57:52-04:00

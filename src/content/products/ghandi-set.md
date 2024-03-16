@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326846575
 images:
   - id: 763753067
-    alt: ""
+    alt: Gandhi Set
     position: 1
     product_id: 326846575
     created_at: 2014-07-22T20:05:02-04:00

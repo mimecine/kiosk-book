@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333579639
 images:
   - id: 776921795
-    alt: ""
+    alt: Stomach Saver
     position: 1
     product_id: 333579639
     created_at: 2014-08-05T00:10:13-04:00

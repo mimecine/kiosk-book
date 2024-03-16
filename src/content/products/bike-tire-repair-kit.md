@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326840135
 images:
   - id: 763744791
-    alt: ""
+    alt: Bike Tire Repair Kit
     position: 1
     product_id: 326840135
     created_at: 2014-07-22T19:54:33-04:00

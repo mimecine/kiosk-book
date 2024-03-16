@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326841595
 images:
   - id: 763746451
-    alt: ""
+    alt: Bussaco Book
     position: 1
     product_id: 326841595
     created_at: 2014-07-22T19:56:48-04:00

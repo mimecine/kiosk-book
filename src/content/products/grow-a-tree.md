@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326847551
 images:
   - id: 28952551063711
-    alt: ""
+    alt: Grow a Tree
     position: 1
     product_id: 326847551
     created_at: 2021-05-12T08:12:03-04:00

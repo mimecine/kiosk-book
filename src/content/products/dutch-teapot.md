@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326844667
 images:
   - id: 763750215
-    alt: ""
+    alt: Dutch Teapot
     position: 1
     product_id: 326844667
     created_at: 2014-07-22T20:02:04-04:00

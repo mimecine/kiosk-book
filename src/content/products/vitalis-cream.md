@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333581779
 images:
   - id: 776925111
-    alt: ""
+    alt: Vitalis Cream
     position: 1
     product_id: 333581779
     created_at: 2014-08-05T00:15:56-04:00

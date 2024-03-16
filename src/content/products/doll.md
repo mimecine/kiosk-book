@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326844199
 images:
   - id: 763749527
-    alt: ""
+    alt: Doll
     position: 1
     product_id: 326844199
     created_at: 2014-07-22T20:01:26-04:00

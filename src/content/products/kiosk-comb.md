@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326849443
 images:
   - id: 763756803
-    alt: ""
+    alt: Kiosk Comb
     position: 1
     product_id: 326849443
     created_at: 2014-07-22T20:10:14-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326848611
 images:
   - id: 763755659
-    alt: ""
+    alt: Ice Skates
     position: 1
     product_id: 326848611
     created_at: 2014-07-22T20:08:46-04:00

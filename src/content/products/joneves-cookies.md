@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326849123
 images:
   - id: 763756319
-    alt: ""
+    alt: Joneves Cookies
     position: 1
     product_id: 326849123
     created_at: 2014-07-22T20:09:37-04:00

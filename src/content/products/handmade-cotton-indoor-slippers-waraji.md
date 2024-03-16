@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326847875
 images:
   - id: 763754599
-    alt: ""
+    alt: Handmade Cotton Indoor Slippers (Waraji)
     position: 1
     product_id: 326847875
     created_at: 2014-07-22T20:07:23-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/6775658119327
 images:
   - id: 28952550670495
-    alt: ""
+    alt: Petite Duralex Stacking Glasses Set
     position: 1
     product_id: 6775658119327
     created_at: 2021-05-12T08:11:56-04:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/lola_glasses.jpg?v=1620821516
     thumb: ./petite-duralex-stacking-glasses/petite-duralex-stacking-glasses__0-thumb.jpg
   - id: 28952550703263
-    alt: ""
+    alt: Petite Duralex Stacking Glasses Set
     position: 2
     product_id: 6775658119327
     created_at: 2021-05-12T08:11:56-04:00

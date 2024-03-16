@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333575631
 images:
   - id: 776911139
-    alt: ""
+    alt: Luminia / Floating "Candles"
     position: 1
     product_id: 333575631
     created_at: 2014-08-04T23:55:34-04:00

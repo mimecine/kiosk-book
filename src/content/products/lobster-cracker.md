@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/9122804105375
 images:
   - id: 36973358842015
-    alt: ""
+    alt: Lobster Cracker
     position: 1
     product_id: 9122804105375
     created_at: 2023-12-27T10:11:51-05:00

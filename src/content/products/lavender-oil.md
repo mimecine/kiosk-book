@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326850119
 images:
   - id: 763757691
-    alt: ""
+    alt: Lavender Oil
     position: 1
     product_id: 326850119
     created_at: 2014-07-22T20:11:27-04:00

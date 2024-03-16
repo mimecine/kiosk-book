@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326847003
 images:
   - id: 763753523
-    alt: ""
+    alt: Gopal Tooth Powder
     position: 1
     product_id: 326847003
     created_at: 2014-07-22T20:05:46-04:00

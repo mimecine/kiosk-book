@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326839295
 images:
   - id: 763743799
-    alt: ""
+    alt: Baby Rattle
     position: 1
     product_id: 326839295
     created_at: 2014-07-22T19:53:04-04:00

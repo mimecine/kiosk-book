@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326840315
 images:
   - id: 763744975
-    alt: ""
+    alt: Bird Toy Small
     position: 1
     product_id: 326840315
     created_at: 2014-07-22T19:54:48-04:00

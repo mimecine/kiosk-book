@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326842163
 images:
   - id: 763747159
-    alt: ""
+    alt: Cedar Incense
     position: 1
     product_id: 326842163
     created_at: 2014-07-22T19:57:57-04:00

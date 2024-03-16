@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326844871
 images:
   - id: 763750687
-    alt: ""
+    alt: Elementary Set Bracelet Circles
     position: 1
     product_id: 326844871
     created_at: 2014-07-22T20:02:24-04:00

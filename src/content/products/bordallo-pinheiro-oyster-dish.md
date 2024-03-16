@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326840975
 images:
   - id: 763745811
-    alt: ""
+    alt: Bordallo Pinheiro Oyster Dish
     position: 1
     product_id: 326840975
     created_at: 2014-07-22T19:55:49-04:00

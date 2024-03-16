@@ -2,7 +2,7 @@
 id: 25555687
 handle: finland
 title: Finland
-updated_at: 2023-12-30T14:27:56-05:00
+updated_at: 2024-03-13T14:37:32-04:00
 body_html: >
   <p>Deeply poetic and extremely internal, we only went as far north as Kuopio.
   We took a smoke sauna, talked, talked, talked and talked to people who are

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/9122801975455
 images:
   - id: 36973257130143
-    alt: ""
+    alt: Plastic Folder Set
     position: 1
     product_id: 9122801975455
     created_at: 2023-12-27T09:52:35-05:00

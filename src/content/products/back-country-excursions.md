@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326839343
 images:
   - id: 763743875
-    alt: ""
+    alt: Backcountry Excursions
     position: 1
     product_id: 326839343
     created_at: 2014-07-22T19:53:09-04:00

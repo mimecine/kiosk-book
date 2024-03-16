@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333577943
 images:
   - id: 776917991
-    alt: ""
+    alt: Red Dot Tenugui
     position: 1
     product_id: 333577943
     created_at: 2014-08-05T00:04:40-04:00

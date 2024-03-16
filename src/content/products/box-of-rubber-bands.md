@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326841027
 images:
   - id: 763745847
-    alt: ""
+    alt: Box of Rubber Bands
     position: 1
     product_id: 326841027
     created_at: 2014-07-22T19:55:52-04:00

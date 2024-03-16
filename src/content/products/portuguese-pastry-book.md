@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333577715
 images:
   - id: 776917403
-    alt: ""
+    alt: Portuguese Pastry Book
     position: 1
     product_id: 333577715
     created_at: 2014-08-05T00:03:47-04:00

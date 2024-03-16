@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/467284915
 images:
   - id: 1245422819
-    alt: ""
+    alt: Toast and Grill Pan
     position: 1
     product_id: 467284915
     created_at: 2015-03-23T13:45:15-04:00

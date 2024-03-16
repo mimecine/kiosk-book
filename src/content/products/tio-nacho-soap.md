@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333581055
 images:
   - id: 776924059
-    alt: ""
+    alt: Tio Nacho Soap
     position: 1
     product_id: 333581055
     created_at: 2014-08-05T00:14:06-04:00

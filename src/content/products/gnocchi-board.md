@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/6730131112095
 images:
   - id: 28768098517151
-    alt: ""
+    alt: Gnocchi Board
     position: 1
     product_id: 6730131112095
     created_at: 2021-04-28T10:29:40-04:00

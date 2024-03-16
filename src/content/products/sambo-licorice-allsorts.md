@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333578495
 images:
   - id: 776919431
-    alt: ""
+    alt: Sambo Licorice Allsorts
     position: 1
     product_id: 333578495
     created_at: 2014-08-05T00:06:34-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326841951
 images:
   - id: 763746947
-    alt: ""
+    alt: Carpenters Knife
     position: 1
     product_id: 326841951
     created_at: 2014-07-22T19:57:32-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333575615
 images:
   - id: 776911087
-    alt: ""
+    alt: Lowensenf Mustard
     position: 1
     product_id: 333575615
     created_at: 2014-08-04T23:55:29-04:00

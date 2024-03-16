@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326847715
 images:
   - id: 763754463
-    alt: ""
+    alt: Halvadopita / Nougat Pie
     position: 1
     product_id: 326847715
     created_at: 2014-07-22T20:07:06-04:00

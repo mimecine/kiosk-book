@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326849931
 images:
   - id: 763757395
-    alt: ""
+    alt: Large Black Kanken
     position: 1
     product_id: 326849931
     created_at: 2014-07-22T20:11:06-04:00

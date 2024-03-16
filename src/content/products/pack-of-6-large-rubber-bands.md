@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333576979
 images:
   - id: 776915195
-    alt: ""
+    alt: Pack of 6 Large Rubber Bands
     position: 1
     product_id: 333576979
     created_at: 2014-08-05T00:00:57-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333581151
 images:
   - id: 776924179
-    alt: ""
+    alt: Toran
     position: 1
     product_id: 333581151
     created_at: 2014-08-05T00:14:20-04:00

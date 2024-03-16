@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326849067
 images:
   - id: 763756243
-    alt: ""
+    alt: Jetfire Balsa Airplane
     position: 1
     product_id: 326849067
     created_at: 2014-07-22T20:09:31-04:00

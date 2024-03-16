@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333577995
 images:
   - id: 776918147
-    alt: ""
+    alt: Red Metal Garden Tool Set
     position: 1
     product_id: 333577995
     created_at: 2014-08-05T00:04:52-04:00

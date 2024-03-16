@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333577927
 images:
   - id: 776917967
-    alt: ""
+    alt: Red Cow / Akabeko
     position: 1
     product_id: 333577927
     created_at: 2014-08-05T00:04:38-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333582479
 images:
   - id: 776926023
-    alt: ""
+    alt: Wood Cabin
     position: 1
     product_id: 333582479
     created_at: 2014-08-05T00:17:43-04:00

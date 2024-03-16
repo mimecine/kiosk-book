@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333576751
 images:
   - id: 776914479
-    alt: ""
+    alt: Opal Black
     position: 1
     product_id: 333576751
     created_at: 2014-08-04T23:59:53-04:00

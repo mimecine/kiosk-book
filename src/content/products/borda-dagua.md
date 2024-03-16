@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326840899
 images:
   - id: 763745747
-    alt: ""
+    alt: Borda d'Agua
     position: 1
     product_id: 326840899
     created_at: 2014-07-22T19:55:43-04:00

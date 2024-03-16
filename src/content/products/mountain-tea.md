@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333576183
 images:
   - id: 776912775
-    alt: ""
+    alt: Mountain Tea
     position: 1
     product_id: 333576183
     created_at: 2014-08-04T23:57:43-04:00

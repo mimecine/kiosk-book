@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333581839
 images:
   - id: 776925179
-    alt: ""
+    alt: Water Jug
     position: 1
     product_id: 333581839
     created_at: 2014-08-05T00:16:06-04:00

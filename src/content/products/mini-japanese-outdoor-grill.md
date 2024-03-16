@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/9122804498591
 images:
   - id: 36973361561759
-    alt: ""
+    alt: Japanese Outdoor Grill
     position: 1
     product_id: 9122804498591
     created_at: 2023-12-27T10:12:47-05:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/PXL_20211118_122100715.jpg?v=1703689967
     thumb: ./mini-japanese-outdoor-grill/mini-japanese-outdoor-grill__0-thumb.jpg
   - id: 36973361594527
-    alt: ""
+    alt: Japanese Outdoor Grill
     position: 2
     product_id: 9122804498591
     created_at: 2023-12-27T10:12:47-05:00
@@ -38,7 +38,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/PXL_20211118_122514256.jpg?v=1703689967
     thumb: ./mini-japanese-outdoor-grill/mini-japanese-outdoor-grill__1-thumb.jpg
   - id: 36973361627295
-    alt: ""
+    alt: Japanese Outdoor Grill
     position: 3
     product_id: 9122804498591
     created_at: 2023-12-27T10:12:47-05:00
@@ -51,7 +51,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/PXL_20211118_122430056.jpg?v=1703689967
     thumb: ./mini-japanese-outdoor-grill/mini-japanese-outdoor-grill__2-thumb.jpg
   - id: 36973361660063
-    alt: ""
+    alt: Japanese Outdoor Grill
     position: 4
     product_id: 9122804498591
     created_at: 2023-12-27T10:12:47-05:00

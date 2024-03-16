@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333576859
 images:
   - id: 776914711
-    alt: ""
+    alt: Original Pilot Sunglasses
     position: 1
     product_id: 333576859
     created_at: 2014-08-05T00:00:23-04:00

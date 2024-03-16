@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/467284539
 images:
   - id: 1245422271
-    alt: ""
+    alt: Horsewhip
     position: 1
     product_id: 467284539
     created_at: 2015-03-23T13:44:32-04:00

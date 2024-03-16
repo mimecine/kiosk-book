@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333578443
 images:
   - id: 776919331
-    alt: ""
+    alt: Salt Shaker
     position: 1
     product_id: 333578443
     created_at: 2014-08-05T00:06:27-04:00

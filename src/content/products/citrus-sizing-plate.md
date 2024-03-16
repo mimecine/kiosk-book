@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326842767
 images:
   - id: 763747931
-    alt: ""
+    alt: Citrus Sizing Plate
     position: 1
     product_id: 326842767
     created_at: 2014-07-22T19:59:01-04:00

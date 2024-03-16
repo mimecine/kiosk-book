@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333577351
 images:
   - id: 776916319
-    alt: ""
+    alt: Pikal Metal Polish
     position: 1
     product_id: 333577351
     created_at: 2014-08-05T00:02:21-04:00

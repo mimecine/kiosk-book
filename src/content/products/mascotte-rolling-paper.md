@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333575735
 images:
   - id: 776911307
-    alt: ""
+    alt: Mascotte Rolling Paper
     position: 1
     product_id: 333575735
     created_at: 2014-08-04T23:56:00-04:00

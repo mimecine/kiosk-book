@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326841287
 images:
   - id: 763746139
-    alt: ""
+    alt: Bread and Puppet Not In Our Name
     position: 1
     product_id: 326841287
     created_at: 2014-07-22T19:56:19-04:00

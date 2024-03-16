@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333576531
 images:
   - id: 776913795
-    alt: ""
+    alt: Nylon Twine
     position: 1
     product_id: 333576531
     created_at: 2014-08-04T23:59:00-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/6730124099743
 images:
   - id: 28768074104991
-    alt: ""
+    alt: Mazzotti Futurist Candlesticks
     position: 1
     product_id: 6730124099743
     created_at: 2021-04-28T10:28:00-04:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/IMG_20181009_174935.jpg?v=1619620080
     thumb: ./mazotti-futurist-candlesticks/mazotti-futurist-candlesticks__0-thumb.jpg
   - id: 28768074137759
-    alt: ""
+    alt: Mazzotti Futurist Candlesticks
     position: 2
     product_id: 6730124099743
     created_at: 2021-04-28T10:28:00-04:00
@@ -39,7 +39,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/candlestickVenezia.jpg?v=1619620080
     thumb: ./mazotti-futurist-candlesticks/mazotti-futurist-candlesticks__1-thumb.jpg
   - id: 28768074170527
-    alt: ""
+    alt: Mazzotti Futurist Candlesticks
     position: 3
     product_id: 6730124099743
     created_at: 2021-04-28T10:28:00-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326838143
 images:
   - id: 763742371
-    alt: ""
+    alt: 2 Small Brown Ceramic Cups
     position: 1
     product_id: 326838143
     created_at: 2014-07-22T19:51:17-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/467284687
 images:
   - id: 1245422459
-    alt: ""
+    alt: Wool Socks
     position: 1
     product_id: 467284687
     created_at: 2015-03-23T13:44:46-04:00

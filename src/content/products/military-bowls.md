@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333576079
 images:
   - id: 776912351
-    alt: ""
+    alt: Military Bowls
     position: 1
     product_id: 333576079
     created_at: 2014-08-04T23:57:14-04:00

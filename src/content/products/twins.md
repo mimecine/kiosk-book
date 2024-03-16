@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333581415
 images:
   - id: 776924595
-    alt: ""
+    alt: Twins!
     position: 1
     product_id: 333581415
     created_at: 2014-08-05T00:15:00-04:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/twins.jpeg?v=1407212100
     thumb: ./twins/twins__0-thumb.jpg
   - id: 776924615
-    alt: ""
+    alt: Twins!
     position: 2
     product_id: 333581415
     created_at: 2014-08-05T00:15:02-04:00
@@ -38,7 +38,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/twins2.jpeg?v=1407212102
     thumb: ./twins/twins__1-thumb.jpg
   - id: 776924643
-    alt: ""
+    alt: Twins!
     position: 3
     product_id: 333581415
     created_at: 2014-08-05T00:15:04-04:00
@@ -51,7 +51,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/twins3.jpeg?v=1407212104
     thumb: ./twins/twins__2-thumb.jpg
   - id: 776924663
-    alt: ""
+    alt: Twins!
     position: 4
     product_id: 333581415
     created_at: 2014-08-05T00:15:06-04:00

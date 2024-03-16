@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333582283
 images:
   - id: 776925719
-    alt: ""
+    alt: Wilhelmina Pepermunt
     position: 1
     product_id: 333582283
     created_at: 2014-08-05T00:17:08-04:00

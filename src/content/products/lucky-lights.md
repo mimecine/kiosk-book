@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333575619
 images:
   - id: 776911099
-    alt: ""
+    alt: Lucky Lights
     position: 1
     product_id: 333575619
     created_at: 2014-08-04T23:55:31-04:00

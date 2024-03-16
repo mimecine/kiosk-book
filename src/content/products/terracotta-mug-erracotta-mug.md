@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326843111
 images:
   - id: 763748303
-    alt: ""
+    alt: Colombian Coffee Cup
     position: 1
     product_id: 326843111
     created_at: 2014-07-22T19:59:36-04:00

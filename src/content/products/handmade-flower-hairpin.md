@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326847891
 images:
   - id: 763754627
-    alt: ""
+    alt: Handmade Flower Hairpin
     position: 1
     product_id: 326847891
     created_at: 2014-07-22T20:07:26-04:00

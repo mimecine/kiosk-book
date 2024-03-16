@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/6730130981023
 images:
   - id: 28952116953247
-    alt: ""
+    alt: Anchovy Paste
     position: 1
     product_id: 6730130981023
     created_at: 2021-05-12T07:27:13-04:00

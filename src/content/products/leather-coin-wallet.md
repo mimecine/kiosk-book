@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326850167
 images:
   - id: 5966358595
-    alt: ""
+    alt: Leather Coin Wallet
     position: 1
     product_id: 326850167
     created_at: 2015-10-02T18:58:51-04:00

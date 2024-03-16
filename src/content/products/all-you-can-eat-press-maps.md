@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326838623
 images:
   - id: 763742971
-    alt: ""
+    alt: All You Can Eat Press Maps
     position: 1
     product_id: 326838623
     created_at: 2014-07-22T19:52:05-04:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/DINER-MAP-COVER.jpeg?v=1406073125
     thumb: ./all-you-can-eat-press-maps/all-you-can-eat-press-maps__0-thumb.jpg
   - id: 763742991
-    alt: ""
+    alt: All You Can Eat Press Maps
     position: 2
     product_id: 326838623
     created_at: 2014-07-22T19:52:07-04:00
@@ -38,7 +38,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/BurgerMap_Front-sillo.jpeg?v=1406073127
     thumb: ./all-you-can-eat-press-maps/all-you-can-eat-press-maps__1-thumb.jpg
   - id: 763743087
-    alt: ""
+    alt: All You Can Eat Press Maps
     position: 3
     product_id: 326838623
     created_at: 2014-07-22T19:52:10-04:00
@@ -51,7 +51,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/RamenMap_front.jpeg?v=1406073130
     thumb: ./all-you-can-eat-press-maps/all-you-can-eat-press-maps__2-thumb.jpg
   - id: 763743115
-    alt: ""
+    alt: All You Can Eat Press Maps
     position: 4
     product_id: 326838623
     created_at: 2014-07-22T19:52:13-04:00

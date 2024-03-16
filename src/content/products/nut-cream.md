@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333576495
 images:
   - id: 776913707
-    alt: ""
+    alt: Nut Creme
     position: 1
     product_id: 333576495
     created_at: 2014-08-04T23:58:54-04:00

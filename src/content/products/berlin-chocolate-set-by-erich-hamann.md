@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326839747
 images:
   - id: 763744343
-    alt: ""
+    alt: Berlin Chocolates by Erich Hamann
     position: 1
     product_id: 326839747
     created_at: 2014-07-22T19:53:53-04:00

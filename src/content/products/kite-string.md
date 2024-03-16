@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326849627
 images:
   - id: 763757043
-    alt: ""
+    alt: Kite String
     position: 1
     product_id: 326849627
     created_at: 2014-07-22T20:10:35-04:00

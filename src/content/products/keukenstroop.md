@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326849311
 images:
   - id: 763756635
-    alt: ""
+    alt: Keukenstroop
     position: 1
     product_id: 326849311
     created_at: 2014-07-22T20:09:59-04:00

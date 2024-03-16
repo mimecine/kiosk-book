@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326838895
 images:
   - id: 763743367
-    alt: ""
+    alt: Aluminum Masher
     position: 1
     product_id: 326838895
     created_at: 2014-07-22T19:52:28-04:00

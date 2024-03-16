@@ -17,15 +17,19 @@ body_html: >-
 
   <script src="ratchet/dist/js/ratchet.min.js"></script>
 
-  <!-- Make sure all your bars are the first things in your <body> --><header class="bar bar-nav"><form class="input-group" id="f" name="f">
+  <!-- Make sure all your bars are the first things in your <body> --><header
+  class="bar bar-nav"><form class="input-group" id="f" name="f">
 
   <div class="input-row" style="border: none;">
 
-  <h3 style="font-family: 'Montserrat', sans-serif; font-weight: bold;">KIOSK</h3>
+  <h3 style="font-family: 'Montserrat', sans-serif; font-weight:
+  bold;">KIOSK</h3>
 
-  <input type="search" id="sku-search" placeholder="The Code!" style="border: 1px inset black; width: 50%;" /></div>
+  <input type="search" id="sku-search" placeholder="The Code!" style="border:
+  1px inset black; width: 50%;" /></div>
 
-  </form></header><!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
+  </form></header><!-- Wrap all non-bar HTML in the .content div (this is
+  actually what scrolls) -->
 
   <div class="content" id="main-card">
 

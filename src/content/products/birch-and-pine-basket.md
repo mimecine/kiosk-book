@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326840211
 images:
   - id: 763744863
-    alt: ""
+    alt: Birch and Pine Basket
     position: 1
     product_id: 326840211
     created_at: 2014-07-22T19:54:39-04:00

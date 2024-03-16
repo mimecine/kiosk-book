@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333579539
 images:
   - id: 776921563
-    alt: ""
+    alt: Sporty Soccer Mirror
     position: 1
     product_id: 333579539
     created_at: 2014-08-05T00:09:49-04:00

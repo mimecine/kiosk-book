@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333579095
 images:
   - id: 776920691
-    alt: ""
+    alt: Shiso Kosen
     position: 1
     product_id: 333579095
     created_at: 2014-08-05T00:08:21-04:00

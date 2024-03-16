@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326849955
 images:
   - id: 763757467
-    alt: ""
+    alt: Large Glass or Vase Brush
     position: 1
     product_id: 326849955
     created_at: 2014-07-22T20:11:10-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326839843
 images:
   - id: 763744435
-    alt: ""
+    alt: Bicycle Pump
     position: 1
     product_id: 326839843
     created_at: 2014-07-22T19:54:05-04:00

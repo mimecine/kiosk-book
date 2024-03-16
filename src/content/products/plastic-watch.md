@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333577611
 images:
   - id: 28952125669535
-    alt: ""
+    alt: Plastic Watch
     position: 1
     product_id: 333577611
     created_at: 2021-05-12T07:27:47-04:00

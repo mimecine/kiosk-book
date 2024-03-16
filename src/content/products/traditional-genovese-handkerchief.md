@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/6730126426271
 images:
   - id: 28768083935391
-    alt: ""
+    alt: Traditional Genovese Cloth
     position: 1
     product_id: 6730126426271
     created_at: 2021-04-28T10:28:33-04:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/IMG_20181118_143433.jpg?v=1619620113
     thumb: ./traditional-genovese-handkerchief/traditional-genovese-handkerchief__0-thumb.jpg
   - id: 28768083968159
-    alt: ""
+    alt: Traditional Genovese Cloth
     position: 2
     product_id: 6730126426271
     created_at: 2021-04-28T10:28:33-04:00

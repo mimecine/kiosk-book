@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333582375
 images:
   - id: 776925831
-    alt: ""
+    alt: Wire Dish Cover
     position: 1
     product_id: 333582375
     created_at: 2014-08-05T00:17:22-04:00

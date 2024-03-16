@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/467284843
 images:
   - id: 1245422703
-    alt: ""
+    alt: Wooden Plate
     position: 1
     product_id: 467284843
     created_at: 2015-03-23T13:45:05-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333577835
 images:
   - id: 28952111677599
-    alt: ""
+    alt: Rainbow Prism
     position: 1
     product_id: 333577835
     created_at: 2021-05-12T07:26:54-04:00

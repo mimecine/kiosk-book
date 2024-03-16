@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333581275
 images:
   - id: 776924391
-    alt: ""
+    alt: Trannie Jokes Etc.
     position: 1
     product_id: 333581275
     created_at: 2014-08-05T00:14:37-04:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/trannie.jpeg?v=1407212077
     thumb: ./trannie-jokes/trannie-jokes__0-thumb.jpg
   - id: 776924407
-    alt: ""
+    alt: Trannie Jokes Etc.
     position: 2
     product_id: 333581275
     created_at: 2014-08-05T00:14:39-04:00
@@ -38,7 +38,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/trannie2.jpeg?v=1407212079
     thumb: ./trannie-jokes/trannie-jokes__1-thumb.jpg
   - id: 776924415
-    alt: ""
+    alt: Trannie Jokes Etc.
     position: 3
     product_id: 333581275
     created_at: 2014-08-05T00:14:41-04:00
@@ -51,7 +51,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/trannie3.jpeg?v=1407212081
     thumb: ./trannie-jokes/trannie-jokes__2-thumb.jpg
   - id: 776924451
-    alt: ""
+    alt: Trannie Jokes Etc.
     position: 4
     product_id: 333581275
     created_at: 2014-08-05T00:14:43-04:00

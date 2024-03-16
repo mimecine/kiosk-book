@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333580647
 images:
   - id: 776923483
-    alt: ""
+    alt: Tin Sink
     position: 1
     product_id: 333580647
     created_at: 2014-08-05T00:13:06-04:00

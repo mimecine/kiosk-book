@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326838175
 images:
   - id: 763742407
-    alt: ""
+    alt: Old Fashioned Black Notebooks
     position: 1
     product_id: 326838175
     created_at: 2014-07-22T19:51:21-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333581591
 images:
   - id: 776924867
-    alt: ""
+    alt: Valentine Chocolate
     position: 1
     product_id: 333581591
     created_at: 2014-08-05T00:15:26-04:00

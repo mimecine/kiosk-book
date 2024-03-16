@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326841571
 images:
   - id: 763746427
-    alt: ""
+    alt: Bulldog Wax
     position: 1
     product_id: 326841571
     created_at: 2014-07-22T19:56:46-04:00

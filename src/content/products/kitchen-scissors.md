@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326849583
 images:
   - id: 28952552833183
-    alt: ""
+    alt: Kitchen Scissors
     position: 1
     product_id: 326849583
     created_at: 2021-05-12T08:12:15-04:00

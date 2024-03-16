@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326839423
 images:
   - id: 763743951
-    alt: ""
+    alt: Bait Net
     position: 1
     product_id: 326839423
     created_at: 2014-07-22T19:53:16-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333579215
 images:
   - id: 776920883
-    alt: ""
+    alt: Skissblock
     position: 1
     product_id: 333579215
     created_at: 2014-08-05T00:08:39-04:00

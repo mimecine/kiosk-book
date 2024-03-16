@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333576407
 images:
   - id: 776913411
-    alt: ""
+    alt: Noa's Calendar
     position: 1
     product_id: 333576407
     created_at: 2014-08-04T23:58:33-04:00

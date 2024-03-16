@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326847067
 images:
   - id: 763753587
-    alt: ""
+    alt: Graphic Doormat
     position: 1
     product_id: 326847067
     created_at: 2014-07-22T20:05:54-04:00

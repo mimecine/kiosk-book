@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/6730121773215
 images:
   - id: 28768065683615
-    alt: ""
+    alt: Chestnut Knife
     position: 1
     product_id: 6730121773215
     created_at: 2021-04-28T10:27:32-04:00

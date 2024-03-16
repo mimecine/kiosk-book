@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326844803
 images:
   - id: 763750507
-    alt: ""
+    alt: Ejes Chocolate
     position: 1
     product_id: 326844803
     created_at: 2014-07-22T20:02:18-04:00

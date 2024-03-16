@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/467290091
 images:
   - id: 1245430391
-    alt: ""
+    alt: Wettex
     position: 1
     product_id: 467290091
     created_at: 2015-03-23T13:55:42-04:00

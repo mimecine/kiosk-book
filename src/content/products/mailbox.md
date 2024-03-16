@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333575655
 images:
   - id: 776911159
-    alt: ""
+    alt: Mailbox
     position: 1
     product_id: 333575655
     created_at: 2014-08-04T23:55:42-04:00

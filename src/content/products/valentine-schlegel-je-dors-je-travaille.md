@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/6775657693343
 images:
   - id: 28952548114591
-    alt: ""
+    alt: Valentine Schlegel, "Je dors, je travaille"
     position: 1
     product_id: 6775657693343
     created_at: 2021-05-12T08:11:44-04:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/IMG_20201118_144156.jpg?v=1620821504
     thumb: ./valentine-schlegel-je-dors-je-travaille/valentine-schlegel-je-dors-je-travaille__0-thumb.jpg
   - id: 28952548147359
-    alt: ""
+    alt: Valentine Schlegel, "Je dors, je travaille"
     position: 2
     product_id: 6775657693343
     created_at: 2021-05-12T08:11:44-04:00
@@ -38,7 +38,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/IMG_20201118_144208.jpg?v=1620821504
     thumb: ./valentine-schlegel-je-dors-je-travaille/valentine-schlegel-je-dors-je-travaille__1-thumb.jpg
   - id: 28952548180127
-    alt: ""
+    alt: Valentine Schlegel, "Je dors, je travaille"
     position: 3
     product_id: 6775657693343
     created_at: 2021-05-12T08:11:44-04:00
@@ -51,7 +51,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/IMG_20201118_144213.jpg?v=1620821504
     thumb: ./valentine-schlegel-je-dors-je-travaille/valentine-schlegel-je-dors-je-travaille__2-thumb.jpg
   - id: 28952548212895
-    alt: ""
+    alt: Valentine Schlegel, "Je dors, je travaille"
     position: 4
     product_id: 6775657693343
     created_at: 2021-05-12T08:11:44-04:00
@@ -64,7 +64,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/IMG_20201118_144219.jpg?v=1620821504
     thumb: ./valentine-schlegel-je-dors-je-travaille/valentine-schlegel-je-dors-je-travaille__3-thumb.jpg
   - id: 28952548245663
-    alt: ""
+    alt: Valentine Schlegel, "Je dors, je travaille"
     position: 5
     product_id: 6775657693343
     created_at: 2021-05-12T08:11:44-04:00
@@ -77,7 +77,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/IMG_20201118_144228.jpg?v=1620821504
     thumb: ./valentine-schlegel-je-dors-je-travaille/valentine-schlegel-je-dors-je-travaille__4-thumb.jpg
   - id: 28952548278431
-    alt: ""
+    alt: Valentine Schlegel, "Je dors, je travaille"
     position: 6
     product_id: 6775657693343
     created_at: 2021-05-12T08:11:44-04:00

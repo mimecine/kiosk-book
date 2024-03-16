@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326849719
 images:
   - id: 763757151
-    alt: ""
+    alt: Koskenkorva
     position: 1
     product_id: 326849719
     created_at: 2014-07-22T20:10:44-04:00

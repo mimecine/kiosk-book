@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333575715
 images:
   - id: 776911283
-    alt: ""
+    alt: Mark Shapiro Bowls
     position: 1
     product_id: 333575715
     created_at: 2014-08-04T23:55:54-04:00

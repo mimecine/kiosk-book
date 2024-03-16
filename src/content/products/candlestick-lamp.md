@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/6775658414239
 images:
   - id: 28952552308895
-    alt: ""
+    alt: Candlestick Lamp
     position: 1
     product_id: 6775658414239
     created_at: 2021-05-12T08:12:10-04:00

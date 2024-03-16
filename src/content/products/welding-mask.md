@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333581987
 images:
   - id: 776925355
-    alt: ""
+    alt: Welding Mask
     position: 1
     product_id: 333581987
     created_at: 2014-08-05T00:16:27-04:00

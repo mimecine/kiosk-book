@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/467290291
 images:
   - id: 1245430631
-    alt: ""
+    alt: Orita Cardboard Perforator
     position: 1
     product_id: 467290291
     created_at: 2015-03-23T13:55:54-04:00

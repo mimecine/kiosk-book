@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333575927
 images:
   - id: 776911887
-    alt: ""
+    alt: Metal Clips
     position: 1
     product_id: 333575927
     created_at: 2014-08-04T23:56:41-04:00

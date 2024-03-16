@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333576339
 images:
   - id: 28952111480991
-    alt: ""
+    alt: Nenchaku Packing Tape
     position: 1
     product_id: 333576339
     created_at: 2021-05-12T07:26:53-04:00

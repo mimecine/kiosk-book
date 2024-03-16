@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333577407
 images:
   - id: 776916471
-    alt: ""
+    alt: Pipp Caramel Bar
     position: 1
     product_id: 333577407
     created_at: 2014-08-05T00:02:34-04:00

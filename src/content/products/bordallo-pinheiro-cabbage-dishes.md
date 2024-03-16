@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326840927
 images:
   - id: 763745767
-    alt: ""
+    alt: Bordallo Pinheiro Cabbage Dishes
     position: 1
     product_id: 326840927
     created_at: 2014-07-22T19:55:45-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/467283911
 images:
   - id: 1245421527
-    alt: ""
+    alt: Pickle Presses
     position: 1
     product_id: 467283911
     created_at: 2015-03-23T13:43:08-04:00

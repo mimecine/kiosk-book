@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326840363
 images:
   - id: 763745095
-    alt: ""
+    alt: Birdhouse
     position: 1
     product_id: 326840363
     created_at: 2014-07-22T19:54:53-04:00

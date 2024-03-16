@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326844395
 images:
   - id: 763749883
-    alt: ""
+    alt: Drain Screen
     position: 1
     product_id: 326844395
     created_at: 2014-07-22T20:01:43-04:00

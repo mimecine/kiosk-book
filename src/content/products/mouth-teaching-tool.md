@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333576195
 images:
   - id: 776912787
-    alt: ""
+    alt: Mouth Teaching Tool
     position: 1
     product_id: 333576195
     created_at: 2014-08-04T23:57:45-04:00

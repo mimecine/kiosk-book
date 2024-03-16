@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333577327
 images:
   - id: 776916251
-    alt: ""
+    alt: Pigments from Provence
     position: 1
     product_id: 333577327
     created_at: 2014-08-05T00:02:17-04:00

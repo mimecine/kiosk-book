@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333576063
 images:
   - id: 776912327
-    alt: ""
+    alt: Mikado
     position: 1
     product_id: 333576063
     created_at: 2014-08-04T23:57:12-04:00

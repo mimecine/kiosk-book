@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333582203
 images:
   - id: 776925643
-    alt: ""
+    alt: Wibele Cookies
     position: 1
     product_id: 333582203
     created_at: 2014-08-05T00:16:57-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333581603
 images:
   - id: 776924895
-    alt: ""
+    alt: Valsameleo / First Aid Oil
     position: 1
     product_id: 333581603
     created_at: 2014-08-05T00:15:30-04:00

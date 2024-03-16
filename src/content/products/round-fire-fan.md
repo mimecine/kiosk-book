@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333578255
 images:
   - id: 776918719
-    alt: ""
+    alt: Round Fire Fan
     position: 1
     product_id: 333578255
     created_at: 2014-08-05T00:05:42-04:00

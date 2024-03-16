@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326848547
 images:
   - id: 763755547
-    alt: ""
+    alt: Ice Cream Spoon Set
     position: 1
     product_id: 326848547
     created_at: 2014-07-22T20:08:39-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326846219
 images:
   - id: 763752591
-    alt: ""
+    alt: Fogo Do Amore
     position: 1
     product_id: 326846219
     created_at: 2014-07-22T20:04:27-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/9122804236447
 images:
   - id: 36973359530143
-    alt: ""
+    alt: Bouffadou
     position: 1
     product_id: 9122804236447
     created_at: 2023-12-27T10:11:59-05:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/bouf1.jpg?v=1703689918
     thumb: ./bouffadou/bouffadou__0-thumb.jpg
   - id: 36973359562911
-    alt: ""
+    alt: Bouffadou
     position: 2
     product_id: 9122804236447
     created_at: 2023-12-27T10:11:59-05:00
@@ -38,7 +38,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/bouf2.jpg?v=1703689918
     thumb: ./bouffadou/bouffadou__1-thumb.jpg
   - id: 36973359595679
-    alt: ""
+    alt: Bouffadou
     position: 3
     product_id: 9122804236447
     created_at: 2023-12-27T10:11:59-05:00

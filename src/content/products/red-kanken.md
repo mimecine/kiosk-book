@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333577971
 images:
   - id: 776918099
-    alt: ""
+    alt: Red Kanken
     position: 1
     product_id: 333577971
     created_at: 2014-08-05T00:04:46-04:00

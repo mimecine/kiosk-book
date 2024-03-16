@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333580255
 images:
   - id: 776922963
-    alt: ""
+    alt: Tau Chun Soy Sauce
     position: 1
     product_id: 333580255
     created_at: 2014-08-05T00:12:07-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326841107
 images:
   - id: 763745927
-    alt: ""
+    alt: Brass Bowl
     position: 1
     product_id: 326841107
     created_at: 2014-07-22T19:56:00-04:00

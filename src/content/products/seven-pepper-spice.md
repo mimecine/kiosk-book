@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333578991
 images:
   - id: 28952554963103
-    alt: ""
+    alt: Seven Pepper Spice
     position: 1
     product_id: 333578991
     created_at: 2021-05-12T08:12:25-04:00

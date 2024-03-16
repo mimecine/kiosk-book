@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333580695
 images:
   - id: 776923531
-    alt: ""
+    alt: Tiny Cookie Mix
     position: 1
     product_id: 333580695
     created_at: 2014-08-05T00:13:13-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333575407
 images:
   - id: 776910471
-    alt: ""
+    alt: Licorice Rullur
     position: 1
     product_id: 333575407
     created_at: 2014-08-04T23:54:40-04:00

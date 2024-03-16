@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326848051
 images:
   - id: 763754891
-    alt: ""
+    alt: Harsh Tobacco
     position: 1
     product_id: 326848051
     created_at: 2014-07-22T20:07:43-04:00

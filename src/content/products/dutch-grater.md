@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326844571
 images:
   - id: 763750103
-    alt: ""
+    alt: Dutch Grater
     position: 1
     product_id: 326844571
     created_at: 2014-07-22T20:01:58-04:00

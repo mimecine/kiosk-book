@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326838247
 images:
   - id: 763742487
-    alt: ""
+    alt: 9 yards of Rope
     position: 1
     product_id: 326838247
     created_at: 2014-07-22T19:51:29-04:00

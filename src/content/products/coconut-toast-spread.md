@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326842959
 images:
   - id: 763748151
-    alt: ""
+    alt: Coconut Toast Spread
     position: 1
     product_id: 326842959
     created_at: 2014-07-22T19:59:21-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333578559
 images:
   - id: 776919547
-    alt: ""
+    alt: Sandalwood Incense
     position: 1
     product_id: 333578559
     created_at: 2014-08-05T00:06:45-04:00

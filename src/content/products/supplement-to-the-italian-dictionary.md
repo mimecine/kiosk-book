@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/6730122035359
 images:
   - id: 28768066470047
-    alt: ""
+    alt: Supplement to the Italian Dictionary
     position: 1
     product_id: 6730122035359
     created_at: 2021-04-28T10:27:38-04:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/Supplement1.jpg?v=1619620058
     thumb: ./supplement-to-the-italian-dictionary/supplement-to-the-italian-dictionary__0-thumb.jpg
   - id: 28768066502815
-    alt: ""
+    alt: Supplement to the Italian Dictionary
     position: 2
     product_id: 6730122035359
     created_at: 2021-04-28T10:27:38-04:00
@@ -38,7 +38,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/Supplement2.jpg?v=1619620058
     thumb: ./supplement-to-the-italian-dictionary/supplement-to-the-italian-dictionary__1-thumb.jpg
   - id: 28768066535583
-    alt: ""
+    alt: Supplement to the Italian Dictionary
     position: 3
     product_id: 6730122035359
     created_at: 2021-04-28T10:27:38-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333577071
 images:
   - id: 776915471
-    alt: ""
+    alt: Paper Fan
     position: 1
     product_id: 333577071
     created_at: 2014-08-05T00:01:18-04:00

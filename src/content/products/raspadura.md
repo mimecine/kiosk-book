@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333577855
 images:
   - id: 776917763
-    alt: ""
+    alt: Raspadura
     position: 1
     product_id: 333577855
     created_at: 2014-08-05T00:04:20-04:00

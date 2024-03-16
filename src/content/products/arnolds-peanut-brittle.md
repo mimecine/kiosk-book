@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326839183
 images:
   - id: 763743655
-    alt: ""
+    alt: Arnold's Peanut Brittle
     position: 1
     product_id: 326839183
     created_at: 2014-07-22T19:52:52-04:00

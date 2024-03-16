@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326839727
 images:
   - id: 763744323
-    alt: ""
+    alt: Bennington Sugar Bowl
     position: 1
     product_id: 326839727
     created_at: 2014-07-22T19:53:51-04:00

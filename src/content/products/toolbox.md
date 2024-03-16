@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333581119
 images:
   - id: 776924139
-    alt: ""
+    alt: Toolbox
     position: 1
     product_id: 333581119
     created_at: 2014-08-05T00:14:15-04:00

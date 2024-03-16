@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/9122803646623
 images:
   - id: 36973348552863
-    alt: ""
+    alt: Croakies Floaters
     position: 1
     product_id: 9122803646623
     created_at: 2023-12-27T10:07:24-05:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/croakies_1.jpg?v=1703689644
     thumb: ./croakies-floaters/croakies-floaters__0-thumb.jpg
   - id: 36973348585631
-    alt: ""
+    alt: Croakies Floaters
     position: 2
     product_id: 9122803646623
     created_at: 2023-12-27T10:07:24-05:00
@@ -38,7 +38,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/croakies_2.jpg?v=1703689644
     thumb: ./croakies-floaters/croakies-floaters__1-thumb.jpg
   - id: 36973348618399
-    alt: ""
+    alt: Croakies Floaters
     position: 3
     product_id: 9122803646623
     created_at: 2023-12-27T10:07:24-05:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333582755
 images:
   - id: 776926635
-    alt: ""
+    alt: Yellow Rubber Doorstop
     position: 1
     product_id: 333582755
     created_at: 2014-08-05T00:18:47-04:00

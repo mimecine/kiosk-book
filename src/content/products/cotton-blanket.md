@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326843519
 images:
   - id: 763748735
-    alt: ""
+    alt: Cotton Blanket
     position: 1
     product_id: 326843519
     created_at: 2014-07-22T20:00:18-04:00

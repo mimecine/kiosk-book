@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326846771
 images:
   - id: 763753275
-    alt: ""
+    alt: Girl "Smiling" Head
     position: 1
     product_id: 326846771
     created_at: 2014-07-22T20:05:21-04:00

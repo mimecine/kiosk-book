@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326845827
 images:
   - id: 763752087
-    alt: ""
+    alt: Fio de Prumo
     position: 1
     product_id: 326845827
     created_at: 2014-07-22T20:03:50-04:00

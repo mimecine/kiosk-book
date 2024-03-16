@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/467284087
 images:
   - id: 1245421751
-    alt: ""
+    alt: Peppers
     position: 1
     product_id: 467284087
     created_at: 2015-03-23T13:43:29-04:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/peppers_37e75681-6072-42bd-807d-414d99ea71aa.jpeg?v=1427132609
     thumb: ./peppers/peppers__0-thumb.jpg
   - id: 1245421755
-    alt: ""
+    alt: Peppers
     position: 2
     product_id: 467284087
     created_at: 2015-03-23T13:43:29-04:00

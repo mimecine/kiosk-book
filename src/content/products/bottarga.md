@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/6943763529887
 images:
   - id: 29937155834015
-    alt: ""
+    alt: French Bottarga
     position: 1
     product_id: 6943763529887
     created_at: 2021-07-15T09:08:04-04:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/PXL_20210604_121031308.jpg?v=1626354484
     thumb: ./bottarga/bottarga__0-thumb.jpg
   - id: 29937155866783
-    alt: ""
+    alt: French Bottarga
     position: 2
     product_id: 6943763529887
     created_at: 2021-07-15T09:08:04-04:00
@@ -38,7 +38,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/bottarga_1.jpg?v=1626354484
     thumb: ./bottarga/bottarga__1-thumb.jpg
   - id: 29937155899551
-    alt: ""
+    alt: French Bottarga
     position: 3
     product_id: 6943763529887
     created_at: 2021-07-15T09:08:04-04:00
@@ -51,7 +51,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/PXL_20210604_125920426.jpg?v=1626354484
     thumb: ./bottarga/bottarga__2-thumb.jpg
   - id: 29937155932319
-    alt: ""
+    alt: French Bottarga
     position: 4
     product_id: 6943763529887
     created_at: 2021-07-15T09:08:04-04:00

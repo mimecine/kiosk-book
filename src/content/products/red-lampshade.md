@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333577979
 images:
   - id: 28952556994719
-    alt: ""
+    alt: Red Lampshade
     position: 1
     product_id: 333577979
     created_at: 2021-05-12T08:12:43-04:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/red-lampshade_1_6d59eb22-c455-49bd-a386-5c8788c40a37.jpg?v=1620821563
     thumb: ./red-lampshade/red-lampshade__0-thumb.jpg
   - id: 28952557027487
-    alt: ""
+    alt: Red Lampshade
     position: 2
     product_id: 333577979
     created_at: 2021-05-12T08:12:43-04:00
@@ -38,7 +38,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/P1060521_b42be655-b417-4e38-88ec-e2456c5e0b4f.jpg?v=1620821563
     thumb: ./red-lampshade/red-lampshade__1-thumb.jpg
   - id: 28952557060255
-    alt: ""
+    alt: Red Lampshade
     position: 3
     product_id: 333577979
     created_at: 2021-05-12T08:12:43-04:00
@@ -51,7 +51,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/P1060548_4f2b8fe1-7c40-4a36-a182-2976134c678f.jpg?v=1620821563
     thumb: ./red-lampshade/red-lampshade__2-thumb.jpg
   - id: 28952557093023
-    alt: ""
+    alt: Red Lampshade
     position: 4
     product_id: 333577979
     created_at: 2021-05-12T08:12:43-04:00

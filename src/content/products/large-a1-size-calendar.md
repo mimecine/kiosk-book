@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326849867
 images:
   - id: 763757311
-    alt: ""
+    alt: Large A1 Size Calendar
     position: 1
     product_id: 326849867
     created_at: 2014-07-22T20:11:00-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326849195
 images:
   - id: 763756451
-    alt: ""
+    alt: Karamellur Caramels
     position: 1
     product_id: 326849195
     created_at: 2014-07-22T20:09:47-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333581511
 images:
   - id: 776924743
-    alt: ""
+    alt: "Uglycute: Lamp"
     position: 1
     product_id: 333581511
     created_at: 2014-08-05T00:15:15-04:00

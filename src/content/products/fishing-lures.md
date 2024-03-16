@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/467284927
 images:
   - id: 1245422827
-    alt: ""
+    alt: Fishing Lures
     position: 1
     product_id: 467284927
     created_at: 2015-03-23T13:45:17-04:00

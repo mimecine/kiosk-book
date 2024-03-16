@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333576283
 images:
   - id: 776913035
-    alt: ""
+    alt: NASA "Meatball" Patch
     position: 1
     product_id: 333576283
     created_at: 2014-08-04T23:58:07-04:00

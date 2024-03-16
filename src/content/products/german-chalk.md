@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326846711
 images:
   - id: 763753199
-    alt: ""
+    alt: German Chalk
     position: 1
     product_id: 326846711
     created_at: 2014-07-22T20:05:14-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326848311
 images:
   - id: 28952110792863
-    alt: ""
+    alt: Hollow Half Dollar
     position: 1
     product_id: 326848311
     created_at: 2021-05-12T07:26:48-04:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/spy_dollar_1.jpg?v=1620818808
     thumb: ./hollow-half-dollar/hollow-half-dollar__0-thumb.jpg
   - id: 28952110825631
-    alt: ""
+    alt: Hollow Half Dollar
     position: 2
     product_id: 326848311
     created_at: 2021-05-12T07:26:48-04:00

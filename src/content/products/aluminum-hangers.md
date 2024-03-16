@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326838819
 images:
   - id: 763743267
-    alt: ""
+    alt: Aluminum Hangers
     position: 1
     product_id: 326838819
     created_at: 2014-07-22T19:52:22-04:00

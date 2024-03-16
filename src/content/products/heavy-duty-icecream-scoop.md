@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326848111
 images:
   - id: 763754963
-    alt: ""
+    alt: Heavy-Duty Ice Cream Scoop
     position: 1
     product_id: 326848111
     created_at: 2014-07-22T20:07:49-04:00

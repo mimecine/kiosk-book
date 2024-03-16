@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326839607
 images:
   - id: 763744139
-    alt: ""
+    alt: Bavarian Gamsbart Small Pin
     position: 1
     product_id: 326839607
     created_at: 2014-07-22T19:53:34-04:00

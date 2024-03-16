@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/2956583491
 images:
   - id: 6074325059
-    alt: ""
+    alt: Serrote Money Notebook
     position: 1
     product_id: 2956583491
     created_at: 2015-10-06T10:00:52-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333575971
 images:
   - id: 776911995
-    alt: ""
+    alt: Metal Ruffle Shade
     position: 1
     product_id: 333575971
     created_at: 2014-08-04T23:56:50-04:00

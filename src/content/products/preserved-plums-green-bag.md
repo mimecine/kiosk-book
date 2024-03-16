@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333577775
 images:
   - id: 776917535
-    alt: ""
+    alt: Preserved Plums Green Bag
     position: 1
     product_id: 333577775
     created_at: 2014-08-05T00:03:57-04:00

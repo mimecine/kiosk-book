@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333576739
 images:
   - id: 776914471
-    alt: ""
+    alt: On/Off Switch
     position: 1
     product_id: 333576739
     created_at: 2014-08-04T23:59:51-04:00

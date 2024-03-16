@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326849395
 images:
   - id: 763756739
-    alt: ""
+    alt: Kiosk Book on Finland
     position: 1
     product_id: 326849395
     created_at: 2014-07-22T20:10:07-04:00

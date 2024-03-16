@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333576795
 images:
   - id: 776914591
-    alt: ""
+    alt: Orange Garden Shovel
     position: 1
     product_id: 333576795
     created_at: 2014-08-05T00:00:08-04:00

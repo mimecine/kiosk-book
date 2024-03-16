@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/6775656939679
 images:
   - id: 28952544608415
-    alt: ""
+    alt: Boite a Camembert
     position: 1
     product_id: 6775656939679
     created_at: 2021-05-12T08:11:23-04:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/IMG_20201113_150728_1.jpg?v=1620821483
     thumb: ./boite-de-camembert/boite-de-camembert__0-thumb.jpg
   - id: 28952544641183
-    alt: ""
+    alt: Boite a Camembert
     position: 2
     product_id: 6775656939679
     created_at: 2021-05-12T08:11:23-04:00

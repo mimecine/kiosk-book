@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333579359
 images:
   - id: 776921179
-    alt: ""
+    alt: Small Wooden Tambourine
     position: 1
     product_id: 333579359
     created_at: 2014-08-05T00:09:11-04:00

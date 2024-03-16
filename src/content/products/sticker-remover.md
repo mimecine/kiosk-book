@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333579615
 images:
   - id: 776921711
-    alt: ""
+    alt: Sticker Remover
     position: 1
     product_id: 333579615
     created_at: 2014-08-05T00:10:06-04:00

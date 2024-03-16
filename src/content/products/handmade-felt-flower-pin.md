@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326847879
 images:
   - id: 763754615
-    alt: ""
+    alt: Handmade Felt Flower Pin
     position: 1
     product_id: 326847879
     created_at: 2014-07-22T20:07:24-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333582519
 images:
   - id: 776926087
-    alt: ""
+    alt: Wood Rattle
     position: 1
     product_id: 333582519
     created_at: 2014-08-05T00:17:50-04:00

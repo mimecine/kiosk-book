@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/6775657955487
 images:
   - id: 28952549720223
-    alt: ""
+    alt: Douk-Douk Knife
     position: 1
     product_id: 6775657955487
     created_at: 2021-05-12T08:11:52-04:00
@@ -25,7 +25,7 @@ images:
     oldSrc: https://cdn.shopify.com/s/files/1/0589/2901/products/doukdouk.jpg?v=1620821512
     thumb: ./douk-douk-knife/douk-douk-knife__0-thumb.jpg
   - id: 28952549752991
-    alt: ""
+    alt: Douk-Douk Knife
     position: 2
     product_id: 6775657955487
     created_at: 2021-05-12T08:11:52-04:00

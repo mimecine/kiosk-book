@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326846023
 images:
   - id: 763752347
-    alt: ""
+    alt: Flock of Sheep
     position: 1
     product_id: 326846023
     created_at: 2014-07-22T20:04:09-04:00

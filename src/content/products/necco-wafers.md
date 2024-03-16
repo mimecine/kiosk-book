@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333576335
 images:
   - id: 776913183
-    alt: ""
+    alt: Necco Wafers
     position: 1
     product_id: 333576335
     created_at: 2014-08-04T23:58:18-04:00

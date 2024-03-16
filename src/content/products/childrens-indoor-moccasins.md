@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326842523
 images:
   - id: 763747587
-    alt: ""
+    alt: Childrens' Indoor Moccasins
     position: 1
     product_id: 326842523
     created_at: 2014-07-22T19:58:33-04:00

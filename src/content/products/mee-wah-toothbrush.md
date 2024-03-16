@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333575803
 images:
   - id: 776911539
-    alt: ""
+    alt: Mee Wah Toothbrush
     position: 1
     product_id: 333575803
     created_at: 2014-08-04T23:56:15-04:00

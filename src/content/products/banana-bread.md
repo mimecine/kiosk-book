@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326839495
 images:
   - id: 763744031
-    alt: ""
+    alt: Banana Bread
     position: 1
     product_id: 326839495
     created_at: 2014-07-22T19:53:22-04:00

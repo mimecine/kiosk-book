@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333577147
 images:
   - id: 776915655
-    alt: ""
+    alt: Paper Shoes
     position: 1
     product_id: 333577147
     created_at: 2014-08-05T00:01:33-04:00

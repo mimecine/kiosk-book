@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333576299
 images:
   - id: 776913083
-    alt: ""
+    alt: Natural Disk Rattle
     position: 1
     product_id: 333576299
     created_at: 2014-08-04T23:58:12-04:00

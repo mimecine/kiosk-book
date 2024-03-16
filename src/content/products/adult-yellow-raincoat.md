@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326838391
 images:
   - id: 763742627
-    alt: ""
+    alt: Adult Yellow Raincoat
     position: 1
     product_id: 326838391
     created_at: 2014-07-22T19:51:43-04:00

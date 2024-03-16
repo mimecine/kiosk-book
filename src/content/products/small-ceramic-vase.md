@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333579263
 images:
   - id: 776920975
-    alt: ""
+    alt: Small Ceramic Vase
     position: 1
     product_id: 333579263
     created_at: 2014-08-05T00:08:52-04:00

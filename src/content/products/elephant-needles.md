@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326844939
 images:
   - id: 763750759
-    alt: ""
+    alt: Elephant Needles
     position: 1
     product_id: 326844939
     created_at: 2014-07-22T20:02:31-04:00

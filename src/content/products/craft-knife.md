@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326843599
 images:
   - id: 763748847
-    alt: ""
+    alt: Craft Knife
     position: 1
     product_id: 326843599
     created_at: 2014-07-22T20:00:26-04:00

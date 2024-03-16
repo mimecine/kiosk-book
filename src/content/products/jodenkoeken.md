@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326849087
 images:
   - id: 763756271
-    alt: ""
+    alt: Jodenkoeken
     position: 1
     product_id: 326849087
     created_at: 2014-07-22T20:09:33-04:00

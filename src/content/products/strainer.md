@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333580019
 images:
   - id: 776922651
-    alt: ""
+    alt: Strainer
     position: 1
     product_id: 333580019
     created_at: 2014-08-05T00:11:33-04:00

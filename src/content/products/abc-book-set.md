@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326838283
 images:
   - id: 763742519
-    alt: ""
+    alt: ABC Books
     position: 1
     product_id: 326838283
     created_at: 2014-07-22T19:51:32-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/467284107
 images:
   - id: 1245421775
-    alt: ""
+    alt: Map of Romania
     position: 1
     product_id: 467284107
     created_at: 2015-03-23T13:43:32-04:00

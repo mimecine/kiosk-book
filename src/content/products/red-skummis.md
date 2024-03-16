@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333578031
 images:
   - id: 776918235
-    alt: ""
+    alt: Red Skummis
     position: 1
     product_id: 333578031
     created_at: 2014-08-05T00:04:59-04:00

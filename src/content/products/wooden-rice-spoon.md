@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/333582583
 images:
   - id: 776926203
-    alt: ""
+    alt: Wooden Rice Spoon
     position: 1
     product_id: 333582583
     created_at: 2014-08-05T00:18:04-04:00

@@ -12,7 +12,7 @@ status: active
 admin_graphql_api_id: gid://shopify/Product/326840115
 images:
   - id: 763744759
-    alt: ""
+    alt: Big Wooly Dry Mop
     position: 1
     product_id: 326840115
     created_at: 2014-07-22T19:54:31-04:00

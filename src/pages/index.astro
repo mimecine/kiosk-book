@@ -7,7 +7,7 @@ import D from "../assets/archive.kioskkiosk.json";
 import "../styles/book-base.css";
 
 const title = "KIOSK: The Book";
-const full_book = true; 
+const full_book = false; 
 const exhibit_sample = full_book?1000:11;
 const product_sample = full_book?1000:11;
 
@@ -47,43 +47,43 @@ products.forEach((p) => {
 });
 
 const exhibits = [
-  "The later years",
-  "Italy 2",
-  "Italy 1",
-  "Romania",
-  "Recall",
-  "Greece",
-  "Holiday 2013",
-  "Lend a Hand",
-  "The Netherlands",
-  "Obama 2012",
-  "Colombia",
-  "India #2",
-  "America #4",
-  "India",
-  "Japan #2",
-  "America #3",
-  "Iceland",
-  "Groundhog Day",
-  "Portugal",
-  "Provence",
-  "America #2",
-  "9 for 2009",
-  "America #1",
-  "Hong Kong",
-  "8 Things",
-  "Finland",
-  "Germany",
-  "Mexico",
-  "Sweden",
-  "Japan",
+  {name:"The later years", settings:{provenance:true}},
+  {name:"Italy 2", settings:{}},
+  {name:"Italy 1", settings:{}},
+  {name:"Romania", settings:{}},
+  {name:"Recall", settings:{provenance:true}},
+  {name:"Greece", settings:{}},
+  {name:"Holiday 2013", settings:{provenance:true}},
+  {name:"Lend a Hand", settings:{provenance:true}},
+  {name:"The Netherlands", settings:{}},
+  {name:"Obama 2012", settings:{provenance:true}},
+  {name:"Colombia", settings:{}},
+  {name:"India #2", settings:{}},
+  {name:"America #4", settings:{}},
+  {name:"India", settings:{}},
+  {name:"Japan #2", settings:{}},
+  {name:"America #3", settings:{}},
+  {name:"Iceland", settings:{}},
+  {name:"Groundhog Day", settings:{provenance:true}},
+  {name:"Portugal", settings:{}},
+  {name:"Provence", settings:{}},
+  {name:"America #2", settings:{}},
+  {name:"9 for 2009", settings:{provenance:true}},
+  {name:"America #1", settings:{}},
+  {name:"Hong Kong", settings:{}},
+  {name:"8 Things", settings:{provenance:true}},
+  {name:"Finland", settings:{}},
+  {name:"Germany", settings:{}},
+  {name:"Mexico", settings:{}},
+  {name:"Sweden", settings:{}},
+  {name:"Japan", settings:{}},
 ]
   .reverse()
   .slice(0, exhibit_sample || 1000);
 
   let renderedIndex = 1;
   exhibits.map(exhibit => {
-    groups[exhibit].slice(0, product_sample || 1000).forEach((p, i) => {
+    groups[exhibit.name].slice(0, product_sample || 1000).forEach((p, i) => {
       p._rendered = true;
       p._index = renderedIndex++;
     })
@@ -165,13 +165,13 @@ function newInitial(word) {
           <div class="columns-2 column-fill-auto" style="column-gap: 4rem;;">
           {exhibits.map((exhibit) => (
             <>
-            {(() => {currentEssay = pages.find((p) => p.data.before_exhibit == exhibit)})()}
+            {(() => {currentEssay = pages.find((p) => p.data.before_exhibit == exhibit.name)})()}
             {currentEssay && (
               <>
               <a class="xref italic my-2" href={`#essay-${currentEssay.data.clean_title}`}>{currentEssay.data.clean_title}</a>
               </>
             )}
-            <a class="xref my-2" href={`#${exhibit}`}>{exhibit}</a>
+            <a class="xref my-2" href={`#${exhibit.name}`}>{exhibit.name}</a>
             </>
           ))}
           <br>
@@ -183,12 +183,12 @@ function newInitial(word) {
           <a class="xref my-2" href="#index-bydimension">The Index: By Dimensions</a>
         </div>
         </div>
-        <div class="start products text-justify columns-2 column-fill-auto" style="column-gap: 2.5rem;"> 
+        <div class="start products text-justify columns-2 column-fill-auto" style="column-gap: 2.5rem;  counter-reset: page, 1"> 
 
         {
           exhibits.map((exhibit) => (
             <div class="exhibit column-fill-auto">
-              {(() => {currentEssay = pages.find((p) => p.data.before_exhibit == exhibit)})()}
+              {(() => {currentEssay = pages.find((p) => p.data.before_exhibit == exhibit.name)})()}
               {currentEssay && (
                 <div class="essay">
                   <!-- 
@@ -221,64 +221,64 @@ function newInitial(word) {
                 -->
                 <div class="header font-sans border-b-4 border-red mb-12 xpb-8 min-h-[22rem] columns-all">
                 <h2 class="title relative">
-                  {exhibit}
+                  {exhibit.name}
                   <a
                     class="absolute top-[-2rem]"
-                    id={exhibit}
-                    name={exhibit}
+                    id={exhibit.name}
+                    name={exhibit.name}
                   />
                 </h2>
                 <div
                   class="subtitle text-2xl"
                   set:html={
-                    D.SmartCollections.find((p) => p.title == exhibit)
+                    D.SmartCollections.find((p) => p.title == exhibit.name)
                       ?.body_html || ""
                   }
                 />
                 </div>
               </div>
-
-              {groups[exhibit]
+              {groups[exhibit.name]
                 ?.slice(0, product_sample || 1000)
                 .map((product) => (
                   <>
-                    <div class="product relative overflow-auto mb-16 border-b-2 last:border-b-0 border-current border-solid box-decoration-slice p-2 pb-6">
+                    <div class="product relative overflow-auto mb-6  border-b-2 last:border-b-0 border-current border-solid box-decoration-slice pb-4">
                       <a
                         id={product.data.handle}
                         class="absolute top-[-2rem]"
                         data-rendered={(product.x_rendered = true)}
                         data-index={(product.x_index = pIndex++)}
                       />
+                      <div class="break-inside-avoid break-after-avoid">
+                        {product.data.images[0] && (
+                          <div class="float-right w-1/3 mb-2 ml-4 text-right">
+                            <a href={`#figure-${product.data.handle}`}>
+                              <Image
+                                id={`small-img-${product.data.handle}`}
+                                data-width={1000}
+                                data-height={1000}
+                                src={product.data.images[0]?.src} // set to thumb and remove filter if colored page
+                                alt={product.data.title}
+                                class="w-full border border-current -x-grayscale -x-contrast-100 mt-[2px]"
+                              />
+                            </a>
+                          </div>
+                        )}
                       
-                      {product.data.images[0] && (
-                        <div class="float-right xw-1/4 mb-2 ml-4 w-20 text-right">
-                          <a href={`#figure-${product.data.handle}`}>
-                            <Image
-                              id={`small-img-${product.data.handle}`}
-                              data-width={1000}
-                              data-height={1000}
-                              src={product.data.images[0]?.thumb} // set to thumb and remove filter if colored page
-                              alt={product.data.title}
-                              class="w-full border border-current -x-grayscale -x-contrast-100"
-                            />
-                          </a>
+                        <h3 class="p_title font-sans font-bold uppercase break-after-avoid xtext-xl">
+                          {product.data.title}
+                        </h3>
+                        <div class="p_dimensions" class="break-after-avoid break-before-avoid">
+                          {product.data.dimensions}
+                        </div>          
+                        <div class="p_materials" class="italic break-after-avoid break-inside-avoid break-before-avoid">
+                          {product.data.materials}
                         </div>
-                      )}
-                    
-                      <h3 class="p_title font-sans font-bold uppercase break-after-avoid">
-                        {product.data.title}
-                      </h3>
-                      <div class="p_dimensions" class="break-after-avoid break-inside-avoid">
-                        {product.data.dimensions}
-                      </div>          
-                      <div class="p_materials" class="italic break-after-avoid break-inside-avoid">
-                        {product.data.materials}
+                        <div class="p_provenance uppercase break-after-avoid break-inside-avoid break-before-avoid" class:list={exhibit.settings.provenance? '' : 'hidden'}>
+                          {product.data.provenance}
+                        </div>
                       </div>
-                      <div class="p_provenance uppercase break-after-avoid break-inside-avoid break-before-avoid pb-3">
-                        {product.data.provenance}
-                      </div>
-                      <div set:html={wrapLinks(product.rendered)} class="p_description break-after-avoid break-before-avoid"/>                      
-                      <div class=" text-red text-right font-bold xpr-4 text-red-600">
+                      <div set:html={wrapLinks(product.rendered)} class="p_description break-after-avoid break-before-avoid pt-3"/>                      
+                      <div class=" text-red text-right font-bold pt-2 break-inside-avoid break-before-avoid text-red-600">
                           <!-- ~&nbsp; -->
                         <a class="img-xref italic text-sm" href={`#figure-${product.data.handle}`}>
                           fig. {product._index}, pg.
@@ -335,6 +335,7 @@ function newInitial(word) {
         products
           .filter((p) => p._rendered)
           .sort((a, b) => a._index - b._index)
+          //.sort((a, b) => 0.5 - Math.random())
           .map((p) => (
             <>
               <div class="min-h-1/2 w-auto relative max-w-[3in] break-inside-avoid py-2">
@@ -350,7 +351,7 @@ function newInitial(word) {
                   />
                   <div class="min-h-12">
                   <div class="text-black not-italic hyphens-none">{p.data.title}</div>
-                    <div class="">
+                    <div class=" font-bold">
                       <a class="xref !border-b-0 text-red italic" href={`#${p.data.handle}`}>
                         Figure {p._index}
                         {p.data.title.length > 32 && console.log(p.data.title.length + ':' + p.data.title)}
@@ -437,11 +438,11 @@ function newInitial(word) {
             <>
               <a
                 class="xref column font-bold mt-4 text-red"
-                href={`#${exhibit}`}
+                href={`#${exhibit.name}`}
               >
-                {exhibit}
+                {exhibit.name}
               </a>
-              {groups[exhibit]
+              {groups[exhibit.name]
                 ?.filter((p) => p._rendered)
                 .map((p) => (
                   <a class="xref text-xs" href={`#${p.data.handle}`}>

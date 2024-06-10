@@ -35,9 +35,11 @@
 :root {
   --color: #ff0000;
   --accent: #ff0000;
-  --size: 7.75in 8.5in;
   --size: 6.5in 9in;
-  --size: 8in 8.625in
+  --size: 8in 8.625in;
+  --size: 7.75in 8.5in;
+  --size: 16cm 22cm;
+  --size: A4;
 }
 
 * {
@@ -110,7 +112,7 @@ a.footnote::after {
 }
 
 *::footnote-call {
-  content: "[" counter(footnote) "]";
+  content: "[ " counter(footnote) " ]";
   font-size: 90%;
   color: red;
 }
@@ -145,6 +147,7 @@ a.footnote::after {
     footnote-style-position: inside;
   }
 }
+
 
 
 @page :right {
@@ -204,15 +207,15 @@ a.footnote::after {
 }
 
 @page cleanpage:left {
-  border: none;
+  border-color: transparent;
   @bottom-left {
-    /* content: " " !important; */
+    content: " " !important;
   }
 }
 @page cleanpage:right {
-  border: none;
+  border-color: transparent;
   @bottom-right {
-    /* content: " " !important; */
+    content: " " !important;
   }
 }
 
@@ -273,10 +276,11 @@ h2.title {
   font-family: Helvetica, "Helvetica Neue", sans-serif;
   break-before: recto;
   margin: 10mm 0;
-  string-set: exhibit content();
+  string-set: head-title content();
   text-wrap: balance;
   hyphens: none;
 }
+  
 
 h2 {
   color: red;

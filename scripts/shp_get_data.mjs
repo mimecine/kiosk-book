@@ -12,6 +12,14 @@ let Products = [],
 
 try {
   Products = await getAll("Product", session);
+    for await (const p of Products) {
+      p.metafields = (await shopify.rest.Metafield.all({
+        session: session,
+        product_id: p.id
+      })).data
+      console.log("Metafields", p.title, p.metafields.length);
+      await delay(600)
+    }
   console.log("Product", Products.length);
 } catch (e) {
   console.log("Product E", e);
@@ -72,20 +80,6 @@ Products.filter((p) => p.status == "active").forEach((p) => {
         console.log(local_file, e);
       }
       
-      // try {
-
-      //   const blob = await (await fetch(image.src)).blob();
-
-      //   await mkdir(`./src/content/products/${p.handle}`, { recursive: true });
-      //   await writeFile(
-      //     `./src/content/products/${p.handle}/${p.handle}__${i}.jpg`,
-      //     blob.stream()
-      //   );
-      //   console.log(`Got ${local_file}`);
-      //   delay(500);
-      // } catch (e) {
-      //   console.log(p.handle, image.src);
-      // }
     } else {
       console.log(`Already have ${local_file}`);
     }

@@ -2,8 +2,14 @@
   "name": "kbook-astro",
   "type": "module",
   "version": "0.0.1",
-  "scripts": {
+  "watch": {
+    "full build": "dist/*.html"
+  },    
+ "scripts": {
     "dev": "bunx astro dev --host",
+    "1-up": "osascript -e 'tell application \"Preview\" to if it is running then quit' && prince --raster-dpi=300 --tagged-pdf http://localhost:9000/1up/ -o dist/book-1up.pdf && open dist/book-1up.pdf",
+    "prince": "osascript -e 'tell application \"Preview\" to if it is running then quit' && prince --raster-dpi=300 --tagged-pdf http://localhost:9000/ -o /Users/mimecine/Library/CloudStorage/GoogleDrive-marco@mimecom.net/My\\ Drive/KioskBook2024/KIOSK-Book.pdf && open /Users/mimecine/Library/CloudStorage/GoogleDrive-marco@mimecom.net/My\\ Drive/KioskBook2024/KIOSK-Book.pdf",
+    "cards": "osascript -e 'tell application \"Preview\" to if it is running then quit' && prince --raster-dpi=300 --tagged-pdf http://localhost:9000/cards/ -o /Users/mimecine/Library/CloudStorage/GoogleDrive-marco@mimecom.net/My\\ Drive/KioskBook2024/KIOSK-Cards.pdf && open /Users/mimecine/Library/CloudStorage/GoogleDrive-marco@mimecom.net/My\\ Drive/KioskBook2024/KIOSK-Cards.pdf",
     "start": "bunx astro dev --host",
     "build": "bunx astro build && sed -i.bak 's!=\"/!=\"!g' dist/*.html",
     "full build": "bunx astro build && sed -i.bak 's!=\"/!=\"!g' dist/*.html && for h in dist/*.html; do prince --raster-dpi=300 --tagged-pdf $h; done;",
@@ -12,8 +18,8 @@
     "make_md": "bun scripts/shp_make_md.mjs",
     "update_data": "bun scripts/shp_get_data.mjs && bun scripts/shp_make_md.mjs",
     "build & prince": "bunx astro build && sed -i.bak 's!=\"/!=\"!g' dist/*.html && time prince --raster-dpi=300 --tagged-pdf dist/index.html -o dist/book.pdf && open dist/book.pdf",
-    "prince": "osascript -e 'tell application \"Preview\" to if it is running then quit' && prince --raster-dpi=300 --tagged-pdf http://localhost:9000/ -o /Users/mimecine/Library/CloudStorage/GoogleDrive-marco@mimecom.net/My\\ Drive/KioskBook2024/KIOSK-Book.pdf && open /Users/mimecine/Library/CloudStorage/GoogleDrive-marco@mimecom.net/My\\ Drive/KioskBook2024/KIOSK-Book.pdf",
-    "astro": "bunx astro"
+    "astro": "bunx astro",
+    "watch": "npm-watch"
   },
   "dependencies": {
     "@astrojs/mdx": "^2.0.1",
@@ -26,6 +32,7 @@
     "fast-glob": "^3.3.2",
     "localtunnel": "^2.0.2",
     "marked": "^12.0.0",
+    "npm-watch": "^0.13.0",
     "sharp": "^0.33.2",
     "tailwindcss": "^3.3.6"
   },

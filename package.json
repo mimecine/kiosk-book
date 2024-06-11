@@ -4,21 +4,21 @@
   "version": "0.0.1",
   "watch": {
     "full build": "dist/*.html"
-  },    
- "scripts": {
-    "dev": "bunx astro dev --host",
+  },
+  "scripts": {
+    "dev": "bun x astro dev --host",
     "1-up": "osascript -e 'tell application \"Preview\" to if it is running then quit' && prince --raster-dpi=300 --tagged-pdf http://localhost:9000/1up/ -o dist/book-1up.pdf && open dist/book-1up.pdf",
     "prince": "osascript -e 'tell application \"Preview\" to if it is running then quit' && prince --raster-dpi=300 --tagged-pdf http://localhost:9000/ -o /Users/mimecine/Library/CloudStorage/GoogleDrive-marco@mimecom.net/My\\ Drive/KioskBook2024/KIOSK-Book.pdf && open /Users/mimecine/Library/CloudStorage/GoogleDrive-marco@mimecom.net/My\\ Drive/KioskBook2024/KIOSK-Book.pdf",
     "cards": "osascript -e 'tell application \"Preview\" to if it is running then quit' && prince --raster-dpi=300 --tagged-pdf http://localhost:9000/cards/ -o /Users/mimecine/Library/CloudStorage/GoogleDrive-marco@mimecom.net/My\\ Drive/KioskBook2024/KIOSK-Cards.pdf && open /Users/mimecine/Library/CloudStorage/GoogleDrive-marco@mimecom.net/My\\ Drive/KioskBook2024/KIOSK-Cards.pdf",
-    "start": "bunx astro dev --host",
-    "build": "bunx astro build && sed -i.bak 's!=\"/!=\"!g' dist/*.html",
+    "start": "bun x astro dev --host",
+    "build": "bun x astro build",
     "full build": "bunx astro build && sed -i.bak 's!=\"/!=\"!g' dist/*.html && for h in dist/*.html; do prince --raster-dpi=300 --tagged-pdf $h; done;",
-    "preview": "bunx astro preview --host",
+    "preview": "bun x astro preview --host",
     "get_data": "bun scripts/shp_get_data.mjs",
     "make_md": "bun scripts/shp_make_md.mjs",
     "update_data": "bun scripts/shp_get_data.mjs && bun scripts/shp_make_md.mjs",
     "build & prince": "bunx astro build && sed -i.bak 's!=\"/!=\"!g' dist/*.html && time prince --raster-dpi=300 --tagged-pdf dist/index.html -o dist/book.pdf && open dist/book.pdf",
-    "astro": "bunx astro",
+    "astro": "bun x astro",
     "watch": "npm-watch"
   },
   "dependencies": {

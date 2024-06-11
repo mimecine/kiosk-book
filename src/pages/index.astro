@@ -1,4 +1,6 @@
 ---
+import groupBy from "object.groupby";
+
 import { getCollection } from "astro:content";
 import { Image } from "astro:assets";
 import { marked } from "marked";
@@ -10,6 +12,8 @@ const title = "KIOSK: The Book";
 const full_book = true; 
 const exhibit_sample = full_book?1000:11;
 const product_sample = full_book?1000:11;
+
+Object.groupBy = groupBy.shim();
 
 let pIndex = 1;
 let products = (await getCollection("products"))

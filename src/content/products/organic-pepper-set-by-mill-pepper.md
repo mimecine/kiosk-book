@@ -5,7 +5,7 @@ vendor: KIOSK
 product_type: Misc
 created_at: 2023-12-27T10:06:53-05:00
 handle: organic-pepper-set-by-mill-pepper
-updated_at: 2023-12-27T12:24:30-05:00
+updated_at: 2024-04-21T15:43:47-04:00
 published_at: null
 tags: postarchive
 status: active

@@ -5,7 +5,7 @@ vendor: KIOSK
 product_type: The later years
 created_at: 2023-12-27T10:11:58-05:00
 handle: bouffadou
-updated_at: 2024-01-01T21:05:53-05:00
+updated_at: 2024-04-21T15:43:47-04:00
 published_at: null
 tags: 0523.active, postarchive
 status: active

@@ -138,8 +138,6 @@ a.footnote::after {
   border: 2pt double;
   padding: 2rem;
 
-  /* counter-reset: footnote; */
-
   @footnote {
     border-top: solid red thin; /* The Border Top is the footnote rule */
     padding-top: 0.4rem;
@@ -159,6 +157,14 @@ a.footnote::after {
   }
   @top-right {
     content: "" string(head-title, first-except) "";
+    font-size: 100%;
+    font-family: Helvetica;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1ch;
+  }
+  @top-right {
+    content: "" string(top-title) "";
     font-size: 100%;
     font-family: Helvetica;
     font-weight: bold;
@@ -255,6 +261,10 @@ a.footnote::after {
 @page essay {
   /* border-left: none;
     border-right: none; */
+    background-color: pink;
+}
+@page essay:blank {
+    background-color: none;
 }
 
 .essay {
@@ -280,7 +290,12 @@ h2.title {
   text-wrap: balance;
   hyphens: none;
 }
-  
+
+.head-title {
+  string-set: top-title content(attr('title'));
+  text-wrap: balance;
+}
+
 
 h2 {
   color: red;

@@ -12,14 +12,14 @@ let Products = [],
 
 try {
   Products = await getAll("Product", session);
-    for await (const p of Products) {
-      p.metafields = (await shopify.rest.Metafield.all({
-        session: session,
-        product_id: p.id
-      })).data
-      console.log("Metafields", p.title, p.metafields.length);
-      await delay(600)
-    }
+    // for await (const p of Products) {
+    //   p.metafields = (await shopify.rest.Metafield.all({
+    //     session: session,
+    //     product_id: p.id
+    //   })).data
+    //   console.log("Metafields", p.title, p.metafields.length);
+    //   await delay(600)
+    // }
   console.log("Product", Products.length);
 } catch (e) {
   console.log("Product E", e);

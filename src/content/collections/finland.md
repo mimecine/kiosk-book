@@ -2,14 +2,17 @@
 id: 25555687
 handle: finland
 title: Finland
-updated_at: 2024-03-13T14:37:32-04:00
-body_html: >
-  <p>Deeply poetic and extremely internal, we only went as far north as Kuopio.
-  We took a smoke sauna, talked, talked, talked and talked to people who are
-  known for not talking, visited Aalto structures,&nbsp; etc.&nbsp;</p>
+updated_at: 2024-06-14T05:06:43-04:00
+body_html: <p>August 2007. Back to Scandinavia. Deeply poetic and extremely
+  internal, we only went as far north as Kuopio. We took a smoke sauna, swam in
+  the lakes, drove by many lakes, looked at lakes and talked, talked, talked and
+  talked to people who are known for not talking. We visited Aalto structures
+  and artists homes. In Helsinki we were introduced to Jaloviina over long
+  summer nights. Thanks to the Finnish embassy of New York for their support and
+  for believing in the KIOSK mission.</p>
 published_at: 2011-06-02T15:22:13-04:00
 sort_order: alpha-asc
-template_suffix: null
+template_suffix: ""
 disjunctive: false
 rules:
   - column: type
@@ -20,4 +23,4 @@ admin_graphql_api_id: gid://shopify/Collection/25555687
 
 ---
 
-Deeply poetic and extremely internal, we only went as far north as Kuopio. We took a smoke sauna, talked, talked, talked and talked to people who are known for not talking, visited Aalto structures,  etc.
+August 2007. Back to Scandinavia. Deeply poetic and extremely internal, we only went as far north as Kuopio. We took a smoke sauna, swam in the lakes, drove by many lakes, looked at lakes and talked, talked, talked and talked to people who are known for not talking. We visited Aalto structures and artists homes. In Helsinki we were introduced to Jaloviina over long summer nights. Thanks to the Finnish embassy of New York for their support and for believing in the KIOSK mission.

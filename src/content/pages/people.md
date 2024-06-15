@@ -46,6 +46,7 @@ updated_at: 2014-07-22T19:50:38-04:00
 published_at: 2013-11-19T10:47:25-05:00
 template_suffix: null
 admin_graphql_api_id: gid://shopify/OnlineStorePage/19097703
+metafields: []
 
 ---
 

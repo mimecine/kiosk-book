@@ -10,7 +10,7 @@ import Cover from "../assets/cover.svg";
 import "../styles/book-base.css";
 
 const title = "KIOSK: The Book";
-const full_book = true; 
+const full_book = false; 
 const exhibit_sample = full_book?1000:100;
 const product_sample = full_book?1000:5;
 
@@ -54,30 +54,30 @@ products.forEach((p) => {
 const exhibits = [
   {name:"The later years", settings:{provenance:true}},
   {name:"Italy 2", settings:{}},
-  // {name:"Italy 1", settings:{}},
-  // {name:"Romania", settings:{}},
-  // {name:"Recall", settings:{provenance:true}},
-  // {name:"Greece", settings:{}},
-  // {name:"Holiday 2013", settings:{provenance:true}},
-  // {name:"Lend a Hand", settings:{provenance:true}},
+  {name:"Italy 1", settings:{}},
+  {name:"Romania", settings:{}},
+  {name:"Recall", settings:{provenance:true}},
+  {name:"Greece", settings:{}},
+  {name:"Holiday 2013", settings:{provenance:true}},
+  {name:"Lend a Hand", settings:{provenance:true}},
   {name:"The Netherlands", settings:{}},
-  // {name:"Obama 2012", settings:{provenance:true}},
-  // {name:"Colombia", settings:{}},
-  // {name:"India #2", settings:{}},
-  // {name:"America #4", settings:{}},
-  // {name:"India", settings:{}},
-  // {name:"Japan #2", settings:{}},
-  // {name:"America #3", settings:{}},
-  // {name:"Iceland", settings:{}},
-  // {name:"Groundhog Day", settings:{provenance:true}},
-  // {name:"Portugal", settings:{}},
-  // {name:"Provence", settings:{}},
-  // {name:"America #2", settings:{}},
-  // {name:"9 for 2009", settings:{provenance:true}},
-  // {name:"America #1", settings:{}},
-  // {name:"Hong Kong", settings:{}},
-  // {name:"8 Things", settings:{provenance:true}},
-  // {name:"Finland", settings:{}},
+  {name:"Obama 2012", settings:{provenance:true}},
+  {name:"Colombia", settings:{}},
+  {name:"India #2", settings:{}},
+  {name:"America #4", settings:{}},
+  {name:"India", settings:{}},
+  {name:"Japan #2", settings:{}},
+  {name:"America #3", settings:{}},
+  {name:"Iceland", settings:{}},
+  {name:"Groundhog Day", settings:{provenance:true}},
+  {name:"Portugal", settings:{}},
+  {name:"Provence", settings:{}},
+  {name:"America #2", settings:{}},
+  {name:"9 for 2009", settings:{provenance:true}},
+  {name:"America #1", settings:{}},
+  {name:"Hong Kong", settings:{}},
+  {name:"8 Things", settings:{provenance:true}},
+  {name:"Finland", settings:{}},
   {name:"Germany", settings:{}},
   {name:"Mexico", settings:{}},
   {name:"Sweden", settings:{}},
@@ -131,7 +131,7 @@ function newInitial(word) {
     <main>
       <div class="plainflow">
       
-        <div class="cover cleanpage nopagenumber text-[36pt] font-sans font-bold h-screen xborder-t-4 xborder-b-4 border-current m-0 pt-10">
+        <div  class="cover cleanpage nopagenumber text-[36pt] font-sans font-bold h-screen xborder-t-4 xborder-b-4 border-current m-0 pt-10">
           <!-- 
           ******************************************************************
           ******************************************************************
@@ -144,7 +144,6 @@ function newInitial(word) {
           <!-- <h1 class="">KIOSK 
             <div class="font-mono text-5xl text-red py-20 text-center">Things from places</div>
           </h1> -->
-          <h1 class="hidden">KIOSK</h1>
           <Image src={Cover} alt={title}/>
         </div>
 
@@ -192,26 +191,25 @@ function newInitial(word) {
           <a class="xref my-2" href="#index-bydimension">The Index: By Dimensions</a>
         </div>
         </div>
-        <div class="start products text-justify -x-columns-2 -x-column-fill-auto" style="column-gap: 2.5rem;"> 
+        <div class="start products text-justify columns-2 column-fill-auto" style="column-gap: 2.5rem;"> 
 
         {
           exhibits.map((exhibit, i) => (
-            <div class="exhibit -x-column-fill-auto">
-              {/* {pages.filter((p) => p.data.before_exhibit == exhibit.name).map((essay)=>{(
-                <div class="essay">
-                  <div class="header font-sans border-b-4 border-red mb-12 xpb-8 min-h-[22rem] columns-all">
-                    <h2 class="title font-bold text-sans" id={`xessay-${essay.data.clean_title}`} set:html={essay.data.clean_title}/>
-                    <div class="subtitle text-2xl"/>
-                  </div>
-                  <div class="prose max-w-[5in] py-16 mx-auto" set:html={wrapLinks(essay.data.body_html)}/>
-                </div>
-              )})} */}
-
+            <div class="exhibit column-fill-auto">
               {(() => {currentEssay = pages.find((p) => p.data.before_exhibit == exhibit.name)})()}
               {currentEssay && (
                 <div class="essay">
-                  <!-- ******* ESSAY ******** -->
-                  <div class="header font-sans border-b-4 border-red mb-12 xpb-8 min-h-[22rem] -x-columns-all">
+                  <!-- 
+                  ******************************************************************
+                  ******************************************************************
+                  ******************************************************************
+                  ESSAY 
+                  ******************************************************************
+                  ******************************************************************
+                  ******************************************************************
+                  -->
+
+                  <div class="header font-sans border-b-4 border-red mb-12 xpb-8 min-h-[22rem] columns-all">
                     <h2 class="title font-bold text-sans" id={`essay-${currentEssay.data.clean_title}`} set:html={currentEssay.data.clean_title}/>
                     <div class="subtitle text-2xl"/>
                   </div>
@@ -219,7 +217,7 @@ function newInitial(word) {
                   <div class="prose max-w-[5in] py-16 mx-auto" set:html={wrapLinks(currentEssay.data.body_html)}/>
                 </div>
               )}
-              <div class="exhibit relative text-xl font-sans font-bold -x-columns-all">
+              <div class="exhibit relative text-xl font-sans font-bold columns-all">
                 <!-- 
                 ******************************************************************
                 ******************************************************************
@@ -229,7 +227,7 @@ function newInitial(word) {
                 ******************************************************************
                 ******************************************************************
                 -->
-                <div class="header font-sans border-b-4 border-red mb-12 xpb-8 min-h-[22rem] -x-columns-all">
+                <div class="header font-sans border-b-4 border-red mb-12 xpb-8 min-h-[22rem] columns-all">
                 <h2 class="title relative">
                   {exhibit.name}
                   <a
@@ -247,12 +245,11 @@ function newInitial(word) {
                 />
                 </div>
               </div>
-              <div class="exhibition-products columns-2 column-fill-auto" style="column-gap: 2.5rem;">
               {groups[exhibit.name]
                 ?.slice(0, i == 0 ? product_sample + 11 : product_sample || 1000)
                 .map((product) => (
-                  
-                    <div class="product relative overflow-auto mb-6  border-b-2 last:border-b-0 border-current border-transparent border-solid box-decoration-slice pb-4 " class:list={product.data.handle}>
+                  <>
+                    <div class="product relative overflow-auto mb-6  border-b-2 last:border-b-0 border-current border-solid box-decoration-slice pb-4 " class:list={product.data.handle}>
                       <a
                         id={product.data.handle}
                         class="absolute top-[-2rem]"
@@ -288,16 +285,16 @@ function newInitial(word) {
                           {product.data.provenance}
                         </div>
                       </div>
-                      <div set:html={wrapLinks(product.rendered)} class="p_description break-after-avoid break-before-avoid pt-3"></div>                      
+                      <div set:html={wrapLinks(product.rendered)} class="p_description break-after-avoid break-before-avoid pt-3"/>                      
                       <div class=" text-red text-right font-bold pt-2 break-inside-avoid break-before-avoid text-red-600">
+                          <!-- ~&nbsp; -->
                         <a class="img-xref italic text-sm" href={`#figure-${product.data.handle}`}>
                           fig. {product._index}, pg.
                         </a>
                       </div>
                     </div>
-                  
+                  </>
               ))}
-              </div>  
             </div>
           ))
         }     

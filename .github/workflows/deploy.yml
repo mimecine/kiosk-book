@@ -38,3 +38,9 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
 
+  # pdf:
+  #   needs: deploy
+  #   runs:
+  #     using: 'docker'
+  #     image: 'docker://yeslogic/prince'
+  #     .....

@@ -1,0 +1,47 @@
+---
+const { product } = Astro.props;
+---
+<div class="product relative overflow-auto mb-6  border-b-2 last:border-b-0 border-current border-solid box-decoration-slice pb-4 " class:list={product.data.handle}>
+  <a
+    id={product.data.handle}
+    class="absolute top-[-2rem]"
+    data-rendered={(product.x_rendered = true)}
+    data-index={(product.x_index = pIndex++)}
+  />
+  <div class="break-inside-avoid break-after-avoid text-left">
+    {product.data.images[0] && (
+      <div class="float-right w-1/3 mb-2 ml-4 text-right">
+        <a href={`#figure-${product.data.handle}`}>
+          <Image
+            id={`small-img-${product.data.handle}`}
+            data-width={1000}
+            data-height={1000}
+            src={product.data.images[0]?.src} // set to thumb and remove filter if colored page
+            alt={product.data.title}
+            class="w-full border border-current -x-grayscale -x-contrast-100 mt-[2px]"
+          />
+        </a>
+      </div>
+    )}
+  
+    <h3 class="p_title font-sans font-bold uppercase break-after-avoid xtext-xl">
+      {product.data.title}
+    </h3>
+    <div class="p_dimensions" class="break-after-avoid break-before-avoid">
+      {product.data.dimensions}
+    </div>          
+    <div class="p_materials" class="italic break-after-avoid break-inside-avoid break-before-avoid">
+      {product.data.materials}
+    </div>
+    <div class="p_provenance uppercase break-after-avoid break-inside-avoid break-before-avoid" class:list={exhibit.settings.provenance? '' : 'hidden'}>
+      {product.data.provenance}
+    </div>
+  </div>
+  <div set:html={wrapLinks(product.rendered)} class="p_description break-after-avoid break-before-avoid pt-3"/>                      
+  <div class=" text-red text-right font-bold pt-2 break-inside-avoid break-before-avoid text-red-600">
+      <!-- ~&nbsp; -->
+    <a class="img-xref italic text-sm" href={`#figure-${product.data.handle}`}>
+      fig. {product._index}, pg.
+    </a>
+  </div>
+</div>

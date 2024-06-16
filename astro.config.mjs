@@ -6,7 +6,7 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://example.com",
+  site: "https://book.gh.kioskkiosk.com",
   //base: '',
   build: {
     // Example: Generate `page.html` instead of `page/index.html` during build.

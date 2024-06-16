@@ -39,7 +39,7 @@
   --size: 8in 8.625in;
   --size: 7.75in 8.5in;
   --size: 16cm 22cm;
-  --size: A4;
+  --size: Letter;
 }
 
 * {

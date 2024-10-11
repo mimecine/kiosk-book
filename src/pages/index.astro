@@ -12,7 +12,7 @@ import "../styles/book-base.css";
 const title = "KIOSK: The Book";
 const full_book = true; 
 const exhibit_sample = full_book?1000:100;
-const product_sample = full_book?1000:5;
+const product_sample = full_book?1000:12;
 
 Object.groupBy = groupBy.shim();
 
@@ -54,30 +54,30 @@ products.forEach((p) => {
 const exhibits = [
   {name:"The later years", settings:{provenance:true}},
   {name:"Italy 2", settings:{}},
-  // {name:"Italy 1", settings:{}},
-  // {name:"Romania", settings:{}},
-  // {name:"Recall", settings:{provenance:true}},
-  // {name:"Greece", settings:{}},
-  // {name:"Holiday 2013", settings:{provenance:true}},
-  // {name:"Lend a Hand", settings:{provenance:true}},
+  {name:"Italy 1", settings:{}},
+  {name:"Romania", settings:{}},
+  {name:"Recall", settings:{provenance:true}},
+  {name:"Greece", settings:{}},
+  {name:"Holiday 2013", settings:{provenance:true}},
+  {name:"Lend a Hand", settings:{provenance:true}},
   {name:"The Netherlands", settings:{}},
-  // {name:"Obama 2012", settings:{provenance:true}},
-  // {name:"Colombia", settings:{}},
-  // {name:"India #2", settings:{}},
-  // {name:"America #4", settings:{}},
-  // {name:"India", settings:{}},
-  // {name:"Japan #2", settings:{}},
-  // {name:"America #3", settings:{}},
-  // {name:"Iceland", settings:{}},
-  // {name:"Groundhog Day", settings:{provenance:true}},
-  // {name:"Portugal", settings:{}},
-  // {name:"Provence", settings:{}},
-  // {name:"America #2", settings:{}},
-  // {name:"9 for 2009", settings:{provenance:true}},
-  // {name:"America #1", settings:{}},
-  // {name:"Hong Kong", settings:{}},
-  // {name:"8 Things", settings:{provenance:true}},
-  // {name:"Finland", settings:{}},
+  {name:"Obama 2012", settings:{provenance:true}},
+  {name:"Colombia", settings:{}},
+  {name:"India #2", settings:{}},
+  {name:"America #4", settings:{}},
+  {name:"India", settings:{}},
+  {name:"Japan #2", settings:{}},
+  {name:"America #3", settings:{}},
+  {name:"Iceland", settings:{}},
+  {name:"Groundhog Day", settings:{provenance:true}},
+  {name:"Portugal", settings:{}},
+  {name:"Provence", settings:{}},
+  {name:"America #2", settings:{}},
+  {name:"9 for 2009", settings:{provenance:true}},
+  {name:"America #1", settings:{}},
+  {name:"Hong Kong", settings:{}},
+  {name:"8 Things", settings:{provenance:true}},
+  {name:"Finland", settings:{}},
   {name:"Germany", settings:{}},
   {name:"Mexico", settings:{}},
   {name:"Sweden", settings:{}},
@@ -98,7 +98,7 @@ let currentEssay = null;
 
 function wrapLinks(inputString) {
     var R1 =
-    /(\s|>)https?:\/\/((?:www\.)?(?:[-\w@:%.\+~#=]{1,256}\.)+[a-zA-Z0-9()]{1,6}\b(?:[-\w()@:%\+.~#?&//=]*))([\s.,!?]?)/gim;
+    /(\s|>)(https?:\/\/(?:www\.)?(?:[-\w@:%.\+~#=]{1,256}\.)+[a-zA-Z0-9()]{1,6}\b(?:[-\w()@:%\+.~#?&//=]*))([\s.,!?]?)/gim;
     var R2 = /(\shref="[^"]+"\s?)/gmi
     var R3 = />https?:\/\/(?:www\.)?([\w\.]+)[^<]*(?:<)/gmi
 
@@ -253,7 +253,8 @@ function newInitial(word) {
                 .map((product) => (
                   
                     <div class="product relative overflow-auto mb-6  border-b-2 last:border-b-0 border-current border-transparent border-solid box-decoration-slice pb-4 " class:list={product.data.handle}>
-                      <a
+                      <div class="min-h-40">
+                        <a
                         id={product.data.handle}
                         class="absolute top-[-2rem]"
                         data-rendered={(product.x_rendered = true)}
@@ -288,10 +289,11 @@ function newInitial(word) {
                           {product.data.provenance}
                         </div>
                       </div>
-                      <div set:html={wrapLinks(product.rendered)} class="p_description break-after-avoid break-before-avoid pt-3"></div>                      
-                      <div class=" text-red text-right font-bold pt-2 break-inside-avoid break-before-avoid text-red-600">
+                      <div set:html={wrapLinks(product.rendered)} class="p_description break-after-avoid break-before-avoid pt-3 pb-2 -x-min-h-24"></div>
+                    </div>                    
+                      <div class=" text-red text-right font-bold break-inside-avoid break-before-avoid text-red-600">
                         <a class="img-xref italic text-sm" href={`#figure-${product.data.handle}`}>
-                          fig. {product._index}, pg.
+                          fig. {product._index}, p.
                         </a>
                       </div>
                     </div>

@@ -11,7 +11,7 @@ import "../styles/book-base.css";
 
 const title = "KIOSK: The Book";
 const full_book = false; 
-const exhibit_sample = full_book?1000:100;
+const exhibit_sample = full_book?1000:25;
 const product_sample = full_book?1000:12;
 
 Object.groupBy = groupBy.shim();
@@ -117,6 +117,19 @@ function newInitial(word) {
   }
   return false;
 }
+function slugify(text) {
+  return text
+    .toString()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .trim()
+    .replace(/\s+/g, "-")
+    .replace(/&/g, "-and-")
+    .replace(/[^\w-]+/g, "")
+    .replace(/--+/g, "-");
+}
+
 ---
 
 <!doctype html>
@@ -125,7 +138,7 @@ function newInitial(word) {
     <meta charset="utf-8" />
     <meta name="author" content="Alisa Grifo & Marco ter Haar Romeny"/>
     <title>{title}</title>  
-    <script src="https://unpkg.com/pagedjs/dist/paged.polyfill.js"></script>
+    <!-- <script src="https://unpkg.com/pagedjs/dist/paged.polyfill.js"></script> -->
       
   </head>
   <body>
@@ -177,10 +190,10 @@ function newInitial(word) {
             {(() => {currentEssay = pages.find((p) => p.data.before_exhibit == exhibit.name)})()}
             {currentEssay && (
               <>
-              <a class="xref italic my-2 text-red" href={`#essay-${currentEssay.data.clean_title}`}>{currentEssay.data.clean_title}</a>
+              <a class="xref italic my-2 text-red" href={`#essay-${slugify(currentEssay.data.clean_title)}`}>{currentEssay.data.clean_title}</a>
               </>
             )}
-            <a class="xref my-2" href={`#${exhibit.name}`}>{exhibit.name}</a>
+            <a class="xref my-2" href={`#exhibit-${slugify(exhibit.name)}`}>{exhibit.name}</a>
             </>
           ))}
           <br>
@@ -213,7 +226,7 @@ function newInitial(word) {
                 <div class="essay">
                   <!-- ******* ESSAY ******** -->
                   <div class="header font-sans border-b-4 border-red mb-12 xpb-8 min-h-[22rem] -x-columns-all">
-                    <h2 class="title font-bold text-sans" id={`essay-${currentEssay.data.clean_title}`} set:html={currentEssay.data.clean_title}/>
+                    <h2 class="title font-bold text-sans" id={`essay-${slugify(currentEssay.data.clean_title)}`} set:html={currentEssay.data.clean_title}/>
                     <div class="subtitle text-2xl"/>
                   </div>
               
@@ -235,8 +248,8 @@ function newInitial(word) {
                   {exhibit.name}
                   <a
                     class="absolute top-[-2rem]"
-                    id={exhibit.name}
-                    name={exhibit.name}
+                    id={`exhibit-${slugify(exhibit.name)}`}
+                    name={`exhibit-${slugify(exhibit.name)}`}
                   />
                 </h2>
                 <div

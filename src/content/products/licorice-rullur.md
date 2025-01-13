@@ -5,7 +5,7 @@ vendor: None
 product_type: Iceland
 created_at: 2014-08-04T23:54:38-04:00
 handle: licorice-rullur
-updated_at: 2024-01-07T05:56:36-05:00
+updated_at: 2024-12-24T07:47:02-05:00
 published_at: 2011-06-02T14:44:00-04:00
 tags: ""
 status: active

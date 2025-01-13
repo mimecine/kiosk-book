@@ -5,7 +5,7 @@ vendor: AKAO, Yamashita
 product_type: "Japan #2"
 created_at: 2014-07-22T19:52:25-04:00
 handle: aluminum-ladle-set
-updated_at: 2024-01-16T16:54:34-05:00
+updated_at: 2024-12-06T01:38:00-05:00
 published_at: 2011-06-02T14:26:00-04:00
 tags: kitchen, x.ica
 status: active

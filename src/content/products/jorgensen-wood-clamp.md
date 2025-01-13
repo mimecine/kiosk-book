@@ -5,7 +5,7 @@ vendor: Adjustable Clamp Company
 product_type: "America #1"
 created_at: 2014-07-22T20:09:38-04:00
 handle: jorgensen-wood-clamp
-updated_at: 2023-12-30T20:06:25-05:00
+updated_at: 2024-12-24T00:51:50-05:00
 published_at: 2012-07-16T13:00:00-04:00
 tags: hardware, practical
 status: active

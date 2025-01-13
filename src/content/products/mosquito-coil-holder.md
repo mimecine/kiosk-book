@@ -5,7 +5,7 @@ vendor: KIOSK
 product_type: Misc
 created_at: 2021-05-12T08:11:28-04:00
 handle: mosquito-coil-holder
-updated_at: 2023-12-27T12:13:56-05:00
+updated_at: 2024-12-23T18:45:39-05:00
 published_at: 2021-05-12T08:11:26-04:00
 tags: postarchive, x.h2020
 status: active

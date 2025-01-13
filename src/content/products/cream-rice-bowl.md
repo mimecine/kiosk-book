@@ -5,7 +5,7 @@ vendor: None
 product_type: "Japan #2"
 created_at: 2014-07-22T20:00:32-04:00
 handle: cream-rice-bowl
-updated_at: 2024-01-04T12:16:25-05:00
+updated_at: 2024-11-28T04:41:36-05:00
 published_at: 2011-06-02T14:32:00-04:00
 tags: gifts, home, kitchen
 status: active

@@ -5,7 +5,7 @@ vendor: Nicolas Appel
 product_type: Provence
 created_at: 2014-07-22T19:53:02-04:00
 handle: baby-rattle
-updated_at: 2024-01-17T14:52:12-05:00
+updated_at: 2024-12-25T13:10:14-05:00
 published_at: 2011-06-02T14:26:00-04:00
 tags: it's art!, kids
 status: active

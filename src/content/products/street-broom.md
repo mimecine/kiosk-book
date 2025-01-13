@@ -5,7 +5,7 @@ vendor: KIOSK ARCHIVE
 product_type: Finland
 created_at: 2015-10-05T14:01:45-04:00
 handle: street-broom
-updated_at: 2023-08-02T14:37:55-04:00
+updated_at: 2024-12-26T11:43:49-05:00
 published_at: 2015-10-05T14:01:00-04:00
 tags: x.export
 status: active
@@ -34,4 +34,4 @@ provenance: FINLAND
 
 ---
 
-We saw someone on the street using this broom and tracked it down to a shop and in turn tracked it down to the maker. The design is Finnish and was first made in the 1960s. The piassava bristle comes all the way from Sierra Leone. These were a hell of a thing to ship. Not to mention a bit odd too, but luckily we asked our friend Klaus to bring them with him on the plane as he happened to be coming over to the States. Otherwise I sincerely doubt they would have made it. So, thank you, Klaus. Made by the Visually Disabled People’s Association of Helsinki and also spotted outside of Alvar Aalto’s Helsinki home - see our blog, www.hello.kioskkiosk.com for an image from there.
+We saw someone on the street using this broom and tracked it down to a shop and in turn tracked it down to the maker. The design is Finnish and was first made in the 1960s. The piassava bristle comes all the way from Sierra Leone. These were a hell of a thing to ship. Not to mention a bit odd too, but luckily we asked our friend Klaus to bring them with him on the plane as he happened to be coming over to the States. Otherwise I sincerely doubt they would have made it. So, thank you, Klaus. Made by the Visually Disabled People’s Association of Helsinki and also spotted outside of Alvar Aalto’s Helsinki home.

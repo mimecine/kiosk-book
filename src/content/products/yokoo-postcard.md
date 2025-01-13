@@ -5,7 +5,7 @@ vendor: None
 product_type: "Japan #2"
 created_at: 2014-08-05T00:18:50-04:00
 handle: yokoo-postcard
-updated_at: 2024-01-04T12:16:33-05:00
+updated_at: 2024-12-22T11:47:04-05:00
 published_at: 2011-06-02T15:00:00-04:00
 tags: gifts, it's art!, office
 status: active

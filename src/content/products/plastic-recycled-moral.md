@@ -5,7 +5,7 @@ vendor: None
 product_type: Mexico
 created_at: 2014-08-05T00:03:12-04:00
 handle: plastic-recycled-moral
-updated_at: 2023-12-30T20:15:16-05:00
+updated_at: 2024-12-09T23:27:20-05:00
 published_at: 2011-06-02T14:50:00-04:00
 tags: ""
 status: active

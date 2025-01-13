@@ -5,7 +5,7 @@ vendor: KIOSK
 product_type: The later years
 created_at: 2023-12-27T09:54:03-05:00
 handle: all-around-knife
-updated_at: 2024-01-16T16:44:28-05:00
+updated_at: 2024-12-27T23:14:30-05:00
 published_at: 2023-12-27T09:54:00-05:00
 tags: postarchive
 status: active

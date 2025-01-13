@@ -5,7 +5,7 @@ vendor: KIOSK
 product_type: The later years
 created_at: 2021-07-15T09:07:25-04:00
 handle: pincinox
-updated_at: 2024-01-01T21:05:56-05:00
+updated_at: 2024-12-21T23:29:20-05:00
 published_at: 2021-07-15T09:07:19-04:00
 tags: postarchive
 status: active

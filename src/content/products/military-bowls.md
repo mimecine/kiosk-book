@@ -5,7 +5,7 @@ vendor: None
 product_type: Sweden
 created_at: 2014-08-04T23:57:13-04:00
 handle: military-bowls
-updated_at: 2023-12-30T21:34:58-05:00
+updated_at: 2024-12-15T14:50:24-05:00
 published_at: 2011-06-02T14:46:00-04:00
 tags: ""
 status: active

@@ -5,7 +5,7 @@ vendor: None
 product_type: Mexico
 created_at: 2014-08-05T00:07:43-04:00
 handle: set-of-face-creams
-updated_at: 2023-12-30T20:19:40-05:00
+updated_at: 2024-11-28T00:03:29-05:00
 published_at: 2011-06-02T14:53:00-04:00
 tags: ""
 status: active

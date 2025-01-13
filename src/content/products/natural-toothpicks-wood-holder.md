@@ -5,7 +5,7 @@ vendor: None
 product_type: Japan
 created_at: 2014-08-05T00:02:53-04:00
 handle: natural-toothpicks-wood-holder
-updated_at: 2024-03-13T14:29:43-04:00
+updated_at: 2024-12-12T01:47:34-05:00
 published_at: 2011-06-02T14:49:00-04:00
 tags: ""
 status: active

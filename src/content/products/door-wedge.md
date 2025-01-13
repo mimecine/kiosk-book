@@ -5,7 +5,7 @@ vendor: None
 product_type: Groundhog Day
 created_at: 2014-07-22T20:01:34-04:00
 handle: door-wedge
-updated_at: 2024-01-07T06:47:47-05:00
+updated_at: 2024-12-06T07:58:52-05:00
 published_at: 2011-06-02T14:32:00-04:00
 tags: ""
 status: active

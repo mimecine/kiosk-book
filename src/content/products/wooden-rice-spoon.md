@@ -5,7 +5,7 @@ vendor: None
 product_type: "Japan #2"
 created_at: 2014-08-05T00:18:02-04:00
 handle: wooden-rice-spoon
-updated_at: 2024-01-04T12:16:33-05:00
+updated_at: 2024-12-28T10:21:42-05:00
 published_at: 2011-06-02T15:00:00-04:00
 tags: kitchen
 status: active

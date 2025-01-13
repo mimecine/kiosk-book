@@ -5,7 +5,7 @@ vendor: None
 product_type: "Japan #2"
 created_at: 2014-07-22T19:55:36-04:00
 handle: bontan-ame-citrus-candy
-updated_at: 2024-01-04T12:16:23-05:00
+updated_at: 2024-12-22T03:32:47-05:00
 published_at: 2011-06-02T14:28:00-04:00
 tags: ""
 status: active

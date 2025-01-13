@@ -5,7 +5,7 @@ vendor: KIOSK
 product_type: Misc
 created_at: 2021-05-12T08:12:10-04:00
 handle: candlestick-lamp
-updated_at: 2023-12-30T10:18:06-05:00
+updated_at: 2024-12-21T07:48:54-05:00
 published_at: 2021-05-12T08:12:08-04:00
 tags: postarchive, x.h2020
 status: active

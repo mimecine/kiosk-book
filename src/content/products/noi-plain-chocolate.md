@@ -5,7 +5,7 @@ vendor: None
 product_type: Iceland
 created_at: 2014-08-04T23:58:34-04:00
 handle: noi-plain-chocolate
-updated_at: 2024-01-07T05:57:15-05:00
+updated_at: 2024-12-27T18:20:28-05:00
 published_at: 2011-06-02T14:47:00-04:00
 tags: ""
 status: active

@@ -5,7 +5,7 @@ vendor: None
 product_type: 8 Things
 created_at: 2014-07-22T20:10:40-04:00
 handle: knife-sharpener
-updated_at: 2024-01-04T12:12:24-05:00
+updated_at: 2024-12-21T00:41:57-05:00
 published_at: 2011-06-02T14:39:00-04:00
 tags: ""
 status: active

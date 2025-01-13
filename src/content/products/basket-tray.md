@@ -5,7 +5,7 @@ vendor: None
 product_type: Hong Kong
 created_at: 2014-07-22T19:53:24-04:00
 handle: basket-tray
-updated_at: 2024-01-17T16:27:53-05:00
+updated_at: 2024-12-13T07:30:45-05:00
 published_at: 2011-06-02T14:27:00-04:00
 tags: ""
 status: active

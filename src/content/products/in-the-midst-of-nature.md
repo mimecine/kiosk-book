@@ -5,7 +5,7 @@ vendor: Journal Media
 product_type: Groundhog Day
 created_at: 2014-07-22T20:08:53-04:00
 handle: in-the-midst-of-nature
-updated_at: 2024-01-07T06:03:39-05:00
+updated_at: 2024-12-13T15:07:04-05:00
 published_at: 2011-06-02T14:37:00-04:00
 tags: gifts
 status: active

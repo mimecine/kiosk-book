@@ -5,7 +5,7 @@ vendor: None
 product_type: Germany
 created_at: 2014-07-22T19:53:30-04:00
 handle: bavarian-gamsbart-medium-pin
-updated_at: 2024-01-17T16:32:15-05:00
+updated_at: 2024-12-19T04:57:05-05:00
 published_at: 2011-06-02T14:27:00-04:00
 tags: ""
 status: active

@@ -5,7 +5,7 @@ vendor: Fausto Lanzi
 product_type: Italy 2
 created_at: 2021-04-28T10:29:36-04:00
 handle: yellow-electric-switch
-updated_at: 2023-12-30T12:56:54-05:00
+updated_at: 2024-12-22T12:28:38-05:00
 published_at: 2021-04-28T10:29:35-04:00
 tags: ""
 status: active

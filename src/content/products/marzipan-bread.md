@@ -5,7 +5,7 @@ vendor: None
 product_type: Iceland
 created_at: 2014-08-04T23:55:57-04:00
 handle: marzipan-bread
-updated_at: 2024-01-07T05:57:03-05:00
+updated_at: 2024-12-11T11:33:08-05:00
 published_at: 2011-06-02T14:45:00-04:00
 tags: ""
 status: active

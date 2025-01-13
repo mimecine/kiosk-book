@@ -5,7 +5,7 @@ vendor: None
 product_type: "Japan #2"
 created_at: 2014-07-22T20:09:22-04:00
 handle: japanese-street-dustpan
-updated_at: 2024-01-04T12:16:27-05:00
+updated_at: 2024-12-27T08:16:30-05:00
 published_at: 2011-06-02T14:38:00-04:00
 tags: ""
 status: active

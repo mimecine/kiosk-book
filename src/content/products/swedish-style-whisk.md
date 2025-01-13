@@ -5,7 +5,7 @@ vendor: Linden
 product_type: Sweden
 created_at: 2014-08-05T00:11:51-04:00
 handle: swedish-style-whisk
-updated_at: 2023-12-31T12:03:01-05:00
+updated_at: 2024-12-21T23:09:24-05:00
 published_at: 2011-07-08T03:42:00-04:00
 tags: kitchen, practical
 status: active

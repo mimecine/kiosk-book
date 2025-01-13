@@ -5,7 +5,7 @@ vendor: None
 product_type: "Japan #2"
 created_at: 2014-07-22T19:57:51-04:00
 handle: cedar-cutting-board
-updated_at: 2024-01-04T12:16:25-05:00
+updated_at: 2024-12-23T01:02:35-05:00
 published_at: 2011-06-02T14:30:00-04:00
 tags: kitchen
 status: active

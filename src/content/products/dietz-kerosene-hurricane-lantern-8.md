@@ -5,7 +5,7 @@ vendor: None
 product_type: "America #3"
 created_at: 2014-07-22T20:01:00-04:00
 handle: dietz-kerosene-hurricane-lantern-8
-updated_at: 2023-12-30T20:00:51-05:00
+updated_at: 2024-12-13T08:03:03-05:00
 published_at: 2011-06-02T14:32:00-04:00
 tags: ""
 status: active

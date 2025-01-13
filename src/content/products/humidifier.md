@@ -5,7 +5,7 @@ vendor: None
 product_type: Provence
 created_at: 2014-07-22T20:08:32-04:00
 handle: humidifier
-updated_at: 2024-01-04T12:15:04-05:00
+updated_at: 2024-12-21T14:59:04-05:00
 published_at: 2011-06-02T14:37:00-04:00
 tags: ""
 status: active

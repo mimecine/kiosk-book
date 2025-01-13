@@ -5,7 +5,7 @@ vendor: None
 product_type: Iceland
 created_at: 2014-07-22T20:10:46-04:00
 handle: kulur-caramel
-updated_at: 2024-01-07T05:56:27-05:00
+updated_at: 2024-12-19T05:54:28-05:00
 published_at: 2011-06-02T14:43:00-04:00
 tags: ""
 status: active

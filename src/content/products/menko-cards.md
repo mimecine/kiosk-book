@@ -5,7 +5,7 @@ vendor: None
 product_type: "Japan #2"
 created_at: 2014-08-04T23:56:17-04:00
 handle: menko-cards
-updated_at: 2024-01-04T12:16:28-05:00
+updated_at: 2024-12-19T15:53:11-05:00
 published_at: 2011-06-02T14:45:00-04:00
 tags: fun, it's art!, kids
 status: active

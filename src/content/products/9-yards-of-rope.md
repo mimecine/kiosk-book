@@ -5,7 +5,7 @@ vendor: None
 product_type: Mexico
 created_at: 2014-07-22T19:51:27-04:00
 handle: 9-yards-of-rope
-updated_at: 2024-01-15T09:24:42-05:00
+updated_at: 2024-12-27T08:15:12-05:00
 published_at: 2011-06-02T14:20:00-04:00
 tags: x.ica
 status: active

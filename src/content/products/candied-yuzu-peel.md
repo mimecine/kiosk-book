@@ -5,7 +5,7 @@ vendor: None
 product_type: "Japan #2"
 created_at: 2014-07-22T19:57:22-04:00
 handle: candied-yuzu-peel
-updated_at: 2024-01-04T12:16:24-05:00
+updated_at: 2024-12-18T22:22:38-05:00
 published_at: 2011-06-02T14:29:00-04:00
 tags: ""
 status: active

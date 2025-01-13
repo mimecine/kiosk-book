@@ -5,7 +5,7 @@ vendor: Dereus
 product_type: 9 for 2009
 created_at: 2014-07-22T20:08:12-04:00
 handle: hollow-half-dollar
-updated_at: 2024-01-04T12:14:20-05:00
+updated_at: 2024-12-24T08:38:08-05:00
 published_at: 2011-06-02T14:37:00-04:00
 tags: fun, gifts
 status: active

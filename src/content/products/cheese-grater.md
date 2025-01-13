@@ -5,7 +5,7 @@ vendor: Rigamonti Pietro & Figli
 product_type: 8 Things
 created_at: 2014-07-22T19:58:15-04:00
 handle: cheese-grater
-updated_at: 2024-01-04T12:12:24-05:00
+updated_at: 2024-12-09T08:40:12-05:00
 published_at: 2011-06-02T14:30:00-04:00
 tags: kitchen, x.ica
 status: active

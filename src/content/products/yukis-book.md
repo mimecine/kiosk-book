@@ -5,7 +5,7 @@ vendor: None
 product_type: 8 Things
 created_at: 2014-08-05T00:18:56-04:00
 handle: yukis-book
-updated_at: 2024-01-04T12:12:25-05:00
+updated_at: 2024-12-15T08:11:13-05:00
 published_at: 2011-06-02T15:00:00-04:00
 tags: ""
 status: active

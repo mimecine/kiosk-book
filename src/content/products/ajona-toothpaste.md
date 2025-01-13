@@ -5,7 +5,7 @@ vendor: None
 product_type: Germany
 created_at: 2014-07-22T19:51:58-04:00
 handle: ajona-toothpaste
-updated_at: 2024-01-21T08:10:05-05:00
+updated_at: 2024-12-18T23:43:57-05:00
 published_at: 2011-06-02T14:26:00-04:00
 tags: x.ica
 status: active

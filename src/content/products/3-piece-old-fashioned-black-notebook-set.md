@@ -5,7 +5,7 @@ vendor: None
 product_type: Sweden
 created_at: 2014-07-22T19:51:19-04:00
 handle: 3-piece-old-fashioned-black-notebook-set
-updated_at: 2024-01-15T09:05:23-05:00
+updated_at: 2024-12-24T04:25:31-05:00
 published_at: 2011-06-02T14:19:00-04:00
 tags: x.ica
 status: active

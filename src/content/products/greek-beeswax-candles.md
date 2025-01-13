@@ -5,7 +5,7 @@ vendor: None
 product_type: Greece
 created_at: 2014-07-22T20:06:01-04:00
 handle: greek-beeswax-candles
-updated_at: 2023-12-30T13:55:25-05:00
+updated_at: 2024-12-15T09:12:47-05:00
 published_at: 2013-09-19T07:15:00-04:00
 tags: ""
 status: active

@@ -5,7 +5,7 @@ vendor: KIOSK
 product_type: Italy 2
 created_at: 2021-04-28T10:29:39-04:00
 handle: anchovy-paste
-updated_at: 2023-12-30T12:55:29-05:00
+updated_at: 2024-12-23T06:57:04-05:00
 published_at: 2021-04-28T10:29:38-04:00
 tags: ""
 status: active

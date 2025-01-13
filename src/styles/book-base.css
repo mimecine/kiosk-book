@@ -368,6 +368,7 @@ a.xref {
   a.img-xref:after {
     content: "NN";
   }
+  .product:nth-child(5n)::after,
   .essay::before,
   .exhibit::before,
   .index::before {
@@ -382,4 +383,5 @@ a.xref {
     font-family: initial;
     color: gray;
   }
+
 }

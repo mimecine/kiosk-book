@@ -5,7 +5,7 @@ vendor: None
 product_type: Iceland
 created_at: 2014-07-22T20:09:45-04:00
 handle: karamellur-caramels
-updated_at: 2024-01-07T05:56:13-05:00
+updated_at: 2024-12-09T22:02:22-05:00
 published_at: 2011-06-02T14:38:00-04:00
 tags: ""
 status: active

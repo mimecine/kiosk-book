@@ -5,7 +5,7 @@ vendor: None
 product_type: "Japan #2"
 created_at: 2014-07-22T20:04:56-04:00
 handle: futon-beater
-updated_at: 2024-01-04T12:16:25-05:00
+updated_at: 2024-12-21T04:02:18-05:00
 published_at: 2011-06-02T14:35:00-04:00
 tags: hardware, home, practical
 status: active

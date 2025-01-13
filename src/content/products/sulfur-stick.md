@@ -5,7 +5,7 @@ vendor: KIOSK
 product_type: Italy 1
 created_at: 2021-04-28T10:28:15-04:00
 handle: sulfur-stick
-updated_at: 2024-01-04T12:17:26-05:00
+updated_at: 2024-12-28T02:47:52-05:00
 published_at: 2021-04-28T10:28:12-04:00
 tags: ""
 status: active

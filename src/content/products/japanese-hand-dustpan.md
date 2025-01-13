@@ -5,7 +5,7 @@ vendor: None
 product_type: "Japan #2"
 created_at: 2014-07-22T20:09:14-04:00
 handle: japanese-hand-dustpan
-updated_at: 2024-01-04T12:16:26-05:00
+updated_at: 2024-12-16T15:48:27-05:00
 published_at: 2011-06-02T14:37:00-04:00
 tags: hardware, home, practical
 status: active

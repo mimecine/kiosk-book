@@ -5,7 +5,7 @@ vendor: None
 product_type: Japan
 created_at: 2014-07-22T19:54:00-04:00
 handle: bicycle-basket-net
-updated_at: 2024-01-19T09:48:32-05:00
+updated_at: 2024-12-21T22:01:54-05:00
 published_at: 2011-06-02T14:27:00-04:00
 tags: ""
 status: active

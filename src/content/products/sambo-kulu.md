@@ -5,7 +5,7 @@ vendor: None
 product_type: Iceland
 created_at: 2014-08-05T00:06:31-04:00
 handle: sambo-kulu
-updated_at: 2024-01-07T05:59:02-05:00
+updated_at: 2024-11-29T06:15:11-05:00
 published_at: 2011-06-02T14:52:00-04:00
 tags: ""
 status: active

@@ -5,7 +5,7 @@ vendor: None
 product_type: "Japan #2"
 created_at: 2014-08-04T23:57:33-04:00
 handle: mitsubishi-no-460-pen
-updated_at: 2024-01-04T12:16:28-05:00
+updated_at: 2024-12-26T02:19:05-05:00
 published_at: 2011-08-23T17:18:00-04:00
 tags: office, x.ica
 status: active

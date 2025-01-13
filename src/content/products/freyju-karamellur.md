@@ -5,7 +5,7 @@ vendor: None
 product_type: Iceland
 created_at: 2014-07-22T20:04:44-04:00
 handle: freyju-karamellur
-updated_at: 2024-01-07T05:55:51-05:00
+updated_at: 2024-12-14T19:32:44-05:00
 published_at: 2011-06-02T14:35:00-04:00
 tags: ""
 status: active

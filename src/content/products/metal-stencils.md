@@ -5,7 +5,7 @@ vendor: L'Outil Parfait
 product_type: 8 Things
 created_at: 2014-08-04T23:56:52-04:00
 handle: metal-stencils
-updated_at: 2024-01-04T12:12:24-05:00
+updated_at: 2024-12-26T00:06:55-05:00
 published_at: 2013-10-17T06:39:00-04:00
 tags: ""
 status: active

@@ -5,7 +5,7 @@ vendor: None
 product_type: "Japan #2"
 created_at: 2014-07-22T20:05:06-04:00
 handle: gauze-kitchen-cloth
-updated_at: 2024-01-04T12:16:26-05:00
+updated_at: 2024-12-08T02:48:23-05:00
 published_at: 2011-08-24T10:15:00-04:00
 tags: home, kitchen, practical
 status: active

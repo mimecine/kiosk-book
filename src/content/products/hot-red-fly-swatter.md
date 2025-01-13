@@ -5,7 +5,7 @@ vendor: KIOSK
 product_type: Kiosk
 created_at: 2021-05-12T07:26:22-04:00
 handle: hot-red-fly-swatter
-updated_at: 2023-12-27T12:17:05-05:00
+updated_at: 2024-12-12T15:13:11-05:00
 published_at: 2021-05-12T07:26:20-04:00
 tags: postarchive
 status: active

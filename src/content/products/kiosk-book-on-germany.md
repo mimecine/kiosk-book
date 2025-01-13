@@ -5,7 +5,7 @@ vendor: None
 product_type: KioskMoney
 created_at: 2014-07-22T20:10:08-04:00
 handle: kiosk-book-on-germany
-updated_at: 2023-12-30T21:32:50-05:00
+updated_at: 2024-12-11T19:25:20-05:00
 published_at: 2015-04-28T22:44:00-04:00
 tags: practical
 status: active

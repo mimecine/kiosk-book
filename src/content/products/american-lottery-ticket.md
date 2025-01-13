@@ -5,7 +5,7 @@ vendor: Sanden
 product_type: Sweden
 created_at: 2014-07-22T19:52:38-04:00
 handle: american-lottery-ticket
-updated_at: 2024-01-17T14:25:55-05:00
+updated_at: 2024-12-20T07:18:36-05:00
 published_at: 2011-06-02T14:26:00-04:00
 tags: fun, gifts, it's art!, x.ica
 status: active

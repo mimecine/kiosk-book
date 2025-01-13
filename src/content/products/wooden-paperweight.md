@@ -5,7 +5,7 @@ vendor: None
 product_type: "Japan #2"
 created_at: 2014-08-05T00:17:59-04:00
 handle: wooden-paperweight
-updated_at: 2024-01-04T12:16:33-05:00
+updated_at: 2024-12-03T16:54:10-05:00
 published_at: 2011-06-02T15:00:00-04:00
 tags: it's art!, office, practical
 status: active

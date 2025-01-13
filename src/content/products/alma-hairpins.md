@@ -5,7 +5,7 @@ vendor: None
 product_type: Mexico
 created_at: 2014-07-22T19:52:13-04:00
 handle: alma-hairpins
-updated_at: 2024-01-16T16:47:44-05:00
+updated_at: 2024-12-27T02:34:07-05:00
 published_at: 2011-06-02T14:26:00-04:00
 tags: x.ica
 status: active

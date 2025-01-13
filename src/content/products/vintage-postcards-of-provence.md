@@ -5,7 +5,7 @@ vendor: None
 product_type: Provence
 created_at: 2014-08-05T00:15:47-04:00
 handle: vintage-postcards-of-provence
-updated_at: 2024-01-04T12:15:03-05:00
+updated_at: 2024-12-10T13:45:04-05:00
 published_at: 2011-06-02T14:58:00-04:00
 tags: ""
 status: active

@@ -5,7 +5,7 @@ vendor: None
 product_type: "Japan #2"
 created_at: 2014-07-22T19:57:59-04:00
 handle: cedar-tea-box
-updated_at: 2024-01-04T12:16:25-05:00
+updated_at: 2024-12-09T10:20:58-05:00
 published_at: 2013-01-25T17:03:00-05:00
 tags: gifts, home, practical
 status: active

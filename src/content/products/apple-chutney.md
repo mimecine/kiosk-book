@@ -5,7 +5,7 @@ vendor: Red Sky Trading
 product_type: "America #4"
 created_at: 2014-07-22T19:52:49-04:00
 handle: apple-chutney
-updated_at: 2024-01-17T14:40:18-05:00
+updated_at: 2024-12-12T02:06:04-05:00
 published_at: 2011-11-17T17:10:00-05:00
 tags: gifts, kitchen, x.ica
 status: active

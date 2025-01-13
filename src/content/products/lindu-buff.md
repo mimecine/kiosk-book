@@ -5,7 +5,7 @@ vendor: None
 product_type: Iceland
 created_at: 2014-08-04T23:54:46-04:00
 handle: lindu-buff
-updated_at: 2024-01-07T05:56:48-05:00
+updated_at: 2024-12-24T16:56:18-05:00
 published_at: 2011-06-02T14:44:00-04:00
 tags: ""
 status: active

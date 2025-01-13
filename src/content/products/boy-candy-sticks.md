@@ -5,7 +5,7 @@ vendor: None
 product_type: "Japan #2"
 created_at: 2014-07-22T19:55:55-04:00
 handle: boy-candy-sticks
-updated_at: 2024-01-04T12:16:24-05:00
+updated_at: 2024-12-26T06:58:33-05:00
 published_at: 2011-06-02T14:28:00-04:00
 tags: ""
 status: active

@@ -5,7 +5,7 @@ vendor: KIOSK
 product_type: Italy 1
 created_at: 2021-04-28T10:27:53-04:00
 handle: triangle-patterned-notebook
-updated_at: 2024-01-04T12:17:26-05:00
+updated_at: 2024-12-16T06:00:28-05:00
 published_at: 2021-04-28T10:27:48-04:00
 tags: ""
 status: active

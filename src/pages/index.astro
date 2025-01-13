@@ -11,8 +11,8 @@ import "../styles/book-base.css";
 
 const title = "KIOSK: The Book";
 const full_book = false; 
-const exhibit_sample = full_book?1000:12;
-const product_sample = full_book?1000:12;
+const exhibit_sample = full_book?1000:3;
+const product_sample = full_book?1000:14;
 
 Object.groupBy = groupBy.shim();
 
@@ -20,7 +20,8 @@ let pIndex = 1;
 let products = (await getCollection("products"))
   .filter((p) => p.data.status == "active" && p.data.images?.length)
   .map((p) => {
-    p.rendered = marked.parse(p.body);
+    if(!p.body) console.log("No Body", p.data.title);
+    p.rendered = marked.parse(p.body +'');
     p.rendered = wrapLinks(p.rendered);
     return p;
   })
@@ -31,7 +32,8 @@ let products = (await getCollection("products"))
     [p.data.prefix, p.data.before_exhibit, p.data.clean_title] = p.data.title
       .split(":")
       .map((t) => t.trim());
-      p.rendered = marked.parse(p.body);
+      if(!p.body) console.log("No Body", p.data.title);
+      p.rendered = marked.parse(p.body + '');
       p.rendered = wrapLinks(p.rendered);
       return p;
 });
@@ -113,7 +115,7 @@ function wrapLinks(inputString) {
 var initial = null;
 function newInitial(word) {
   if (word[0]?.match(/[a-zA-Z]/) && word[0] != initial) {
-    console.log("new initial ", word[0]);
+    // console.log("new initial ", word[0]);
     initial = word[0];
     return initial;
   }
@@ -381,7 +383,7 @@ function slugify(text) {
                     <div class="font-bold">
                       <a class="xref !border-b-0 text-red italic text-xs" href={`#${p.data.handle}`}>
                         Figure {p._index}
-                        {p.data.title.length > 32 && console.log(p.data.title.length + ':' + p.data.title)}
+                        {p.data.title.length > 32 && console.log('WARN: Long title - ',p.data.title.length + ':' + p.data.title)}
                       </a>
                     </div>
                   </div>

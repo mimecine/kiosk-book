@@ -5,7 +5,7 @@ vendor: KIOSK
 product_type: Italy 1
 created_at: 2021-04-28T10:28:07-04:00
 handle: drawing-pad-rigacci
-updated_at: 2024-01-04T12:17:25-05:00
+updated_at: 2024-12-11T16:22:14-05:00
 published_at: 2021-04-28T10:28:02-04:00
 tags: ""
 status: active

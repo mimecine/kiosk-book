@@ -5,7 +5,7 @@ vendor: KIOSK
 product_type: Kiosk
 created_at: 2021-05-12T07:25:46-04:00
 handle: rollfix-1
-updated_at: 2023-12-27T12:17:04-05:00
+updated_at: 2024-12-21T00:31:00-05:00
 published_at: 2021-05-12T07:25:44-04:00
 tags: postarchive, x.h2019, x.h2020
 status: active

@@ -5,7 +5,7 @@ vendor: None
 product_type: Iceland
 created_at: 2014-08-05T00:02:37-04:00
 handle: pipp-mint-milk-chocolate
-updated_at: 2024-01-07T05:58:42-05:00
+updated_at: 2024-12-09T20:48:46-05:00
 published_at: 2011-06-02T14:49:00-04:00
 tags: ""
 status: active

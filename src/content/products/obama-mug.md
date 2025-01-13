@@ -5,7 +5,7 @@ vendor: None
 product_type: Obama 2012
 created_at: 2014-08-04T23:59:08-04:00
 handle: obama-mug
-updated_at: 2023-12-30T21:42:16-05:00
+updated_at: 2024-12-16T08:27:21-05:00
 published_at: 2012-10-12T15:01:00-04:00
 tags: fun, gifts, home, practical
 status: active

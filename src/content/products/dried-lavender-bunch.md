@@ -5,7 +5,7 @@ vendor: None
 product_type: Provence
 created_at: 2014-07-22T20:01:46-04:00
 handle: dried-lavender-bunch
-updated_at: 2024-01-04T12:15:03-05:00
+updated_at: 2024-12-25T05:09:10-05:00
 published_at: 2011-06-02T14:32:00-04:00
 tags: ""
 status: active

@@ -5,7 +5,7 @@ vendor: KIOSK
 product_type: The later years
 created_at: 2023-12-27T09:53:00-05:00
 handle: big-cotton-canvas-bag
-updated_at: 2024-01-19T09:53:19-05:00
+updated_at: 2024-12-10T00:06:36-05:00
 published_at: 2023-12-27T09:52:43-05:00
 tags: postarchive
 status: active

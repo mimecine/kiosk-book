@@ -5,7 +5,7 @@ vendor: KIOSK
 product_type: The later years
 created_at: 2023-12-27T09:52:41-05:00
 handle: mug
-updated_at: 2024-01-01T21:05:57-05:00
+updated_at: 2024-12-28T00:44:36-05:00
 published_at: 2023-12-27T09:52:36-05:00
 tags: 0523.active, postarchive
 status: active

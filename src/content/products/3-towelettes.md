@@ -5,7 +5,7 @@ vendor: None
 product_type: Greece
 created_at: 2014-07-22T19:51:21-04:00
 handle: 3-towelettes
-updated_at: 2024-01-15T09:21:51-05:00
+updated_at: 2024-12-20T01:23:52-05:00
 published_at: 2013-11-14T20:00:00-05:00
 tags: x.ica
 status: active

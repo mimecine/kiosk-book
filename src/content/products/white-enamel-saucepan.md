@@ -5,7 +5,7 @@ vendor: None
 product_type: "Japan #2"
 created_at: 2014-08-05T00:16:36-04:00
 handle: white-enamel-saucepan
-updated_at: 2024-01-04T12:16:32-05:00
+updated_at: 2024-12-08T20:58:11-05:00
 published_at: 2011-06-02T14:59:00-04:00
 tags: kitchen
 status: active

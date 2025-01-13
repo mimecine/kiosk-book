@@ -5,7 +5,7 @@ vendor: None
 product_type: Mini-Exhibitions
 created_at: 2014-07-22T19:51:49-04:00
 handle: after-modern-history-books
-updated_at: 2024-01-16T16:15:46-05:00
+updated_at: 2024-11-30T11:07:14-05:00
 published_at: 2011-11-28T06:42:00-05:00
 tags: gifts, personal, x.ica
 status: active

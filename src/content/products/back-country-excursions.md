@@ -5,7 +5,7 @@ vendor: Wood Thrush Books
 product_type: "America #4"
 created_at: 2014-07-22T19:53:07-04:00
 handle: back-country-excursions
-updated_at: 2024-01-17T16:04:11-05:00
+updated_at: 2024-12-28T05:39:59-05:00
 published_at: 2011-11-17T17:10:00-05:00
 tags: gifts, personal
 status: active

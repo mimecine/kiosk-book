@@ -5,7 +5,7 @@ vendor: None
 product_type: "Japan #2"
 created_at: 2014-07-22T20:03:24-04:00
 handle: feather-duster
-updated_at: 2024-01-04T12:16:26-05:00
+updated_at: 2024-12-07T03:11:03-05:00
 published_at: 2011-06-02T14:34:00-04:00
 tags: hardware, home, practical
 status: active

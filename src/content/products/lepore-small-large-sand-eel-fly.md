@@ -5,7 +5,7 @@ vendor: None
 product_type: "America #1"
 created_at: 2014-08-04T23:54:32-04:00
 handle: lepore-small-large-sand-eel-fly
-updated_at: 2023-12-30T20:08:05-05:00
+updated_at: 2024-12-25T07:04:14-05:00
 published_at: 2011-06-02T14:44:00-04:00
 tags: ""
 status: active

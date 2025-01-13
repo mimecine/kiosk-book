@@ -5,7 +5,7 @@ vendor: KIOSK
 product_type: Misc
 created_at: 2021-05-12T08:11:52-04:00
 handle: douk-douk-knife
-updated_at: 2023-12-27T12:13:57-05:00
+updated_at: 2024-12-24T03:04:22-05:00
 published_at: 2021-05-12T08:11:48-04:00
 tags: postarchive, x.h2020
 status: active

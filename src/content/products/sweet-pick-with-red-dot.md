@@ -5,7 +5,7 @@ vendor: None
 product_type: "Japan #2"
 created_at: 2014-08-05T00:11:54-04:00
 handle: sweet-pick-with-red-dot
-updated_at: 2024-01-04T12:16:32-05:00
+updated_at: 2024-11-29T08:41:25-05:00
 published_at: 2011-06-02T14:55:00-04:00
 tags: kitchen
 status: active

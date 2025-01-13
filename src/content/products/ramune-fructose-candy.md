@@ -5,7 +5,7 @@ vendor: None
 product_type: "Japan #2"
 created_at: 2014-08-05T00:04:16-04:00
 handle: ramune-fructose-candy
-updated_at: 2024-01-04T12:16:30-05:00
+updated_at: 2024-11-27T18:28:40-05:00
 published_at: 2011-06-02T14:50:00-04:00
 tags: ""
 status: active

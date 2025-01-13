@@ -5,7 +5,7 @@ vendor: None
 product_type: Iceland
 created_at: 2014-07-22T19:59:30-04:00
 handle: cognac-bread
-updated_at: 2024-01-02T14:51:53-05:00
+updated_at: 2024-12-21T15:41:07-05:00
 published_at: 2011-06-02T14:31:00-04:00
 tags: ""
 status: active

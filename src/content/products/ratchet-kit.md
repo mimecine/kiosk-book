@@ -5,7 +5,7 @@ vendor: Chapman Manufacturing Company
 product_type: 9 for 2009
 created_at: 2014-08-05T00:04:21-04:00
 handle: ratchet-kit
-updated_at: 2024-01-04T12:14:19-05:00
+updated_at: 2024-12-23T14:03:13-05:00
 published_at: 2011-06-02T14:50:00-04:00
 tags: hardware, practical
 status: active

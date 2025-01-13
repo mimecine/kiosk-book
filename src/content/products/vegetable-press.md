@@ -5,7 +5,7 @@ vendor: KIOSK
 product_type: Misc
 created_at: 2021-05-12T08:11:48-04:00
 handle: vegetable-press
-updated_at: 2023-12-27T12:13:56-05:00
+updated_at: 2024-12-14T13:49:33-05:00
 published_at: 2021-05-12T08:11:44-04:00
 tags: postarchive, x.h2020
 status: active

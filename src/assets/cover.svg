@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg width="100%" height="100%" viewBox="0 0 2481 3508" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
-    <g transform="matrix(1.13777,0,0,1.04974,-304.297,-303.836)">
+    <g transform="matrix(1.13777,0,0,1.04974,-275.187,-218.282)">
         <g transform="matrix(357.221,0,0,357.221,1377.72,563.917)">
         </g>
         <text x="246.399px" y="563.917px" style="font-family:'Helvetica-Bold', 'Helvetica';font-weight:700;font-size:357.221px;">KIOSK</text>
     </g>
-    <g transform="matrix(1.40407,0,0,1.28003,-377.391,-510.418)">
+    <g transform="matrix(1.40407,0,0,1.28003,-348.282,-424.864)">
         <g transform="matrix(1,0,0,1,-2.27374e-13,3.38249)">
             <rect x="274.482" y="706.224" width="295.006" height="295.006" style="fill:white;stroke:black;stroke-width:6.2px;"/>
         </g>
@@ -119,7 +119,7 @@
             <rect x="274.482" y="706.224" width="295.006" height="295.006" style="fill:white;stroke:black;stroke-width:6.2px;"/>
         </g>
     </g>
-    <g>
+    <g transform="matrix(1,0,0,1,29.1096,85.5539)">
         <g transform="matrix(1.40407,0,0,1.28003,-461.68,-510.418)">
             <rect x="1812.03" y="1606.9" width="289.009" height="329.016" style="fill:white;"/>
         </g>
@@ -160,7 +160,7 @@
             <path d="M999.841,2544.82C889.88,2505.12 871.448,2469.84 797.73,2526.9C725.375,2582.91 669.593,2471.05 590.57,2592.58C566.684,2629.31 544.739,2616.86 543.821,2660.98C543.492,2676.76 541.313,2781.5 639.797,2833.46C674.251,2851.64 800.96,2820.02 840.717,2852.68C894.41,2896.78 1074.45,2844.7 1078.62,2796.95C1087.62,2693.78 1016.13,2706.01 1026.7,2594.87C1030.55,2554.32 1017.94,2558.4 993.303,2525.48L986.17,2543.96" style="fill:white;"/>
         </g>
     </g>
-    <g>
+    <g transform="matrix(1,0,0,1,29.1096,85.5539)">
         <g transform="matrix(0.856253,0,0,0.856253,92.8141,281.142)">
             <rect x="506.543" y="1837.54" width="207.104" height="188.808" style="fill:white;stroke:black;stroke-width:9.73px;"/>
         </g>
@@ -186,9 +186,9 @@
             <rect x="506.543" y="1837.54" width="207.104" height="188.808" style="fill:white;stroke:black;stroke-width:9.73px;"/>
         </g>
     </g>
-    <g transform="matrix(1,0,0,1,-278.822,99.912)">
-        <g transform="matrix(66.6667,0,0,66.6667,2697.13,3079.23)">
+    <g transform="matrix(1,0,0,1,246.926,375.971)">
+        <g transform="matrix(66.6667,0,0,66.6667,2217.05,3079.23)">
         </g>
-        <text x="1056.86px" y="3079.23px" style="font-family:'CourierNewPS-BoldMT', 'Courier New', monospace;font-weight:700;font-size:66.667px;fill:rgb(255,0,0);">ALISA GRIFO AND MARCO ROMENY PLAYING SHOP</text>
+        <text x="1856.99px" y="3079.23px" style="font-family:'CourierNewPS-BoldMT', 'Courier New', monospace;font-weight:700;font-size:66.667px;fill:rgb(255,0,0);">THE BOOK</text>
     </g>
 </svg>

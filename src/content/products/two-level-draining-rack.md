@@ -5,7 +5,7 @@ vendor: Filtex
 product_type: Italy 2
 created_at: 2021-04-28T10:29:37-04:00
 handle: two-level-draining-rack
-updated_at: 2023-12-30T12:56:39-05:00
+updated_at: 2024-12-07T16:43:23-05:00
 published_at: 2021-04-28T10:29:36-04:00
 tags: ""
 status: active

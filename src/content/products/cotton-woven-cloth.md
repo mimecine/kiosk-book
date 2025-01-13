@@ -5,7 +5,7 @@ vendor: KIOSK
 product_type: The later years
 created_at: 2023-12-27T09:53:47-05:00
 handle: cotton-woven-cloth
-updated_at: 2024-01-01T21:05:54-05:00
+updated_at: 2024-11-30T14:47:19-05:00
 published_at: 2023-12-27T09:53:43-05:00
 tags: postarchive
 status: active

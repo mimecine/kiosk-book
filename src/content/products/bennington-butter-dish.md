@@ -5,7 +5,7 @@ vendor: Bennington Potters
 product_type: "America #4"
 created_at: 2014-07-22T19:53:44-04:00
 handle: bennington-butter-dish
-updated_at: 2024-01-17T16:39:08-05:00
+updated_at: 2024-11-29T02:21:15-05:00
 published_at: 2011-11-17T17:10:00-05:00
 tags: kitchen
 status: active

@@ -5,7 +5,7 @@ vendor: KIOSK
 product_type: Kiosk
 created_at: 2021-05-12T07:26:12-04:00
 handle: cork-pourer
-updated_at: 2023-12-27T12:17:05-05:00
+updated_at: 2024-12-09T17:49:10-05:00
 published_at: 2021-05-12T07:26:09-04:00
 tags: postarchive, x.h2019, x.h2020
 status: active

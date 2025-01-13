@@ -5,7 +5,7 @@ vendor: None
 product_type: Sweden
 created_at: 2014-08-05T00:15:59-04:00
 handle: waistband-from-the-swedish-costume
-updated_at: 2024-03-13T14:33:21-04:00
+updated_at: 2024-12-03T00:28:16-05:00
 published_at: 2011-06-02T14:58:00-04:00
 tags: ""
 status: active

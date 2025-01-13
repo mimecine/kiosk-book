@@ -5,7 +5,7 @@ vendor: KIOSK ARCHIVE
 product_type: Mini-Exhibitions
 created_at: 2015-10-05T14:13:33-04:00
 handle: face-volume-1
-updated_at: 2024-01-15T10:09:27-05:00
+updated_at: 2024-12-22T20:01:11-05:00
 published_at: 2015-10-05T14:13:00-04:00
 tags: x.export, x.ica
 status: active

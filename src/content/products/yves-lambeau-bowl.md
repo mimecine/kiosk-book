@@ -5,7 +5,7 @@ vendor: Yves Lambeau
 product_type: Provence
 created_at: 2014-08-05T00:18:59-04:00
 handle: yves-lambeau-bowl
-updated_at: 2024-01-04T12:15:05-05:00
+updated_at: 2024-12-27T02:46:48-05:00
 published_at: 2011-06-02T15:00:00-04:00
 tags: gifts, it's art!, kitchen
 status: active

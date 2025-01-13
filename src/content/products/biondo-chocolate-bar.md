@@ -5,7 +5,7 @@ vendor: KIOSK
 product_type: Italy 1
 created_at: 2021-04-28T10:27:56-04:00
 handle: biondo-chocolate-bar
-updated_at: 2024-01-04T12:17:27-05:00
+updated_at: 2024-12-23T19:39:05-05:00
 published_at: 2021-04-28T10:27:54-04:00
 tags: x.h2020
 status: active

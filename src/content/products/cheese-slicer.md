@@ -5,7 +5,7 @@ vendor: Scandicraft
 product_type: Groundhog Day
 created_at: 2014-07-22T19:58:20-04:00
 handle: cheese-slicer
-updated_at: 2024-01-02T14:47:11-05:00
+updated_at: 2024-12-03T15:01:06-05:00
 published_at: 2011-06-02T14:30:00-04:00
 tags: kitchen
 status: active

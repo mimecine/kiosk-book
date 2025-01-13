@@ -5,7 +5,7 @@ vendor: None
 product_type: Japan
 created_at: 2014-08-05T00:07:28-04:00
 handle: sweet-picks
-updated_at: 2024-03-13T14:38:53-04:00
+updated_at: 2024-12-22T07:43:22-05:00
 published_at: 2011-06-02T14:53:00-04:00
 tags: ""
 status: active

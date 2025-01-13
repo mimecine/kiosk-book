@@ -5,7 +5,7 @@ vendor: KIOSK
 product_type: The later years
 created_at: 2023-12-27T10:12:14-05:00
 handle: key-pouch
-updated_at: 2024-04-21T15:43:47-04:00
+updated_at: 2024-12-23T02:07:30-05:00
 published_at: 2023-12-27T10:12:06-05:00
 tags: 0523.active, postarchive
 status: active

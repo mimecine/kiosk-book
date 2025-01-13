@@ -5,7 +5,7 @@ vendor: None
 product_type: Iceland
 created_at: 2014-08-05T00:02:33-04:00
 handle: pipp-caramel-bar
-updated_at: 2024-01-07T05:58:19-05:00
+updated_at: 2024-12-11T23:52:55-05:00
 published_at: 2011-06-02T14:49:00-04:00
 tags: ""
 status: active

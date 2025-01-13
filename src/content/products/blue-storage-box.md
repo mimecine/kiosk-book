@@ -5,7 +5,7 @@ vendor: Kenichi
 product_type: "Japan #2"
 created_at: 2014-07-22T19:55:30-04:00
 handle: blue-storage-box
-updated_at: 2024-01-04T12:16:24-05:00
+updated_at: 2024-12-03T21:01:32-05:00
 published_at: 2012-07-15T19:58:00-04:00
 tags: hardware, office, practical
 status: active

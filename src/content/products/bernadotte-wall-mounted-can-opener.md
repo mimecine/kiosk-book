@@ -5,7 +5,7 @@ vendor: None
 product_type: Sweden
 created_at: 2014-07-22T19:53:54-04:00
 handle: bernadotte-wall-mounted-can-opener
-updated_at: 2024-01-17T16:54:01-05:00
+updated_at: 2024-12-07T19:40:56-05:00
 published_at: 2011-06-02T14:27:00-04:00
 tags: ""
 status: active

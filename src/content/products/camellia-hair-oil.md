@@ -5,7 +5,7 @@ vendor: None
 product_type: Japan
 created_at: 2014-07-22T19:57:12-04:00
 handle: camellia-hair-oil
-updated_at: 2023-12-30T20:30:45-05:00
+updated_at: 2024-12-07T10:01:26-05:00
 published_at: 2011-06-02T14:29:00-04:00
 tags: ""
 status: active

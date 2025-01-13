@@ -5,7 +5,7 @@ vendor: Kenichi
 product_type: Japan
 created_at: 2014-07-22T19:53:18-04:00
 handle: bamboo-steamer-basket
-updated_at: 2024-01-17T16:25:24-05:00
+updated_at: 2024-12-24T00:07:24-05:00
 published_at: 2011-06-02T14:27:00-04:00
 tags: home, kitchen
 status: active

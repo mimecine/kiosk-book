@@ -5,7 +5,7 @@ vendor: KIOSK
 product_type: Italy 1
 created_at: 2021-04-28T10:28:45-04:00
 handle: bottle-carrier
-updated_at: 2024-01-04T12:17:23-05:00
+updated_at: 2024-12-26T02:59:45-05:00
 published_at: 2021-04-28T10:28:37-04:00
 tags: ""
 status: active

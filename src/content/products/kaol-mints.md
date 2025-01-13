@@ -5,7 +5,7 @@ vendor: None
 product_type: "Japan #2"
 created_at: 2014-07-22T20:09:43-04:00
 handle: kaol-mints
-updated_at: 2024-01-04T12:16:27-05:00
+updated_at: 2024-12-22T18:54:53-05:00
 published_at: 2011-06-02T14:38:00-04:00
 tags: gifts, personal
 status: active

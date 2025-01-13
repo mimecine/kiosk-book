@@ -5,7 +5,7 @@ vendor: None
 product_type: "Japan #2"
 created_at: 2014-07-22T20:02:41-04:00
 handle: enamel-storage-container
-updated_at: 2024-01-04T12:16:25-05:00
+updated_at: 2024-11-28T18:20:50-05:00
 published_at: 2011-06-02T14:33:00-04:00
 tags: home, kitchen
 status: active

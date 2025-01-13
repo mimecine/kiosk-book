@@ -5,7 +5,7 @@ vendor: None
 product_type: Germany
 created_at: 2014-07-22T20:10:51-04:00
 handle: kwik-organizing-book-project-journal
-updated_at: 2024-01-21T08:14:48-05:00
+updated_at: 2024-12-27T07:29:40-05:00
 published_at: 2011-06-02T14:43:00-04:00
 tags: ""
 status: active

@@ -5,7 +5,7 @@ vendor: KIOSK
 product_type: Kiosk
 created_at: 2021-05-12T07:25:38-04:00
 handle: bless-bag-for-the-ica
-updated_at: 2023-12-30T21:29:28-05:00
+updated_at: 2024-12-25T07:59:45-05:00
 published_at: 2021-05-12T07:25:30-04:00
 tags: postarchive
 status: active

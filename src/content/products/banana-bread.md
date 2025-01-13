@@ -5,7 +5,7 @@ vendor: None
 product_type: Iceland
 created_at: 2014-07-22T19:53:20-04:00
 handle: banana-bread
-updated_at: 2024-01-06T19:38:17-05:00
+updated_at: 2024-12-06T07:08:23-05:00
 published_at: 2011-06-02T14:27:00-04:00
 tags: ""
 status: active

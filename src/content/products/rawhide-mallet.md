@@ -5,7 +5,7 @@ vendor: None
 product_type: 8 Things
 created_at: 2014-08-05T00:04:28-04:00
 handle: rawhide-mallet
-updated_at: 2024-01-04T12:12:25-05:00
+updated_at: 2024-12-09T09:43:02-05:00
 published_at: 2011-06-02T14:50:00-04:00
 tags: ""
 status: active

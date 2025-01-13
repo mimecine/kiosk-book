@@ -5,7 +5,7 @@ vendor: None
 product_type: Germany
 created_at: 2014-07-22T19:53:34-04:00
 handle: bavarian-gamsbart-stag-pin-large
-updated_at: 2024-01-17T17:11:01-05:00
+updated_at: 2024-12-22T10:40:09-05:00
 published_at: 2011-06-02T14:27:00-04:00
 tags: ""
 status: active

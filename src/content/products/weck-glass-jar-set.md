@@ -5,7 +5,7 @@ vendor: None
 product_type: Germany
 created_at: 2014-08-05T00:16:22-04:00
 handle: weck-glass-jar-set
-updated_at: 2023-12-30T20:24:59-05:00
+updated_at: 2024-12-13T13:51:49-05:00
 published_at: 2011-06-02T14:58:00-04:00
 tags: ""
 status: active

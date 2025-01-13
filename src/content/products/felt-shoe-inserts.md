@@ -5,7 +5,7 @@ vendor: Ullcentrum
 product_type: Groundhog Day
 created_at: 2014-07-22T20:03:26-04:00
 handle: felt-shoe-inserts
-updated_at: 2023-12-30T20:01:35-05:00
+updated_at: 2024-12-27T04:31:34-05:00
 published_at: 2011-10-17T17:20:00-04:00
 tags: personal, practical
 status: active

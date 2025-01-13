@@ -5,7 +5,7 @@ vendor: None
 product_type: Mexico
 created_at: 2014-07-22T19:51:15-04:00
 handle: 2-small-brown-ceramic-cups
-updated_at: 2024-01-15T09:00:53-05:00
+updated_at: 2024-12-04T03:45:48-05:00
 published_at: 2011-06-02T14:19:00-04:00
 tags: x.ica
 status: active

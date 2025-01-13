@@ -5,7 +5,7 @@ vendor: None
 product_type: Iceland
 created_at: 2014-07-22T20:02:15-04:00
 handle: eitt-sett
-updated_at: 2024-01-06T19:39:47-05:00
+updated_at: 2024-11-29T15:33:21-05:00
 published_at: 2011-06-02T14:33:00-04:00
 tags: ""
 status: active

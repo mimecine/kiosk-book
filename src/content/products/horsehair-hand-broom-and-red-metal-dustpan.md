@@ -5,7 +5,7 @@ vendor: Iris Hantverk
 product_type: Sweden
 created_at: 2014-07-22T20:08:18-04:00
 handle: horsehair-hand-broom-and-red-metal-dustpan
-updated_at: 2023-12-30T20:03:08-05:00
+updated_at: 2024-12-22T15:51:39-05:00
 published_at: 2011-07-08T03:51:00-04:00
 tags: hardware, home, practical
 status: active

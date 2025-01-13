@@ -5,7 +5,7 @@ vendor: None
 product_type: Mexico
 created_at: 2014-07-22T19:51:17-04:00
 handle: 3-metal-puzzles
-updated_at: 2024-01-15T09:02:57-05:00
+updated_at: 2024-12-09T06:20:56-05:00
 published_at: 2011-06-02T14:19:00-04:00
 tags: x.ica
 status: active

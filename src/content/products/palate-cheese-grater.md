@@ -5,7 +5,7 @@ vendor: KIOSK
 product_type: Italy 1
 created_at: 2021-04-28T10:28:37-04:00
 handle: palate-cheese-grater
-updated_at: 2024-01-04T12:17:24-05:00
+updated_at: 2024-12-08T19:56:29-05:00
 published_at: 2021-04-28T10:28:33-04:00
 tags: ""
 status: active

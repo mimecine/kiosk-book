@@ -5,7 +5,7 @@ vendor: None
 product_type: Hong Kong
 created_at: 2014-08-05T00:16:12-04:00
 handle: watermelon-ball
-updated_at: 2023-12-30T21:56:30-05:00
+updated_at: 2024-12-21T23:29:08-05:00
 published_at: 2011-06-02T14:58:00-04:00
 tags: ""
 status: active

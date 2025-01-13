@@ -5,7 +5,7 @@ vendor: KIOSK ARCHIVE
 product_type: 8 Things
 created_at: 2015-10-05T14:03:35-04:00
 handle: serrote-money-notebook
-updated_at: 2024-01-04T12:12:24-05:00
+updated_at: 2024-12-27T11:05:13-05:00
 published_at: 2015-10-05T14:02:00-04:00
 tags: x.export
 status: active

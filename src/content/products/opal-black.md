@@ -5,7 +5,7 @@ vendor: None
 product_type: Iceland
 created_at: 2014-08-04T23:59:52-04:00
 handle: opal-black
-updated_at: 2024-01-07T05:57:36-05:00
+updated_at: 2024-12-08T22:05:15-05:00
 published_at: 2011-06-02T14:47:00-04:00
 tags: ""
 status: active

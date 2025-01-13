@@ -5,7 +5,7 @@ vendor: None
 product_type: Iceland
 created_at: 2014-07-22T20:01:44-04:00
 handle: draumur
-updated_at: 2024-01-06T19:39:38-05:00
+updated_at: 2024-12-20T08:37:27-05:00
 published_at: 2011-06-02T14:32:00-04:00
 tags: ""
 status: active

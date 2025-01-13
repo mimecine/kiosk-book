@@ -5,7 +5,7 @@ vendor: KIOSK
 product_type: Misc
 created_at: 2021-05-12T08:11:26-04:00
 handle: fuji-sencha-tea-by-postcard-teas-london
-updated_at: 2023-12-27T12:13:55-05:00
+updated_at: 2024-12-22T21:40:25-05:00
 published_at: 2021-05-12T08:11:23-04:00
 tags: postarchive, x.h2020
 status: active

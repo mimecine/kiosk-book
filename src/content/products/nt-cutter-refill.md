@@ -5,7 +5,7 @@ vendor: None
 product_type: "Japan #2"
 created_at: 2014-08-04T23:58:47-04:00
 handle: nt-cutter-refill
-updated_at: 2024-01-04T12:16:27-05:00
+updated_at: 2024-12-25T03:03:04-05:00
 published_at: 2011-06-02T14:47:00-04:00
 tags: ""
 status: active

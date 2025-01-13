@@ -5,7 +5,7 @@ vendor: None
 product_type: "Japan #2"
 created_at: 2014-08-04T23:58:36-04:00
 handle: noisemaker-fukimodoshi
-updated_at: 2024-01-04T12:16:28-05:00
+updated_at: 2024-11-27T23:09:30-05:00
 published_at: 2011-06-02T14:47:00-04:00
 tags: ""
 status: active

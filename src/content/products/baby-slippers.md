@@ -5,7 +5,7 @@ vendor: Singing Spindle Spinnery
 product_type: "America #4"
 created_at: 2014-07-22T19:53:04-04:00
 handle: baby-slippers
-updated_at: 2024-01-17T15:30:18-05:00
+updated_at: 2024-12-27T22:24:52-05:00
 published_at: 2011-11-17T17:10:00-05:00
 tags: gifts, kids
 status: active

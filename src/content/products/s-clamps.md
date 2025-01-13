@@ -5,7 +5,7 @@ vendor: KIOSK ARCHIVE
 product_type: "Japan #2"
 created_at: 2015-10-05T13:59:15-04:00
 handle: s-clamps
-updated_at: 2024-01-04T12:16:30-05:00
+updated_at: 2024-12-10T10:25:19-05:00
 published_at: 2015-10-05T13:58:00-04:00
 tags: ""
 status: active

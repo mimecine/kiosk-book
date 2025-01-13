@@ -5,7 +5,7 @@ vendor: None
 product_type: "Japan #2"
 created_at: 2014-08-05T00:09:29-04:00
 handle: snowflake-dish
-updated_at: 2024-01-04T12:16:31-05:00
+updated_at: 2024-12-08T11:16:09-05:00
 published_at: 2011-06-02T14:54:00-04:00
 tags: ""
 status: active

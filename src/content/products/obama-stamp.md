@@ -5,7 +5,7 @@ vendor: Joseph Treu
 product_type: 9 for 2009
 created_at: 2014-08-04T23:59:14-04:00
 handle: obama-stamp
-updated_at: 2024-01-04T12:14:20-05:00
+updated_at: 2024-12-12T03:31:15-05:00
 published_at: 2011-06-02T14:47:00-04:00
 tags: fun
 status: active

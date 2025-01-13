@@ -5,7 +5,7 @@ vendor: None
 product_type: India
 created_at: 2014-07-22T19:54:02-04:00
 handle: bicycle-bell
-updated_at: 2024-01-19T09:50:08-05:00
+updated_at: 2024-12-21T15:35:21-05:00
 published_at: 2011-07-09T16:49:00-04:00
 tags: fun, kids, practical
 status: active

@@ -5,7 +5,7 @@ vendor: Kenichi
 product_type: "Japan #2"
 created_at: 2014-07-22T20:03:08-04:00
 handle: eyeglass-case
-updated_at: 2024-01-04T12:16:26-05:00
+updated_at: 2024-12-21T16:37:21-05:00
 published_at: 2012-07-15T19:41:00-04:00
 tags: personal
 status: active

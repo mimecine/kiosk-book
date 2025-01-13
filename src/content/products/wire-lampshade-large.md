@@ -5,7 +5,7 @@ vendor: None
 product_type: "Japan #2"
 created_at: 2014-08-05T00:17:23-04:00
 handle: wire-lampshade-large
-updated_at: 2024-01-04T12:16:32-05:00
+updated_at: 2024-12-27T15:01:14-05:00
 published_at: 2011-06-02T14:59:00-04:00
 tags: hardware, home, office, practical
 status: active

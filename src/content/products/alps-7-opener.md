@@ -5,7 +5,7 @@ vendor: None
 product_type: "Japan #2"
 created_at: 2014-07-22T19:52:17-04:00
 handle: alps-7-opener
-updated_at: 2024-01-16T16:49:02-05:00
+updated_at: 2024-12-23T18:42:33-05:00
 published_at: 2011-06-02T14:26:00-04:00
 tags: x.ica
 status: active

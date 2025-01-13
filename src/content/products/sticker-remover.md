@@ -5,7 +5,7 @@ vendor: None
 product_type: Groundhog Day
 created_at: 2014-08-05T00:10:04-04:00
 handle: sticker-remover
-updated_at: 2024-01-07T06:04:55-05:00
+updated_at: 2024-12-21T22:03:31-05:00
 published_at: 2011-06-02T14:55:00-04:00
 tags: home, practical
 status: active

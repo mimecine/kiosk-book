@@ -5,7 +5,7 @@ vendor: KIOSK
 product_type: Kiosk
 created_at: 2021-05-12T07:26:08-04:00
 handle: marseille-suit
-updated_at: 2023-12-27T12:17:05-05:00
+updated_at: 2024-12-27T09:11:24-05:00
 published_at: 2021-05-12T07:26:06-04:00
 tags: postarchive
 status: active

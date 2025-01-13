@@ -5,7 +5,7 @@ vendor: None
 product_type: 9 for 2009
 created_at: 2014-08-05T00:08:42-04:00
 handle: slim-pot-1
-updated_at: 2024-01-04T12:14:20-05:00
+updated_at: 2024-11-28T22:22:30-05:00
 published_at: 2011-07-06T18:34:00-04:00
 tags: kitchen, practical
 status: active

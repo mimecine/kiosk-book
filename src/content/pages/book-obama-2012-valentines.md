@@ -1,11 +1,11 @@
 ---
 id: 97688289439
-title: BOOK:Obama 2012:Valentines
+title: BOOK:Obama 2012:Valentines Spam
 shop_id: 5892901
 handle: book-obama-2012-valentines
 body_html: >-
-  <p data-mce-fragment="1">On occasion we send spam to the suckers who signed up
-  to our mailing list. On occasion they write back. This reply made tears roll
+  <p data-mce-fragment="1">On occasion we send spam to those who signed up to
+  our mailing list. On occasion they write back. This exchange had tears roll
   down my face.<br><br>To: you<br>From: “KIOSK
   &lt;info@kioskkiosk.com&gt;”<br>Subject:
   Valentines<br><br><em>Dearest,</em><br><br><em>Forgive me, for this is not an
@@ -89,7 +89,7 @@ body_html: >-
   <p data-mce-fragment="1"><em>Forever yours,</em><br><br><em>Jess</em></p>
 author: null
 created_at: 2024-06-12T19:41:55-04:00
-updated_at: 2024-06-12T20:00:12-04:00
+updated_at: 2024-06-15T14:27:54-04:00
 published_at: 2024-06-12T19:41:55-04:00
 template_suffix: ""
 admin_graphql_api_id: gid://shopify/OnlineStorePage/97688289439
@@ -97,7 +97,7 @@ metafields: []
 
 ---
 
-On occasion we send spam to the suckers who signed up to our mailing list. On occasion they write back. This reply made tears roll down my face.  
+On occasion we send spam to those who signed up to our mailing list. On occasion they write back. This exchange had tears roll down my face.  
   
 To: you  
 From: “KIOSK <info@kioskkiosk.com>”  

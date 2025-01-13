@@ -5,7 +5,7 @@ vendor: None
 product_type: "Japan #2"
 created_at: 2014-07-22T19:57:40-04:00
 handle: cast-iron-persimmon-stamp
-updated_at: 2024-01-04T12:16:24-05:00
+updated_at: 2024-12-07T22:47:37-05:00
 published_at: 2011-06-02T14:30:00-04:00
 tags: gifts, office
 status: active

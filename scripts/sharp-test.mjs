@@ -1,7 +1,7 @@
 import Sharp from "sharp";
 import fg from "fast-glob";
 
-const images = await fg('src/content/products/a*/*0.{jpg,jpeg,png}');
+const images = await fg('src/content/products/b*/*0.{jpg,jpeg,png}');
 
 // images.map(image=>{
 //     new Sharp(image)
@@ -17,7 +17,8 @@ const images = await fg('src/content/products/a*/*0.{jpg,jpeg,png}');
 // })
 
 images.map(image=>{
-    processImage(image,image.replace(/\.(\w{3,4})$/,'-test.$1'));
+    //processImage(image,image.replace(/\.(\w{3,4})$/,'-test.$1'));
+    processImage(image,image.replace(/\/(\w|_|-)+\.(\w{3,4})$/,'$1-test.$2'));
 });
 
 
@@ -46,7 +47,8 @@ async function processImage(inputPath, outputPath) {
 
         await Sharp(newData, { raw: { width: info.width, height: info.height, channels: 3 } })
             //.clahe({width: 100, height: 100})
-            //.linear(1, -0.5)
+            .linear(1.5, -0.5)
+            .tint({ r: 255, g: 20, b: 20 })
             .toFile(outputPath);
         console.log(`Image processed successfully: ${outputPath}`);
 

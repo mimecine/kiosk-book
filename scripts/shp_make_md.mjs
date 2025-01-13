@@ -93,11 +93,11 @@ D.Products.filter((_p) => _p.status == "active").forEach((_p) => {
     console.log(e);
   }
   if ((_p.status = "active" && _p.dimensions.length < 1))
-    console.log(["DIM", _p.title, _p.product_type].join(": "));
+    console.log(["WARN: DIM: Missing: ", _p.title, _p.product_type].join(": "));
   if ((_p.status = "active" && _p.materials.length < 1))
-    console.log(["MAT", _p.title, _p.product_type].join(": "));
+    console.log(["WARN: MAT: Missing: ", _p.title, _p.product_type].join(": "));
   if ((_p.status = "active" && _p.provenance.length < 1))
-    console.log(["PRO", _p.title, _p.product_type].join(": "));
+    console.log(["WARN: PRO: Missing: ", _p.title, _p.product_type].join(": "));
 });
 
 D.CustomCollections.forEach((c) => {
@@ -164,6 +164,7 @@ async function processImage(inputPath, outputPath) {
         const metadata = await image.metadata();
 
         const { data, info } = await image
+            .resize(500,500)
             .sharpen()
             .normalise({ lower: 1, upper: 100 })
             .grayscale()
@@ -183,8 +184,7 @@ async function processImage(inputPath, outputPath) {
 
         await Sharp(newData, { raw: { width: info.width, height: info.height, channels: 3 } })
             //.clahe({width: 100, height: 100})
-            //.linear(1, -0.5)
-//            .resize(300,300)
+            .linear(1.5, -0.5)
             .toFile(outputPath);
         console.log(`Image processed successfully: ${outputPath}`);
 

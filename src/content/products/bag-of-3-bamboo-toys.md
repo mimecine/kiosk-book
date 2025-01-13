@@ -5,7 +5,7 @@ vendor: None
 product_type: Japan
 created_at: 2014-07-22T19:53:12-04:00
 handle: bag-of-3-bamboo-toys
-updated_at: 2024-01-17T16:07:49-05:00
+updated_at: 2024-12-21T03:16:25-05:00
 published_at: 2011-06-02T14:27:00-04:00
 tags: ""
 status: active

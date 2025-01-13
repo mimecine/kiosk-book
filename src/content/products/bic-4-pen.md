@@ -5,7 +5,7 @@ vendor: KIOSK
 product_type: The later years
 created_at: 2023-12-27T09:53:59-05:00
 handle: bic-4-pen
-updated_at: 2024-01-19T09:47:35-05:00
+updated_at: 2024-12-16T02:47:13-05:00
 published_at: 2023-12-27T09:53:57-05:00
 tags: postarchive
 status: active

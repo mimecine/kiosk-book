@@ -5,7 +5,7 @@ vendor: KIOSK ARCHIVE
 product_type: Mexico
 created_at: 2015-10-05T14:00:50-04:00
 handle: black-rebozo
-updated_at: 2023-12-30T21:01:04-05:00
+updated_at: 2024-12-25T01:11:20-05:00
 published_at: 2015-10-05T13:59:00-04:00
 tags: x.export
 status: active

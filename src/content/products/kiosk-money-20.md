@@ -5,7 +5,7 @@ vendor: Kiosk
 product_type: KioskMoney
 created_at: 2014-07-22T20:10:17-04:00
 handle: kiosk-money-20
-updated_at: 2023-12-30T10:23:35-05:00
+updated_at: 2024-12-06T00:45:14-05:00
 published_at: 2015-04-28T22:44:40-04:00
 tags: fun, gifts, practical, x.holiday2019
 status: active

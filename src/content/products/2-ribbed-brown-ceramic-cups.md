@@ -5,7 +5,7 @@ vendor: None
 product_type: Mexico
 created_at: 2014-07-22T19:51:14-04:00
 handle: 2-ribbed-brown-ceramic-cups
-updated_at: 2024-01-15T09:00:37-05:00
+updated_at: 2024-12-22T11:18:44-05:00
 published_at: 2011-06-02T14:16:00-04:00
 tags: home, x.ica
 status: active

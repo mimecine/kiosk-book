@@ -5,7 +5,7 @@ vendor: Faplana
 product_type: The later years
 created_at: 2023-12-27T09:53:42-05:00
 handle: melamine-dishware
-updated_at: 2024-01-01T21:05:57-05:00
+updated_at: 2024-11-28T21:41:24-05:00
 published_at: 2023-12-27T09:53:28-05:00
 tags: postarchive
 status: active

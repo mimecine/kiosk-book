@@ -5,7 +5,7 @@ vendor: None
 product_type: 8 Things
 created_at: 2014-08-05T00:07:24-04:00
 handle: sesame-seed-grinder
-updated_at: 2024-01-04T12:12:25-05:00
+updated_at: 2024-12-08T07:15:55-05:00
 published_at: 2011-06-02T14:53:00-04:00
 tags: kitchen, practical
 status: active

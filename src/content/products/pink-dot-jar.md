@@ -5,7 +5,7 @@ vendor: None
 product_type: "Japan #2"
 created_at: 2014-08-05T00:02:25-04:00
 handle: pink-dot-jar
-updated_at: 2024-01-04T12:16:29-05:00
+updated_at: 2024-12-29T02:18:58-05:00
 published_at: 2011-06-02T14:49:00-04:00
 tags: gifts, it's art!
 status: active

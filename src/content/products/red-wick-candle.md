@@ -5,7 +5,7 @@ vendor: None
 product_type: "Japan #2"
 created_at: 2014-08-05T00:05:10-04:00
 handle: red-wick-candle
-updated_at: 2024-01-04T12:16:30-05:00
+updated_at: 2024-12-08T17:59:07-05:00
 published_at: 2011-06-02T14:51:00-04:00
 tags: ""
 status: active

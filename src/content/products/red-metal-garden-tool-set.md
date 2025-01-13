@@ -5,7 +5,7 @@ vendor: Nyby Bruk
 product_type: Sweden
 created_at: 2014-08-05T00:04:50-04:00
 handle: red-metal-garden-tool-set
-updated_at: 2023-12-30T20:15:59-05:00
+updated_at: 2024-12-22T17:12:16-05:00
 published_at: 2011-07-07T18:20:00-04:00
 tags: hardware, home, practical
 status: active

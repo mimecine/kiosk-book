@@ -5,7 +5,7 @@ vendor: None
 product_type: Japan
 created_at: 2014-08-05T00:07:45-04:00
 handle: hand-printed-woodcut-cards-envelopes
-updated_at: 2024-03-13T14:28:58-04:00
+updated_at: 2024-12-25T04:17:44-05:00
 published_at: 2011-06-02T14:53:00-04:00
 tags: ""
 status: active

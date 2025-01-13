@@ -76,12 +76,13 @@ Products.filter((p) => p.status == "active").forEach((p) => {
       try {
         await mkdir(`./src/content/products/${p.handle}`, { recursive: true });
         await downloadImage(image.src, local_file);
+        console.log(`Downloaded (for ${p.data.title}) ${image.src} to ${local_file}`);
       } catch (e) {
         console.log(local_file, e);
       }
       
     } else {
-      console.log(`Already have ${local_file}`);
+      // console.log(`Already have ${local_file}`);
     }
   });
 });
@@ -119,5 +120,4 @@ async function downloadImage(imageUrl, imagePath) {
 
   const buffer = await response.arrayBuffer();
   await fs.writeFile(imagePath, buffer);
-  return `Image downloaded to ${imagePath}`;
 }

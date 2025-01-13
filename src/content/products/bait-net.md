@@ -5,7 +5,7 @@ vendor: None
 product_type: Finland
 created_at: 2014-07-22T19:53:14-04:00
 handle: bait-net
-updated_at: 2024-01-17T16:09:39-05:00
+updated_at: 2024-12-21T11:05:39-05:00
 published_at: 2011-06-02T14:27:00-04:00
 tags: ""
 status: active

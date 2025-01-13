@@ -5,7 +5,7 @@ vendor: None
 product_type: Sweden
 created_at: 2014-08-05T00:11:49-04:00
 handle: swedish-military-blanket
-updated_at: 2023-12-30T21:37:36-05:00
+updated_at: 2024-11-29T07:09:20-05:00
 published_at: 2011-06-02T14:55:00-04:00
 tags: ""
 status: active

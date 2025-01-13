@@ -5,7 +5,7 @@ vendor: KIOSK
 product_type: The later years
 created_at: 2021-07-15T09:09:39-04:00
 handle: recipes-from-provence-by-andree-maureau
-updated_at: 2024-01-01T21:05:58-05:00
+updated_at: 2024-12-09T18:00:40-05:00
 published_at: 2021-07-15T09:09:37-04:00
 tags: postarchive
 status: active

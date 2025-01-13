@@ -5,7 +5,7 @@ vendor: KIOSK
 product_type: Kiosk
 created_at: 2021-05-12T07:26:20-04:00
 handle: be-here-now
-updated_at: 2024-01-17T16:35:42-05:00
+updated_at: 2024-12-24T00:19:19-05:00
 published_at: 2021-05-12T07:26:12-04:00
 tags: postarchive
 status: active

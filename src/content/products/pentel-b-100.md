@@ -5,7 +5,7 @@ vendor: None
 product_type: "Japan #2"
 created_at: 2014-08-05T00:01:52-04:00
 handle: pentel-b-100
-updated_at: 2024-01-04T12:16:29-05:00
+updated_at: 2024-12-28T08:53:26-05:00
 published_at: 2011-09-27T17:13:00-04:00
 tags: office
 status: active

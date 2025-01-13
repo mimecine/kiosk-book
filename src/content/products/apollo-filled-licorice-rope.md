@@ -5,7 +5,7 @@ vendor: None
 product_type: Iceland
 created_at: 2014-07-22T19:52:44-04:00
 handle: apollo-filled-licorice-rope
-updated_at: 2024-01-06T19:38:06-05:00
+updated_at: 2024-11-29T11:20:21-05:00
 published_at: 2011-06-02T14:26:00-04:00
 tags: x.ica
 status: active

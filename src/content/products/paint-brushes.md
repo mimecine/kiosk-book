@@ -5,7 +5,7 @@ vendor: None
 product_type: Japan
 created_at: 2014-08-05T00:07:33-04:00
 handle: paint-brushes
-updated_at: 2024-03-13T14:38:52-04:00
+updated_at: 2024-12-18T23:08:16-05:00
 published_at: 2011-06-02T14:53:00-04:00
 tags: ""
 status: active

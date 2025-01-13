@@ -5,7 +5,7 @@ vendor: KIOSK ARCHIVE
 product_type: Misc
 created_at: 2016-05-24T19:53:39-04:00
 handle: metal-factory-tables
-updated_at: 2023-08-02T14:37:56-04:00
+updated_at: 2024-09-10T13:07:39-04:00
 published_at: null
 tags: ""
 status: active

@@ -5,7 +5,7 @@ vendor: None
 product_type: "Japan #2"
 created_at: 2014-08-05T00:07:59-04:00
 handle: seven-pepper-spice
-updated_at: 2024-01-04T12:16:31-05:00
+updated_at: 2024-12-22T03:14:35-05:00
 published_at: 2011-06-02T14:53:00-04:00
 tags: kitchen, x.h2019, x.h2020
 status: active

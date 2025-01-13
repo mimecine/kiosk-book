@@ -5,7 +5,7 @@ vendor: KIOSK
 product_type: Italy 1
 created_at: 2021-04-28T10:27:47-04:00
 handle: stove-igniter
-updated_at: 2024-01-04T12:17:25-05:00
+updated_at: 2024-12-25T11:10:23-05:00
 published_at: 2021-04-28T10:27:45-04:00
 tags: ""
 status: active

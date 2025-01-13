@@ -5,7 +5,7 @@ vendor: None
 product_type: "India #2"
 created_at: 2014-07-22T19:52:21-04:00
 handle: aluminum-hangers
-updated_at: 2024-01-16T16:52:08-05:00
+updated_at: 2024-11-29T03:36:50-05:00
 published_at: 2012-05-11T10:30:00-04:00
 tags: hardware, home, personal, practical, x.ica
 status: active

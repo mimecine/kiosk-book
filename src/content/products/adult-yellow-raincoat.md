@@ -5,7 +5,7 @@ vendor: None
 product_type: Germany
 created_at: 2014-07-22T19:51:42-04:00
 handle: adult-yellow-raincoat
-updated_at: 2024-01-16T16:12:23-05:00
+updated_at: 2024-12-07T20:58:30-05:00
 published_at: 2011-06-02T14:26:00-04:00
 tags: x.ica
 status: active

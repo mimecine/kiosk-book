@@ -5,7 +5,7 @@ vendor: None
 product_type: Finland
 created_at: 2014-07-22T19:51:46-04:00
 handle: african-star-board-game
-updated_at: 2024-01-16T16:13:52-05:00
+updated_at: 2024-12-26T13:57:59-05:00
 published_at: 2011-06-02T14:26:00-04:00
 tags: x.ica
 status: active

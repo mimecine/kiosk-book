@@ -5,7 +5,7 @@ vendor: None
 product_type: Iceland
 created_at: 2014-08-05T00:03:58-04:00
 handle: prins-bar
-updated_at: 2024-01-07T05:58:52-05:00
+updated_at: 2024-12-02T14:23:08-05:00
 published_at: 2011-06-02T14:50:00-04:00
 tags: ""
 status: active

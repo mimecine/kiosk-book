@@ -5,7 +5,7 @@ vendor: Guidecraft
 product_type: "America #3"
 created_at: 2014-07-22T19:57:28-04:00
 handle: career-figures
-updated_at: 2023-12-30T12:52:50-05:00
+updated_at: 2024-12-09T09:07:01-05:00
 published_at: 2011-06-02T14:29:00-04:00
 tags: gifts, it's art!, kids
 status: active

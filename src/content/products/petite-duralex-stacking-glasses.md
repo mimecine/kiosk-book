@@ -5,7 +5,7 @@ vendor: KIOSK
 product_type: Misc
 created_at: 2021-05-12T08:11:56-04:00
 handle: petite-duralex-stacking-glasses
-updated_at: 2023-12-30T20:14:14-05:00
+updated_at: 2025-01-13T07:07:47-05:00
 published_at: 2021-05-12T08:11:52-04:00
 tags: postarchive, x.h2020
 status: active
@@ -41,27 +41,11 @@ dimensions: 2.75"ø x 2.75"
 dimensions_array:
   - 2.75"ø
   - 2.75"
-materials: I want a glass of wine but I don't want to feel like a lush, just a
-  splash...handy for when it is before noon. Also decent for water and morning
-  juice. Cognac. Coffee. Sharing a small coconut water. You get the gist. Stacks
-  for easy handling. It seems to me that this glass should be all over the
-  United States but for an odd reason Duralex does not distribute it abroad.
-  This may be one of those things that only the French can explain.
+materials: Glass
 materials_array:
-  - I want a glass of wine but I don't want to feel like a lush
-  - just a splash
-  - handy for when it is before noon
-  - Also decent for water
-  - morning juice
-  - Cognac
-  - Coffee
-  - Sharing a small coconut water
-  - You get the gist
-  - Stacks for easy handling
-  - It seems to me that this glass should be all over the United States but for
-    an odd reason Duralex does not distribute it abroad
-  - This may be one of those things that only the French can explain
+  - Glass
 provenance: FRANCE
 
 ---
 
+I want a glass of wine but I don't want to feel like a lush, just a splash...handy for when it is before noon. Also decent for water and morning juice. Cognac. Coffee. Sharing a small coconut water. You get the gist. Stacks for easy handling. It seems to me that this glass should be all over the United States but for an odd reason Duralex does not distribute it abroad. This may be one of those things that only the French can explain.

@@ -5,7 +5,7 @@ vendor: Bennington Potters
 product_type: "America #4"
 created_at: 2014-07-22T19:53:49-04:00
 handle: bennington-sugar-bowl
-updated_at: 2024-01-17T16:50:12-05:00
+updated_at: 2024-12-09T03:28:39-05:00
 published_at: 2011-11-17T17:10:00-05:00
 tags: kitchen
 status: active

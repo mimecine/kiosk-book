@@ -5,7 +5,7 @@ vendor: None
 product_type: Germany
 created_at: 2014-07-22T19:53:52-04:00
 handle: berlin-chocolate-set-by-erich-hamann
-updated_at: 2024-01-17T16:51:05-05:00
+updated_at: 2024-12-15T08:52:49-05:00
 published_at: 2011-06-02T14:27:00-04:00
 tags: ""
 status: active

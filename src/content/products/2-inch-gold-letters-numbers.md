@@ -5,7 +5,7 @@ vendor: KIOSK ARCHIVE
 product_type: "America #1"
 created_at: 2015-10-05T14:04:12-04:00
 handle: 2-inch-gold-letters-numbers
-updated_at: 2024-01-15T08:57:11-05:00
+updated_at: 2024-12-01T08:53:32-05:00
 published_at: 2015-10-05T14:03:00-04:00
 tags: ext:2468, x.export, x.ica
 status: active

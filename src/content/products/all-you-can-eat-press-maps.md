@@ -5,7 +5,7 @@ vendor: Yuki Matsuo
 product_type: Mini-Exhibitions
 created_at: 2014-07-22T19:52:03-04:00
 handle: all-you-can-eat-press-maps
-updated_at: 2024-01-16T16:46:33-05:00
+updated_at: 2024-12-07T00:34:21-05:00
 published_at: 2013-10-18T11:59:00-04:00
 tags: x.ica
 status: active

@@ -5,7 +5,7 @@ vendor: None
 product_type: "Japan #2"
 created_at: 2014-07-22T20:00:03-04:00
 handle: copper-grater
-updated_at: 2024-01-04T12:16:25-05:00
+updated_at: 2024-12-07T14:42:53-05:00
 published_at: 2011-06-02T14:31:00-04:00
 tags: gifts, kitchen
 status: active

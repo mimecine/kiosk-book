@@ -5,7 +5,7 @@ vendor: American Whistle Corp.
 product_type: "America #1"
 created_at: 2014-07-22T19:52:40-04:00
 handle: american-whistle
-updated_at: 2024-01-17T14:30:14-05:00
+updated_at: 2024-12-23T14:34:07-05:00
 published_at: 2011-06-02T14:26:00-04:00
 tags: fun, kids, practical, x.ica
 status: active

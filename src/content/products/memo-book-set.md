@@ -5,7 +5,7 @@ vendor: None
 product_type: "America #1"
 created_at: 2014-08-04T23:56:15-04:00
 handle: memo-book-set
-updated_at: 2023-12-30T21:34:07-05:00
+updated_at: 2024-12-11T23:06:14-05:00
 published_at: 2011-06-02T14:45:00-04:00
 tags: ""
 status: active

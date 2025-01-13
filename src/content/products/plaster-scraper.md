@@ -5,7 +5,7 @@ vendor: None
 product_type: "Japan #2"
 created_at: 2014-08-05T00:02:57-04:00
 handle: plaster-scraper
-updated_at: 2024-01-04T12:16:29-05:00
+updated_at: 2024-12-23T03:53:45-05:00
 published_at: 2011-06-02T14:49:00-04:00
 tags: ""
 status: active

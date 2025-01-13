@@ -5,7 +5,7 @@ vendor: KIOSK
 product_type: Kiosk
 created_at: 2021-05-12T07:26:04-04:00
 handle: marzipan-modulor
-updated_at: 2023-12-27T12:17:04-05:00
+updated_at: 2024-12-25T03:54:46-05:00
 published_at: 2021-05-12T07:26:02-04:00
 tags: postarchive
 status: active

@@ -5,7 +5,7 @@ vendor: Airam
 product_type: Finland
 created_at: 2014-07-22T19:51:54-04:00
 handle: airam-thermos
-updated_at: 2024-01-16T16:40:34-05:00
+updated_at: 2024-12-04T08:29:39-05:00
 published_at: 2011-06-02T14:26:00-04:00
 tags: gifts, kitchen, personal, practical, x.ica
 status: active

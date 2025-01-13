@@ -5,7 +5,7 @@ vendor: Emmanuelle Goubert
 product_type: Provence
 created_at: 2014-07-22T20:11:28-04:00
 handle: lavender-soap
-updated_at: 2024-01-04T12:15:04-05:00
+updated_at: 2024-11-29T15:46:38-05:00
 published_at: 2011-06-02T14:44:00-04:00
 tags: personal
 status: active

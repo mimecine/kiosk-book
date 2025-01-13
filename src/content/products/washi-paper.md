@@ -5,7 +5,7 @@ vendor: None
 product_type: "Japan #2"
 created_at: 2014-08-05T00:16:03-04:00
 handle: washi-paper
-updated_at: 2024-01-04T12:16:32-05:00
+updated_at: 2024-12-10T03:56:14-05:00
 published_at: 2011-06-02T14:58:00-04:00
 tags: home, it's art!
 status: active

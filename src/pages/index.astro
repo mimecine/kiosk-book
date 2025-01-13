@@ -11,7 +11,7 @@ import "../styles/book-base.css";
 
 const title = "KIOSK: The Book";
 const full_book = false; 
-const exhibit_sample = full_book?1000:25;
+const exhibit_sample = full_book?1000:12;
 const product_sample = full_book?1000:12;
 
 Object.groupBy = groupBy.shim();
@@ -88,7 +88,9 @@ const exhibits = [
 
   let renderedIndex = 1;
   exhibits.map(exhibit => {
-    groups[exhibit.name].slice(0, product_sample || 1000).forEach((p, i) => {
+    groups[exhibit.name].slice(0, product_sample || 1000)
+    //.sort((a, b) => a.data.title.localeCompare(b.data.title))
+    .forEach((p, i) => {
       p._rendered = true;
       p._index = renderedIndex++;
     })
@@ -138,10 +140,9 @@ function slugify(text) {
     <meta charset="utf-8" />
     <meta name="author" content="Alisa Grifo & Marco ter Haar Romeny"/>
     <title>{title}</title>  
-    <!-- <script src="https://unpkg.com/pagedjs/dist/paged.polyfill.js"></script> -->
       
   </head>
-  <body>
+  <body "snap('18pt', 'h1, h2, h3, .nudge', 'margin-bottom')">
     <main>
       <div class="plainflow">
       
@@ -206,20 +207,11 @@ function slugify(text) {
           <a class="xref my-2" href="#index-bydimension">The Index: By Dimensions</a>
         </div>
         </div>
-        <div class="start products text-justify -x-columns-2 -x-column-fill-auto" style="column-gap: 2.5rem;"> 
+        <div class="start products -x-text-justify -x-columns-2 -x-column-fill-auto" style="column-gap: 2.5rem;"> 
 
         {
           exhibits.map((exhibit, i) => (
             <div class="exhibit -x-column-fill-auto">
-              {/* {pages.filter((p) => p.data.before_exhibit == exhibit.name).map((essay)=>{(
-                <div class="essay">
-                  <div class="header font-sans border-b-4 border-red mb-12 xpb-8 min-h-[22rem] columns-all">
-                    <h2 class="title font-bold text-sans" id={`xessay-${essay.data.clean_title}`} set:html={essay.data.clean_title}/>
-                    <div class="subtitle text-2xl"/>
-                  </div>
-                  <div class="prose max-w-[5in] py-16 mx-auto" set:html={wrapLinks(essay.data.body_html)}/>
-                </div>
-              )})} */}
 
               {(() => {currentEssay = pages.find((p) => p.data.before_exhibit == exhibit.name)})()}
               {currentEssay && (
@@ -263,10 +255,10 @@ function slugify(text) {
               </div>
               <div class="exhibition-products columns-2 column-fill-auto" style="column-gap: 2.5rem;">
               {groups[exhibit.name]
-                ?.slice(0, i == 0 ? product_sample + 11 : product_sample || 1000)
+                ?.slice(0, i == 0 ? product_sample : product_sample || 1000)
                 .map((product) => (
                   
-                    <div class="product relative overflow-auto mb-6  border-b-2 last:border-b-0 border-current border-transparent border-solid box-decoration-slice pb-4 " class:list={product.data.handle}>
+                    <div class="product relative overflow-auto mb-0  border-b-2 last:border-b-0 border-current border-transparent border-solid box-decoration-slice pb-4 " class:list={product.data.handle}>
                       <div class="min-h-40">
                         <a
                         id={product.data.handle}
@@ -274,41 +266,46 @@ function slugify(text) {
                         data-rendered={(product.x_rendered = true)}
                         data-index={(product.x_index = pIndex++)}
                       />
-                      <div class="break-inside-avoid break-after-avoid text-left">
+                      
+                      <div class="break-inside-avoid break-after-avoid text-left xleading-[1.3]">
                         {product.data.images[0] && (
-                          <div class="float-right w-1/3 mb-2 ml-4 text-right">
+                          <div class="float-right w-1/3 mb-0 ml-4 text-right">
                             <a href={`#figure-${product.data.handle}`}>
                               <Image
                                 id={`small-img-${product.data.handle}`}
-                                data-width={1000}
-                                data-height={1000}
-                                src={product.data.images[0]?.src} // set to thumb and remove filter if colored page
+                                // data-width={1000}
+                                // data-height={1000}
+                                width={400}
+                                src={product.data.images[0]?.thumb} // set to thumb and remove filter if colored page
                                 alt={product.data.title}
-                                class="w-full border border-current -x-grayscale -x-contrast-100 mt-[2px]"
+                                class="thumbnail w-full border -x-border-current border-red -x-grayscale -x-contrast-100 mt-[2px]"
                               />
                             </a>
                           </div>
                         )}
                       
-                        <h3 class="p_title font-sans font-bold uppercase break-after-avoid xtext-xl">
+                        <h3 class="p_title font-sans font-bold uppercase break-after-avoid xtext-xl text-[14px] mb-2">
                           {product.data.title}
                         </h3>
-                        <div class="p_dimensions" class="break-after-avoid break-before-avoid">
+                        <div class="nudge p_dimensions break-after-avoid break-before-avoid ">
                           {product.data.dimensions}
                         </div>          
-                        <div class="p_materials" class="italic break-after-avoid break-inside-avoid break-before-avoid">
+                        <div class="nudge p_materials italic break-after-avoid break-inside-avoid break-before-avoid ">
                           {product.data.materials}
                         </div>
-                        <div class="p_provenance uppercase break-after-avoid break-inside-avoid break-before-avoid" class:list={exhibit.settings.provenance? '' : 'hidden'}>
+                        <div class="nudge p_provenance uppercase break-after-avoid break-inside-avoid break-before-avoid" class:list={exhibit.settings.provenance? '' : 'hidden'}>
                           {product.data.provenance}
                         </div>
+                      
                       </div>
-                      <div set:html={wrapLinks(product.rendered)} class="p_description break-after-avoid break-before-avoid pt-3 pb-2 -x-min-h-24"></div>
+                      <div style="-prince-hyphenate-before: 4; -prince-hyphenate-after: 4;" set:html={wrapLinks(product.rendered)} class="p_description break-after-avoid break-before-avoid pt-3 pb-2 -x-min-h-24"></div>
                     </div>                    
                       <div class=" text-red text-right font-bold break-inside-avoid break-before-avoid text-red-600">
                         <a class="img-xref italic text-sm" href={`#figure-${product.data.handle}`}>
                           fig. {product._index}, p.
                         </a>
+                        <div class="text-sm mb-2 -x-mx-48 text-center border-b border-black opacity-100 text-black">
+                          &nbsp;</div>
                       </div>
                     </div>
                   
@@ -368,13 +365,10 @@ function slugify(text) {
         products
           .filter((p) => p._rendered)
           .sort((a, b) => a._index - b._index)
-          //.sort((a, b) => 0.5 - Math.random())
           .map((p) => (
             <>
               <div class="min-h-1/2 w-auto relative max-w-[3in] break-inside-avoid py-2 head-title" id={`figure-${p.data.handle}`} style={`string-set: head-title content('... ${p.data.title}')`} title={p.data.title}>
-                <!-- <div style="-prince-float: outsidenote;" class="text-red text-2xl italic w-16 ">
-                  {p._index}
-                </> -->
+               
                 <div class="">
                   <Image
                     id={`figure-${p.data.handle}`}
@@ -382,10 +376,10 @@ function slugify(text) {
                     alt={p.data.title}
                     class="border border-current"
                   />
-                  <div class="min-h-12">
+                  <div class="min-h-12 mt-1">
                   <div class="text-black not-italic hyphens-none">{p.data.title}</div>
-                    <div class=" font-bold">
-                      <a class="xref !border-b-0 text-red italic" href={`#${p.data.handle}`}>
+                    <div class="font-bold">
+                      <a class="xref !border-b-0 text-red italic text-xs" href={`#${p.data.handle}`}>
                         Figure {p._index}
                         {p.data.title.length > 32 && console.log(p.data.title.length + ':' + p.data.title)}
                       </a>

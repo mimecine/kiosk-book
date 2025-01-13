@@ -100,19 +100,20 @@ a.footnote {
 
 a.footnote::after {
   float: footnote page;
-  content: "[ " attr(href) " ]";
+  content: " ~ " attr(href) " ";
+  footnote-style-position: inside;
   font-size: 90%;
   font-style: italic;
 }
 
 *::footnote-marker {
-  content: " " counter(footnote, asterisks);
+  content: " / " counter(footnote, asterisks);
   footnote-style-position: inside;
   text-decoration: none;
 }
 
 *::footnote-call {
-  content: "[ " counter(footnote) " ]";
+  content: " ~ " counter(footnote) " ~ ";
   font-size: 90%;
   color: red;
 }
@@ -137,10 +138,12 @@ a.footnote::after {
   margin-right: 0.25in;
   border: 2pt double;
   padding: 2rem;
+  padding-bottom: 0;
 
   @footnote {
     border-top: solid red thin; /* The Border Top is the footnote rule */
     padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
     footnote-display: compact;
     footnote-style-position: inside;
   }
@@ -261,7 +264,7 @@ a.footnote::after {
 @page essay {
   /* border-left: none;
     border-right: none; */
-    background-color: pink;
+    background-color: rgb(255, 228, 233);
 }
 @page essay:blank {
     background-color: none;
@@ -353,7 +356,7 @@ a.xref {
 @media screen {
   main {
     margin: 0.25in;
-    width: 8.25in;
+    width: 8.27in;
     border: 2pt double black;
     padding: 2rem;
     position: relative;

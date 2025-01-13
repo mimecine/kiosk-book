@@ -21,6 +21,7 @@ const products = defineCollection({
 		images: z.array(z.object({
 			src: image(),
 			thumb: image(),
+			monored: image().optional(),
 			alt: z.string(),
 		  })).optional(),
 	 }),

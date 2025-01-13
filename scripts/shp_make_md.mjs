@@ -70,8 +70,11 @@ D.Products.filter((_p) => _p.status == "active").forEach((_p) => {
         new Sharp(
           `./src/content/products/${_p.handle}/${_p.handle}__${i}.jpg`
         ).jpeg().resize(250, 250).tint({ r: 255, g: 0, b: 0 }).toFile(
-          `./src/content/products/${_p.handle}/${_p.handle}__${i}-thumb.jpg`, (e,info) => { if (e) throw e; }
+          `./src/content/products/${_p.handle}/${_p.handle}__${i}-redwblack.jpg`, (e,info) => { if (e) throw e; }
         );
+
+        processImage( `./src/content/products/${_p.handle}/${_p.handle}__${i}.jpg`, `./src/content/products/${_p.handle}/${_p.handle}__${i}-thumb.jpg`);  
+
       } catch (e) {
         console.log("Sharp: ",e);
       }
@@ -154,3 +157,38 @@ D.Pages.forEach((c) => {
     console.log(e);
   }
 });
+
+async function processImage(inputPath, outputPath) {
+    try {
+        const image = Sharp(inputPath);
+        const metadata = await image.metadata();
+
+        const { data, info } = await image
+            .sharpen()
+            .normalise({ lower: 1, upper: 100 })
+            .grayscale()
+            .raw() // Get raw pixel data
+            .toBuffer({ resolveWithObject: true });
+
+        const newData = Buffer.alloc(info.width * info.height * 3); // RGB output
+
+        for (let i = 0; i < data.length; i++) {
+            const grayValue = data[i];
+
+            // Corrected mapping: Darkest gray (0) becomes red, lightest (255) stays white
+            newData[i * 3] = 255; // Red (always maximum)
+            newData[i * 3 + 1] = Math.round((255 * grayValue) / 255); // Green (increasing with grayValue)
+            newData[i * 3 + 2] = Math.round((255 * grayValue) / 255); // Blue (increasing with grayValue)
+        }
+
+        await Sharp(newData, { raw: { width: info.width, height: info.height, channels: 3 } })
+            //.clahe({width: 100, height: 100})
+            //.linear(1, -0.5)
+//            .resize(300,300)
+            .toFile(outputPath);
+        console.log(`Image processed successfully: ${outputPath}`);
+
+    } catch (error) {
+        console.error(`Error processing image: ${error}`);
+    }
+}

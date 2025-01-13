@@ -7,7 +7,7 @@
   },
   "scripts": {
     "dev": "bun x astro dev --host",
-    "prince": "osascript -e 'tell application \"Preview\" to if it is running then quit' && prince --raster-dpi=300 --tagged-pdf http://localhost:9000/ -o /Users/mimecine/Library/CloudStorage/GoogleDrive-marco@mimecom.net/My\\ Drive/KioskBook2024/KIOSK-Book.pdf && open /Users/mimecine/Library/CloudStorage/GoogleDrive-marco@mimecom.net/My\\ Drive/KioskBook2024/KIOSK-Book.pdf",
+    "prince": "osascript -e 'tell application \"Preview\" to if it is running then quit' && time prince -j --tagged-pdf http://localhost:9000/ -o /Users/mimecine/Library/CloudStorage/GoogleDrive-marco@mimecom.net/My\\ Drive/KioskBook2024/KIOSK-Book.pdf && open /Users/mimecine/Library/CloudStorage/GoogleDrive-marco@mimecom.net/My\\ Drive/KioskBook2024/KIOSK-Book.pdf",
     "prince (local)": "osascript -e 'tell application \"Preview\" to if it is running then quit' && time prince --raster-dpi=300 --tagged-pdf http://localhost:9000/ -o dist/Book.pdf && open dist/Book.pdf",
     "start": "bun x astro dev --host",
     "build": "bun x astro build",
@@ -23,6 +23,7 @@
     "@astrojs/tailwind": "5.1.2",
     "@shopify/shopify-api": "^9.7.2",
     "astro": "4.16.0",
+    "commander": "^13.0.0",
     "concurrently": "^8.2.2",
     "fast-glob": "^3.3.2",
     "localtunnel": "^2.0.2",

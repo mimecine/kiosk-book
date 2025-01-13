@@ -571,6 +571,19 @@ function slugify(text) {
             ))
         }
       </div>
+
+      {(() => {currentEssay = pages.find((p) => p.data.before_exhibit == 'Epilogue')})()}
+      {currentEssay && (
+        <div class="essay">
+          <!-- ******* ESSAY ******** -->
+          <div class="header font-sans border-b-4 border-red mb-12 xpb-8 min-h-[22rem] -x-columns-all">
+            <h2 class="title font-bold text-sans" id={`essay-${slugify(currentEssay.data.clean_title)}`} set:html={currentEssay.data.clean_title}/>
+            <div class="subtitle text-2xl"/>
+          </div>
+      
+          <div class="prose max-w-[5in] py-16 mx-auto" set:html={wrapLinks(currentEssay.data.body_html)}/>
+        </div>
+      )}
       </div>
 
     </main>

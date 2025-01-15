@@ -33,6 +33,7 @@ let products = (await getCollection("products"))
       .split(":")
       .map((t) => t.trim());
       if(!p.body) console.log("No Body", p.data.title);
+      console.log(p.data.title,':', p.data.before_exhibit);
       p.rendered = marked.parse(p.body + '');
       p.rendered = wrapLinks(p.rendered);
       return p;
@@ -121,6 +122,7 @@ function newInitial(word) {
   }
   return false;
 }
+
 function slugify(text) {
   return text
     .toString()
@@ -539,7 +541,7 @@ function slugify(text) {
           ******************************************************************
           ******************************************************************
         -->
-        <div class="header font-sans border-b-4 border-red mb-12 xpb-8 min-h-[22rem] columns-all">
+        <div class="header font-sans border-b-4 border-red mb-12 min-h-[22rem] columns-all">
           <h2 class="title relative font-bold">
             The Index: <br/>By Dimension
             <a
@@ -573,6 +575,7 @@ function slugify(text) {
       </div>
 
       {(() => {currentEssay = pages.find((p) => p.data.before_exhibit == 'Epilogue')})()}
+      {`<!-- EPILOGUE ${currentEssay} -->`}
       {currentEssay && (
         <div class="essay">
           <!-- ******* ESSAY ******** -->

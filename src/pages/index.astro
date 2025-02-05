@@ -11,8 +11,8 @@ import "../styles/book-base.css";
 
 const title = "KIOSK: The Book";
 const full_book = false; 
-const exhibit_sample = full_book?1000:3;
-const product_sample = full_book?1000:14;
+const exhibit_sample = full_book?1000:7;
+const product_sample = full_book?1000:12; // then adds 0-3 more
 
 Object.groupBy = groupBy.shim();
 
@@ -91,7 +91,7 @@ const exhibits = [
 
   let renderedIndex = 1;
   exhibits.map(exhibit => {
-    groups[exhibit.name].slice(0, product_sample || 1000)
+    groups[exhibit.name].slice(0, product_sample + Math.floor(6*Math.random()) || 1000)
     //.sort((a, b) => a.data.title.localeCompare(b.data.title))
     .forEach((p, i) => {
       p._rendered = true;
@@ -146,7 +146,7 @@ function slugify(text) {
     <title>{title}</title>  
       
   </head>
-  <body "snap('18pt', 'h1, h2, h3, .nudge', 'margin-bottom')">
+  <body onload="snap('18pt', 'h1, h2, h3, .nudge', 'margin-bottom')" class="">
     <main>
       <div class="plainflow">
       
@@ -189,7 +189,7 @@ function slugify(text) {
             <div class="subtitle text-2xl font-bold">
             </div>
           </div>
-          <div class="columns-2 column-fill-auto" style="column-gap: 4rem;;">
+          <div class="columns-2 print:column-fill-auto" style="column-gap: 4rem;;">
           {exhibits.map((exhibit) => (
             <>
             {(() => {currentEssay = pages.find((p) => p.data.before_exhibit == exhibit.name)})()}
@@ -203,7 +203,7 @@ function slugify(text) {
           ))}
           <br>
 
-          <a class="xref my-2font-bold " href="#index-bypicture">The Index: By Pictures</a>
+          <a class="xref my-2" href="#index-bypicture">The Index: By Pictures</a>
     
           <a class="xref my-2" href="#index-alphabetical">The Index: Alphabetically</a>
           <a class="xref my-2" href="#index-byexhibit">The Index: By Exhibitions</a>
@@ -221,12 +221,12 @@ function slugify(text) {
               {currentEssay && (
                 <div class="essay">
                   <!-- ******* ESSAY ******** -->
-                  <div class="header font-sans border-b-4 border-red mb-12 xpb-8 min-h-[22rem] -x-columns-all">
+                  <div class="header font-sans border-b-4 border-red mb-12 pb-8 -x-min-h-[22rem]">
                     <h2 class="title font-bold text-sans" id={`essay-${slugify(currentEssay.data.clean_title)}`} set:html={currentEssay.data.clean_title}/>
                     <div class="subtitle text-2xl"/>
                   </div>
               
-                  <div class="prose max-w-[5in] py-16 mx-auto" set:html={wrapLinks(currentEssay.data.body_html)}/>
+                  <div class="prose max-w-[5in] py-16 mx-auto" set:html={wrapLinks(currentEssay.data.body_html ?? marked.parse( currentEssay.body))}/>
                 </div>
               )}
               <div class="exhibit relative text-xl font-sans font-bold -x-columns-all">
@@ -239,7 +239,7 @@ function slugify(text) {
                 ******************************************************************
                 ******************************************************************
                 -->
-                <div class="header font-sans border-b-4 border-red mb-12 xpb-8 min-h-[22rem] -x-columns-all">
+                <div class="header font-sans border-b-4 border-red mb-12 pb-8 -x-min-h-[22rem] -x-columns-all">
                 <h2 class="title relative">
                   {exhibit.name}
                   <a
@@ -257,12 +257,13 @@ function slugify(text) {
                 />
                 </div>
               </div>
-              <div class="exhibition-products columns-2 column-fill-auto" style="column-gap: 2.5rem;">
+              <div class="exhibition-products columns-2 print:column-fill-auto" style="column-gap: 2.5rem;">
               {groups[exhibit.name]
-                ?.slice(0, i == 0 ? product_sample : product_sample || 1000)
+                // ?.slice(0, i == 0 ? product_sample : product_sample || 1000)
+                .filter((p) => p._rendered)
                 .map((product) => (
                   
-                    <div class="product relative overflow-auto mb-0  border-b-2 last:border-b-0 border-current border-transparent border-solid box-decoration-slice pb-4 " class:list={product.data.handle}>
+                    <div class="product relative overflow-auto mb-0  -x-border-b-2 last:border-b-0 border-current -x-border-transparent border-solid box-decoration-slice pb-6" class:list={product.data.handle}>
                       <div class="min-h-40">
                         <a
                         id={product.data.handle}
@@ -321,7 +322,7 @@ function slugify(text) {
         </div>
 
 
-      <div class="index figurepage index-bypicture columns-all h-screen">
+      <div class="index figurepage index-bypicture columns-all -x-h-screen">
       <!-- 
         ******************************************************************
         ******************************************************************
@@ -344,16 +345,16 @@ function slugify(text) {
           ******************************************************************
           -->
 
-          <div class="header font-sans border-b-4 border-red mb-12 xpb-8 min-h-[22rem] columns-all">
+          <div class="header font-sans border-b-4 border-red mb-12 pb-8 -x-min-h-[22rem] columns-all">
             <h2 class="title font-bold text-sans" id={`essay-${currentEssay.data.clean_title}`} set:html={currentEssay.data.clean_title}/>
             <div class="subtitle text-2xl"/>
           </div>
       
-          <div class="prose max-w-[5in] py-16 mx-auto" set:html={wrapLinks(currentEssay.data.body_html)}/>
+          <div class="prose max-w-[5in] py-16 mx-auto" set:html={wrapLinks(currentEssay.data.body_html ?? marked.parse( currentEssay.body))}/>
         </div>
       )}      
 
-      <div class="header font-sans border-b-4 border-red mb-12 pb-8 min-h-[18.85rem]">
+      <div class="header font-sans border-b-4 border-red mb-12 -x-pb-8 min-h-[22rem]">
         <h2 class="title relative font-bold">
           The Index: <br/>By Pictures
           <a
@@ -394,13 +395,13 @@ function slugify(text) {
             </>
           ))
       }
-      <!-- <i class="invisible relative w-full max-w-3in mx-auto break-inside-avoid pt-8 border border-current"> </i> -->
+      <div class="invisible relative w-full max-w-[3in] break-inside-avoid border border-current">&nbsp;</div>
     </div>
   </div>
 
 
 
-      <div class="index index-alphabetical columns-2">
+      <div class="index index-alphabetical columns-2 pb-6">
       <!-- 
         ******************************************************************
         ******************************************************************
@@ -411,7 +412,7 @@ function slugify(text) {
         ******************************************************************
       -->
 
-      <div class="header font-sans border-b-4 border-red mb-12 xpb-8 min-h-[22rem] columns-all">
+      <div class="header font-sans border-b-4 border-red mb-12 pb-8 -x-min-h-[22rem] columns-all">
         <h2 class="title relative font-bold">
           The Index: <br/>Alphabetical
           <a
@@ -443,7 +444,7 @@ function slugify(text) {
         }
       </div>
 
-      <div class="index index-byexhibit columns-2">
+      <div class="index index-byexhibit columns-2 pb-6">
       <!-- 
         ******************************************************************
         ******************************************************************
@@ -454,7 +455,7 @@ function slugify(text) {
         ******************************************************************
       -->
 
-      <div class="header font-sans border-b-4 border-red mb-12 xpb-8 min-h-[22rem] columns-all">
+      <div class="header font-sans border-b-4 border-red mb-12 pb-8 -x-min-h-[22rem] columns-all">
         <h2 class="title relative font-bold">
           The Index: <br/>By Exhibition
           <a
@@ -485,7 +486,7 @@ function slugify(text) {
         }
       </div>
 
-      <div class="index index-bymaterial columns-2">
+      <div class="index index-bymaterial columns-2 pb-6">
         <!-- 
           ******************************************************************
           ******************************************************************
@@ -495,7 +496,7 @@ function slugify(text) {
           ******************************************************************
           ******************************************************************
         -->
-        <div class="header font-sans border-b-4 border-red mb-12 xpb-8 min-h-[22rem] columns-all">
+        <div class="header font-sans border-b-4 border-red mb-12 pb-8 -x-min-h-[22rem] columns-all">
         <h2 class="title relative font-bold">
           The Index: <br/>By Material
           <a
@@ -513,7 +514,7 @@ function slugify(text) {
               <>
                 <div>
                   <a
-                    class="font-bold mt-4 text-red border-b-1 border-black border-dotted block"
+                    class="font-bold mt-4 text-red border-b-1 border-black border-dotted block nudge"
                     xhref={`#${key}`}
                   >
                     {key}
@@ -531,7 +532,7 @@ function slugify(text) {
         }
       </div>
 
-      <div class="index index-bydimension h-full columns-2">
+      <div class="index index-bydimension h-full columns-2 pb-6">
         <!-- 
           ******************************************************************
           ******************************************************************
@@ -541,7 +542,7 @@ function slugify(text) {
           ******************************************************************
           ******************************************************************
         -->
-        <div class="header font-sans border-b-4 border-red mb-12 min-h-[22rem] columns-all">
+        <div class="header font-sans border-b-4 border-red mb-12 pb-8 -x-min-h-[22rem] columns-all">
           <h2 class="title relative font-bold">
             The Index: <br/>By Dimension
             <a
@@ -558,7 +559,7 @@ function slugify(text) {
             .map((key) => (
               <>
                 <div>
-                  <a class="font-bold mt-4 text-red border-b-1 border-black border-dotted block" xhref={`#${key}`} >
+                  <a class="font-bold mt-4 text-red border-b-1 border-black border-dotted block break-after-avoid" xhref={`#${key}`} >
                     {key}
                   </a>
                   {products_by_dimension[key]
@@ -575,16 +576,15 @@ function slugify(text) {
       </div>
 
       {(() => {currentEssay = pages.find((p) => p.data.before_exhibit == 'Epilogue')})()}
-      {`<!-- EPILOGUE ${currentEssay} -->`}
       {currentEssay && (
         <div class="essay">
           <!-- ******* ESSAY ******** -->
-          <div class="header font-sans border-b-4 border-red mb-12 xpb-8 min-h-[22rem] -x-columns-all">
+          <div class="header font-sans border-b-4 border-red mb-12 pb-8 -x-min-h-[22rem] -x-columns-all">
             <h2 class="title font-bold text-sans" id={`essay-${slugify(currentEssay.data.clean_title)}`} set:html={currentEssay.data.clean_title}/>
             <div class="subtitle text-2xl"/>
           </div>
       
-          <div class="prose max-w-[5in] py-16 mx-auto" set:html={wrapLinks(currentEssay.data.body_html)}/>
+          <div class="prose max-w-[5in] py-16 mx-auto" set:html={wrapLinks(currentEssay.data.body_html ?? marked.parse( currentEssay.body))}/>
         </div>
       )}
       </div>

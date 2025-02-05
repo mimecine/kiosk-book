@@ -5,6 +5,8 @@ backend:
 
 media_folder: "public/img"
 public_folder: "img"
+editor:
+  preview: false
 
 
 collections:
@@ -14,6 +16,8 @@ collections:
     label_singular: Product
     folder: src/content/products
     create: true
+    summary: "{{title}}"
+    slug: "{{title}}"
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Provenance", name: "provenance", widget: "string"}
@@ -21,4 +25,15 @@ collections:
       - {label: "Dimensions", name: "dimensions", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
     
+  - name: pages
+    identifier_field: handle
+    label: Pages
+    label_singular: Page
+    folder: src/content/pages
+    create: true
+    summary: "{{title}}"
+    slug: "{{title}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string", required: true, hint: "Use 'Book:&lt;ChapterTitle&gt;:&lt;PageTitle&gt;' format to create an Essay. Essay will be displayed before the chapter specified."}
+      - {label: "Body", name: "body", widget: "markdown", required: true}
 

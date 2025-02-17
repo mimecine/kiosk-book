@@ -7,8 +7,8 @@
   },
   "scripts": {
     "dev": "bunx --bun astro dev --host",
-    "prince": "osascript -e 'tell application \"Preview\" to if it is running then quit' && time prince -j --tagged-pdf http://localhost:9000/ -o /Users/mimecine/Library/CloudStorage/GoogleDrive-marco@mimecom.net/My\\ Drive/KioskBook2024/KIOSK-Book.pdf && open /Users/mimecine/Library/CloudStorage/GoogleDrive-marco@mimecom.net/My\\ Drive/KioskBook2024/KIOSK-Book.pdf",
-    "prince (local)": "osascript -e 'tell application \"Preview\" to if it is running then quit' && time prince -j --raster-dpi=300 --tagged-pdf http://localhost:9000/ -o dist/Book.pdf && open dist/Book.pdf",
+    "prince": "osascript -e 'tell application \"Preview\" to if it is running then quit' && time prince -j http://localhost:9000/ -o /Users/mimecine/Library/CloudStorage/GoogleDrive-marco@mimecom.net/My\\ Drive/KioskBook2024/KIOSK-Book.pdf && open /Users/mimecine/Library/CloudStorage/GoogleDrive-marco@mimecom.net/My\\ Drive/KioskBook2024/KIOSK-Book.pdf",
+    "prince (local)": "osascript -e 'tell application \"Preview\" to if it is running then quit' && time prince -j http://localhost:9000/ -o dist/Book.pdf && open dist/Book.pdf",
     "start": "bun x astro dev --host",
     "build": "bun x astro build",
     "preview": "bun x astro preview --host",

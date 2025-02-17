@@ -1,0 +1,62 @@
+---
+import { getCollection } from "astro:content";
+import { Image } from "astro:assets";
+import { marked } from "marked";
+let pages = (await getCollection("pages")).filter((p) => p.data.title.startsWith("BOOK:"))
+  .map((p) => {
+    [p.data.prefix, p.data.before_exhibit, p.data.clean_title] = p.data.title
+      .split(":")
+      .map((t) => t.trim());
+      if(!p.body) console.log("No Body", p.data.title);
+      console.log(p.data.title,':', p.data.before_exhibit);
+      p.rendered = marked.parse(p.body + '');
+      p.rendered = wrapLinks(p.rendered);
+      return p;
+});
+
+const { exhibition } = Astro.props;
+let currentEssay = pages.find((p) => p.data.clean_title === exhibition.slug);
+
+
+function wrapLinks(inputString) {
+    var R1 =
+    /(\s|>)(https?:\/\/(?:www\.)?(?:[-\w@:%.\+~#=]{1,256}\.)+[a-zA-Z0-9()]{1,6}\b(?:[-\w()@:%\+.~#?&//=]*))([\s.,!?]?)/gim;
+    var R2 = /(\shref="[^"]+"\s?)/gmi
+    var R3 = />https?:\/\/(?:www\.)?([\w\.]+)[^<]*(?:<)/gmi
+
+    return inputString
+      .replaceAll(R1, '$1<a href="$2">$2</a>$3') // Wrap links
+      .replaceAll(R2, '$1 class="footnote"') // Add footnote class
+      .replaceAll(R3, ">$1<") // hide ugly urls
+}
+
+var initial = null;
+function newInitial(word) {
+  if (word[0]?.match(/[a-zA-Z]/) && word[0] != initial) {
+    initial = word[0];
+    return initial;
+  }
+  return false;
+}
+
+function slugify(text) {
+  return text
+    .toString()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .trim()
+    .replace(/\s+/g, "-")
+    .replace(/&/g, "-and-")
+    .replace(/[^\w-]+/g, "")
+    .replace(/--+/g, "-");
+}
+---
+<div class="essay">
+    <!-- ******* ESSAY ******** -->
+    <div class="header font-sans border-b-4 border-red mb-12 pb-8 -x-min-h-[22rem]">
+      <h2 class="title font-bold text-sans" id={`essay-${slugify(currentEssay.data.clean_title)}`} set:html={currentEssay.data.clean_title}/>
+      <div class="subtitle text-2xl"/>
+    </div>
+    <div class="prose max-w-[5in] py-16 mx-auto" set:html={wrapLinks(currentEssay.data.body_html ?? marked.parse( currentEssay.body))}/>
+  </div>

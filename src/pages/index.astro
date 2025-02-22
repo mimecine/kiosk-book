@@ -10,7 +10,7 @@ import Cover from "../assets/cover.svg";
 import "../styles/book-base.css";
 
 const title = "KIOSK: The Book";
-const full_book = false; 
+const full_book = true; 
 const exhibit_sample = full_book?1000:7;
 const product_sample = full_book?1000:12; // then adds 0-3 more
 
@@ -28,15 +28,15 @@ let products = (await getCollection("products"))
   .sort((a, b) => a.data.title.localeCompare(b.data.title));
 
   let pages = (await getCollection("pages")).filter((p) => p.data.title.startsWith("BOOK:"))
-  .map((p) => {
-    [p.data.prefix, p.data.before_exhibit, p.data.clean_title] = p.data.title
-      .split(":")
-      .map((t) => t.trim());
-      if(!p.body) console.log("No Body", p.data.title);
-      console.log(p.data.title,':', p.data.before_exhibit);
-      p.rendered = marked.parse(p.body + '');
-      p.rendered = wrapLinks(p.rendered);
-      return p;
+.map((p) => {
+  [p.data.prefix, p.data.before_exhibit, p.data.clean_title] = p.data.title
+    .split(":")
+    .map((t) => t.trim());
+    if(!p.body) console.log("No Body", p.data.title);
+    console.log(p.data.title,':', p.data.before_exhibit);
+    p.rendered = marked.parse(p.body + '');
+    p.rendered = wrapLinks(p.rendered);
+    return p;
 });
 
 const groups = Object.groupBy(products, ({ data }) => data.product_type);
@@ -100,6 +100,7 @@ const exhibits = [
   })
 
 let currentEssay = null;
+let currentFeature = null;
 
 function wrapLinks(inputString) {
     var R1 =
@@ -157,7 +158,7 @@ function slugify(text) {
       }
     </script>    
   </head>
-  <body onload="debug();snap('15px', '.index-subclass', 'margin-bottom')" class="">
+  <body -x-onload="debug();snap('15px', '.index-subclass', 'margin-bottom')" class="">
     <main>
       <div class="plainflow">
       
@@ -268,13 +269,37 @@ function slugify(text) {
                 />
                 </div>
               </div>
-              <div class="exhibition-products columns-2 print:column-fill-auto" style="column-gap: 2.5rem;">
+              <div class="exhibition-products columns-2 print:column-fill-auto" style="column-gap: 2.5rem; tracking-tight;">
               {groups[exhibit.name]
                 // ?.slice(0, i == 0 ? product_sample : product_sample || 1000)
                 .filter((p) => p._rendered)
-                .map((product) => (
+                .map((product, index) => (
+
+
+      //           {(() => {currentFeature = pages.find((p) => p.data.before_product == "The Figures")})()}
+      // {currentFeature && (
+      //   <div class="feature">
+      //     <!-- 
+      //     ******************************************************************
+      //     ******************************************************************
+      //     ******************************************************************
+      //     FEATURE 
+      //     ******************************************************************
+      //     ******************************************************************
+      //     ******************************************************************
+      //     -->
+
+      //     <div class="header font-sans border-b-4 border-red mb-12 pb-8 -x-min-h-[22rem] columns-all">
+      //       <h2 class="title font-bold text-sans" id={`essay-${currentFeature.data.clean_title}`} set:html={currentFeature.data.clean_title}/>
+      //       <div class="subtitle text-2xl"/>
+      //     </div>
+      
+      //     <div class="prose max-w-[5in] py-16 mx-auto" set:html={wrapLinks(currentFeature.data.body_html ?? marked.parse( currentFeature.body))}/>
+      //   </div>
+      // )}   
+
                   
-                    <div class="product relative overflow-auto mb-0  -x-border-t-2 last:border-t-0 border-current -x-border-transparent border-solid box-decoration-slice pb-3" class:list={product.data.handle}>
+                    <div class="product relative leading-[16px] overflow-auto mb-0 last:border-t-0 border-current border-solid box-decoration-slice pb-3" class:list={[product.data.handle, (index+1)%7 == 0 ? 'text-red italic' : '']}>
                       <div class="min-h-40">
                         <a
                         id={product.data.handle}
@@ -283,14 +308,12 @@ function slugify(text) {
                         data-index={(product.x_index = pIndex++)}
                       />
                       
-                      <div class="break-inside-avoid break-after-avoid text-left xleading-[1.3]">
+                      <div class="break-inside-avoid break-after-avoid text-left">
                         {product.data.images[0] && (
-                          <div class="float-right w-1/3 mb-0 ml-4 text-right">
+                          <div class="float-right -x-w-1/3 w-[119px] mb-0 ml-4 text-right">
                             <a href={`#figure-${product.data.handle}`}>
                               <Image
                                 id={`small-img-${product.data.handle}`}
-                                // data-width={1000}
-                                // data-height={1000}
                                 width={400}
                                 src={product.data.images[0]?.thumb} // set to thumb and remove filter if colored page
                                 alt={product.data.title}
@@ -300,7 +323,7 @@ function slugify(text) {
                           </div>
                         )}
                       
-                        <h3 class="p_title font-sans font-bold uppercase break-after-avoid xtext-xl text-[14px] mb-2">
+                        <h3 class="p_title font-sans font-bold uppercase break-after-avoid xtext-xl text-[14px] leading-[16px] mb-2">
                           {product.data.title}
                         </h3>
                         <div class="nudge p_dimensions break-after-avoid break-before-avoid ">
@@ -312,7 +335,6 @@ function slugify(text) {
                         <div class="nudge p_provenance uppercase break-after-avoid break-inside-avoid break-before-avoid" class:list={exhibit.settings.provenance? '' : 'hidden'}>
                           {product.data.provenance}
                         </div>
-                      
                       </div>
                       <div style="-prince-hyphenate-before: 4; -prince-hyphenate-after: 4;" set:html={wrapLinks(product.rendered)} class="p_description break-after-avoid break-before-avoid pt-3 pb-2 -x-min-h-24"></div>
                     </div>                    
@@ -320,7 +342,7 @@ function slugify(text) {
                         <a class="img-xref italic text-sm" href={`#figure-${product.data.handle}`}>
                           fig. {product._index}, p.
                         </a>
-                        <div class="product-divider text-sm mb-2 -x-mx-48 text-center border-b border-black opacity-100 text-black">
+                        <div class="product-divider text-sm mb-[18px] text-center border-b border-black opacity-100 text-black">
                           &nbsp;</div>
                       </div>
                     </div>
@@ -423,7 +445,7 @@ function slugify(text) {
         ******************************************************************
       -->
 
-      <div class="header font-sans border-b-4 border-red mb-12 pb-8 -x-min-h-[22rem] columns-all">
+      <div class="header font-sans border-b-4 border-red mb-12 pb-8 columns-all">
         <h2 class="title relative font-bold">
           The Index: <br/>Alphabetical
           <a
@@ -441,13 +463,13 @@ function slugify(text) {
               <>
                 {newInitial(p.data.title) && (
                   <a
-                    class="font-bold text-red mt-4 textred border-b-1 border-black w-full block"
+                    class="font-bold mt-[16px] leading-[16px] text-red border-b-1 border-black border-dotted block break-after-avoid"
                   >
                     {p.data.title[0].toUpperCase()}
                   </a>
                 )}
 
-                <a class="xref text-xs" href={`#${p.data.handle}`}>
+                <a class="xref text-sm leading-[15px] m-0" href={`#${p.data.handle}`}>
                   {p.data.title}
                 </a>
               </>
@@ -466,7 +488,7 @@ function slugify(text) {
         ******************************************************************
       -->
 
-      <div class="header font-sans border-b-4 border-red mb-12 pb-8 -x-min-h-[22rem] columns-all">
+      <div class="header font-sans border-b-4 border-red mb-12 pb-8 columns-all">
         <h2 class="title relative font-bold">
           The Index: <br/>By Exhibition
           <a
@@ -480,15 +502,15 @@ function slugify(text) {
           exhibits.map((exhibit) => (
             <>
               <a
-                class="xref column font-bold mt-4 text-red"
-                href={`#${exhibit.name}`}
+                class="font-bold mt-[16px] leading-[16px] text-red border-b-1 border-black border-dotted block break-after-avoid"
+                -x-href={`#exhibit-${slugify(exhibit.name)}`}
               >
                 {exhibit.name}
               </a>
               {groups[exhibit.name]
                 ?.filter((p) => p._rendered)
                 .map((p) => (
-                  <a class="xref text-xs" href={`#${p.data.handle}`}>
+                  <a class="xref text-sm leading-[15px] m-0" href={`#${p.data.handle}`}>
                     {p.data.title}
                   </a>
                 ))}
@@ -507,7 +529,7 @@ function slugify(text) {
           ******************************************************************
           ******************************************************************
         -->
-        <div class="header font-sans border-b-4 border-red mb-12 pb-8 -x-min-h-[22rem] columns-all">
+        <div class="header font-sans border-b-4 border-red mb-12 pb-8 columns-all">
         <h2 class="title relative font-bold">
           The Index: <br/>By Material
           <a
@@ -523,21 +545,17 @@ function slugify(text) {
             .filter((key) => products_by_material[key].find((p) => p._rendered))
             .map((key) => (
               <>
-                <div>
                   <a
-                    class="font-bold mt-4 text-red border-b-1 border-black border-dotted block nudge"
-                    xhref={`#${key}`}
-                  >
+                    class="font-bold mt-[16px] leading-[16px] text-red border-b-1 border-black border-dotted block break-after-avoid">
                     {key}
                   </a>
                   {products_by_material[key]
                     ?.filter((p) => p._rendered)
                     .map((p) => (
-                      <a class="xref text-sm" href={`#${p.data.handle}`}>
+                      <a class="xref text-sm leading-[15px] m-0" href={`#${p.data.handle}`}>
                         {p.data.title}
                       </a>
                     ))}
-                </div>
               </>
             ))
         }
@@ -553,7 +571,7 @@ function slugify(text) {
           ******************************************************************
           ******************************************************************
         -->
-        <div class="header font-sans border-b-4 border-red mb-12 pb-8 -x-min-h-[22rem] columns-all">
+        <div class="header font-sans border-b-4 border-red mb-12 pb-8 columns-all">
           <h2 class="title relative font-bold">
             The Index: <br/>By Dimension
             <a
@@ -569,18 +587,16 @@ function slugify(text) {
             .filter((key) => products_by_dimension[key].find((p) => p._rendered))
             .map((key) => (
               <>
-                <div class="index-subclass">
-                  <a class="index-subheading font-bold mt-4 text-red border-b-1 border-black border-dotted block break-after-avoid" xhref={`#${key}`} >
+                  <a class="font-bold mt-[16px] leading-[16px] text-red border-b-1 border-black border-dotted block break-after-avoid">
                     {key}
                   </a>
                   {products_by_dimension[key]
                     ?.filter((p) => p._rendered)
                     .map((p) => (
-                      <a class="xref text-sm" href={`#${p.data.handle}`}>
+                      <a class="xref text-sm leading-[15px] m-0" href={`#${p.data.handle}`}>
                         {p.data.title}
                       </a>
                     ))}
-                </div>
               </>
             ))
         }
@@ -590,7 +606,7 @@ function slugify(text) {
       {currentEssay && (
         <div class="essay">
           <!-- ******* ESSAY ******** -->
-          <div class="header font-sans border-b-4 border-red mb-12 pb-8 -x-min-h-[22rem] -x-columns-all">
+          <div class="header font-sans border-b-4 border-red mb-12 pb-8">
             <h2 class="title font-bold text-sans" id={`essay-${slugify(currentEssay.data.clean_title)}`} set:html={currentEssay.data.clean_title}/>
             <div class="subtitle text-2xl"/>
           </div>

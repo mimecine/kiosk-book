@@ -10,7 +10,7 @@ import Cover from "../assets/cover.svg";
 import "../styles/book-base.css";
 
 const title = "KIOSK: The Book";
-const full_book = true; 
+const full_book = false; 
 const exhibit_sample = full_book?1000:7;
 const product_sample = full_book?1000:12; // then adds 0-3 more
 
@@ -38,6 +38,8 @@ let products = (await getCollection("products"))
     p.rendered = wrapLinks(p.rendered);
     return p;
 });
+
+let intermissions = (await getCollection("intermissions"));
 
 const groups = Object.groupBy(products, ({ data }) => data.product_type);
 
@@ -149,16 +151,22 @@ function slugify(text) {
       if(typeof Prince != 'undefined') {
         Prince.trackBoxes = true;
         Prince.registerPostLayoutFunc(countpages);
+        Prince.registerPostLayoutFunc(removeLastDivider);
       
         function countpages() {
           var pages = PDF.pages;
           console.log("Number of pages: "+pages.length);
-          console.log("Snaps: "+ snap);
+        }
+
+        function removeLastDivider() {
+          for( p in PDF.pages ){
+
+          }
         }
       }
     </script>    
   </head>
-  <body -x-onload="debug();snap('15px', '.index-subclass', 'margin-bottom')" class="">
+  <body onload="debug(); snap('16px','.intermission')" class="">
     <main>
       <div class="plainflow">
       
@@ -175,7 +183,7 @@ function slugify(text) {
           <!-- <h1 class="">KIOSK 
             <div class="font-mono text-5xl text-red py-20 text-center">Things from places</div>
           </h1> -->
-          <h1 class="hidden">KIOSK</h1>
+          <h2 class="invisible absolute">KIOSK</h2>
           <Image src={Cover} alt={title}/>
         </div>
 
@@ -223,7 +231,10 @@ function slugify(text) {
           <a class="xref my-2" href="#index-bydimension">The Index: By Dimensions</a>
         </div>
         </div>
-        <div class="start products -x-text-justify -x-columns-2 -x-column-fill-auto" style="column-gap: 2.5rem;"> 
+
+
+
+        <div class="start products" style="column-gap: 2.5rem;"> 
 
         {
           exhibits.map((exhibit, i) => (
@@ -273,32 +284,8 @@ function slugify(text) {
               {groups[exhibit.name]
                 // ?.slice(0, i == 0 ? product_sample : product_sample || 1000)
                 .filter((p) => p._rendered)
-                .map((product, index) => (
-
-
-      //           {(() => {currentFeature = pages.find((p) => p.data.before_product == "The Figures")})()}
-      // {currentFeature && (
-      //   <div class="feature">
-      //     <!-- 
-      //     ******************************************************************
-      //     ******************************************************************
-      //     ******************************************************************
-      //     FEATURE 
-      //     ******************************************************************
-      //     ******************************************************************
-      //     ******************************************************************
-      //     -->
-
-      //     <div class="header font-sans border-b-4 border-red mb-12 pb-8 -x-min-h-[22rem] columns-all">
-      //       <h2 class="title font-bold text-sans" id={`essay-${currentFeature.data.clean_title}`} set:html={currentFeature.data.clean_title}/>
-      //       <div class="subtitle text-2xl"/>
-      //     </div>
-      
-      //     <div class="prose max-w-[5in] py-16 mx-auto" set:html={wrapLinks(currentFeature.data.body_html ?? marked.parse( currentFeature.body))}/>
-      //   </div>
-      // )}   
-
-                  
+                .map((product, index) => (  
+                  <>                
                     <div class="product relative leading-[16px] overflow-auto mb-0 last:border-t-0 border-current border-solid box-decoration-slice pb-3" class:list={[product.data.handle, (index+1)%7 == 0 ? 'text-red italic' : '']}>
                       <div class="min-h-40">
                         <a
@@ -310,14 +297,14 @@ function slugify(text) {
                       
                       <div class="break-inside-avoid break-after-avoid text-left">
                         {product.data.images[0] && (
-                          <div class="float-right -x-w-1/3 w-[119px] mb-0 ml-4 text-right">
+                          <div class="float-right w-[116px] mb-[14px] ml-8 text-right break-after-avoid">
                             <a href={`#figure-${product.data.handle}`}>
                               <Image
                                 id={`small-img-${product.data.handle}`}
                                 width={400}
                                 src={product.data.images[0]?.thumb} // set to thumb and remove filter if colored page
                                 alt={product.data.title}
-                                class="thumbnail w-full border -x-border-current border-red -x-grayscale -x-contrast-100 mt-[2px]"
+                                class="thumbnail w-full border -x-border-current border-red -x-grayscale -x-contrast-100 mt-[2px] break-after-avoid"
                               />
                             </a>
                           </div>
@@ -346,7 +333,14 @@ function slugify(text) {
                           &nbsp;</div>
                       </div>
                     </div>
-                  
+                    { intermissions.filter(intermission=>intermission.data.product==product.data.handle).map(intermission => (
+                      <div class="intermission prose relative leading-[16px] overflow-auto mb-0 last:border-t-0 border-current border-solid box-decoration-slice pb-4">
+                        <div set:html={ marked.parse(intermission.body) }></div>
+                        <div class="product-divider text-sm mb-[18px] text-center border-b border-black opacity-100 text-black">
+                          &nbsp;</div>
+                      </div>
+                    ))}
+                  </>
               ))}
               </div>  
             </div>

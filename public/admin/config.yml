@@ -16,14 +16,20 @@ collections:
     label_singular: Product
     folder: src/content/products
     create: true
-    summary: "{{title}}"
+    summary: "{{title}} - {{provenance}}"
     slug: "{{title}}"
+    media_folder: "./{{slug}}"
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Provenance", name: "provenance", widget: "string"}
       - {label: "Materials", name: "materials", widget: "string"}
       - {label: "Dimensions", name: "dimensions", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Images", name: "images", widget: "list", fields: [
+          {label: "Image", name: "src", widget: "image"},
+          {label: "Thumbnail", name: "thumb", widget: "image"},
+          {label: "Alt", name: "alt", widget: "string"}
+        ]}
     
   - name: pages
     identifier_field: handle
@@ -36,4 +42,18 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string", required: true, hint: "Use 'Book:&lt;ChapterTitle&gt;:&lt;PageTitle&gt;' format to create an Essay. Essay will be displayed before the chapter specified."}
       - {label: "Body", name: "body", widget: "markdown", required: true}
+
+  - name: intermissions
+    label: Intermissions
+    label_singular: Intermission
+    folder: src/content/intermissions
+    create: true
+    summary: "{{title}} - {{product}} - Draft: {{draft}}"
+    slug: "{{title}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string", required: true}
+      - {label: "Body", name: "body", widget: "markdown", required: false}
+      - {label: "Draft", name: "draft", widget: "boolean", default: false}
+      - {label: "Image", name: "image", widget: "image", required: false}
+      - {label: "After Product", name: "product", widget: "relation", collection: "products", value_field: "slug", search_fields: ["title"], display_fields: ["title"], required: true}
 

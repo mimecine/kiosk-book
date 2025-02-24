@@ -37,6 +37,16 @@ const pages = defineCollection({
 	 	handle: z.string(),
 	 }),
 });
+const intermissions = defineCollection({
+	type: 'content',
+	// Type-check frontmatter using a schema
+	 schema: ({ image })  => z.object({
+		image: image().optional(),
+	 	title: z.string(),
+		draft: z.boolean().optional(),
+	 	product: z.string(),
+	 }),
+});
 
 
 export const collections = {products };

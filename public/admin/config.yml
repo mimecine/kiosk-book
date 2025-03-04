@@ -43,12 +43,13 @@ collections:
       - {label: "Title", name: "title", widget: "string", required: true, hint: "Use 'Book:&lt;ChapterTitle&gt;:&lt;PageTitle&gt;' format to create an Essay. Essay will be displayed before the chapter specified."}
       - {label: "Body", name: "body", widget: "markdown", required: true}
 
+
   - name: intermissions
     label: Intermissions
     label_singular: Intermission
     folder: src/content/intermissions
     create: true
-    summary: "{{title}} - {{product}} - Draft: {{draft}}"
+    summary: "After: {{product}}, Title: {{title}} {{draft | ternary('- DRAFT', '')}}"
     slug: "{{title}}"
     fields:
       - {label: "Title", name: "title", widget: "string", required: true}

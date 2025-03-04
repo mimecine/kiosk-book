@@ -1367,3 +1367,18 @@ function addToggle(selector,str,mark) {
       elements[i].parentNode.insertBefore(input, elements[i]);
    }
 }
+
+
+function snapIntermissions() {
+    var intermissions = document.querySelectorAll('.intermission_content');
+    console.log('intermissions', intermissions);
+
+    for(var i = 0; i < intermissions.length; i++) {
+        console.log('intermission', intermissions[i]);
+        var intermission = intermissions[i];
+        var intermissionRect = intermission.getBoundingClientRect();
+        console.log('intermissionRect', intermissionRect);
+        console.log(intermission.style.height,intermissionRect.height+(16-intermissionRect.height%16) + 'px');
+        intermission.style.height = intermissionRect.height+(16-intermissionRect.height%16) + 'px';
+    }
+}

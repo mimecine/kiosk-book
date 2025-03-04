@@ -2,7 +2,7 @@
 // You can import this data from anywhere in your site by using the `import` keyword.
 
 export const SITE_TITLE = 'KIOSK Book';
-export const SITE_DESCRIPTION = 'KIOSK Book Gerenrator';
+export const SITE_DESCRIPTION = 'KIOSK Book Generator';
 
 export const exhibits = [
     "The later years",

@@ -243,6 +243,10 @@ a.footnote::footnote-call {
   }
 }
 
+@page figurepage {
+  border-style: none;
+}
+
 .nopagenumber {
   page: nopagenumber;
 }
@@ -280,6 +284,7 @@ a.footnote::footnote-call {
   /* border-left: none;
     border-right: none; */
     background-color: rgb(255, 228, 233);
+    border-style: none;
 }
 @page essay:blank {
     background-color: none;

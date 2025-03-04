@@ -39,7 +39,7 @@ let products = (await getCollection("products"))
     return p;
 });
 
-let intermissions = (await getCollection("intermissions"));
+let intermissions = (await getCollection("intermissions")).filter((p) => p.data.draft == false);
 
 const groups = Object.groupBy(products, ({ data }) => data.product_type);
 
@@ -147,26 +147,8 @@ function slugify(text) {
     <meta name="author" content="Alisa Grifo & Marco ter Haar Romeny"/>
     <title>{title}</title>
     <script src="/js/charms.js" type="text/javascript"></script>
-    <script is:inline>
-      if(typeof Prince != 'undefined') {
-        Prince.trackBoxes = true;
-        Prince.registerPostLayoutFunc(countpages);
-        Prince.registerPostLayoutFunc(removeLastDivider);
-      
-        function countpages() {
-          var pages = PDF.pages;
-          console.log("Number of pages: "+pages.length);
-        }
-
-        function removeLastDivider() {
-          for( p in PDF.pages ){
-
-          }
-        }
-      }
-    </script>    
   </head>
-  <body onload="debug(); snap('16px','.intermission')" class="">
+  <body  onload="debug();snap('16px','.intermission')" -x-onload="debug(); snap('50px','.intermission','padding-top')" class="">
     <main>
       <div class="plainflow">
       
@@ -223,12 +205,24 @@ function slugify(text) {
           ))}
           <br>
 
+          {(() => {currentEssay = pages.find((p) => p.data.before_exhibit == "The Figures")})()}
+          {currentEssay && (
+            <>
+            <a class="xref italic my-2 text-red" href={`#essay-${slugify(currentEssay.data.clean_title)}`}>{currentEssay.data.clean_title}</a>
+            </>
+          )}
           <a class="xref my-2" href="#index-bypicture">The Index: By Pictures</a>
     
           <a class="xref my-2" href="#index-alphabetical">The Index: Alphabetically</a>
           <a class="xref my-2" href="#index-byexhibit">The Index: By Exhibitions</a>
           <a class="xref my-2" href="#index-bymaterial">The Index: By Materials</a>
           <a class="xref my-2" href="#index-bydimension">The Index: By Dimensions</a>
+          {(() => {currentEssay = pages.find((p) => p.data.before_exhibit == "Epilogue")})()}
+          {currentEssay && (
+            <>
+            <a class="xref italic my-2 text-red" href={`#essay-${slugify(currentEssay.data.clean_title)}`}>{currentEssay.data.clean_title}</a>
+            </>
+          )}
         </div>
         </div>
 
@@ -334,9 +328,9 @@ function slugify(text) {
                       </div>
                     </div>
                     { intermissions.filter(intermission=>intermission.data.product==product.data.handle).map(intermission => (
-                      <div class="intermission prose relative leading-[16px] overflow-auto mb-0 last:border-t-0 border-current border-solid box-decoration-slice pb-4">
-                        <div set:html={ marked.parse(intermission.body) }></div>
-                        <div class="product-divider text-sm mb-[18px] text-center border-b border-black opacity-100 text-black">
+                      <div class="intermission prose relative leading-[16px] overflow-auto mb-0 last:border-t-0 border-current border-solid box-decoration-slice pb-3">
+                        <div set:html={ marked.parse(intermission.body) } class="intermission_content border border-black"></div>
+                        <div class="product-divider text-sm mb-[18px] text-center -x-border-b border-black opacity-100 text-black">
                           &nbsp;</div>
                       </div>
                     ))}

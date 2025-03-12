@@ -19,4 +19,8 @@ export default defineConfig({
     port: 9000,
   },
   integrations: [mdx(), sitemap(), tailwind({nesting:true})],
+  vite:{
+    build: {
+      minify: false,
+  }}
 });

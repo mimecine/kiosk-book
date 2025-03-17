@@ -7,6 +7,7 @@ const products = defineCollection({
 	// Type-check frontmatter using a schema
 	 schema: ({ image })  => z.object({
 		rendered: z.boolean().optional(),
+		_rendered: z.boolean().optional(),
 	 	title: z.string(),
 	 	handle: z.string(),
 		status: z.string(),

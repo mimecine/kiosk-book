@@ -10,7 +10,7 @@ import Cover from "../assets/cover.svg";
 import "../styles/book-base.css";
 
 const title = "KIOSK: The Book";
-const full_book = false; 
+const full_book = true; 
 const exhibit_sample = full_book?1000:7;
 const product_sample = full_book?1000:12; // then adds 0-3 more
 
@@ -275,8 +275,8 @@ function slugify(text) {
                 </div>
               </div>
               <div class="exhibition-products columns-2 print:column-fill-auto" style="column-gap: 2.5rem;">
-              {groups[exhibit.name]?
-                .filter((p) => p._rendered)
+              {groups[exhibit.name]
+                ?.filter((p) => p._rendered)
                 .map((product, index) => (  
                   <>                
                     <div class="product relative leading-[16px] overflow-auto mb-0 last:border-t-0 border-current border-solid box-decoration-slice pb-3" class:list={[product.data.handle, (index+1)%7 == 0 ? 'text-red italic' : '']}>

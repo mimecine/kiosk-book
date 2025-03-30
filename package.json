@@ -17,14 +17,14 @@
     "watch": "npm-watch"
   },
   "dependencies": {
-    "@astrojs/mdx": "4.1.0",
+    "@astrojs/mdx": "^4.2.1",
     "@astrojs/rss": "4.0.11",
-    "@astrojs/sitemap": "3.2.1",
-    "@astrojs/tailwind": "6.0.0",
+    "@astrojs/sitemap": "^3.3.0",
+    "@astrojs/tailwind": "^6.0.1",
     "@shopify/shopify-api": "^9.7.2",
     "@tailwindcss/typography": "^0.5.16",
-    "astro": "5.4.2",
-    "commander": "^13.0.0",
+    "astro": "^5.5.4",
+    "commander": "^13.1.0",
     "concurrently": "^9.1.2",
     "fast-glob": "^3.3.3",
     "localtunnel": "^2.0.2",
@@ -39,6 +39,7 @@
     "sharp"
   ],
   "devDependencies": {
+    "pdf-lib": "^1.17.1",
     "turndown": "^7.2.0",
     "yaml": "^2.7.0"
   }

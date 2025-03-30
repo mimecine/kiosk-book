@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Impositioning Tool</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 p-8">
+    <div class="max-w-3xl mx-auto bg-white rounded-lg shadow-md p-10">
+        <h1 class="text-2xl font-semibold text-blue-600 mb-6 text-center">PDF Impositioning Tool</h1>
+        <form id="impositionForm" class="space-y-6">
+            <div>
+                <label for="input" class="block text-gray-700 text-sm font-bold mb-2">Input PDF File:</label>
+                <input type="file" id="input" accept=".pdf" required class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+            </div>
+            <div>
+                <label for="output" class="block text-gray-700 text-sm font-bold mb-2">Output PDF File Name:</label>
+                <input type="text" id="output" value="output.pdf" required class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+            </div>
+            <div>
+                <label for="papersize" class="block text-gray-700 text-sm font-bold mb-2">Paper Size (inches, e.g., 11x17):</label>
+                <input type="text" id="papersize" value="11x17" required class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+            </div>
+            <div>
+                <label for="signaturesize" class="block text-gray-700 text-sm font-bold mb-2">Signature Size (pages, e.g., 16):</label>
+                <input type="number" id="signaturesize" value="16" required class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+            </div>
+            <div>
+                <label for="creep" class="block text-gray-700 text-sm font-bold mb-2">Creep Amount (points, e.g., 0.125):</label>
+                <input type="number" id="creep" value="0.125" step="0.001" required class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+            </div>
+            <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline w-full">Impose PDF</button>
+            <div id="message" class="mt-4 text-center text-gray-600"></div>
+        </form>
+    </div>
+
+    <script src="https://unpkg.com/pdf-lib@1.17.1"></script>
+    <script is:inline>
+        const { PDFDocument } = PDFLib;
+        const form = document.getElementById('impositionForm');
+        const messageElement = document.getElementById('message');
+
+        form.addEventListener('submit', async (event) => {
+            event.preventDefault();
+
+            const inputPdfFile = document.getElementById('input').files[0];
+            const outputFileName = document.getElementById('output').value;
+            const paperSizeInput = document.getElementById('papersize').value;
+            const signatureSize = parseInt(document.getElementById('signaturesize').value);
+            const creep = parseFloat(document.getElementById('creep').value);
+
+            if (!inputPdfFile) {
+                messageElement.textContent = 'Please select an input PDF file.';
+                messageElement.classList.remove('text-gray-600', 'text-green-500', 'text-red-500');
+                messageElement.classList.add('text-red-500');
+                return;
+            }
+
+            if (signatureSize % 4 !== 0) {
+                messageElement.textContent = 'Error: Signature size must be a multiple of 4.';
+                messageElement.classList.remove('text-gray-600', 'text-green-500', 'text-red-500');
+                messageElement.classList.add('text-red-500');
+                return;
+            }
+
+            const paperSizeParts = paperSizeInput.split('x').map(Number);
+            if (paperSizeParts.length !== 2 || isNaN(paperSizeParts[0]) || isNaN(paperSizeParts[1])) {
+                messageElement.textContent = 'Error: Invalid paper size format. Use <width>x<height> (e.g., 11x17).';
+                messageElement.classList.remove('text-gray-600', 'text-green-500', 'text-red-500');
+                messageElement.classList.add('text-red-500');
+                return;
+            }
+            console.log(paperSizeParts);
+            const paperWidthInches = paperSizeParts[0];
+            const paperHeightInches = paperSizeParts[1];
+            const paperWidthPoints = paperWidthInches * 72;  // Convert inches to points
+            const paperHeightPoints = paperHeightInches * 72;
+
+            messageElement.textContent = 'Processing...';
+            messageElement.classList.remove('text-gray-600', 'text-green-500', 'text-red-500');
+            messageElement.classList.add('text-blue-500');
+
+
+            try {
+                const reader = new FileReader();
+                reader.readAsArrayBuffer(inputPdfFile);
+                const arrayBuffer = await new Promise(resolve => reader.onload = () => resolve(reader.result));
+                const pdfDoc = await PDFDocument.load(arrayBuffer);
+                const numPages = pdfDoc.getPageCount();
+
+                if (numPages === 0) {
+                    messageElement.textContent = 'Error: Input PDF is empty.';
+                    messageElement.classList.remove('text-blue-500', 'text-green-500', 'text-red-500');
+                    messageElement.classList.add('text-red-500');
+                    return;
+                }
+                const numSignatures = Math.ceil(numPages / signatureSize);
+                const innerMargin = paperWidthPoints / 2;
+
+                const imposedPdfDoc = await PDFDocument.create();
+
+                for (let signatureIndex = 0; signatureIndex < numSignatures; signatureIndex++) {
+                    const firstPageInSignature = signatureIndex * signatureSize;
+                    const lastPageInSignature = Math.min((signatureIndex + 1) * signatureSize - 1, numPages - 1);
+
+                    const newPageFront = imposedPdfDoc.addPage([paperWidthPoints, paperHeightPoints]);
+                    const newPageBack = imposedPdfDoc.addPage([paperWidthPoints, paperHeightPoints]);
+
+
+                    const frontPageNumbers = [];
+                    const backPageNumbers = [];
+
+                    for (let i = 0; i < signatureSize; i++) {
+                        const pageNumber = firstPageInSignature + i;
+                        if (pageNumber > lastPageInSignature) {
+                            frontPageNumbers.push(null);
+                            backPageNumbers.push(null);
+                        } else if (i % 2 === 0) {
+                            frontPageNumbers.push(pageNumber);
+                        } else {
+                            backPageNumbers.unshift(pageNumber);
+                        }
+                    }
+                    // Function to calculate page offsets
+                    const calculatePageOffsets = (signatureSize, creep, innerMargin, isFront) => {
+                        const offsets = [];
+                        const halfSignature = signatureSize / 2;
+
+                        for (let i = 0; i < signatureSize; i++) {
+                            const pageNumberInSignature = isFront ? i : signatureSize - 1 - i;
+                            const creepAdjustment = (halfSignature - 0.5 - Math.abs(pageNumberInSignature - (signatureSize - 1) / 2)) * creep;
+                            const xOffset = pageNumberInSignature < halfSignature
+                                ? innerMargin + creepAdjustment
+                                : innerMargin + halfSignature * 2 - creepAdjustment;
+                            const yOffset = 0;
+                            offsets.push({ x: xOffset, y: yOffset });
+                        }
+                        return offsets;
+                    };
+
+                    const frontPageOffsets = calculatePageOffsets(signatureSize, creep, innerMargin, true);
+                    for (let i = 0; i < frontPageNumbers.length; i++) {
+                        const pageNumber = frontPageNumbers[i];
+                        if (pageNumber !== null) {
+                            const [page] = await imposedPdfDoc.copyPages(pdfDoc, [pageNumber]);
+                            const { x, y } = frontPageOffsets[i];
+                            newPageFront.drawPage(page, { x: x, y: y });
+                        }
+                    }
+                    const backPageOffsets = calculatePageOffsets(signatureSize, creep, innerMargin, false);
+                    for (let i = 0; i < backPageNumbers.length; i++) {
+                        const pageNumber = backPageNumbers[i];
+                        if (pageNumber !== null) {
+                            const [page] = await imposedPdfDoc.copyPages(pdfDoc, [pageNumber]);
+                            const { x, y } = backPageOffsets[i];
+                            newPageBack.drawPage(page, { x: x, y: y });
+                        }
+                    }
+                }
+                const pdfBytes = await imposedPdfDoc.save();
+                const blob = new Blob([pdfBytes], { type: 'application/pdf' });
+                const url = URL.createObjectURL(blob);
+
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = outputFileName;
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
+                URL.revokeObjectURL(url);
+
+                messageElement.textContent = `Imposed PDF saved to ${outputFileName}`;
+                messageElement.classList.remove('text-blue-500', 'text-red-500');
+                messageElement.classList.add('text-green-500');
+
+            } catch (error) {
+                console.error('Error:', error);
+                messageElement.textContent = `Error: ${error.message}`;
+                messageElement.classList.remove('text-blue-500', 'text-green-500', 'text-gray-600');
+                messageElement.classList.add('text-red-500');
+            }
+        });
+    </script>
+</body>
+</html>

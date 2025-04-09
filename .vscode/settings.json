@@ -4,5 +4,7 @@
             "title": "collections",
             "path": "[[workspace]]/src/content/collections"
         }
-    ]
+    ],
+    "code-runner.customCommand": "bun run prince",
+    "code-runner.clearPreviousOutput": false
 }

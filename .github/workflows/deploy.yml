@@ -10,7 +10,7 @@ on:
 
 # Allow this job to clone the repo and create a page deployment
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -46,6 +46,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          ref: gh-pages
       - name: Generate PDF from deployed site
         uses: docker://yeslogic/prince:16
         with:
@@ -55,4 +57,11 @@ jobs:
         with:
           name: book-pdf
           path: book.pdf
+      - name: Commit and push PDF
+        run: |
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          git add book.pdf
+          git commit -m "Update book.pdf from latest site content" || echo "No changes to commit"
+          git push
 

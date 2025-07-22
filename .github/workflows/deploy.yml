@@ -44,10 +44,14 @@ jobs:
     needs: deploy
     runs-on: ubuntu-latest
     steps:
+      - name: Wait for GitHub Pages
+        run: sleep 30  # Give GitHub Pages time to deploy
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          ref: gh-pages
+      - name: Fetch and checkout gh-pages
+        run: |
+          git fetch origin gh-pages:gh-pages || (echo "Creating gh-pages branch" && git checkout --orphan gh-pages && git rm -rf .)
+          git checkout gh-pages
       - name: Generate PDF from deployed site
         uses: docker://yeslogic/prince:16
         with:

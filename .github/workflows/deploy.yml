@@ -33,14 +33,26 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+    outputs:
+      page_url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
 
-  # pdf:
-  #   needs: deploy
-  #   runs:
-  #     using: 'docker'
-  #     image: 'docker://yeslogic/prince'
-  #     .....
+  pdf:
+    needs: deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Generate PDF from deployed site
+        uses: docker://yeslogic/prince:16
+        with:
+          args: ${{ needs.deploy.outputs.page_url }} -o book.pdf
+      - name: Upload PDF artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: book-pdf
+          path: book.pdf
+

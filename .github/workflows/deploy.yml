@@ -48,10 +48,25 @@ jobs:
         run: sleep 30  # Give GitHub Pages time to deploy
       - name: Checkout repository
         uses: actions/checkout@v4
-      - name: Fetch and checkout gh-pages
+      - name: Configure Git
         run: |
-          git fetch origin gh-pages:gh-pages || (echo "Creating gh-pages branch" && git checkout --orphan gh-pages && git rm -rf .)
-          git checkout gh-pages
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+      
+      - name: Create or checkout gh-pages
+        run: |
+          if git fetch origin gh-pages; then
+            git checkout gh-pages
+          else
+            echo "Creating gh-pages branch"
+            git checkout --orphan gh-pages
+            git reset --hard
+            find . -maxdepth 1 ! -name '.git' ! -name '.' -exec rm -rf {} +
+            touch .nojekyll
+            git add .nojekyll
+            git commit -m "Initial gh-pages commit"
+            git push --set-upstream origin gh-pages
+          fi
       - name: Generate PDF from deployed site
         uses: docker://yeslogic/prince:16
         with:
@@ -63,9 +78,7 @@ jobs:
           path: book.pdf
       - name: Commit and push PDF
         run: |
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git config --global user.name "github-actions[bot]"
           git add book.pdf
           git commit -m "Update book.pdf from latest site content" || echo "No changes to commit"
-          git push
+          git push origin gh-pages
 

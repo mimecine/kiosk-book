@@ -45,7 +45,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Wait for GitHub Pages
-        run: sleep 30  # Give GitHub Pages time to deploy
+        run: sleep 60  # Give GitHub Pages time to deploy and be accessible
       - name: Checkout repository
         uses: actions/checkout@v4
       - name: Configure Git
@@ -53,32 +53,27 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git config --global user.name "github-actions[bot]"
       
-      - name: Create or checkout gh-pages
+      - name: Download deployed site content
         run: |
-          if git fetch origin gh-pages; then
-            git checkout gh-pages
-          else
-            echo "Creating gh-pages branch"
-            git checkout --orphan gh-pages
-            git reset --hard
-            find . -maxdepth 1 ! -name '.git' ! -name '.' -exec rm -rf {} +
-            touch .nojekyll
-            git add .nojekyll
-            git commit -m "Initial gh-pages commit"
-            git push --set-upstream origin gh-pages
-          fi
+          SITE_URL="${{ needs.deploy.outputs.page_url }}"
+          # Remove trailing slash if present
+          SITE_URL=${SITE_URL%/}
+          # Download the deployed site content
+          wget -r -np -nH --cut-dirs=1 "$SITE_URL"
+          
       - name: Generate PDF from deployed site
         uses: docker://yeslogic/prince:16
         with:
           args: ${{ needs.deploy.outputs.page_url }} -o book.pdf
+          
       - name: Upload PDF artifact
         uses: actions/upload-artifact@v4
         with:
           name: book-pdf
           path: book.pdf
-      - name: Commit and push PDF
-        run: |
-          git add book.pdf
-          git commit -m "Update book.pdf from latest site content" || echo "No changes to commit"
-          git push origin gh-pages
+          
+      - name: Deploy PDF with site content
+        uses: actions/deploy-pages@v4
+        with:
+          path: '.'
 

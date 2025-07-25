@@ -40,40 +40,40 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
 
-  pdf:
-    needs: deploy
-    runs-on: ubuntu-latest
-    steps:
-      - name: Wait for GitHub Pages
-        run: sleep 60  # Give GitHub Pages time to deploy and be accessible
-      - name: Checkout repository
-        uses: actions/checkout@v4
-      - name: Configure Git
-        run: |
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git config --global user.name "github-actions[bot]"
+  # pdf:
+  #   needs: deploy
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - name: Wait for GitHub Pages
+  #       run: sleep 60  # Give GitHub Pages time to deploy and be accessible
+  #     - name: Checkout repository
+  #       uses: actions/checkout@v4
+  #     - name: Configure Git
+  #       run: |
+  #         git config --global user.email "github-actions[bot]@users.noreply.github.com"
+  #         git config --global user.name "github-actions[bot]"
       
-      - name: Download deployed site content
-        run: |
-          SITE_URL="${{ needs.deploy.outputs.page_url }}"
-          # Remove trailing slash if present
-          SITE_URL=${SITE_URL%/}
-          # Download the deployed site content
-          wget -r -np -nH --cut-dirs=1 "$SITE_URL"
+  #     - name: Download deployed site content
+  #       run: |
+  #         SITE_URL="${{ needs.deploy.outputs.page_url }}"
+  #         # Remove trailing slash if present
+  #         SITE_URL=${SITE_URL%/}
+  #         # Download the deployed site content
+  #         wget -r -np -nH --cut-dirs=1 "$SITE_URL"
           
-      - name: Generate PDF from deployed site
-        uses: docker://yeslogic/prince:16
-        with:
-          args: ${{ needs.deploy.outputs.page_url }} -o book.pdf
+  #     - name: Generate PDF from deployed site
+  #       uses: docker://yeslogic/prince:16
+  #       with:
+  #         args: ${{ needs.deploy.outputs.page_url }} -o book.pdf
           
-      - name: Upload PDF artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: book-pdf
-          path: book.pdf
+  #     - name: Upload PDF artifact
+  #       uses: actions/upload-artifact@v4
+  #       with:
+  #         name: book-pdf
+  #         path: book.pdf
           
-      - name: Deploy PDF with site content
-        uses: actions/deploy-pages@v4
-        with:
-          path: '.'
+  #     - name: Deploy PDF with site content
+  #       uses: actions/deploy-pages@v4
+  #       with:
+  #         path: '.'
 
